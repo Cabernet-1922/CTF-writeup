@@ -1,8 +1,9 @@
 # Challenge: Sutando+
+Author: me
 
 ## Solution:
 ### Stage 1:
-In robots.txt file, we can find the php file `/admin_as124j.php`. In the php page, we see there is a youtube channel refers to the famous band "queen", also a login system from the source code of the page. Wild guess the username is `admin`, now we need to find the password.
+In robots.txt file, we can find the php file `/admin_as124j.php`. In the php page, we see there is a youtube channel refers to the famous band "queen", also a hidden login system from the source code of the page. Wild guess the username is `admin`(the system will tell you the username and password are both incorrect if you enter any other username), now we need to find the password.
 When we search the relationship between queen band and admin, password, which queen band's song "we will rock you" here is refers to the [rockyou.txt](https://github.com/brannondorsey/naive-hashcat/releases/download/data/rockyou.txt) password leak. We can use the wordlist for password cracking. 
 By running below python script:
 ```python
@@ -30,7 +31,7 @@ headers = {
 }
 
 
-with open("D:\\Desktop\\rockyou.txt", encoding="utf-8", errors='ignore') as f:
+with open("rockyou.txt", encoding="utf-8", errors='ignore') as f:
     password_list = f.readlines()
     total = len(password_list)
     for order, i in enumerate(password_list):
@@ -43,7 +44,7 @@ with open("D:\\Desktop\\rockyou.txt", encoding="utf-8", errors='ignore') as f:
         else:
             print(f"current progress: {order+1}/{total}  ------  {password}")
 ```
-Then we can get the password printed, login to next stage.
+The list is very long, but the password we want only takes hundreds iteration. Get the password printed, login to next stage.
 ### Stage 2:
 From the page, we can see a fake flag `/flag{R0ck_y0u_1n_y0r3_h34rt_uwu!}` with prefix `/`, this usually implies file or directory. After several attempts, it is a `.php` file.
 ### Stage 3:
