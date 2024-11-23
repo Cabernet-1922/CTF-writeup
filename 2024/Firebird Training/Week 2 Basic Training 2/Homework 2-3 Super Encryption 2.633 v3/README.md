@@ -1,6 +1,4 @@
-# Challenge: Super Encryption 2.633 v3
-This challenge was solved more than a month ago, so already forgot about the detail. The payload could be refined... I may pick up this when have time...
-## Solution:
+# Homework 2-3 Super Encryption 2.633 v3 [100 points] (8 solves)
 There are total 6 stages.
 - Stage 0
 Use the given PoW_solve function

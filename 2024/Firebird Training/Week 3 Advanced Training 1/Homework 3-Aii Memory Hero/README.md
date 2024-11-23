@@ -1,7 +1,6 @@
-# Challenge: Memory Hero
-Author: Me
-## Solution:
-First, use IDA to export all the nodes as text file. There should be initially 2~3M routes (forgot), but after eliminating the deadend which will jump to "fail code", there are still 280k routes. Also you may see one of the three origin point was also be removed since it will always lead to a deadend. Then we put all the potential routes/fake flag to fai_check.py, you will eventually get the right flag after around 5 mins runtime. (@Atopos's solve is much efficient))
+# Homework 3-Aii Memory Hero [100 points] (6 solves)
+
+First, use IDA to export all the nodes as text file. There should be initially 2~3M routes (forgot), but after eliminating the deadend which will jump to "fail code", there are still 280k routes. Also you may see one of the three origin point was also be removed since it will always lead to a deadend. Then we put all the potential routes/fake flag to fai_check.py, you will eventually get the right flag after around 5 mins runtime.
 ```
 import re
 with open("fai.asm") as f:
