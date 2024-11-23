@@ -1,7 +1,4 @@
-# Challenge: Sutando+
-Author: me
-
-## Solution:
+# Homework 3-B Sutando+ [100 points] (9 solves)
 ### Stage 1:
 In robots.txt file, we can find the php file `/admin_as124j.php`. In the php page, we see there is a youtube channel refers to the famous band "queen", also a hidden login system from the source code of the page. Wild guess the username is `admin`(the system will tell you the username and password are both incorrect if you enter any other username), now we need to find the password.
 When we search the relationship between queen band and admin, password, which queen band's song "we will rock you" here is refers to the [rockyou.txt](https://github.com/brannondorsey/naive-hashcat/releases/download/data/rockyou.txt) password leak. We can use the wordlist for password cracking. 
@@ -58,4 +55,3 @@ However, most of them will not work, also the system will block you upload `.php
 ```
 We go to the destination of the file, add `?cmd=` after the url to use cmd to check where the file is. 
 With `?cmd=ls ../../../../../../ -a`, the flag file was found.
-
