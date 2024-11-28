@@ -2,7 +2,7 @@
 ```txt
 ⡏⣭⡍⡇⣑⢴⠪⣌⢠⡅⠜⡹⠅⡏⣭⡍⡇⠧⠭⠥⠇⠔⣗⣝⢜⡜⠎⢝⠅⡄⠧⠭⠥⠇⡂⣳⠉⢕⠩⠉⣽⢝⡽⡷⢔⣎⢯⠆⠼⢰⠇⣼⠮⢃⢅⣳⣹⠪⠯⡆⣽⢡⡋⠿⡳⠑⠶⠇⠔⡬⡳⠵⢣⡚⠨⡖⠊⣵⣮⠁⢸⡱⡔⠿⠄⢔⠻⡀⢕⡛⠏⠺⠤⠇⠕⠇⠊⠃⠊⠗⠙⠀⡥⠤⠭⡍⣂⡪⣶⣀⣨⡤⠭⠠⡏⠍⡯⠪⡆⡇⠿⠇⡇⢍⠢⣢⠵⣃⡦⠥⢔⡯⢩⠇⢊⠄⠉⠉⠉⠁⠀⠉⠁⠉⠀⠉⠀⠈⠉⠉⠉⠉⠁
 ```
-Look closely the given braille dot group
+Look closely the given braille dot group.\
 Seven Braille characters in a group, stack each group on top of the other, and you get a QR-code-like image below.
 ```txt
 ⡏⣭⡍⡇⣑⢴⠪⣌⢠⡅⠜⡹⠅⡏⣭⡍⡇
