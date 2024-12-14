@@ -1,0 +1,2002 @@
+{
+  "count": 64,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "id": 450,
+      "name": "Verify",
+      "author": "Jeffery John",
+      "difficulty": 1,
+      "event": {
+        "id": 73,
+        "name": "picoCTF 2024"
+      },
+      "category": {
+        "id": 4,
+        "name": "Forensics"
+      },
+      "tags": [
+        {
+          "id": 63,
+          "name": "browser_webshell_solvable"
+        },
+        {
+          "id": 78,
+          "name": "checksum"
+        },
+        {
+          "id": 21,
+          "name": "grep"
+        }
+      ],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 885,
+      "positive_rating_count": 726,
+      "users_solved": 29832,
+      "users_solved_during_event": 3805,
+      "event_points": 50,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 444,
+      "name": "Scan Surprise",
+      "author": "Jeffery John",
+      "difficulty": 1,
+      "event": {
+        "id": 73,
+        "name": "picoCTF 2024"
+      },
+      "category": {
+        "id": 4,
+        "name": "Forensics"
+      },
+      "tags": [
+        {
+          "id": 63,
+          "name": "browser_webshell_solvable"
+        },
+        {
+          "id": 77,
+          "name": "qr_code"
+        },
+        {
+          "id": 2,
+          "name": "shell"
+        }
+      ],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 561,
+      "positive_rating_count": 481,
+      "users_solved": 34920,
+      "users_solved_during_event": 5774,
+      "event_points": 50,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 423,
+      "name": "Secret of the Polyglot",
+      "author": "syreal",
+      "difficulty": 1,
+      "event": {
+        "id": 73,
+        "name": "picoCTF 2024"
+      },
+      "category": {
+        "id": 4,
+        "name": "Forensics"
+      },
+      "tags": [
+        {
+          "id": 70,
+          "name": "file_format"
+        },
+        {
+          "id": 71,
+          "name": "polyglot"
+        }
+      ],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 377,
+      "positive_rating_count": 356,
+      "users_solved": 19363,
+      "users_solved_during_event": 3966,
+      "event_points": 100,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 408,
+      "name": "CanYouSee",
+      "author": "Mubarak Mikail",
+      "difficulty": 1,
+      "event": {
+        "id": 73,
+        "name": "picoCTF 2024"
+      },
+      "category": {
+        "id": 4,
+        "name": "Forensics"
+      },
+      "tags": [
+        {
+          "id": 63,
+          "name": "browser_webshell_solvable"
+        }
+      ],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 246,
+      "positive_rating_count": 227,
+      "users_solved": 18968,
+      "users_solved_during_event": 4381,
+      "event_points": 100,
+      "solved_by_user": true,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 186,
+      "name": "information",
+      "author": "susie",
+      "difficulty": 1,
+      "event": {
+        "id": 34,
+        "name": "picoCTF 2021"
+      },
+      "category": {
+        "id": 4,
+        "name": "Forensics"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 4614,
+      "positive_rating_count": 2249,
+      "users_solved": 121052,
+      "users_solved_during_event": 1879,
+      "event_points": 10,
+      "solved_by_user": true,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 44,
+      "name": "Glory of the Garden",
+      "author": "jedavis/Danny",
+      "difficulty": 1,
+      "event": {
+        "id": 1,
+        "name": "picoCTF 2019"
+      },
+      "category": {
+        "id": 4,
+        "name": "Forensics"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 1012,
+      "positive_rating_count": 901,
+      "users_solved": 69202,
+      "users_solved_during_event": 0,
+      "event_points": 50,
+      "solved_by_user": true,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 432,
+      "name": "Blast from the past",
+      "author": "syreal",
+      "difficulty": 2,
+      "event": {
+        "id": 73,
+        "name": "picoCTF 2024"
+      },
+      "category": {
+        "id": 4,
+        "name": "Forensics"
+      },
+      "tags": [
+        {
+          "id": 63,
+          "name": "browser_webshell_solvable"
+        },
+        {
+          "id": 73,
+          "name": "metadata"
+        }
+      ],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 150,
+      "positive_rating_count": 102,
+      "users_solved": 2322,
+      "users_solved_during_event": 921,
+      "event_points": 300,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "As of March 13th, the last check now accepts more formats.",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 420,
+      "name": "Mob psycho",
+      "author": "NGIRIMANA Schadrack",
+      "difficulty": 2,
+      "event": {
+        "id": 73,
+        "name": "picoCTF 2024"
+      },
+      "category": {
+        "id": 4,
+        "name": "Forensics"
+      },
+      "tags": [
+        {
+          "id": 69,
+          "name": "apk"
+        },
+        {
+          "id": 63,
+          "name": "browser_webshell_solvable"
+        }
+      ],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 143,
+      "positive_rating_count": 94,
+      "users_solved": 4964,
+      "users_solved_during_event": 1736,
+      "event_points": 200,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 415,
+      "name": "endianness-v2",
+      "author": "Junias Bonou",
+      "difficulty": 2,
+      "event": {
+        "id": 73,
+        "name": "picoCTF 2024"
+      },
+      "category": {
+        "id": 4,
+        "name": "Forensics"
+      },
+      "tags": [
+        {
+          "id": 63,
+          "name": "browser_webshell_solvable"
+        }
+      ],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 101,
+      "positive_rating_count": 96,
+      "users_solved": 2904,
+      "users_solved_during_event": 1294,
+      "event_points": 300,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 413,
+      "name": "Dear Diary",
+      "author": "syreal",
+      "difficulty": 2,
+      "event": {
+        "id": 73,
+        "name": "picoCTF 2024"
+      },
+      "category": {
+        "id": 4,
+        "name": "Forensics"
+      },
+      "tags": [
+        {
+          "id": 63,
+          "name": "browser_webshell_solvable"
+        },
+        {
+          "id": 27,
+          "name": "disk"
+        }
+      ],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 94,
+      "positive_rating_count": 48,
+      "users_solved": 1961,
+      "users_solved_during_event": 628,
+      "event_points": 400,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 362,
+      "name": "PcapPoisoning",
+      "author": "Mubarak Mikail",
+      "difficulty": 2,
+      "event": {
+        "id": 72,
+        "name": "picoCTF 2023"
+      },
+      "category": {
+        "id": 4,
+        "name": "Forensics"
+      },
+      "tags": [
+        {
+          "id": 12,
+          "name": "pcap"
+        }
+      ],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 207,
+      "positive_rating_count": 162,
+      "users_solved": 14258,
+      "users_solved_during_event": 4390,
+      "event_points": 100,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 359,
+      "name": "MSB",
+      "author": "LT 'syreal' Jones",
+      "difficulty": 2,
+      "event": {
+        "id": 72,
+        "name": "picoCTF 2023"
+      },
+      "category": {
+        "id": 4,
+        "name": "Forensics"
+      },
+      "tags": [
+        {
+          "id": 32,
+          "name": "steganography"
+        }
+      ],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 123,
+      "positive_rating_count": 114,
+      "users_solved": 4559,
+      "users_solved_during_event": 1318,
+      "event_points": 200,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 350,
+      "name": "hideme",
+      "author": "Geoffrey Njogu",
+      "difficulty": 2,
+      "event": {
+        "id": 72,
+        "name": "picoCTF 2023"
+      },
+      "category": {
+        "id": 4,
+        "name": "Forensics"
+      },
+      "tags": [
+        {
+          "id": 32,
+          "name": "steganography"
+        }
+      ],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 297,
+      "positive_rating_count": 199,
+      "users_solved": 12580,
+      "users_solved_during_event": 3793,
+      "event_points": 100,
+      "solved_by_user": true,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 348,
+      "name": "FindAndOpen",
+      "author": "Mubarak Mikail",
+      "difficulty": 2,
+      "event": {
+        "id": 72,
+        "name": "picoCTF 2023"
+      },
+      "category": {
+        "id": 4,
+        "name": "Forensics"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 343,
+      "positive_rating_count": 141,
+      "users_solved": 6176,
+      "users_solved_during_event": 1926,
+      "event_points": 200,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 311,
+      "name": "Torrent Analyze",
+      "author": "Mubarak Mikail",
+      "difficulty": 2,
+      "event": {
+        "id": 70,
+        "name": "picoCTF 2022"
+      },
+      "category": {
+        "id": 4,
+        "name": "Forensics"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 107,
+      "positive_rating_count": 70,
+      "users_solved": 3444,
+      "users_solved_during_event": 620,
+      "event_points": 400,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 305,
+      "name": "St3g0",
+      "author": "LT 'syreal' Jones (ft. djrobin17)",
+      "difficulty": 2,
+      "event": {
+        "id": 70,
+        "name": "picoCTF 2022"
+      },
+      "category": {
+        "id": 4,
+        "name": "Forensics"
+      },
+      "tags": [
+        {
+          "id": 32,
+          "name": "steganography"
+        }
+      ],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 167,
+      "positive_rating_count": 105,
+      "users_solved": 9208,
+      "users_solved_during_event": 1876,
+      "event_points": 300,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 301,
+      "name": "Sleuthkit Intro",
+      "author": "LT 'syreal' Jones",
+      "difficulty": 2,
+      "event": {
+        "id": 70,
+        "name": "picoCTF 2022"
+      },
+      "category": {
+        "id": 4,
+        "name": "Forensics"
+      },
+      "tags": [
+        {
+          "id": 30,
+          "name": "sleuthkit"
+        }
+      ],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 233,
+      "positive_rating_count": 199,
+      "users_solved": 18258,
+      "users_solved_during_event": 3028,
+      "event_points": 100,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 300,
+      "name": "Sleuthkit Apprentice",
+      "author": "LT 'syreal' Jones",
+      "difficulty": 2,
+      "event": {
+        "id": 70,
+        "name": "picoCTF 2022"
+      },
+      "category": {
+        "id": 4,
+        "name": "Forensics"
+      },
+      "tags": [
+        {
+          "id": 27,
+          "name": "disk"
+        }
+      ],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 213,
+      "positive_rating_count": 203,
+      "users_solved": 12052,
+      "users_solved_during_event": 1872,
+      "event_points": 200,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 290,
+      "name": "Redaction gone wrong",
+      "author": "Mubarak Mikail",
+      "difficulty": 2,
+      "event": {
+        "id": 70,
+        "name": "picoCTF 2022"
+      },
+      "category": {
+        "id": 4,
+        "name": "Forensics"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 239,
+      "positive_rating_count": 207,
+      "users_solved": 18492,
+      "users_solved_during_event": 4380,
+      "event_points": 100,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 286,
+      "name": "Packets Primer",
+      "author": "LT 'syreal' Jones",
+      "difficulty": 2,
+      "event": {
+        "id": 70,
+        "name": "picoCTF 2022"
+      },
+      "category": {
+        "id": 4,
+        "name": "Forensics"
+      },
+      "tags": [
+        {
+          "id": 12,
+          "name": "pcap"
+        }
+      ],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 220,
+      "positive_rating_count": 195,
+      "users_solved": 21843,
+      "users_solved_during_event": 4125,
+      "event_points": 100,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 285,
+      "name": "Operation Orchid",
+      "author": "LT 'syreal' Jones",
+      "difficulty": 2,
+      "event": {
+        "id": 70,
+        "name": "picoCTF 2022"
+      },
+      "category": {
+        "id": 4,
+        "name": "Forensics"
+      },
+      "tags": [
+        {
+          "id": 27,
+          "name": "disk"
+        }
+      ],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 163,
+      "positive_rating_count": 150,
+      "users_solved": 6247,
+      "users_solved_during_event": 1308,
+      "event_points": 400,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 284,
+      "name": "Operation Oni",
+      "author": "LT 'syreal' Jones",
+      "difficulty": 2,
+      "event": {
+        "id": 70,
+        "name": "picoCTF 2022"
+      },
+      "category": {
+        "id": 4,
+        "name": "Forensics"
+      },
+      "tags": [
+        {
+          "id": 27,
+          "name": "disk"
+        }
+      ],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 116,
+      "positive_rating_count": 109,
+      "users_solved": 3796,
+      "users_solved_during_event": 1425,
+      "event_points": 300,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "Note: you must launch a challenge instance in order to view your disk image download link.",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 279,
+      "name": "Lookey here",
+      "author": "LT 'syreal' Jones / Mubarak Mikail",
+      "difficulty": 2,
+      "event": {
+        "id": 70,
+        "name": "picoCTF 2022"
+      },
+      "category": {
+        "id": 4,
+        "name": "Forensics"
+      },
+      "tags": [
+        {
+          "id": 21,
+          "name": "grep"
+        }
+      ],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 299,
+      "positive_rating_count": 254,
+      "users_solved": 24195,
+      "users_solved_during_event": 5114,
+      "event_points": 100,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 268,
+      "name": "File types",
+      "author": "Geoffrey Njogu",
+      "difficulty": 2,
+      "event": {
+        "id": 70,
+        "name": "picoCTF 2022"
+      },
+      "category": {
+        "id": 4,
+        "name": "Forensics"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 1129,
+      "positive_rating_count": 291,
+      "users_solved": 9552,
+      "users_solved_during_event": 2110,
+      "event_points": 100,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 265,
+      "name": "Enhance!",
+      "author": "LT 'syreal' Jones",
+      "difficulty": 2,
+      "event": {
+        "id": 70,
+        "name": "picoCTF 2022"
+      },
+      "category": {
+        "id": 4,
+        "name": "Forensics"
+      },
+      "tags": [
+        {
+          "id": 13,
+          "name": "svg"
+        }
+      ],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 429,
+      "positive_rating_count": 357,
+      "users_solved": 27517,
+      "users_solved_during_event": 4921,
+      "event_points": 100,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 264,
+      "name": "Eavesdrop",
+      "author": "LT 'syreal' Jones",
+      "difficulty": 2,
+      "event": {
+        "id": 70,
+        "name": "picoCTF 2022"
+      },
+      "category": {
+        "id": 4,
+        "name": "Forensics"
+      },
+      "tags": [
+        {
+          "id": 12,
+          "name": "pcap"
+        }
+      ],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 182,
+      "positive_rating_count": 166,
+      "users_solved": 5978,
+      "users_solved_during_event": 1775,
+      "event_points": 300,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 237,
+      "name": "WPA-ing Out",
+      "author": "MistressVampy",
+      "difficulty": 2,
+      "event": null,
+      "category": {
+        "id": 4,
+        "name": "Forensics"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 83,
+      "positive_rating_count": 76,
+      "users_solved": 4053,
+      "users_solved_during_event": null,
+      "event_points": 200,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 205,
+      "name": "advanced-potion-making",
+      "author": "bigC",
+      "difficulty": 2,
+      "event": {
+        "id": 67,
+        "name": "picoMini by redpwn"
+      },
+      "category": {
+        "id": 4,
+        "name": "Forensics"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 178,
+      "positive_rating_count": 113,
+      "users_solved": 7429,
+      "users_solved_during_event": 67,
+      "event_points": 100,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 139,
+      "name": "Milkslap",
+      "author": "James Lynch",
+      "difficulty": 2,
+      "event": {
+        "id": 34,
+        "name": "picoCTF 2021"
+      },
+      "category": {
+        "id": 4,
+        "name": "Forensics"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 148,
+      "positive_rating_count": 74,
+      "users_solved": 5694,
+      "users_solved_during_event": 410,
+      "event_points": 200,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 137,
+      "name": "Disk, disk, sleuth! II",
+      "author": "syreal",
+      "difficulty": 2,
+      "event": {
+        "id": 34,
+        "name": "picoCTF 2021"
+      },
+      "category": {
+        "id": 4,
+        "name": "Forensics"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 195,
+      "positive_rating_count": 172,
+      "users_solved": 10859,
+      "users_solved_during_event": 777,
+      "event_points": 130,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 130,
+      "name": "MacroHard WeakEdge",
+      "author": "madStacks",
+      "difficulty": 2,
+      "event": {
+        "id": 34,
+        "name": "picoCTF 2021"
+      },
+      "category": {
+        "id": 4,
+        "name": "Forensics"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 336,
+      "positive_rating_count": 283,
+      "users_solved": 18352,
+      "users_solved_during_event": 688,
+      "event_points": 60,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 129,
+      "name": "Matryoshka doll",
+      "author": "Susie/Pandu",
+      "difficulty": 2,
+      "event": {
+        "id": 34,
+        "name": "picoCTF 2021"
+      },
+      "category": {
+        "id": 4,
+        "name": "Forensics"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 1386,
+      "positive_rating_count": 1311,
+      "users_solved": 47059,
+      "users_solved_during_event": 1943,
+      "event_points": 30,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 115,
+      "name": "Wireshark doo dooo do doo...",
+      "author": "Dylan",
+      "difficulty": 2,
+      "event": {
+        "id": 34,
+        "name": "picoCTF 2021"
+      },
+      "category": {
+        "id": 4,
+        "name": "Forensics"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 581,
+      "positive_rating_count": 497,
+      "users_solved": 33231,
+      "users_solved_during_event": 1508,
+      "event_points": 50,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 113,
+      "name": "Disk, disk, sleuth!",
+      "author": "syreal",
+      "difficulty": 2,
+      "event": {
+        "id": 34,
+        "name": "picoCTF 2021"
+      },
+      "category": {
+        "id": 4,
+        "name": "Forensics"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 166,
+      "positive_rating_count": 146,
+      "users_solved": 8947,
+      "users_solved_during_event": 1013,
+      "event_points": 110,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 112,
+      "name": "tunn3l v1s10n",
+      "author": "Danny",
+      "difficulty": 2,
+      "event": {
+        "id": 34,
+        "name": "picoCTF 2021"
+      },
+      "category": {
+        "id": 4,
+        "name": "Forensics"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 803,
+      "positive_rating_count": 452,
+      "users_solved": 20192,
+      "users_solved_during_event": 304,
+      "event_points": 40,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 110,
+      "name": "Wireshark twoo twooo two twoo...",
+      "author": "Dylan",
+      "difficulty": 2,
+      "event": {
+        "id": 34,
+        "name": "picoCTF 2021"
+      },
+      "category": {
+        "id": 4,
+        "name": "Forensics"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 352,
+      "positive_rating_count": 159,
+      "users_solved": 10203,
+      "users_solved_during_event": 392,
+      "event_points": 100,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 103,
+      "name": "Trivial Flag Transfer Protocol",
+      "author": "Danny",
+      "difficulty": 2,
+      "event": {
+        "id": 34,
+        "name": "picoCTF 2021"
+      },
+      "category": {
+        "id": 4,
+        "name": "Forensics"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 362,
+      "positive_rating_count": 322,
+      "users_solved": 12600,
+      "users_solved_during_event": 465,
+      "event_points": 90,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 87,
+      "name": "Pitter, Patter, Platters",
+      "author": "syreal",
+      "difficulty": 2,
+      "event": {
+        "id": 3,
+        "name": "picoCTF 2020 Mini-Competition"
+      },
+      "category": {
+        "id": 4,
+        "name": "Forensics"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 193,
+      "positive_rating_count": 140,
+      "users_solved": 5007,
+      "users_solved_during_event": 314,
+      "event_points": 1,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 84,
+      "name": "shark on wire 2",
+      "author": "Danny",
+      "difficulty": 2,
+      "event": {
+        "id": 1,
+        "name": "picoCTF 2019"
+      },
+      "category": {
+        "id": 4,
+        "name": "Forensics"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 114,
+      "positive_rating_count": 48,
+      "users_solved": 4575,
+      "users_solved_during_event": 0,
+      "event_points": 300,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 81,
+      "name": "like1000",
+      "author": "Danny",
+      "difficulty": 2,
+      "event": {
+        "id": 1,
+        "name": "picoCTF 2019"
+      },
+      "category": {
+        "id": 4,
+        "name": "Forensics"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 141,
+      "positive_rating_count": 132,
+      "users_solved": 6479,
+      "users_solved_during_event": 0,
+      "event_points": 250,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 74,
+      "name": "What Lies Within",
+      "author": "Julio/Danny",
+      "difficulty": 2,
+      "event": {
+        "id": 1,
+        "name": "picoCTF 2019"
+      },
+      "category": {
+        "id": 4,
+        "name": "Forensics"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 274,
+      "positive_rating_count": 213,
+      "users_solved": 21097,
+      "users_solved_during_event": 0,
+      "event_points": 150,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 53,
+      "name": "c0rrupt",
+      "author": "Danny",
+      "difficulty": 2,
+      "event": {
+        "id": 1,
+        "name": "picoCTF 2019"
+      },
+      "category": {
+        "id": 4,
+        "name": "Forensics"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 116,
+      "positive_rating_count": 85,
+      "users_solved": 4750,
+      "users_solved_during_event": 0,
+      "event_points": 250,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 52,
+      "name": "extensions",
+      "author": "Sanjay C/Danny",
+      "difficulty": 2,
+      "event": {
+        "id": 1,
+        "name": "picoCTF 2019"
+      },
+      "category": {
+        "id": 4,
+        "name": "Forensics"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 387,
+      "positive_rating_count": 349,
+      "users_solved": 27860,
+      "users_solved_during_event": 0,
+      "event_points": 150,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 51,
+      "name": "WhitePages",
+      "author": "John Hammond",
+      "difficulty": 2,
+      "event": {
+        "id": 1,
+        "name": "picoCTF 2019"
+      },
+      "category": {
+        "id": 4,
+        "name": "Forensics"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 171,
+      "positive_rating_count": 156,
+      "users_solved": 5463,
+      "users_solved_during_event": 0,
+      "event_points": 250,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 30,
+      "name": "shark on wire 1",
+      "author": "Danny",
+      "difficulty": 2,
+      "event": {
+        "id": 1,
+        "name": "picoCTF 2019"
+      },
+      "category": {
+        "id": 4,
+        "name": "Forensics"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 265,
+      "positive_rating_count": 234,
+      "users_solved": 19388,
+      "users_solved_during_event": 0,
+      "event_points": 150,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 26,
+      "name": "m00nwalk",
+      "author": "Joon",
+      "difficulty": 2,
+      "event": {
+        "id": 1,
+        "name": "picoCTF 2019"
+      },
+      "category": {
+        "id": 4,
+        "name": "Forensics"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 106,
+      "positive_rating_count": 91,
+      "users_solved": 5118,
+      "users_solved_during_event": 0,
+      "event_points": 250,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 19,
+      "name": "So Meta",
+      "author": "Kevin Cooper/Danny",
+      "difficulty": 2,
+      "event": {
+        "id": 1,
+        "name": "picoCTF 2019"
+      },
+      "category": {
+        "id": 4,
+        "name": "Forensics"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 297,
+      "positive_rating_count": 260,
+      "users_solved": 27850,
+      "users_solved_during_event": 0,
+      "event_points": 150,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 383,
+      "name": "UnforgottenBits",
+      "author": "LT 'syreal' Jones",
+      "difficulty": 3,
+      "event": {
+        "id": 72,
+        "name": "picoCTF 2023"
+      },
+      "category": {
+        "id": 4,
+        "name": "Forensics"
+      },
+      "tags": [
+        {
+          "id": 27,
+          "name": "disk"
+        }
+      ],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 37,
+      "positive_rating_count": 25,
+      "users_solved": 353,
+      "users_solved_during_event": 77,
+      "event_points": 500,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 354,
+      "name": "Invisible WORDs",
+      "author": "LT 'syreal' Jones",
+      "difficulty": 3,
+      "event": {
+        "id": 72,
+        "name": "picoCTF 2023"
+      },
+      "category": {
+        "id": 4,
+        "name": "Forensics"
+      },
+      "tags": [
+        {
+          "id": 32,
+          "name": "steganography"
+        }
+      ],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 55,
+      "positive_rating_count": 29,
+      "users_solved": 762,
+      "users_solved_during_event": 172,
+      "event_points": 300,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 298,
+      "name": "SideChannel",
+      "author": "Anish Singhani",
+      "difficulty": 3,
+      "event": {
+        "id": 70,
+        "name": "picoCTF 2022"
+      },
+      "category": {
+        "id": 4,
+        "name": "Forensics"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 160,
+      "positive_rating_count": 154,
+      "users_solved": 2458,
+      "users_solved_during_event": 964,
+      "event_points": 400,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 206,
+      "name": "scrambled-bytes",
+      "author": "kfb",
+      "difficulty": 3,
+      "event": {
+        "id": 67,
+        "name": "picoMini by redpwn"
+      },
+      "category": {
+        "id": 4,
+        "name": "Forensics"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 53,
+      "positive_rating_count": 33,
+      "users_solved": 1031,
+      "users_solved_during_event": 24,
+      "event_points": 200,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 141,
+      "name": "Very very very Hidden",
+      "author": "Sara",
+      "difficulty": 3,
+      "event": {
+        "id": 34,
+        "name": "picoCTF 2021"
+      },
+      "category": {
+        "id": 4,
+        "name": "Forensics"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 41,
+      "positive_rating_count": 23,
+      "users_solved": 1765,
+      "users_solved_during_event": 85,
+      "event_points": 300,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 117,
+      "name": "Surfing the Waves",
+      "author": "William Batista",
+      "difficulty": 3,
+      "event": {
+        "id": 34,
+        "name": "picoCTF 2021"
+      },
+      "category": {
+        "id": 4,
+        "name": "Forensics"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 40,
+      "positive_rating_count": 17,
+      "users_solved": 1169,
+      "users_solved_during_event": 68,
+      "event_points": 150,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 83,
+      "name": "Investigative Reversing 3",
+      "author": "Santiago C/Danny T",
+      "difficulty": 3,
+      "event": {
+        "id": 1,
+        "name": "picoCTF 2019"
+      },
+      "category": {
+        "id": 4,
+        "name": "Forensics"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 14,
+      "positive_rating_count": 13,
+      "users_solved": 493,
+      "users_solved_during_event": 0,
+      "event_points": 400,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 70,
+      "name": "Investigative Reversing 0",
+      "author": "Danny Tunitis",
+      "difficulty": 3,
+      "event": {
+        "id": 1,
+        "name": "picoCTF 2019"
+      },
+      "category": {
+        "id": 4,
+        "name": "Forensics"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 46,
+      "positive_rating_count": 39,
+      "users_solved": 1629,
+      "users_solved_during_event": 0,
+      "event_points": 300,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 56,
+      "name": "B1g_Mac",
+      "author": "Santiago C",
+      "difficulty": 3,
+      "event": {
+        "id": 1,
+        "name": "picoCTF 2019"
+      },
+      "category": {
+        "id": 4,
+        "name": "Forensics"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 27,
+      "positive_rating_count": 22,
+      "users_solved": 2615,
+      "users_solved_during_event": 0,
+      "event_points": 500,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 54,
+      "name": "Investigative Reversing 4",
+      "author": "Santiago C/Danny T",
+      "difficulty": 3,
+      "event": {
+        "id": 1,
+        "name": "picoCTF 2019"
+      },
+      "category": {
+        "id": 4,
+        "name": "Forensics"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 9,
+      "positive_rating_count": 8,
+      "users_solved": 406,
+      "users_solved_during_event": 0,
+      "event_points": 400,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 47,
+      "name": "investigation_encoded_1",
+      "author": "Santiago C",
+      "difficulty": 3,
+      "event": {
+        "id": 1,
+        "name": "picoCTF 2019"
+      },
+      "category": {
+        "id": 4,
+        "name": "Forensics"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 10,
+      "positive_rating_count": 7,
+      "users_solved": 168,
+      "users_solved_during_event": 0,
+      "event_points": 450,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 42,
+      "name": "WebNet1",
+      "author": "Jason",
+      "difficulty": 3,
+      "event": {
+        "id": 1,
+        "name": "picoCTF 2019"
+      },
+      "category": {
+        "id": 4,
+        "name": "Forensics"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 44,
+      "positive_rating_count": 41,
+      "users_solved": 3678,
+      "users_solved_during_event": 0,
+      "event_points": 450,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 36,
+      "name": "investigation_encoded_2",
+      "author": "Santiago C",
+      "difficulty": 3,
+      "event": {
+        "id": 1,
+        "name": "picoCTF 2019"
+      },
+      "category": {
+        "id": 4,
+        "name": "Forensics"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 9,
+      "positive_rating_count": 8,
+      "users_solved": 145,
+      "users_solved_during_event": 0,
+      "event_points": 500,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 32,
+      "name": "WebNet0",
+      "author": "Jason",
+      "difficulty": 3,
+      "event": {
+        "id": 1,
+        "name": "picoCTF 2019"
+      },
+      "category": {
+        "id": 4,
+        "name": "Forensics"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 66,
+      "positive_rating_count": 61,
+      "users_solved": 4257,
+      "users_solved_during_event": 0,
+      "event_points": 350,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 28,
+      "name": "m00nwalk2",
+      "author": "Joon",
+      "difficulty": 3,
+      "event": {
+        "id": 1,
+        "name": "picoCTF 2019"
+      },
+      "category": {
+        "id": 4,
+        "name": "Forensics"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 50,
+      "positive_rating_count": 45,
+      "users_solved": 2607,
+      "users_solved_during_event": 0,
+      "event_points": 300,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 27,
+      "name": "Investigative Reversing 1",
+      "author": "Danny Tunitis",
+      "difficulty": 3,
+      "event": {
+        "id": 1,
+        "name": "picoCTF 2019"
+      },
+      "category": {
+        "id": 4,
+        "name": "Forensics"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 26,
+      "positive_rating_count": 24,
+      "users_solved": 927,
+      "users_solved_during_event": 0,
+      "event_points": 350,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 13,
+      "name": "Investigative Reversing 2",
+      "author": "Santiago C/Danny T",
+      "difficulty": 3,
+      "event": {
+        "id": 1,
+        "name": "picoCTF 2019"
+      },
+      "category": {
+        "id": 4,
+        "name": "Forensics"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 19,
+      "positive_rating_count": 17,
+      "users_solved": 629,
+      "users_solved_during_event": 0,
+      "event_points": 350,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    }
+  ]
+}

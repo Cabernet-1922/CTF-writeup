@@ -1,0 +1,2718 @@
+[
+  {
+    "id": 450,
+    "name": "Verify",
+    "author": "Jeffery John",
+    "difficulty": 1,
+    "event": {
+      "id": 73,
+      "name": "picoCTF 2024"
+    },
+    "category": {
+      "id": 4,
+      "name": "Forensics"
+    },
+    "tags": [
+      {
+        "id": 63,
+        "name": "browser_webshell_solvable"
+      },
+      {
+        "id": 78,
+        "name": "checksum"
+      },
+      {
+        "id": 21,
+        "name": "grep"
+      }
+    ],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 885,
+    "positive_rating_count": 726,
+    "users_solved": 29834,
+    "users_solved_during_event": 3805,
+    "event_points": 50,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 296129,
+      "status": "NOT_RUNNING",
+      "expires_in": null,
+      "description": "<p>People keep trying to trick my players with imitation flags. I want to make sure they get the real thing! I'm going to provide the SHA-256 hash and a decrypt script to help you know that my flags are legitimate.</p>",
+      "hints": [
+        "<p>Checksums let you tell if a file is complete and from the original distributor. If the hash doesn't match, it's a different file.</p>",
+        "<p>You can create a SHA checksum of a file with <code>sha256sum &lt;file&gt;</code> or all files in a directory with <code>sha256sum &lt;directory&gt;/*</code>.</p>",
+        "<p>Remember you can pipe the output of one command to another with <code>|</code>. Try practicing with the 'First Grep' challenge if you're stuck!</p>"
+      ],
+      "on_demand": true,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 444,
+    "name": "Scan Surprise",
+    "author": "Jeffery John",
+    "difficulty": 1,
+    "event": {
+      "id": 73,
+      "name": "picoCTF 2024"
+    },
+    "category": {
+      "id": 4,
+      "name": "Forensics"
+    },
+    "tags": [
+      {
+        "id": 63,
+        "name": "browser_webshell_solvable"
+      },
+      {
+        "id": 77,
+        "name": "qr_code"
+      },
+      {
+        "id": 2,
+        "name": "shell"
+      }
+    ],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 561,
+    "positive_rating_count": 481,
+    "users_solved": 34922,
+    "users_solved_during_event": 5774,
+    "event_points": 50,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 295566,
+      "status": "NOT_RUNNING",
+      "expires_in": null,
+      "description": "<p>I've gotten bored of handing out flags as text. Wouldn't it be cool if they were an image instead?</p>\n<p>You can download the challenge files here:</p>\n<ul>\n<li><a href='https://artifacts.picoctf.net/c_atlas/2/challenge.zip' download>challenge.zip</a></li>\n</ul>",
+      "hints": [
+        "<p>QR codes are a way of encoding data. While they're most known for storing URLs, they can store other things too.</p>",
+        "<p>Mobile phones have included native QR code scanners in their cameras since version 8 (Oreo) and iOS 11</p>",
+        "<p>If you don't have access to a phone, you can also use zbar-tools to convert an image to text</p>"
+      ],
+      "on_demand": true,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 423,
+    "name": "Secret of the Polyglot",
+    "author": "syreal",
+    "difficulty": 1,
+    "event": {
+      "id": 73,
+      "name": "picoCTF 2024"
+    },
+    "category": {
+      "id": 4,
+      "name": "Forensics"
+    },
+    "tags": [
+      {
+        "id": 70,
+        "name": "file_format"
+      },
+      {
+        "id": 71,
+        "name": "polyglot"
+      }
+    ],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 377,
+    "positive_rating_count": 356,
+    "users_solved": 19363,
+    "users_solved_during_event": 3966,
+    "event_points": 100,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 296025,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "<p>The Network Operations Center (NOC) of your local institution picked up a\nsuspicious file, they're getting conflicting information on what type of file\nit is. They've brought you in as an external expert to examine the file. Can\nyou extract all the information from this strange file?</p>\n<p>Download the suspicious file <a href='https://artifacts.picoctf.net/c_titan/96/flag2of2-final.pdf' download>here</a>.</p>\n",
+      "hints": [
+        "<p>This problem can be solved by just opening the file in different ways</p>"
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 408,
+    "name": "CanYouSee",
+    "author": "Mubarak Mikail",
+    "difficulty": 1,
+    "event": {
+      "id": 73,
+      "name": "picoCTF 2024"
+    },
+    "category": {
+      "id": 4,
+      "name": "Forensics"
+    },
+    "tags": [
+      {
+        "id": 63,
+        "name": "browser_webshell_solvable"
+      }
+    ],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 246,
+    "positive_rating_count": 227,
+    "users_solved": 18968,
+    "users_solved_during_event": 4381,
+    "event_points": 100,
+    "solved_by_user": true,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 295960,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "<p>How about some hide and seek?</p>\n<p>Download this file <a href='https://artifacts.picoctf.net/c_titan/131/unknown.zip' download>here</a>.</p>\n",
+      "hints": [
+        "<p>How can you view the information about the picture?</p>",
+        "<p>If something isn't in the expected form, maybe it deserves attention?</p>"
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 186,
+    "name": "information",
+    "author": "susie",
+    "difficulty": 1,
+    "event": {
+      "id": 34,
+      "name": "picoCTF 2021"
+    },
+    "category": {
+      "id": 4,
+      "name": "Forensics"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 4614,
+    "positive_rating_count": 2249,
+    "users_solved": 121052,
+    "users_solved_during_event": 1879,
+    "event_points": 10,
+    "solved_by_user": true,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 1037,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "Files can always be changed in a secret way. Can you find the flag? <a href='//mercury.picoctf.net/static/a614a27d4cb251d04c7d2f3f3f76a965/cat.jpg'>cat.jpg</a>",
+      "hints": [
+        "Look at the details of the file",
+        "Make sure to submit the flag as picoCTF{XXXXX}"
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 44,
+    "name": "Glory of the Garden",
+    "author": "jedavis/Danny",
+    "difficulty": 1,
+    "event": {
+      "id": 1,
+      "name": "picoCTF 2019"
+    },
+    "category": {
+      "id": 4,
+      "name": "Forensics"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 1012,
+    "positive_rating_count": 901,
+    "users_solved": 69202,
+    "users_solved_during_event": 0,
+    "event_points": 50,
+    "solved_by_user": true,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 106,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "This <a href='//jupiter.challenges.picoctf.org/static/4153422e18d40363e7ffc7e15a108683/garden.jpg'>garden</a> contains more than it seems.",
+      "hints": [
+        "What is a hex editor?"
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 432,
+    "name": "Blast from the past",
+    "author": "syreal",
+    "difficulty": 2,
+    "event": {
+      "id": 73,
+      "name": "picoCTF 2024"
+    },
+    "category": {
+      "id": 4,
+      "name": "Forensics"
+    },
+    "tags": [
+      {
+        "id": 63,
+        "name": "browser_webshell_solvable"
+      },
+      {
+        "id": 73,
+        "name": "metadata"
+      }
+    ],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 150,
+    "positive_rating_count": 102,
+    "users_solved": 2322,
+    "users_solved_during_event": 921,
+    "event_points": 300,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "As of March 13th, the last check now accepts more formats.",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 295791,
+      "status": "NOT_RUNNING",
+      "expires_in": null,
+      "description": "<p>The judge for these pictures is a real fan of antiques. Can you age this photo\nto the specifications?</p>\n<p>Set the timestamps on this picture to <code>1970:01:01 00:00:00.001+00:00</code> with as\nmuch precision as possible for each timestamp. In this example, <code>+00:00</code> is a\ntimezone adjustment. Any timezone is acceptable as long as the time is\nequivalent. As an example, this timestamp is acceptable as well: <code>1969:12:31 19:00:00.001-05:00</code>. For timestamps without a timezone adjustment, put them in\nGMT time (+00:00). The checker program provides the timestamp needed for each.</p>\n<p>Use this <a href='https://artifacts.picoctf.net/c_mimas/74/original.jpg' download>picture</a>.</p>",
+      "hints": [
+        "<p>Exiftool is really good at reading metadata, but you might want to use\nsomething else to modify it.</p>"
+      ],
+      "on_demand": true,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 420,
+    "name": "Mob psycho",
+    "author": "NGIRIMANA Schadrack",
+    "difficulty": 2,
+    "event": {
+      "id": 73,
+      "name": "picoCTF 2024"
+    },
+    "category": {
+      "id": 4,
+      "name": "Forensics"
+    },
+    "tags": [
+      {
+        "id": 69,
+        "name": "apk"
+      },
+      {
+        "id": 63,
+        "name": "browser_webshell_solvable"
+      }
+    ],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 143,
+    "positive_rating_count": 94,
+    "users_solved": 4964,
+    "users_solved_during_event": 1736,
+    "event_points": 200,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 296012,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "<p>Can you handle APKs?</p>\n<p>Download the android apk <a href='https://artifacts.picoctf.net/c_titan/141/mobpsycho.apk' download>here</a>.</p>\n",
+      "hints": [
+        "<p>Did you know you can <code>unzip</code> APK files?</p>",
+        "<p>Now you have the whole host of shell tools for searching these files.</p>"
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 415,
+    "name": "endianness-v2",
+    "author": "Junias Bonou",
+    "difficulty": 2,
+    "event": {
+      "id": 73,
+      "name": "picoCTF 2024"
+    },
+    "category": {
+      "id": 4,
+      "name": "Forensics"
+    },
+    "tags": [
+      {
+        "id": 63,
+        "name": "browser_webshell_solvable"
+      }
+    ],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 101,
+    "positive_rating_count": 96,
+    "users_solved": 2904,
+    "users_solved_during_event": 1294,
+    "event_points": 300,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 295989,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "<p>Here's a file that was recovered from a 32-bits system that organized the bytes a weird way. We're not even sure what type of file it is.</p>\n<p>Download it <a href='https://artifacts.picoctf.net/c_titan/114/challengefile' download>here</a> and see what you can get out of it</p>\n",
+      "hints": [],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 413,
+    "name": "Dear Diary",
+    "author": "syreal",
+    "difficulty": 2,
+    "event": {
+      "id": 73,
+      "name": "picoCTF 2024"
+    },
+    "category": {
+      "id": 4,
+      "name": "Forensics"
+    },
+    "tags": [
+      {
+        "id": 63,
+        "name": "browser_webshell_solvable"
+      },
+      {
+        "id": 27,
+        "name": "disk"
+      }
+    ],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 94,
+    "positive_rating_count": 48,
+    "users_solved": 1961,
+    "users_solved_during_event": 628,
+    "event_points": 400,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 295986,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "<p>If you can find the flag on this disk image, we can close the case for good!</p>\n<p>Download the disk image <a href='https://artifacts.picoctf.net/c_titan/63/disk.flag.img.gz' download>here</a>.</p>\n",
+      "hints": [
+        "<p>If you're observing binary data raw in the terminal you may be misled about\nthe contents of a block.</p>"
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 362,
+    "name": "PcapPoisoning",
+    "author": "Mubarak Mikail",
+    "difficulty": 2,
+    "event": {
+      "id": 72,
+      "name": "picoCTF 2023"
+    },
+    "category": {
+      "id": 4,
+      "name": "Forensics"
+    },
+    "tags": [
+      {
+        "id": 12,
+        "name": "pcap"
+      }
+    ],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 207,
+    "positive_rating_count": 162,
+    "users_solved": 14258,
+    "users_solved_during_event": 4390,
+    "event_points": 100,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 295035,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "<p>How about some hide and seek heh?</p>\n<p>Download this <a href='https://artifacts.picoctf.net/c/377/trace.pcap' download>file</a> and find the flag.</p>",
+      "hints": [],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 359,
+    "name": "MSB",
+    "author": "LT 'syreal' Jones",
+    "difficulty": 2,
+    "event": {
+      "id": 72,
+      "name": "picoCTF 2023"
+    },
+    "category": {
+      "id": 4,
+      "name": "Forensics"
+    },
+    "tags": [
+      {
+        "id": 32,
+        "name": "steganography"
+      }
+    ],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 123,
+    "positive_rating_count": 114,
+    "users_solved": 4559,
+    "users_solved_during_event": 1318,
+    "event_points": 200,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 295022,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "<p>This image passes LSB statistical analysis, but we can't help but think there\nmust be something to the visual artifacts present in this image...</p>\n<p>Download the image <a href='https://artifacts.picoctf.net/c/302/Ninja-and-Prince-Genji-Ukiyoe-Utagawa-Kunisada.flag.png' download>here</a></p>",
+      "hints": [
+        "<p>What's causing the 'corruption' of the image?</p>"
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 350,
+    "name": "hideme",
+    "author": "Geoffrey Njogu",
+    "difficulty": 2,
+    "event": {
+      "id": 72,
+      "name": "picoCTF 2023"
+    },
+    "category": {
+      "id": 4,
+      "name": "Forensics"
+    },
+    "tags": [
+      {
+        "id": 32,
+        "name": "steganography"
+      }
+    ],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 297,
+    "positive_rating_count": 199,
+    "users_solved": 12580,
+    "users_solved_during_event": 3793,
+    "event_points": 100,
+    "solved_by_user": true,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 294968,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "<p>Every file gets a flag.</p>\n<p>The SOC analyst saw one image been sent back and forth between two people. They decided to investigate and found out that there was more than what meets the eye <a href='https://artifacts.picoctf.net/c/261/flag.png' download>here</a>.</p>",
+      "hints": [],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 348,
+    "name": "FindAndOpen",
+    "author": "Mubarak Mikail",
+    "difficulty": 2,
+    "event": {
+      "id": 72,
+      "name": "picoCTF 2023"
+    },
+    "category": {
+      "id": 4,
+      "name": "Forensics"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 343,
+    "positive_rating_count": 141,
+    "users_solved": 6176,
+    "users_solved_during_event": 1926,
+    "event_points": 200,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 294953,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "<p>Someone might have hidden the password in the trace file.</p>\n<p>Find the key to unlock <a href='https://artifacts.picoctf.net/c/492/flag.zip' download>this file</a>. <a href='https://artifacts.picoctf.net/c/492/dump.pcap' download>This tracefile</a> might be good to analyze.</p>",
+      "hints": [
+        "<p>Download the pcap and look for the password or flag.</p>",
+        "<p>Don't try to use a password cracking tool, there are easier ways here.</p>"
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 311,
+    "name": "Torrent Analyze",
+    "author": "Mubarak Mikail",
+    "difficulty": 2,
+    "event": {
+      "id": 70,
+      "name": "picoCTF 2022"
+    },
+    "category": {
+      "id": 4,
+      "name": "Forensics"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 107,
+    "positive_rating_count": 70,
+    "users_solved": 3444,
+    "users_solved_during_event": 620,
+    "event_points": 400,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 294897,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "<p>SOS, someone is torrenting on our network.</p>\n<p>One of your colleagues has been using torrent to download some files on the\ncompany’s network. Can you identify the file(s) that were downloaded? The file\nname will be the flag, like <code>picoCTF{filename}</code>.\n<a href='https://artifacts.picoctf.net/c/165/torrent.pcap' download>Captured traffic</a>.</p>",
+      "hints": [
+        "<p>Download and open the file with a packet analyzer like\n<a href=\"https://www.wireshark.org\">Wireshark</a>.</p>",
+        "<p>You may want to enable BitTorrent protocol (BT-DHT, etc.) on Wireshark.\nAnalyze -&gt; Enabled Protocols</p>",
+        "<p>Try to understand peers, leechers and seeds.\n<a href=\"https://www.techworm.net/2017/03/seeds-peers-leechers-torrents-language.html\">Article</a></p>",
+        "<p>The file name ends with <code>.iso</code></p>"
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 305,
+    "name": "St3g0",
+    "author": "LT 'syreal' Jones (ft. djrobin17)",
+    "difficulty": 2,
+    "event": {
+      "id": 70,
+      "name": "picoCTF 2022"
+    },
+    "category": {
+      "id": 4,
+      "name": "Forensics"
+    },
+    "tags": [
+      {
+        "id": 32,
+        "name": "steganography"
+      }
+    ],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 167,
+    "positive_rating_count": 105,
+    "users_solved": 9208,
+    "users_solved_during_event": 1876,
+    "event_points": 300,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 294881,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "<p>Download this image and find the flag.</p>\n<ul>\n<li><a href='https://artifacts.picoctf.net/c/217/pico.flag.png' download>Download image</a></li>\n</ul>",
+      "hints": [
+        "<p>We know the end sequence of the message will be <code>$t3g0</code>.</p>"
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 301,
+    "name": "Sleuthkit Intro",
+    "author": "LT 'syreal' Jones",
+    "difficulty": 2,
+    "event": {
+      "id": 70,
+      "name": "picoCTF 2022"
+    },
+    "category": {
+      "id": 4,
+      "name": "Forensics"
+    },
+    "tags": [
+      {
+        "id": 30,
+        "name": "sleuthkit"
+      }
+    ],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 233,
+    "positive_rating_count": 199,
+    "users_solved": 18258,
+    "users_solved_during_event": 3028,
+    "event_points": 100,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 296110,
+      "status": "NOT_RUNNING",
+      "expires_in": null,
+      "description": "<p>Download the disk image and use <code>mmls</code> on it to find the size of the Linux\npartition. Connect to the remote checker service to check your answer and get\nthe flag.</p>\n<p>Note: if you are using the webshell, download and extract the disk image into\n<code>/tmp</code> not your home directory.</p>\n<p><a href='https://artifacts.picoctf.net/c/164/disk.img.gz' download>Download disk image</a></p>",
+      "hints": [],
+      "on_demand": true,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 300,
+    "name": "Sleuthkit Apprentice",
+    "author": "LT 'syreal' Jones",
+    "difficulty": 2,
+    "event": {
+      "id": 70,
+      "name": "picoCTF 2022"
+    },
+    "category": {
+      "id": 4,
+      "name": "Forensics"
+    },
+    "tags": [
+      {
+        "id": 27,
+        "name": "disk"
+      }
+    ],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 213,
+    "positive_rating_count": 203,
+    "users_solved": 12052,
+    "users_solved_during_event": 1872,
+    "event_points": 200,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 294867,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "<p>Download this disk image and find the flag.</p>\n<p>Note: if you are using the webshell, download and extract the disk image into\n<code>/tmp</code> not your home directory.</p>\n<ul>\n<li><a href='https://artifacts.picoctf.net/c/137/disk.flag.img.gz' download>Download compressed disk image</a></li>\n</ul>",
+      "hints": [],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 290,
+    "name": "Redaction gone wrong",
+    "author": "Mubarak Mikail",
+    "difficulty": 2,
+    "event": {
+      "id": 70,
+      "name": "picoCTF 2022"
+    },
+    "category": {
+      "id": 4,
+      "name": "Forensics"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 239,
+    "positive_rating_count": 207,
+    "users_solved": 18492,
+    "users_solved_during_event": 4380,
+    "event_points": 100,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 294843,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "<p>Now you DON’T see me.</p>\n<p>This <a href='https://artifacts.picoctf.net/c/84/Financial_Report_for_ABC_Labs.pdf' download>report</a> has some\ncritical data in it, some of which have been redacted correctly, while some\nwere not. Can you find an important key that was not redacted properly?</p>",
+      "hints": [
+        "<p>How can you be sure of the redaction?</p>"
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 286,
+    "name": "Packets Primer",
+    "author": "LT 'syreal' Jones",
+    "difficulty": 2,
+    "event": {
+      "id": 70,
+      "name": "picoCTF 2022"
+    },
+    "category": {
+      "id": 4,
+      "name": "Forensics"
+    },
+    "tags": [
+      {
+        "id": 12,
+        "name": "pcap"
+      }
+    ],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 220,
+    "positive_rating_count": 195,
+    "users_solved": 21843,
+    "users_solved_during_event": 4125,
+    "event_points": 100,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 294832,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "<p>Download the packet capture file and use packet analysis software to find the\nflag.</p>\n<ul>\n<li><a href='https://artifacts.picoctf.net/c/194/network-dump.flag.pcap' download>Download packet capture</a></li>\n</ul>",
+      "hints": [
+        "<p>Wireshark, if you can install and use it, is probably the most beginner\nfriendly packet analysis software product.</p>"
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 285,
+    "name": "Operation Orchid",
+    "author": "LT 'syreal' Jones",
+    "difficulty": 2,
+    "event": {
+      "id": 70,
+      "name": "picoCTF 2022"
+    },
+    "category": {
+      "id": 4,
+      "name": "Forensics"
+    },
+    "tags": [
+      {
+        "id": 27,
+        "name": "disk"
+      }
+    ],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 163,
+    "positive_rating_count": 150,
+    "users_solved": 6247,
+    "users_solved_during_event": 1308,
+    "event_points": 400,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 294828,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "<p>Download this disk image and find the flag.</p>\n<p>Note: if you are using the webshell, download and extract the disk image into\n<code>/tmp</code> not your home directory.</p>\n<ul>\n<li><a href='https://artifacts.picoctf.net/c/213/disk.flag.img.gz' download>Download compressed disk image</a></li>\n</ul>",
+      "hints": [],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 284,
+    "name": "Operation Oni",
+    "author": "LT 'syreal' Jones",
+    "difficulty": 2,
+    "event": {
+      "id": 70,
+      "name": "picoCTF 2022"
+    },
+    "category": {
+      "id": 4,
+      "name": "Forensics"
+    },
+    "tags": [
+      {
+        "id": 27,
+        "name": "disk"
+      }
+    ],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 116,
+    "positive_rating_count": 109,
+    "users_solved": 3796,
+    "users_solved_during_event": 1425,
+    "event_points": 300,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "Note: you must launch a challenge instance in order to view your disk image download link.",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 294825,
+      "status": "NOT_RUNNING",
+      "expires_in": null,
+      "description": "<p>Download this disk image, find the key and log into the remote machine.</p>\n<p>Note: if you are using the webshell, download and extract the disk image into\n<code>/tmp</code> not your home directory.</p>",
+      "hints": [],
+      "on_demand": true,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 279,
+    "name": "Lookey here",
+    "author": "LT 'syreal' Jones / Mubarak Mikail",
+    "difficulty": 2,
+    "event": {
+      "id": 70,
+      "name": "picoCTF 2022"
+    },
+    "category": {
+      "id": 4,
+      "name": "Forensics"
+    },
+    "tags": [
+      {
+        "id": 21,
+        "name": "grep"
+      }
+    ],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 299,
+    "positive_rating_count": 254,
+    "users_solved": 24195,
+    "users_solved_during_event": 5114,
+    "event_points": 100,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 294818,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "<p>Attackers have hidden information in a very large mass of data in the past,\nmaybe they are still doing it.</p>\n<p>Download the data <a href='https://artifacts.picoctf.net/c/124/anthem.flag.txt' download>here</a>.</p>",
+      "hints": [
+        "<p>Download the file and search for the flag based on the known prefix.</p>"
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 268,
+    "name": "File types",
+    "author": "Geoffrey Njogu",
+    "difficulty": 2,
+    "event": {
+      "id": 70,
+      "name": "picoCTF 2022"
+    },
+    "category": {
+      "id": 4,
+      "name": "Forensics"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 1129,
+    "positive_rating_count": 291,
+    "users_solved": 9552,
+    "users_solved_during_event": 2110,
+    "event_points": 100,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 294786,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "<p>This file was found among some files marked confidential but my pdf reader\ncannot read it, maybe yours can.</p>\n<p>You can download the file from <a href='https://artifacts.picoctf.net/c/80/Flag.pdf' download>here</a>.</p>",
+      "hints": [
+        "<p>Remember that some file types can contain and nest other files</p>"
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 265,
+    "name": "Enhance!",
+    "author": "LT 'syreal' Jones",
+    "difficulty": 2,
+    "event": {
+      "id": 70,
+      "name": "picoCTF 2022"
+    },
+    "category": {
+      "id": 4,
+      "name": "Forensics"
+    },
+    "tags": [
+      {
+        "id": 13,
+        "name": "svg"
+      }
+    ],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 429,
+    "positive_rating_count": 357,
+    "users_solved": 27517,
+    "users_solved_during_event": 4921,
+    "event_points": 100,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 294775,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "<p>Download this image file and find the flag.</p>\n<ul>\n<li><a href='https://artifacts.picoctf.net/c/100/drawing.flag.svg' download>Download image file</a></li>\n</ul>",
+      "hints": [],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 264,
+    "name": "Eavesdrop",
+    "author": "LT 'syreal' Jones",
+    "difficulty": 2,
+    "event": {
+      "id": 70,
+      "name": "picoCTF 2022"
+    },
+    "category": {
+      "id": 4,
+      "name": "Forensics"
+    },
+    "tags": [
+      {
+        "id": 12,
+        "name": "pcap"
+      }
+    ],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 182,
+    "positive_rating_count": 166,
+    "users_solved": 5978,
+    "users_solved_during_event": 1775,
+    "event_points": 300,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 294774,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "<p>Download this packet capture and find the flag.</p>\n<ul>\n<li><a href='https://artifacts.picoctf.net/c/135/capture.flag.pcap' download>Download packet capture</a></li>\n</ul>",
+      "hints": [
+        "<p>All we know is that this packet capture includes a chat conversation and a\nfile transfer.</p>"
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 237,
+    "name": "WPA-ing Out",
+    "author": "MistressVampy",
+    "difficulty": 2,
+    "event": null,
+    "category": {
+      "id": 4,
+      "name": "Forensics"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 83,
+    "positive_rating_count": 76,
+    "users_solved": 4053,
+    "users_solved_during_event": null,
+    "event_points": 200,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 293702,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "<p>I thought that my password was super-secret, but it turns out that passwords passed over the AIR can be CRACKED, especially if I used the same wireless network password as one in the rockyou.txt credential dump.</p>\n<p>Use this '<a href='https://artifacts.picoctf.net/c/41/wpa-ing_out.pcap' download>pcap file</a>' and the rockyou wordlist. The flag should be entered in the picoCTF{XXXXXX} format.</p>",
+      "hints": [
+        "<p>Finding the IEEE 802.11 wireless protocol used in the wireless traffic packet capture is easier with wireshark, the JAWS of the network.</p>",
+        "<p>Aircrack-ng can make a pcap file catch big air...and crack a password.</p>"
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 205,
+    "name": "advanced-potion-making",
+    "author": "bigC",
+    "difficulty": 2,
+    "event": {
+      "id": 67,
+      "name": "picoMini by redpwn"
+    },
+    "category": {
+      "id": 4,
+      "name": "Forensics"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 178,
+    "positive_rating_count": 113,
+    "users_solved": 7429,
+    "users_solved_during_event": 67,
+    "event_points": 100,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 1261,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "<p>Ron just found his own copy of advanced potion making, but its been corrupted by some kind of spell. Help him recover it!  </p>",
+      "hints": [],
+      "on_demand": false,
+      "endpoints": [
+        {
+          "endpoint": "<a href=\"https://artifacts.picoctf.net/picoMini+by+redpwn/Forensics/advanced-potion-making/advanced-potion-making\">advanced-potion-making</a>",
+          "label": "Download advanced-potion-making"
+        }
+      ]
+    }
+  },
+  {
+    "id": 139,
+    "name": "Milkslap",
+    "author": "James Lynch",
+    "difficulty": 2,
+    "event": {
+      "id": 34,
+      "name": "picoCTF 2021"
+    },
+    "category": {
+      "id": 4,
+      "name": "Forensics"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 148,
+    "positive_rating_count": 74,
+    "users_solved": 5694,
+    "users_solved_during_event": 410,
+    "event_points": 200,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 703,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "<a href=\"http://mercury.picoctf.net:16940/\">🥛</a>",
+      "hints": [
+        "Look at the problem category"
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 137,
+    "name": "Disk, disk, sleuth! II",
+    "author": "syreal",
+    "difficulty": 2,
+    "event": {
+      "id": 34,
+      "name": "picoCTF 2021"
+    },
+    "category": {
+      "id": 4,
+      "name": "Forensics"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 195,
+    "positive_rating_count": 172,
+    "users_solved": 10859,
+    "users_solved_during_event": 777,
+    "event_points": 130,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 689,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "All we know is the file with the flag is named `down-at-the-bottom.txt`... Disk image: <a href='//mercury.picoctf.net/static/b369e0ba3b6ffd2be8164cd3c99c294b/dds2-alpine.flag.img.gz'>dds2-alpine.flag.img.gz</a>",
+      "hints": [
+        "The sleuthkit has some great tools for this challenge as well.",
+        "Sleuthkit docs here are so helpful: <a href='http://wiki.sleuthkit.org/index.php?title=TSK_Tool_Overview'>TSK Tool Overview</a>",
+        "This disk can also be booted with qemu!"
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 130,
+    "name": "MacroHard WeakEdge",
+    "author": "madStacks",
+    "difficulty": 2,
+    "event": {
+      "id": 34,
+      "name": "picoCTF 2021"
+    },
+    "category": {
+      "id": 4,
+      "name": "Forensics"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 336,
+    "positive_rating_count": 283,
+    "users_solved": 18352,
+    "users_solved_during_event": 688,
+    "event_points": 60,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 1225,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "I've hidden a flag in this file. Can you find it? <a href='//mercury.picoctf.net/static/2e739f9e0dc9f4c1556ea6b033c3ec8e/Forensics is fun.pptm'>Forensics is fun.pptm</a>",
+      "hints": [],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 129,
+    "name": "Matryoshka doll",
+    "author": "Susie/Pandu",
+    "difficulty": 2,
+    "event": {
+      "id": 34,
+      "name": "picoCTF 2021"
+    },
+    "category": {
+      "id": 4,
+      "name": "Forensics"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 1386,
+    "positive_rating_count": 1311,
+    "users_solved": 47059,
+    "users_solved_during_event": 1943,
+    "event_points": 30,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 638,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "Matryoshka dolls are a set of wooden dolls of decreasing size placed one inside another. What's the final one? Image: <a href='//mercury.picoctf.net/static/f6cc2560a70b1ea811c151accba5390f/dolls.jpg'>this</a>",
+      "hints": [
+        "Wait, you can hide files inside files? But how do you find them?",
+        "Make sure to submit the flag as picoCTF{XXXXX}"
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 115,
+    "name": "Wireshark doo dooo do doo...",
+    "author": "Dylan",
+    "difficulty": 2,
+    "event": {
+      "id": 34,
+      "name": "picoCTF 2021"
+    },
+    "category": {
+      "id": 4,
+      "name": "Forensics"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 581,
+    "positive_rating_count": 497,
+    "users_solved": 33231,
+    "users_solved_during_event": 1508,
+    "event_points": 50,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 540,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "Can you find the flag? <a href='//mercury.picoctf.net/static/b44842413a0834f4a3619e5f5e629d05/shark1.pcapng'>shark1.pcapng</a>.",
+      "hints": [],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 113,
+    "name": "Disk, disk, sleuth!",
+    "author": "syreal",
+    "difficulty": 2,
+    "event": {
+      "id": 34,
+      "name": "picoCTF 2021"
+    },
+    "category": {
+      "id": 4,
+      "name": "Forensics"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 166,
+    "positive_rating_count": 146,
+    "users_solved": 8947,
+    "users_solved_during_event": 1013,
+    "event_points": 110,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 524,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "Use `srch_strings` from the sleuthkit and some terminal-fu to find a flag in this disk image: <a href='//mercury.picoctf.net/static/ac394d24f88e51a09cc909687cf6d853/dds1-alpine.flag.img.gz'>dds1-alpine.flag.img.gz</a>",
+      "hints": [
+        "Have you ever used `file` to determine what a file was?",
+        "Relevant terminal-fu in picoGym: https://play.picoctf.org/practice/challenge/85",
+        "Mastering this terminal-fu would enable you to find the flag in a single command: https://play.picoctf.org/practice/challenge/48",
+        "Using your own computer, you could use qemu to boot from this disk!"
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 112,
+    "name": "tunn3l v1s10n",
+    "author": "Danny",
+    "difficulty": 2,
+    "event": {
+      "id": 34,
+      "name": "picoCTF 2021"
+    },
+    "category": {
+      "id": 4,
+      "name": "Forensics"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 803,
+    "positive_rating_count": 452,
+    "users_solved": 20192,
+    "users_solved_during_event": 304,
+    "event_points": 40,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 514,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "We found this <a href='//mercury.picoctf.net/static/d0129ad98ba9258ab59e7700a1b18c14/tunn3l_v1s10n'>file</a>. Recover the flag.",
+      "hints": [
+        "Weird that it won't display right..."
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 110,
+    "name": "Wireshark twoo twooo two twoo...",
+    "author": "Dylan",
+    "difficulty": 2,
+    "event": {
+      "id": 34,
+      "name": "picoCTF 2021"
+    },
+    "category": {
+      "id": 4,
+      "name": "Forensics"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 352,
+    "positive_rating_count": 159,
+    "users_solved": 10203,
+    "users_solved_during_event": 392,
+    "event_points": 100,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 504,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "Can you find the flag? <a href='//mercury.picoctf.net/static/75300327ce3b9f252e9b8911997c8b0a/shark2.pcapng'>shark2.pcapng</a>.",
+      "hints": [
+        "Did you really find _the_ flag?",
+        "Look for traffic that seems suspicious."
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 103,
+    "name": "Trivial Flag Transfer Protocol",
+    "author": "Danny",
+    "difficulty": 2,
+    "event": {
+      "id": 34,
+      "name": "picoCTF 2021"
+    },
+    "category": {
+      "id": 4,
+      "name": "Forensics"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 362,
+    "positive_rating_count": 322,
+    "users_solved": 12600,
+    "users_solved_during_event": 465,
+    "event_points": 90,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 454,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "Figure out how they moved the <a href='//mercury.picoctf.net/static/e4836d9bcc740d457f4331d68129a0bc/tftp.pcapng'>flag</a>.",
+      "hints": [
+        "What are some other ways to hide data?"
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 87,
+    "name": "Pitter, Patter, Platters",
+    "author": "syreal",
+    "difficulty": 2,
+    "event": {
+      "id": 3,
+      "name": "picoCTF 2020 Mini-Competition"
+    },
+    "category": {
+      "id": 4,
+      "name": "Forensics"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 193,
+    "positive_rating_count": 140,
+    "users_solved": 5007,
+    "users_solved_during_event": 314,
+    "event_points": 1,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 282,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "'Suspicious' is written all over this disk image. Download <a href='//jupiter.challenges.picoctf.org/static/47f3cb40aed42fbd74fd644e11d08007/suspicious.dd.sda1'>suspicious.dd.sda1</a>",
+      "hints": [
+        "It may help to analyze this image in multiple ways: as a blob, and as an actual mounted disk.",
+        "Have you heard of slack space? There is a certain set of tools that now come with Ubuntu that I'd recommend for examining that disk space phenomenon..."
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 84,
+    "name": "shark on wire 2",
+    "author": "Danny",
+    "difficulty": 2,
+    "event": {
+      "id": 1,
+      "name": "picoCTF 2019"
+    },
+    "category": {
+      "id": 4,
+      "name": "Forensics"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 114,
+    "positive_rating_count": 48,
+    "users_solved": 4575,
+    "users_solved_during_event": 0,
+    "event_points": 300,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 202,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "We found this <a href='//jupiter.challenges.picoctf.org/static/b506393b6f9d53b94011df000c534759/capture.pcap'>packet capture</a>. Recover the flag that was pilfered from the network.",
+      "hints": [],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 81,
+    "name": "like1000",
+    "author": "Danny",
+    "difficulty": 2,
+    "event": {
+      "id": 1,
+      "name": "picoCTF 2019"
+    },
+    "category": {
+      "id": 4,
+      "name": "Forensics"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 141,
+    "positive_rating_count": 132,
+    "users_solved": 6479,
+    "users_solved_during_event": 0,
+    "event_points": 250,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 195,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "This <a href='//jupiter.challenges.picoctf.org/static/52084b5ad360b25f9af83933114324e0/1000.tar'>.tar file</a> got tarred a lot.",
+      "hints": [
+        "Try and script this, it'll save you a lot of time"
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 74,
+    "name": "What Lies Within",
+    "author": "Julio/Danny",
+    "difficulty": 2,
+    "event": {
+      "id": 1,
+      "name": "picoCTF 2019"
+    },
+    "category": {
+      "id": 4,
+      "name": "Forensics"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 274,
+    "positive_rating_count": 213,
+    "users_solved": 21097,
+    "users_solved_during_event": 0,
+    "event_points": 150,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 178,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "There's something in the <a href='//jupiter.challenges.picoctf.org/static/011955b303f293d60c8116e6a4c5c84f/buildings.png'>building</a>. Can you retrieve the flag?",
+      "hints": [
+        "There is data encoded somewhere... there might be an online decoder."
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 53,
+    "name": "c0rrupt",
+    "author": "Danny",
+    "difficulty": 2,
+    "event": {
+      "id": 1,
+      "name": "picoCTF 2019"
+    },
+    "category": {
+      "id": 4,
+      "name": "Forensics"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 116,
+    "positive_rating_count": 85,
+    "users_solved": 4750,
+    "users_solved_during_event": 0,
+    "event_points": 250,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 131,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "We found this <a href='//jupiter.challenges.picoctf.org/static/ab30fcb7d47364b4190a7d3d40edb551/mystery'>file</a>. Recover the flag.",
+      "hints": [
+        "Try fixing the file header"
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 52,
+    "name": "extensions",
+    "author": "Sanjay C/Danny",
+    "difficulty": 2,
+    "event": {
+      "id": 1,
+      "name": "picoCTF 2019"
+    },
+    "category": {
+      "id": 4,
+      "name": "Forensics"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 387,
+    "positive_rating_count": 349,
+    "users_solved": 27860,
+    "users_solved_during_event": 0,
+    "event_points": 150,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 130,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "This is a really weird text file <a href='//jupiter.challenges.picoctf.org/static/e7e5d188621ee705ceeb0452525412ef/flag.txt'>TXT</a>? Can you find the flag?",
+      "hints": [
+        "How do operating systems know what kind of file it is? (It's not just the ending!",
+        "Make sure to submit the flag as picoCTF{XXXXX}"
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 51,
+    "name": "WhitePages",
+    "author": "John Hammond",
+    "difficulty": 2,
+    "event": {
+      "id": 1,
+      "name": "picoCTF 2019"
+    },
+    "category": {
+      "id": 4,
+      "name": "Forensics"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 171,
+    "positive_rating_count": 156,
+    "users_solved": 5463,
+    "users_solved_during_event": 0,
+    "event_points": 250,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 127,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "I stopped using YellowPages and moved onto WhitePages... but <a href='//jupiter.challenges.picoctf.org/static/95be9526e162185c741259a75dffa0ab/whitepages.txt'>the page they gave me</a> is all blank!",
+      "hints": [],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 30,
+    "name": "shark on wire 1",
+    "author": "Danny",
+    "difficulty": 2,
+    "event": {
+      "id": 1,
+      "name": "picoCTF 2019"
+    },
+    "category": {
+      "id": 4,
+      "name": "Forensics"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 265,
+    "positive_rating_count": 234,
+    "users_solved": 19388,
+    "users_solved_during_event": 0,
+    "event_points": 150,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 76,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "We found this <a href='//jupiter.challenges.picoctf.org/static/483e50268fe7e015c49caf51a69063d0/capture.pcap'>packet capture</a>. Recover the flag.",
+      "hints": [
+        "Try using a tool like Wireshark",
+        "What are streams?"
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 26,
+    "name": "m00nwalk",
+    "author": "Joon",
+    "difficulty": 2,
+    "event": {
+      "id": 1,
+      "name": "picoCTF 2019"
+    },
+    "category": {
+      "id": 4,
+      "name": "Forensics"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 106,
+    "positive_rating_count": 91,
+    "users_solved": 5118,
+    "users_solved_during_event": 0,
+    "event_points": 250,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 66,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "Decode this <a href='//jupiter.challenges.picoctf.org/static/14393e18d98fedbaedbc28896d7ef31a/message.wav'>message</a> from the moon.",
+      "hints": [
+        "How did pictures from the moon landing get sent back to Earth?",
+        "What is the CMU mascot?, that might help select a RX option"
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 19,
+    "name": "So Meta",
+    "author": "Kevin Cooper/Danny",
+    "difficulty": 2,
+    "event": {
+      "id": 1,
+      "name": "picoCTF 2019"
+    },
+    "category": {
+      "id": 4,
+      "name": "Forensics"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 297,
+    "positive_rating_count": 260,
+    "users_solved": 27850,
+    "users_solved_during_event": 0,
+    "event_points": 150,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 49,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "Find the flag in this <a href='//jupiter.challenges.picoctf.org/static/89b371a46702a31aa9931a2a2b12f8bf/pico_img.png'>picture</a>.",
+      "hints": [
+        "What does meta mean in the context of files?",
+        "Ever heard of metadata?"
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 383,
+    "name": "UnforgottenBits",
+    "author": "LT 'syreal' Jones",
+    "difficulty": 3,
+    "event": {
+      "id": 72,
+      "name": "picoCTF 2023"
+    },
+    "category": {
+      "id": 4,
+      "name": "Forensics"
+    },
+    "tags": [
+      {
+        "id": 27,
+        "name": "disk"
+      }
+    ],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 37,
+    "positive_rating_count": 25,
+    "users_solved": 353,
+    "users_solved_during_event": 77,
+    "event_points": 500,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 295168,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "<p>Download this disk image and find the flag.</p>\n<p>Note: if you are using the webshell, download and extract the disk image into\n<code>/tmp</code> not your home directory.</p>\n<ul>\n<li><a href='https://artifacts.picoctf.net/c/486/disk.flag.img.gz' download>Download compressed disk image</a></li>\n</ul>",
+      "hints": [
+        "<p>There are no hints here, but there are plenty on the disk!</p>"
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 354,
+    "name": "Invisible WORDs",
+    "author": "LT 'syreal' Jones",
+    "difficulty": 3,
+    "event": {
+      "id": 72,
+      "name": "picoCTF 2023"
+    },
+    "category": {
+      "id": 4,
+      "name": "Forensics"
+    },
+    "tags": [
+      {
+        "id": 32,
+        "name": "steganography"
+      }
+    ],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 55,
+    "positive_rating_count": 29,
+    "users_solved": 762,
+    "users_solved_during_event": 172,
+    "event_points": 300,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 294993,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "<p>Do you recognize this cyberpunk baddie? We don't either. AI art generators are\nall the rage nowadays, which makes it hard to get a reliable known cover image.\nBut we know you'll figure it out. The suspect is believed to be trafficking in\nclassics. That probably won't help crack the stego, but we hope it will give\nmotivation to bring this criminal to justice!</p>\n<p>Download the image <a href='https://artifacts.picoctf.net/c/399/output.bmp' download>here</a></p>",
+      "hints": [
+        "<p>Something doesn't quite add up with this image...</p>",
+        "<p>How's the image quality?</p>"
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 298,
+    "name": "SideChannel",
+    "author": "Anish Singhani",
+    "difficulty": 3,
+    "event": {
+      "id": 70,
+      "name": "picoCTF 2022"
+    },
+    "category": {
+      "id": 4,
+      "name": "Forensics"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 160,
+    "positive_rating_count": 154,
+    "users_solved": 2458,
+    "users_solved_during_event": 964,
+    "event_points": 400,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 296108,
+      "status": "NOT_RUNNING",
+      "expires_in": null,
+      "description": "<p>There's something fishy about this PIN-code checker, can you figure out the PIN and get the flag?</p>\n<p>Download the PIN checker program here <a href='https://artifacts.picoctf.net/c/74/pin_checker' download>pin_checker</a></p>",
+      "hints": [
+        "<p>Read about &quot;timing-based side-channel attacks.&quot;</p>",
+        "<p>Attempting to reverse-engineer or exploit the binary won't help you, you can figure out the PIN just by interacting with it and measuring certain properties about it.</p>",
+        "<p>Don't run your attacks against the master server, it is secured against them. The PIN code you get from the <code>pin_checker</code> binary is the same as the one for the master server.</p>"
+      ],
+      "on_demand": true,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 206,
+    "name": "scrambled-bytes",
+    "author": "kfb",
+    "difficulty": 3,
+    "event": {
+      "id": 67,
+      "name": "picoMini by redpwn"
+    },
+    "category": {
+      "id": 4,
+      "name": "Forensics"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 53,
+    "positive_rating_count": 33,
+    "users_solved": 1031,
+    "users_solved_during_event": 24,
+    "event_points": 200,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 1262,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "<p>I sent my secret flag over the wires, but the bytes got all mixed up!</p>",
+      "hints": [],
+      "on_demand": false,
+      "endpoints": [
+        {
+          "endpoint": "<a href=\"https://artifacts.picoctf.net/picoMini+by+redpwn/Forensics/scrambled-bytes/capture.pcapng\">capture.pcapng</a>",
+          "label": "Download capture.pcapng"
+        },
+        {
+          "endpoint": "<a href=\"https://artifacts.picoctf.net/picoMini+by+redpwn/Forensics/scrambled-bytes/send.py\">send.py</a>",
+          "label": "Download send.py"
+        }
+      ]
+    }
+  },
+  {
+    "id": 141,
+    "name": "Very very very Hidden",
+    "author": "Sara",
+    "difficulty": 3,
+    "event": {
+      "id": 34,
+      "name": "picoCTF 2021"
+    },
+    "category": {
+      "id": 4,
+      "name": "Forensics"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 41,
+    "positive_rating_count": 23,
+    "users_solved": 1765,
+    "users_solved_during_event": 85,
+    "event_points": 300,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 717,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "Finding a flag may take many steps, but if you look diligently it won't be long until you find the light at the end of the tunnel. Just remember, sometimes you find the hidden treasure, but sometimes you find only a hidden map to the treasure. <a href='//mercury.picoctf.net/static/a31839d2f338802e72855b13e3dcb798/try_me.pcap'>try_me.pcap</a>",
+      "hints": [
+        "I believe you found something, but are there any more subtle hints as random queries?",
+        "The flag will only be found once you reverse the hidden message."
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 117,
+    "name": "Surfing the Waves",
+    "author": "William Batista",
+    "difficulty": 3,
+    "event": {
+      "id": 34,
+      "name": "picoCTF 2021"
+    },
+    "category": {
+      "id": 4,
+      "name": "Forensics"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 40,
+    "positive_rating_count": 17,
+    "users_solved": 1169,
+    "users_solved_during_event": 68,
+    "event_points": 150,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 551,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "While you're going through the FBI's servers, you stumble across their incredible taste in music. One <a href='//mercury.picoctf.net/static/2a75da7f60d50bbaca9f9d3f1dec85ae/main.wav'>main.wav</a> you found is particularly interesting, see if you can find the flag!",
+      "hints": [
+        "Music is cool, but what other kinds of waves are there?",
+        "Look deep below the surface"
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 83,
+    "name": "Investigative Reversing 3",
+    "author": "Santiago C/Danny T",
+    "difficulty": 3,
+    "event": {
+      "id": 1,
+      "name": "picoCTF 2019"
+    },
+    "category": {
+      "id": 4,
+      "name": "Forensics"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 14,
+    "positive_rating_count": 13,
+    "users_solved": 493,
+    "users_solved_during_event": 0,
+    "event_points": 400,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 201,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "We have recovered a <a href='//jupiter.challenges.picoctf.org/static/1e1c121103462e6c4b11ca0cb888d103/mystery'>binary</a> and an <a href='//jupiter.challenges.picoctf.org/static/1e1c121103462e6c4b11ca0cb888d103/encoded.bmp'>image</a> See what you can make of it. There should be a flag somewhere.",
+      "hints": [
+        "You will want to reverse how the LSB encoding works on this problem"
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 70,
+    "name": "Investigative Reversing 0",
+    "author": "Danny Tunitis",
+    "difficulty": 3,
+    "event": {
+      "id": 1,
+      "name": "picoCTF 2019"
+    },
+    "category": {
+      "id": 4,
+      "name": "Forensics"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 46,
+    "positive_rating_count": 39,
+    "users_solved": 1629,
+    "users_solved_during_event": 0,
+    "event_points": 300,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 167,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "We have recovered a <a href='//jupiter.challenges.picoctf.org/static/6e007dc305ebb3d94c2ab361ee0127a6/mystery'>binary</a> and an <a href='//jupiter.challenges.picoctf.org/static/6e007dc305ebb3d94c2ab361ee0127a6/mystery.png'>image</a>. See what you can make of it. There should be a flag somewhere.",
+      "hints": [
+        "Try using some forensics skills on the image",
+        "This problem requires both forensics and reversing skills",
+        "A hex editor may be helpful"
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 56,
+    "name": "B1g_Mac",
+    "author": "Santiago C",
+    "difficulty": 3,
+    "event": {
+      "id": 1,
+      "name": "picoCTF 2019"
+    },
+    "category": {
+      "id": 4,
+      "name": "Forensics"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 27,
+    "positive_rating_count": 22,
+    "users_solved": 2615,
+    "users_solved_during_event": 0,
+    "event_points": 500,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 138,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "Here's a <a href='//jupiter.challenges.picoctf.org/static/2b1cf2a4a463b1a3e031d2fcef3fa54d/b1g_mac.zip'>zip file</a>.",
+      "hints": [],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 54,
+    "name": "Investigative Reversing 4",
+    "author": "Santiago C/Danny T",
+    "difficulty": 3,
+    "event": {
+      "id": 1,
+      "name": "picoCTF 2019"
+    },
+    "category": {
+      "id": 4,
+      "name": "Forensics"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 9,
+    "positive_rating_count": 8,
+    "users_solved": 406,
+    "users_solved_during_event": 0,
+    "event_points": 400,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 134,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "We have recovered a <a href='//jupiter.challenges.picoctf.org/static/f2e725f16989cb0160ed81c0254272cf/mystery'>binary</a> and 5 images: <a href='//jupiter.challenges.picoctf.org/static/f2e725f16989cb0160ed81c0254272cf/Item01_cp.bmp'>image01</a>, <a href='//jupiter.challenges.picoctf.org/static/f2e725f16989cb0160ed81c0254272cf/Item02_cp.bmp'>image02</a>, <a href='//jupiter.challenges.picoctf.org/static/f2e725f16989cb0160ed81c0254272cf/Item03_cp.bmp'>image03</a>, <a href='//jupiter.challenges.picoctf.org/static/f2e725f16989cb0160ed81c0254272cf/Item04_cp.bmp'>image04</a>, <a href='//jupiter.challenges.picoctf.org/static/f2e725f16989cb0160ed81c0254272cf/Item05_cp.bmp'>image05</a>. See what you can make of it. There should be a flag somewhere.",
+      "hints": [],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 47,
+    "name": "investigation_encoded_1",
+    "author": "Santiago C",
+    "difficulty": 3,
+    "event": {
+      "id": 1,
+      "name": "picoCTF 2019"
+    },
+    "category": {
+      "id": 4,
+      "name": "Forensics"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 10,
+    "positive_rating_count": 7,
+    "users_solved": 168,
+    "users_solved_during_event": 0,
+    "event_points": 450,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 117,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "We have recovered a <a href='//jupiter.challenges.picoctf.org/static/e3904a8bf9fc321ffbe9360271067ecd/mystery'>binary</a> and 1 file: <a href='//jupiter.challenges.picoctf.org/static/e3904a8bf9fc321ffbe9360271067ecd/output'>image01</a>. See what you can make of it. NOTE: The flag is not in the normal picoCTF{XXX} format.",
+      "hints": [],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 42,
+    "name": "WebNet1",
+    "author": "Jason",
+    "difficulty": 3,
+    "event": {
+      "id": 1,
+      "name": "picoCTF 2019"
+    },
+    "category": {
+      "id": 4,
+      "name": "Forensics"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 44,
+    "positive_rating_count": 41,
+    "users_solved": 3678,
+    "users_solved_during_event": 0,
+    "event_points": 450,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 104,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "We found this <a href='//jupiter.challenges.picoctf.org/static/fbf98e695555a2a48fe42c9a245de376/capture.pcap'>packet capture</a> and <a href='//jupiter.challenges.picoctf.org/static/fbf98e695555a2a48fe42c9a245de376/picopico.key'>key</a>. Recover the flag.",
+      "hints": [
+        "Try using a tool like Wireshark.",
+        "How can you decrypt the TLS stream?"
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 36,
+    "name": "investigation_encoded_2",
+    "author": "Santiago C",
+    "difficulty": 3,
+    "event": {
+      "id": 1,
+      "name": "picoCTF 2019"
+    },
+    "category": {
+      "id": 4,
+      "name": "Forensics"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 9,
+    "positive_rating_count": 8,
+    "users_solved": 145,
+    "users_solved_during_event": 0,
+    "event_points": 500,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 89,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "We have recovered a <a href='//jupiter.challenges.picoctf.org/static/c09444bcd3737284f3c046e700f2b7de/mystery'>binary</a> and 1 file: <a href='//jupiter.challenges.picoctf.org/static/c09444bcd3737284f3c046e700f2b7de/output'>image01</a>. See what you can make of it. NOTE: The flag is not in the normal picoCTF{XXX} format.",
+      "hints": [
+        "Only use lower case letters and numbers"
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 32,
+    "name": "WebNet0",
+    "author": "Jason",
+    "difficulty": 3,
+    "event": {
+      "id": 1,
+      "name": "picoCTF 2019"
+    },
+    "category": {
+      "id": 4,
+      "name": "Forensics"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 66,
+    "positive_rating_count": 61,
+    "users_solved": 4257,
+    "users_solved_during_event": 0,
+    "event_points": 350,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 78,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "We found this <a href='//jupiter.challenges.picoctf.org/static/0c84d3636dd088d9fe4efd5d0d869a06/capture.pcap'>packet capture</a> and <a href='//jupiter.challenges.picoctf.org/static/0c84d3636dd088d9fe4efd5d0d869a06/picopico.key'>key</a>. Recover the flag.",
+      "hints": [
+        "Try using a tool like Wireshark.",
+        "How can you decrypt the TLS stream?"
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 28,
+    "name": "m00nwalk2",
+    "author": "Joon",
+    "difficulty": 3,
+    "event": {
+      "id": 1,
+      "name": "picoCTF 2019"
+    },
+    "category": {
+      "id": 4,
+      "name": "Forensics"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 50,
+    "positive_rating_count": 45,
+    "users_solved": 2607,
+    "users_solved_during_event": 0,
+    "event_points": 300,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 71,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "Revisit the last transmission. We think this <a href='//jupiter.challenges.picoctf.org/static/599404f0bf7426a5a5c2deb538860cda/message.wav'>transmission</a> contains a hidden message. There are also some clues <a href='//jupiter.challenges.picoctf.org/static/599404f0bf7426a5a5c2deb538860cda/clue1.wav'>clue 1</a>, <a href='//jupiter.challenges.picoctf.org/static/599404f0bf7426a5a5c2deb538860cda/clue2.wav'>clue 2</a>, <a href='//jupiter.challenges.picoctf.org/static/599404f0bf7426a5a5c2deb538860cda/clue3.wav'>clue 3</a>.",
+      "hints": [
+        "Use the clues to extract the another flag from the .wav file"
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 27,
+    "name": "Investigative Reversing 1",
+    "author": "Danny Tunitis",
+    "difficulty": 3,
+    "event": {
+      "id": 1,
+      "name": "picoCTF 2019"
+    },
+    "category": {
+      "id": 4,
+      "name": "Forensics"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 26,
+    "positive_rating_count": 24,
+    "users_solved": 927,
+    "users_solved_during_event": 0,
+    "event_points": 350,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 68,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "We have recovered a <a href='//jupiter.challenges.picoctf.org/static/c600f6c1bbe8969aefd6f9da0cbdc01c/mystery'>binary</a> and a few images: <a href='//jupiter.challenges.picoctf.org/static/c600f6c1bbe8969aefd6f9da0cbdc01c/mystery.png'>image</a>, <a href='//jupiter.challenges.picoctf.org/static/c600f6c1bbe8969aefd6f9da0cbdc01c/mystery2.png'>image2</a>, <a href='//jupiter.challenges.picoctf.org/static/c600f6c1bbe8969aefd6f9da0cbdc01c/mystery3.png'>image3</a>. See what you can make of it. There should be a flag somewhere.",
+      "hints": [
+        "Try using some forensics skills on the image",
+        "This problem requires both forensics and reversing skills",
+        "A hex editor may be helpful"
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 13,
+    "name": "Investigative Reversing 2",
+    "author": "Santiago C/Danny T",
+    "difficulty": 3,
+    "event": {
+      "id": 1,
+      "name": "picoCTF 2019"
+    },
+    "category": {
+      "id": 4,
+      "name": "Forensics"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 19,
+    "positive_rating_count": 17,
+    "users_solved": 629,
+    "users_solved_during_event": 0,
+    "event_points": 350,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 34,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "We have recovered a <a href='//jupiter.challenges.picoctf.org/static/1d8e2ff583796340cf3eafbf81bf7b70/mystery'>binary</a> and an <a href='//jupiter.challenges.picoctf.org/static/1d8e2ff583796340cf3eafbf81bf7b70/encoded.bmp'>image</a> See what you can make of it. There should be a flag somewhere.",
+      "hints": [
+        "Try using some forensics skills on the image",
+        "This problem requires both forensics and reversing skills",
+        "What is LSB encoding?"
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  }
+]

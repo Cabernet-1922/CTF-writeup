@@ -1,0 +1,2317 @@
+[
+  {
+    "id": 442,
+    "name": "Binary Search",
+    "author": "Jeffery John",
+    "difficulty": 1,
+    "event": {
+      "id": 73,
+      "name": "picoCTF 2024"
+    },
+    "category": {
+      "id": 5,
+      "name": "General Skills"
+    },
+    "tags": [
+      {
+        "id": 63,
+        "name": "browser_webshell_solvable"
+      },
+      {
+        "id": 76,
+        "name": "ls"
+      },
+      {
+        "id": 2,
+        "name": "shell"
+      }
+    ],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 591,
+    "positive_rating_count": 553,
+    "users_solved": 29542,
+    "users_solved_during_event": 4048,
+    "event_points": 100,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 295552,
+      "status": "NOT_RUNNING",
+      "expires_in": null,
+      "description": "<p>Want to play a game? As you use more of the shell, you might be interested in how they work! Binary search is a classic algorithm used to quickly find an item in a sorted list. Can you find the flag? You'll have 1000 possibilities and only 10 guesses.</p>\n<p>Cyber security often has a huge amount of data to look through - from logs, vulnerability reports, and forensics. Practicing the fundamentals manually might help you in the future when you have to write your own tools!</p>\n<p>You can download the challenge files here:</p>\n<ul>\n<li><a href='https://artifacts.picoctf.net/c_atlas/5/challenge.zip' download>challenge.zip</a></li>\n</ul>",
+      "hints": [
+        "<p>Have you ever played hot or cold? Binary search is a bit like that.</p>",
+        "<p>You have a very limited number of guesses. Try larger jumps between numbers!</p>",
+        "<p>The program will randomly choose a new number each time you connect. You can always try again, but you should start your binary search over from the beginning - try around 500. Can you think of why?</p>"
+      ],
+      "on_demand": true,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 425,
+    "name": "Time Machine",
+    "author": "Jeffery John",
+    "difficulty": 1,
+    "event": {
+      "id": 73,
+      "name": "picoCTF 2024"
+    },
+    "category": {
+      "id": 5,
+      "name": "General Skills"
+    },
+    "tags": [
+      {
+        "id": 63,
+        "name": "browser_webshell_solvable"
+      },
+      {
+        "id": 64,
+        "name": "git"
+      }
+    ],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 370,
+    "positive_rating_count": 343,
+    "users_solved": 27406,
+    "users_solved_during_event": 5596,
+    "event_points": 50,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 296031,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "<p>What was I last working on? I remember writing a note to help me remember...</p>\n<p>You can download the challenge files here:</p>\n<ul>\n<li><a href='https://artifacts.picoctf.net/c_titan/161/challenge.zip' download>challenge.zip</a></li>\n</ul>\n",
+      "hints": [
+        "<p>The <code>cat</code> command will let you read a file, but that won't help you here!</p>",
+        "<p>Read the chapter on Git from the picoPrimer <a href=\"https://primer.picoctf.org/#_git_version_control\">here</a>.</p>",
+        "<p>When committing a file with git, a message can (and should) be included.</p>"
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 424,
+    "name": "Super SSH",
+    "author": "Jeffery John",
+    "difficulty": 1,
+    "event": {
+      "id": 73,
+      "name": "picoCTF 2024"
+    },
+    "category": {
+      "id": 5,
+      "name": "General Skills"
+    },
+    "tags": [
+      {
+        "id": 63,
+        "name": "browser_webshell_solvable"
+      },
+      {
+        "id": 2,
+        "name": "shell"
+      },
+      {
+        "id": 52,
+        "name": "ssh"
+      }
+    ],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 610,
+    "positive_rating_count": 572,
+    "users_solved": 37440,
+    "users_solved_during_event": 7260,
+    "event_points": 25,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 295898,
+      "status": "NOT_RUNNING",
+      "expires_in": null,
+      "description": "<p>Using a Secure Shell (SSH) is going to be pretty important.</p>",
+      "hints": [
+        "<p><a href=\"https://linux.die.net/man/1/ssh\">https://linux.die.net/man/1/ssh</a></p>",
+        "<p>You can try logging in 'as' someone with <code>&lt;user&gt;</code>@titan.picoctf.net</p>",
+        "<p>How could you specify the port?</p>",
+        "<p>Remember, passwords are hidden when typed into the shell</p>"
+      ],
+      "on_demand": true,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 414,
+    "name": "endianness",
+    "author": "Nana Ama Atombo-Sackey",
+    "difficulty": 1,
+    "event": {
+      "id": 73,
+      "name": "picoCTF 2024"
+    },
+    "category": {
+      "id": 5,
+      "name": "General Skills"
+    },
+    "tags": [
+      {
+        "id": 63,
+        "name": "browser_webshell_solvable"
+      }
+    ],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 303,
+    "positive_rating_count": 174,
+    "users_solved": 12509,
+    "users_solved_during_event": 3166,
+    "event_points": 200,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 295735,
+      "status": "NOT_RUNNING",
+      "expires_in": null,
+      "description": "<p>Know of little and big endian?</p>\n<p><a href='https://artifacts.picoctf.net/c_titan/116/flag.c' download>Source</a></p>",
+      "hints": [
+        "<p>You might want to check the ASCII table to first find the hexadecimal representation of characters before finding the endianness.</p>",
+        "<p>Read  more about how endianness <a href=\"https://levelup.gitconnected.com/little-endian-and-big-endian-74ab6441b2a7\"> here</a></p>"
+      ],
+      "on_demand": true,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 411,
+    "name": "Commitment Issues",
+    "author": "Jeffery John",
+    "difficulty": 1,
+    "event": {
+      "id": 73,
+      "name": "picoCTF 2024"
+    },
+    "category": {
+      "id": 5,
+      "name": "General Skills"
+    },
+    "tags": [
+      {
+        "id": 63,
+        "name": "browser_webshell_solvable"
+      },
+      {
+        "id": 64,
+        "name": "git"
+      }
+    ],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 413,
+    "positive_rating_count": 397,
+    "users_solved": 18774,
+    "users_solved_during_event": 5118,
+    "event_points": 50,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 295973,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "<p>I accidentally wrote the flag down. Good thing I deleted it!</p>\n<p>You download the challenge files here:</p>\n<ul>\n<li><a href='https://artifacts.picoctf.net/c_titan/136/challenge.zip' download>challenge.zip</a></li>\n</ul>\n",
+      "hints": [
+        "<p>Version control can help you recover files if you change or lose them!</p>",
+        "<p>Read the chapter on Git from the picoPrimer <a href=\"https://primer.picoctf.org/#_git_version_control\">here</a></p>",
+        "<p>You can 'checkout' commits to see the files inside them</p>"
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 410,
+    "name": "Collaborative Development",
+    "author": "Jeffery John",
+    "difficulty": 1,
+    "event": {
+      "id": 73,
+      "name": "picoCTF 2024"
+    },
+    "category": {
+      "id": 5,
+      "name": "General Skills"
+    },
+    "tags": [
+      {
+        "id": 63,
+        "name": "browser_webshell_solvable"
+      },
+      {
+        "id": 64,
+        "name": "git"
+      }
+    ],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 216,
+    "positive_rating_count": 206,
+    "users_solved": 13587,
+    "users_solved_during_event": 3779,
+    "event_points": 75,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 295968,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "<p>My team has been working very hard on new features for our flag printing program! I wonder how they'll work together?</p>\n<p>You can download the challenge files here:</p>\n<ul>\n<li><a href='https://artifacts.picoctf.net/c_titan/179/challenge.zip' download>challenge.zip</a></li>\n</ul>\n",
+      "hints": [
+        "<p><code>git branch -a</code> will let you see available branches</p>",
+        "<p>How can file 'diffs' be brought to the main branch? Don't forget to <code>git config</code>!</p>",
+        "<p>Merge conflicts can be tricky! Try a text editor like nano, emacs, or vim.</p>"
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 405,
+    "name": "Blame Game",
+    "author": "Jeffery John",
+    "difficulty": 1,
+    "event": {
+      "id": 73,
+      "name": "picoCTF 2024"
+    },
+    "category": {
+      "id": 5,
+      "name": "General Skills"
+    },
+    "tags": [
+      {
+        "id": 63,
+        "name": "browser_webshell_solvable"
+      },
+      {
+        "id": 64,
+        "name": "git"
+      }
+    ],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 214,
+    "positive_rating_count": 193,
+    "users_solved": 15877,
+    "users_solved_during_event": 4570,
+    "event_points": 75,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 295953,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "<p>Someone's commits seems to be preventing the program from working. Who is it?</p>\n<p>You can download the challenge files here:</p>\n<ul>\n<li><a href='https://artifacts.picoctf.net/c_titan/156/challenge.zip' download>challenge.zip</a></li>\n</ul>\n",
+      "hints": [
+        "<p>In collaborative projects, many users can make many changes. How can you see the changes within one file?</p>",
+        "<p>Read the chapter on Git from the picoPrimer <a href=\"https://primer.picoctf.org/#_git_version_control\">here</a>.</p>",
+        "<p>You can use <code>python3 &lt;file&gt;.py</code> to try running the code, though you won't need to for this challenge.</p>"
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 404,
+    "name": "binhexa",
+    "author": "Nana Ama Atombo-Sackey",
+    "difficulty": 1,
+    "event": {
+      "id": 73,
+      "name": "picoCTF 2024"
+    },
+    "category": {
+      "id": 5,
+      "name": "General Skills"
+    },
+    "tags": [
+      {
+        "id": 63,
+        "name": "browser_webshell_solvable"
+      }
+    ],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 208,
+    "positive_rating_count": 165,
+    "users_solved": 13612,
+    "users_solved_during_event": 4516,
+    "event_points": 100,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 295796,
+      "status": "NOT_RUNNING",
+      "expires_in": null,
+      "description": "<p>How well can you perfom basic binary operations?</p>",
+      "hints": [],
+      "on_demand": true,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 371,
+    "name": "repetitions",
+    "author": "Theoneste Byagutangaza",
+    "difficulty": 1,
+    "event": {
+      "id": 72,
+      "name": "picoCTF 2023"
+    },
+    "category": {
+      "id": 5,
+      "name": "General Skills"
+    },
+    "tags": [
+      {
+        "id": 49,
+        "name": "base64"
+      }
+    ],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 453,
+    "positive_rating_count": 404,
+    "users_solved": 26991,
+    "users_solved_during_event": 5397,
+    "event_points": 100,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 295098,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "<p>Can you make sense of this file?</p>\n<p>Download the file <a href='https://artifacts.picoctf.net/c/475/enc_flag' download>here</a>.</p>",
+      "hints": [
+        "<p>Multiple decoding is always good.</p>"
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 322,
+    "name": "Big Zip",
+    "author": "LT 'syreal' Jones",
+    "difficulty": 1,
+    "event": null,
+    "category": {
+      "id": 5,
+      "name": "General Skills"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 593,
+    "positive_rating_count": 574,
+    "users_solved": 38042,
+    "users_solved_during_event": null,
+    "event_points": 100,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 294426,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "<p>Unzip this archive and find the flag.</p>\n<ul>\n<li><a href='https://artifacts.picoctf.net/c/503/big-zip-files.zip' download>Download zip file</a></li>\n</ul>",
+      "hints": [
+        "<p>Can grep be instructed to look at every file in a directory and its\nsubdirectories?</p>"
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 320,
+    "name": "First Find",
+    "author": "LT 'syreal' Jones",
+    "difficulty": 1,
+    "event": null,
+    "category": {
+      "id": 5,
+      "name": "General Skills"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 515,
+    "positive_rating_count": 451,
+    "users_solved": 43899,
+    "users_solved_during_event": null,
+    "event_points": 100,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 294427,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "<p>Unzip this archive and find the file named 'uber-secret.txt'</p>\n<ul>\n<li><a href='https://artifacts.picoctf.net/c/502/files.zip' download>Download zip file</a></li>\n</ul>",
+      "hints": [],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 250,
+    "name": "runme.py",
+    "author": "Sujeet Kumar",
+    "difficulty": 1,
+    "event": {
+      "id": 69,
+      "name": "Beginner picoMini 2022"
+    },
+    "category": {
+      "id": 5,
+      "name": "General Skills"
+    },
+    "tags": [
+      {
+        "id": 1,
+        "name": "Python"
+      }
+    ],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 1080,
+    "positive_rating_count": 375,
+    "users_solved": 48587,
+    "users_solved_during_event": 5579,
+    "event_points": 5,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 294739,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "<p>Run the <code>runme.py</code> script to get the flag. Download the script with your\nbrowser or with <code>wget</code> in the webshell.</p>\n<p><a href='https://artifacts.picoctf.net/c/34/runme.py' download>Download runme.py Python script</a></p>",
+      "hints": [
+        "<p>If you have Python on your computer, you can download the script normally and\nrun it. Otherwise, use the <code>wget</code> command in the webshell.</p>",
+        "<p>To use <code>wget</code> in the webshell, first right click on the download link and\nselect 'Copy Link' or 'Copy Link Address'</p>",
+        "<p>Type everything after the dollar sign in the webshell: <code>$ wget </code>, then\npaste the link after the space after <code>wget</code> and press enter. This will\ndownload the script for you in the webshell so you can run it!</p>",
+        "<p>Finally, to run the script, type everything after the dollar sign and then\npress enter: <code>$ python3 runme.py</code> You should have the flag now!</p>"
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 246,
+    "name": "PW Crack 2",
+    "author": "LT 'syreal' Jones",
+    "difficulty": 1,
+    "event": {
+      "id": 69,
+      "name": "Beginner picoMini 2022"
+    },
+    "category": {
+      "id": 5,
+      "name": "General Skills"
+    },
+    "tags": [
+      {
+        "id": 6,
+        "name": "password_cracking"
+      }
+    ],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 504,
+    "positive_rating_count": 473,
+    "users_solved": 48474,
+    "users_solved_during_event": 3662,
+    "event_points": 35,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 294727,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "<p>Can you crack the password to get the flag?</p>\n<p>Download the password checker <a href='https://artifacts.picoctf.net/c/15/level2.py' download>here</a> and you'll\nneed the encrypted <a href='https://artifacts.picoctf.net/c/15/level2.flag.txt.enc' download>flag</a> in the same directory\ntoo.</p>",
+      "hints": [
+        "<p>Does that encoding look familiar?</p>",
+        "<p>The <code>str_xor</code> function does not need to be reverse engineered for this\nchallenge.</p>"
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 245,
+    "name": "PW Crack 1",
+    "author": "LT 'syreal' Jones",
+    "difficulty": 1,
+    "event": {
+      "id": 69,
+      "name": "Beginner picoMini 2022"
+    },
+    "category": {
+      "id": 5,
+      "name": "General Skills"
+    },
+    "tags": [
+      {
+        "id": 6,
+        "name": "password_cracking"
+      }
+    ],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 552,
+    "positive_rating_count": 485,
+    "users_solved": 51060,
+    "users_solved_during_event": 3983,
+    "event_points": 25,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 294726,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "<p>Can you crack the password to get the flag?</p>\n<p>Download the password checker <a href='https://artifacts.picoctf.net/c/11/level1.py' download>here</a> and you'll\nneed the encrypted <a href='https://artifacts.picoctf.net/c/11/level1.flag.txt.enc' download>flag</a> in the same\ndirectory too.</p>",
+      "hints": [
+        "<p>To view the file in the webshell, do: <code>$ nano level1.py</code></p>",
+        "<p>To exit <code>nano</code>, press Ctrl and x and follow the on-screen prompts.</p>",
+        "<p>The <code>str_xor</code> function does not need to be reverse engineered for this\nchallenge.</p>"
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 243,
+    "name": "HashingJobApp",
+    "author": "LT 'syreal' Jones",
+    "difficulty": 1,
+    "event": {
+      "id": 69,
+      "name": "Beginner picoMini 2022"
+    },
+    "category": {
+      "id": 5,
+      "name": "General Skills"
+    },
+    "tags": [
+      {
+        "id": 1,
+        "name": "Python"
+      },
+      {
+        "id": 5,
+        "name": "hashing"
+      },
+      {
+        "id": 4,
+        "name": "nc"
+      },
+      {
+        "id": 2,
+        "name": "shell"
+      }
+    ],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 476,
+    "positive_rating_count": 381,
+    "users_solved": 44727,
+    "users_solved_during_event": 3694,
+    "event_points": 40,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 296071,
+      "status": "NOT_RUNNING",
+      "expires_in": null,
+      "description": "<p>If you want to hash with the best, beat this test!</p>",
+      "hints": [
+        "<p>You can use a commandline tool or web app to hash text</p>",
+        "<p>Press Ctrl and c on your keyboard to close your connection and return to the\ncommand prompt.</p>"
+      ],
+      "on_demand": true,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 242,
+    "name": "Glitch Cat",
+    "author": "LT 'syreal' Jones",
+    "difficulty": 1,
+    "event": {
+      "id": 69,
+      "name": "Beginner picoMini 2022"
+    },
+    "category": {
+      "id": 5,
+      "name": "General Skills"
+    },
+    "tags": [
+      {
+        "id": 1,
+        "name": "Python"
+      },
+      {
+        "id": 4,
+        "name": "nc"
+      },
+      {
+        "id": 2,
+        "name": "shell"
+      }
+    ],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 563,
+    "positive_rating_count": 433,
+    "users_solved": 47562,
+    "users_solved_during_event": 3729,
+    "event_points": 30,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 296070,
+      "status": "NOT_RUNNING",
+      "expires_in": null,
+      "description": "<p>Our flag printing service has started glitching!</p>",
+      "hints": [
+        "<p>ASCII is one of the most common encodings used in programming</p>",
+        "<p>We know that the glitch output is valid Python, somehow!</p>",
+        "<p>Press Ctrl and c on your keyboard to close your connection and return to the\ncommand prompt.</p>"
+      ],
+      "on_demand": true,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 241,
+    "name": "fixme2.py",
+    "author": "LT 'syreal' Jones",
+    "difficulty": 1,
+    "event": {
+      "id": 69,
+      "name": "Beginner picoMini 2022"
+    },
+    "category": {
+      "id": 5,
+      "name": "General Skills"
+    },
+    "tags": [
+      {
+        "id": 1,
+        "name": "Python"
+      }
+    ],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 460,
+    "positive_rating_count": 394,
+    "users_solved": 51493,
+    "users_solved_during_event": 4241,
+    "event_points": 25,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 294716,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "<p>Fix the syntax error in the Python script to print the flag.</p>\n<p><a href='https://artifacts.picoctf.net/c/6/fixme2.py' download>Download Python script</a></p>",
+      "hints": [
+        "<p>Are equality and assignment the same symbol?</p>",
+        "<p>To view the file in the webshell, do: <code>$ nano fixme2.py</code></p>",
+        "<p>To exit <code>nano</code>, press Ctrl and x and follow the on-screen prompts.</p>",
+        "<p>The <code>str_xor</code> function does not need to be reverse engineered for this\nchallenge.</p>"
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 240,
+    "name": "fixme1.py",
+    "author": "LT 'syreal' Jones",
+    "difficulty": 1,
+    "event": {
+      "id": 69,
+      "name": "Beginner picoMini 2022"
+    },
+    "category": {
+      "id": 5,
+      "name": "General Skills"
+    },
+    "tags": [
+      {
+        "id": 1,
+        "name": "Python"
+      }
+    ],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 533,
+    "positive_rating_count": 431,
+    "users_solved": 53341,
+    "users_solved_during_event": 4421,
+    "event_points": 25,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 294714,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "<p>Fix the syntax error in this Python script to print the flag.</p>\n<p><a href='https://artifacts.picoctf.net/c/26/fixme1.py' download>Download Python script</a></p>",
+      "hints": [
+        "<p>Indentation is very meaningful in Python</p>",
+        "<p>To view the file in the webshell, do: <code>$ nano fixme1.py</code></p>",
+        "<p>To exit <code>nano</code>, press Ctrl and x and follow the on-screen prompts.</p>",
+        "<p>The <code>str_xor</code> function does not need to be reverse engineered for this\nchallenge.</p>"
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 239,
+    "name": "convertme.py",
+    "author": "LT 'syreal' Jones",
+    "difficulty": 1,
+    "event": {
+      "id": 69,
+      "name": "Beginner picoMini 2022"
+    },
+    "category": {
+      "id": 5,
+      "name": "General Skills"
+    },
+    "tags": [
+      {
+        "id": 1,
+        "name": "Python"
+      },
+      {
+        "id": 3,
+        "name": "base"
+      }
+    ],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 525,
+    "positive_rating_count": 445,
+    "users_solved": 56420,
+    "users_solved_during_event": 4951,
+    "event_points": 15,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 294709,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "<p>Run the Python script and convert the given number from decimal to binary to\nget the flag.</p>\n<p><a href='https://artifacts.picoctf.net/c/22/convertme.py' download>Download Python script</a></p>",
+      "hints": [
+        "<p>Look up a decimal to binary number conversion app on the web or use your\ncomputer's calculator!</p>",
+        "<p>The <code>str_xor</code> function does not need to be reverse engineered for this\nchallenge.</p>",
+        "<p>If you have Python on your computer, you can download the script normally and\nrun it. Otherwise, use the <code>wget</code> command in the webshell.</p>",
+        "<p>To use <code>wget</code> in the webshell, first right click on the download link and\nselect 'Copy Link' or 'Copy Link Address'</p>",
+        "<p>Type everything after the dollar sign in the webshell: <code>$ wget </code>, then\npaste the link after the space after <code>wget</code> and press enter. This will\ndownload the script for you in the webshell so you can run it!</p>",
+        "<p>Finally, to run the script, type everything after the dollar sign and then\npress enter: <code>$ python3 convertme.py</code></p>"
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 238,
+    "name": "Codebook",
+    "author": "LT 'syreal' Jones",
+    "difficulty": 1,
+    "event": {
+      "id": 69,
+      "name": "Beginner picoMini 2022"
+    },
+    "category": {
+      "id": 5,
+      "name": "General Skills"
+    },
+    "tags": [
+      {
+        "id": 1,
+        "name": "Python"
+      },
+      {
+        "id": 2,
+        "name": "shell"
+      }
+    ],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 727,
+    "positive_rating_count": 456,
+    "users_solved": 52657,
+    "users_solved_during_event": 4495,
+    "event_points": 20,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 294211,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "<p>Run the Python script <code>code.py</code> in the same directory as <code>codebook.txt</code>.</p>\n<ul>\n<li><a href='https://artifacts.picoctf.net/c/3/code.py' download>Download code.py</a></li>\n<li><a href='https://artifacts.picoctf.net/c/3/codebook.txt' download>Download codebook.txt</a></li>\n</ul>",
+      "hints": [
+        "<p>On the webshell, use <code>ls</code> to see if both files are in the directory you are\nin</p>",
+        "<p>The <code>str_xor</code> function does not need to be reverse engineered for this\nchallenge.</p>"
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 189,
+    "name": "Magikarp Ground Mission",
+    "author": "syreal",
+    "difficulty": 1,
+    "event": {
+      "id": 34,
+      "name": "picoCTF 2021"
+    },
+    "category": {
+      "id": 5,
+      "name": "General Skills"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 1477,
+    "positive_rating_count": 1382,
+    "users_solved": 77761,
+    "users_solved_during_event": 2924,
+    "event_points": 30,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 1056,
+      "status": "NOT_RUNNING",
+      "expires_in": null,
+      "description": "Do you know how to move between directories and read files in the shell? Start the container, `ssh` to it, and then `ls` once connected to begin. Login via `ssh` as `ctf-player` with the password, `ee388b88`",
+      "hints": [
+        "Finding a cheatsheet for bash would be really helpful!"
+      ],
+      "on_demand": true,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 176,
+    "name": "Tab, Tab, Attack",
+    "author": "syreal",
+    "difficulty": 1,
+    "event": {
+      "id": 34,
+      "name": "picoCTF 2021"
+    },
+    "category": {
+      "id": 5,
+      "name": "General Skills"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 1217,
+    "positive_rating_count": 1035,
+    "users_solved": 89872,
+    "users_solved_during_event": 3265,
+    "event_points": 20,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 967,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "Using tabcomplete in the Terminal will add years to your life, esp. when dealing with long rambling directory structures and filenames: <a href='//mercury.picoctf.net/static/fe16c756149cfa85f23e73cd9dbd6a25/Addadshashanammu.zip'>Addadshashanammu.zip</a>",
+      "hints": [
+        "After `unzip`ing, this problem can be solved with 11 button-presses...(mostly Tab)..."
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 170,
+    "name": "Wave a flag",
+    "author": "syreal",
+    "difficulty": 1,
+    "event": {
+      "id": 34,
+      "name": "picoCTF 2021"
+    },
+    "category": {
+      "id": 5,
+      "name": "General Skills"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 3133,
+    "positive_rating_count": 2866,
+    "users_solved": 170046,
+    "users_solved_during_event": 4318,
+    "event_points": 10,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 920,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "Can you invoke help flags for a tool or binary? <a href='//mercury.picoctf.net/static/a00f554b16385d9970dae424f66ee1ab/warm'>This program</a> has extraordinarily helpful information...",
+      "hints": [
+        "This program will only work in the webshell or another Linux computer.",
+        "To get the file accessible in your shell, enter the following in the Terminal prompt: <code>$ wget https://mercury.picoctf.net/static/a00f554b16385d9970dae424f66ee1ab/warm</code>",
+        "Run this program by entering the following in the Terminal prompt: <code>$ ./warm</code>, but you'll first have to make it executable with <code>$ chmod +x warm</code>",
+        "-h and --help are the most common arguments to give to programs to get more information from them!",
+        "Not every program implements help features like -h and --help."
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 166,
+    "name": "Python Wrangling",
+    "author": "syreal",
+    "difficulty": 1,
+    "event": {
+      "id": 34,
+      "name": "picoCTF 2021"
+    },
+    "category": {
+      "id": 5,
+      "name": "General Skills"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 3998,
+    "positive_rating_count": 2987,
+    "users_solved": 146296,
+    "users_solved_during_event": 3228,
+    "event_points": 10,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 897,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "Python scripts are invoked kind of like programs in the Terminal... Can you run <a href='//mercury.picoctf.net/static/b351a89e0bc6745b00716849105f87c6/ende.py'>this Python script</a> using <a href='//mercury.picoctf.net/static/b351a89e0bc6745b00716849105f87c6/pw.txt'>this password</a> to get <a href='//mercury.picoctf.net/static/b351a89e0bc6745b00716849105f87c6/flag.txt.en'>the flag</a>?",
+      "hints": [
+        "Get the Python script accessible in your shell by entering the following command in the Terminal prompt: <code>$ wget https://mercury.picoctf.net/static/b351a89e0bc6745b00716849105f87c6/ende.py</code>",
+        "<code>$ man python</code>"
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 163,
+    "name": "Static ain't always noise",
+    "author": "syreal",
+    "difficulty": 1,
+    "event": {
+      "id": 34,
+      "name": "picoCTF 2021"
+    },
+    "category": {
+      "id": 5,
+      "name": "General Skills"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 1167,
+    "positive_rating_count": 1009,
+    "users_solved": 84088,
+    "users_solved_during_event": 3150,
+    "event_points": 20,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 875,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "Can you look at the data in this binary: <a href='//mercury.picoctf.net/static/ec4dbd8898ade34e1d60d5b70c1b8c8c/static'>static</a>? This <a href='//mercury.picoctf.net/static/ec4dbd8898ade34e1d60d5b70c1b8c8c/ltdis.sh'>BASH script</a> might help!",
+      "hints": [],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 156,
+    "name": "Nice netcat...",
+    "author": "syreal",
+    "difficulty": 1,
+    "event": {
+      "id": 34,
+      "name": "picoCTF 2021"
+    },
+    "category": {
+      "id": 5,
+      "name": "General Skills"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 2173,
+    "positive_rating_count": 2000,
+    "users_solved": 138721,
+    "users_solved_during_event": 4158,
+    "event_points": 15,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 822,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "There is a nice program that you can talk to by using this command in a shell: <code>$ nc mercury.picoctf.net 22902</code>, but it doesn't speak English...",
+      "hints": [
+        "You can practice using netcat with this picoGym problem: <a href='https://play.picoctf.org/practice/challenge/34'>what's a netcat?</a>",
+        "You can practice reading and writing ASCII with this picoGym problem: <a href='https://play.picoctf.org/practice/challenge/22'>Let's Warm Up</a>"
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 147,
+    "name": "Obedient Cat",
+    "author": "syreal",
+    "difficulty": 1,
+    "event": {
+      "id": 34,
+      "name": "picoCTF 2021"
+    },
+    "category": {
+      "id": 5,
+      "name": "General Skills"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 6364,
+    "positive_rating_count": 5764,
+    "users_solved": 285770,
+    "users_solved_during_event": 6830,
+    "event_points": 5,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 765,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "This file has a flag in plain sight (aka \"in-the-clear\"). <a href='//mercury.picoctf.net/static/0e428b2db9788d31189329bed089ce98/flag'>Download flag</a>.",
+      "hints": [
+        "Any hints about entering a command into the Terminal (such as the next one), will start with a '$'... everything after the dollar sign will be typed (or copy and pasted) into your Terminal.",
+        "To get the file accessible in your shell, enter the following in the Terminal prompt: <code>$ wget https://mercury.picoctf.net/static/0e428b2db9788d31189329bed089ce98/flag</code>",
+        "<code>$ man cat</code>"
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 86,
+    "name": "2Warm",
+    "author": "Sanjay C/Danny Tunitis",
+    "difficulty": 1,
+    "event": {
+      "id": 1,
+      "name": "picoCTF 2019"
+    },
+    "category": {
+      "id": 5,
+      "name": "General Skills"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 1209,
+    "positive_rating_count": 986,
+    "users_solved": 112912,
+    "users_solved_during_event": 0,
+    "event_points": 50,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 206,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "Can you convert the number 42 (base 10) to binary (base 2)? ",
+      "hints": [
+        "Submit your answer in our competition's flag format. For example, if your answer was '11111', you would submit 'picoCTF{11111}' as the flag."
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 85,
+    "name": "First Grep",
+    "author": "Alex Fulton/Danny Tunitis",
+    "difficulty": 1,
+    "event": {
+      "id": 1,
+      "name": "picoCTF 2019"
+    },
+    "category": {
+      "id": 5,
+      "name": "General Skills"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 828,
+    "positive_rating_count": 770,
+    "users_solved": 80687,
+    "users_solved_during_event": 0,
+    "event_points": 100,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 204,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "Can you find the flag in <a href='//jupiter.challenges.picoctf.org/static/495d43ee4a2b9f345a4307d053b4d88d/file'>file</a>? This would be really tedious to look through manually, something tells me there is a better way.",
+      "hints": [
+        "grep <a href=\"https://ryanstutorials.net/linuxtutorial/grep.php\">tutorial</a>"
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 67,
+    "name": "Bases",
+    "author": "Sanjay C/Danny T",
+    "difficulty": 1,
+    "event": {
+      "id": 1,
+      "name": "picoCTF 2019"
+    },
+    "category": {
+      "id": 5,
+      "name": "General Skills"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 648,
+    "positive_rating_count": 549,
+    "users_solved": 76902,
+    "users_solved_during_event": 0,
+    "event_points": 100,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 161,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "What does this <code>bDNhcm5fdGgzX3IwcDM1</code> mean? I think it has something to do with bases.",
+      "hints": [
+        "Submit your answer in our flag format. For example, if your answer was 'hello', you would submit 'picoCTF{hello}' as the flag."
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 58,
+    "name": "Warmed Up",
+    "author": "Sanjay C/Danny Tunitis",
+    "difficulty": 1,
+    "event": {
+      "id": 1,
+      "name": "picoCTF 2019"
+    },
+    "category": {
+      "id": 5,
+      "name": "General Skills"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 1017,
+    "positive_rating_count": 838,
+    "users_solved": 113639,
+    "users_solved_during_event": 0,
+    "event_points": 50,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 140,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "What is 0x3D (base 16) in decimal (base 10)?",
+      "hints": [
+        "Submit your answer in our flag format. For example, if your answer was '22', you would submit 'picoCTF{22}' as the flag."
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 37,
+    "name": "strings it",
+    "author": "Sanjay C/Danny Tunitis",
+    "difficulty": 1,
+    "event": {
+      "id": 1,
+      "name": "picoCTF 2019"
+    },
+    "category": {
+      "id": 5,
+      "name": "General Skills"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 1008,
+    "positive_rating_count": 856,
+    "users_solved": 78132,
+    "users_solved_during_event": 0,
+    "event_points": 100,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 92,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "Can you find the flag in <a href='//jupiter.challenges.picoctf.org/static/5bd86036f013ac3b9c958499adf3e2e2/strings'>file</a> without running it?",
+      "hints": [
+        "<a href=\"https://linux.die.net/man/1/strings\">strings</a>"
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 34,
+    "name": "what's a net cat?",
+    "author": "Sanjay C/Danny Tunitis",
+    "difficulty": 1,
+    "event": {
+      "id": 1,
+      "name": "picoCTF 2019"
+    },
+    "category": {
+      "id": 5,
+      "name": "General Skills"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 986,
+    "positive_rating_count": 897,
+    "users_solved": 103563,
+    "users_solved_during_event": 0,
+    "event_points": 100,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 346,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "Using netcat (nc) is going to be pretty important. Can you connect to <code>jupiter.challenges.picoctf.org</code> at port <code>41120</code> to get the flag?",
+      "hints": [
+        "nc <a href=\"https://linux.die.net/man/1/nc\">tutorial</a>"
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 22,
+    "name": "Lets Warm Up",
+    "author": "Sanjay C/Danny Tunitis",
+    "difficulty": 1,
+    "event": {
+      "id": 1,
+      "name": "picoCTF 2019"
+    },
+    "category": {
+      "id": 5,
+      "name": "General Skills"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 1396,
+    "positive_rating_count": 1049,
+    "users_solved": 130241,
+    "users_solved_during_event": 0,
+    "event_points": 50,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 56,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "If I told you a word started with 0x70 in hexadecimal, what would it start with in ASCII? ",
+      "hints": [
+        "Submit your answer in our flag format. For example, if your answer was 'hello', you would submit 'picoCTF{hello}' as the flag."
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 437,
+    "name": "dont-you-love-banners",
+    "author": "Loic Shema / syreal",
+    "difficulty": 2,
+    "event": {
+      "id": 73,
+      "name": "picoCTF 2024"
+    },
+    "category": {
+      "id": 5,
+      "name": "General Skills"
+    },
+    "tags": [
+      {
+        "id": 63,
+        "name": "browser_webshell_solvable"
+      },
+      {
+        "id": 2,
+        "name": "shell"
+      }
+    ],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 384,
+    "positive_rating_count": 364,
+    "users_solved": 7053,
+    "users_solved_during_event": 1899,
+    "event_points": 300,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 295520,
+      "status": "NOT_RUNNING",
+      "expires_in": null,
+      "description": "<p>Can you abuse the banner?</p>",
+      "hints": [
+        "<p>Do you know about symlinks?</p>",
+        "<p>Maybe some small password cracking or guessing</p>"
+      ],
+      "on_demand": true,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 436,
+    "name": "SansAlpha",
+    "author": "syreal",
+    "difficulty": 2,
+    "event": {
+      "id": 73,
+      "name": "picoCTF 2024"
+    },
+    "category": {
+      "id": 5,
+      "name": "General Skills"
+    },
+    "tags": [
+      {
+        "id": 51,
+        "name": "bash"
+      },
+      {
+        "id": 63,
+        "name": "browser_webshell_solvable"
+      },
+      {
+        "id": 75,
+        "name": "shell_escape"
+      },
+      {
+        "id": 52,
+        "name": "ssh"
+      }
+    ],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 188,
+    "positive_rating_count": 164,
+    "users_solved": 3036,
+    "users_solved_during_event": 778,
+    "event_points": 400,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 295514,
+      "status": "NOT_RUNNING",
+      "expires_in": null,
+      "description": "<p>The Multiverse is within your grasp! Unfortunately, the server that contains\nthe secrets of the multiverse is in a universe where keyboards only have\nnumbers and (most) symbols.</p>",
+      "hints": [
+        "<p>Where can you get some letters?</p>"
+      ],
+      "on_demand": true,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 390,
+    "name": "ASCII Numbers",
+    "author": "LT 'syreal' Jones",
+    "difficulty": 2,
+    "event": null,
+    "category": {
+      "id": 5,
+      "name": "General Skills"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 209,
+    "positive_rating_count": 181,
+    "users_solved": 21554,
+    "users_solved_during_event": null,
+    "event_points": 100,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 295204,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "<p>Convert the following string of ASCII numbers into a readable string:</p>\n<p><code>0x70 0x69 0x63 0x6f 0x43 0x54 0x46 0x7b 0x34 0x35 0x63 0x31 0x31 0x5f 0x6e 0x30 0x5f 0x71 0x75 0x33 0x35 0x37 0x31 0x30 0x6e 0x35 0x5f 0x31 0x6c 0x6c 0x5f 0x74 0x33 0x31 0x31 0x5f 0x79 0x33 0x5f 0x6e 0x30 0x5f 0x6c 0x31 0x33 0x35 0x5f 0x34 0x34 0x35 0x64 0x34 0x31 0x38 0x30 0x7d </code></p>",
+      "hints": [
+        "<p>CyberChef is a great tool for any encoding but especially ASCII.</p>",
+        "<p>Try CyberChef's 'From Hex' function</p>"
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 384,
+    "name": "useless",
+    "author": "Loic Shema",
+    "difficulty": 2,
+    "event": {
+      "id": 72,
+      "name": "picoCTF 2023"
+    },
+    "category": {
+      "id": 5,
+      "name": "General Skills"
+    },
+    "tags": [
+      {
+        "id": 57,
+        "name": "man"
+      }
+    ],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 437,
+    "positive_rating_count": 212,
+    "users_solved": 15086,
+    "users_solved_during_event": 3010,
+    "event_points": 100,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 295264,
+      "status": "NOT_RUNNING",
+      "expires_in": null,
+      "description": "<p>There's an interesting script in the user's home directory</p>",
+      "hints": [],
+      "on_demand": true,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 378,
+    "name": "Specialer",
+    "author": "LT 'syreal' Jones, et al.",
+    "difficulty": 2,
+    "event": {
+      "id": 72,
+      "name": "picoCTF 2023"
+    },
+    "category": {
+      "id": 5,
+      "name": "General Skills"
+    },
+    "tags": [
+      {
+        "id": 51,
+        "name": "bash"
+      },
+      {
+        "id": 52,
+        "name": "ssh"
+      }
+    ],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 247,
+    "positive_rating_count": 222,
+    "users_solved": 8226,
+    "users_solved_during_event": 1379,
+    "event_points": 400,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 295137,
+      "status": "NOT_RUNNING",
+      "expires_in": null,
+      "description": "<p>Reception of Special has been cool to say the least. That's why we made an\nexclusive version of Special, called Secure Comprehensive Interface for\nAffecting Linux Empirically Rad, or just 'Specialer'. With Specialer, we really\ntried to remove the distractions from using a shell. Yes, we took out spell\nchecker because of everybody's complaining. But we think you will be excited\nabout our new, reduced feature set for keeping you focused on what needs it the\nmost.  Please start an instance to test your very own copy of Specialer.</p>",
+      "hints": [
+        "<p>What programs do you have access to?</p>"
+      ],
+      "on_demand": true,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 377,
+    "name": "Special",
+    "author": "LT 'syreal' Jones",
+    "difficulty": 2,
+    "event": {
+      "id": 72,
+      "name": "picoCTF 2023"
+    },
+    "category": {
+      "id": 5,
+      "name": "General Skills"
+    },
+    "tags": [
+      {
+        "id": 51,
+        "name": "bash"
+      },
+      {
+        "id": 52,
+        "name": "ssh"
+      }
+    ],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 327,
+    "positive_rating_count": 207,
+    "users_solved": 9151,
+    "users_solved_during_event": 1558,
+    "event_points": 300,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 295134,
+      "status": "NOT_RUNNING",
+      "expires_in": null,
+      "description": "<p>Don't power users get tired of making spelling mistakes in the shell? Not\nanymore! Enter Special, the Spell Checked Interface for Affecting Linux. Now,\nevery word is properly spelled and capitalized... automatically and\nbehind-the-scenes! Be the first to test Special in beta, and feel free to tell\nus all about how Special streamlines every development process that you face.\nWhen your co-workers see your amazing shell interface, just tell them: That's\nSpecial (TM)</p>\n<p>Start your instance to see connection details.</p>",
+      "hints": [
+        "<p>Experiment with different shell syntax</p>"
+      ],
+      "on_demand": true,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 363,
+    "name": "Permissions",
+    "author": "Geoffrey Njogu",
+    "difficulty": 2,
+    "event": {
+      "id": 72,
+      "name": "picoCTF 2023"
+    },
+    "category": {
+      "id": 5,
+      "name": "General Skills"
+    },
+    "tags": [
+      {
+        "id": 47,
+        "name": "vim"
+      }
+    ],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 418,
+    "positive_rating_count": 287,
+    "users_solved": 15599,
+    "users_solved_during_event": 3581,
+    "event_points": 100,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 295262,
+      "status": "NOT_RUNNING",
+      "expires_in": null,
+      "description": "<p>Can you read files in the root file?</p>",
+      "hints": [
+        "<p>What permissions do you have?</p>"
+      ],
+      "on_demand": true,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 347,
+    "name": "chrono",
+    "author": "Mubarak Mikail",
+    "difficulty": 2,
+    "event": {
+      "id": 72,
+      "name": "picoCTF 2023"
+    },
+    "category": {
+      "id": 5,
+      "name": "General Skills"
+    },
+    "tags": [
+      {
+        "id": 44,
+        "name": "linux"
+      }
+    ],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 588,
+    "positive_rating_count": 211,
+    "users_solved": 15635,
+    "users_solved_during_event": 3546,
+    "event_points": 100,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 295243,
+      "status": "NOT_RUNNING",
+      "expires_in": null,
+      "description": "<p>How to automate tasks to run at intervals on linux servers?</p>",
+      "hints": [],
+      "on_demand": true,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 251,
+    "name": "Serpentine",
+    "author": "LT 'syreal' Jones",
+    "difficulty": 2,
+    "event": {
+      "id": 69,
+      "name": "Beginner picoMini 2022"
+    },
+    "category": {
+      "id": 5,
+      "name": "General Skills"
+    },
+    "tags": [
+      {
+        "id": 1,
+        "name": "Python"
+      }
+    ],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 476,
+    "positive_rating_count": 428,
+    "users_solved": 35734,
+    "users_solved_during_event": 3613,
+    "event_points": 50,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 294741,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "<p>Find the flag in the Python script!</p>\n<p><a href='https://artifacts.picoctf.net/c/36/serpentine.py' download>Download Python script</a></p>",
+      "hints": [
+        "<p>Try running the script and see what happens</p>",
+        "<p>In the webshell, try examining the script with a text editor like <code>nano</code></p>",
+        "<p>To exit <code>nano</code>, press Ctrl and x and follow the on-screen prompts.</p>",
+        "<p>The <code>str_xor</code> function does not need to be reverse engineered for this\nchallenge.</p>"
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 249,
+    "name": "PW Crack 5",
+    "author": "LT 'syreal' Jones",
+    "difficulty": 2,
+    "event": {
+      "id": 69,
+      "name": "Beginner picoMini 2022"
+    },
+    "category": {
+      "id": 5,
+      "name": "General Skills"
+    },
+    "tags": [
+      {
+        "id": 5,
+        "name": "hashing"
+      },
+      {
+        "id": 6,
+        "name": "password_cracking"
+      }
+    ],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 582,
+    "positive_rating_count": 528,
+    "users_solved": 28078,
+    "users_solved_during_event": 2493,
+    "event_points": 100,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 294736,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "<p>Can you crack the password to get the flag?</p>\n<p>Download the password checker <a href='https://artifacts.picoctf.net/c/31/level5.py' download>here</a> and you'll\nneed the encrypted <a href='https://artifacts.picoctf.net/c/31/level5.flag.txt.enc' download>flag</a> and the\n<a href='https://artifacts.picoctf.net/c/31/level5.hash.bin' download>hash</a> in the same directory too. Here's a\n<a href='https://artifacts.picoctf.net/c/31/dictionary.txt' download>dictionary</a> with all possible passwords based\non the password conventions we've seen so far.</p>",
+      "hints": [
+        "<p>Opening a file in Python is crucial to using the provided dictionary.</p>",
+        "<p>You may need to trim the whitespace from the dictionary word before hashing.\nLook up the Python string function, <code>strip</code></p>",
+        "<p>The <code>str_xor</code> function does not need to be reverse engineered for this\nchallenge.</p>"
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 248,
+    "name": "PW Crack 4",
+    "author": "LT 'syreal' Jones",
+    "difficulty": 2,
+    "event": {
+      "id": 69,
+      "name": "Beginner picoMini 2022"
+    },
+    "category": {
+      "id": 5,
+      "name": "General Skills"
+    },
+    "tags": [
+      {
+        "id": 5,
+        "name": "hashing"
+      },
+      {
+        "id": 6,
+        "name": "password_cracking"
+      }
+    ],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 541,
+    "positive_rating_count": 482,
+    "users_solved": 32328,
+    "users_solved_during_event": 2859,
+    "event_points": 85,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 294735,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "<p>Can you crack the password to get the flag?</p>\n<p>Download the password checker <a href='https://artifacts.picoctf.net/c/21/level4.py' download>here</a> and you'll\nneed the encrypted <a href='https://artifacts.picoctf.net/c/21/level4.flag.txt.enc' download>flag</a> and the\n<a href='https://artifacts.picoctf.net/c/21/level4.hash.bin' download>hash</a> in the same directory too.</p>\n<p>There are 100 potential passwords with only 1 being correct. You can find these\nby examining the password checker script.</p>",
+      "hints": [
+        "<p>A for loop can help you do many things very quickly.</p>",
+        "<p>The <code>str_xor</code> function does not need to be reverse engineered for this\nchallenge.</p>"
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 247,
+    "name": "PW Crack 3",
+    "author": "LT 'syreal' Jones",
+    "difficulty": 2,
+    "event": {
+      "id": 69,
+      "name": "Beginner picoMini 2022"
+    },
+    "category": {
+      "id": 5,
+      "name": "General Skills"
+    },
+    "tags": [
+      {
+        "id": 5,
+        "name": "hashing"
+      },
+      {
+        "id": 6,
+        "name": "password_cracking"
+      }
+    ],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 533,
+    "positive_rating_count": 387,
+    "users_solved": 38525,
+    "users_solved_during_event": 3315,
+    "event_points": 75,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 294730,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "<p>Can you crack the password to get the flag?</p>\n<p>Download the password checker <a href='https://artifacts.picoctf.net/c/16/level3.py' download>here</a> and you'll\nneed the encrypted <a href='https://artifacts.picoctf.net/c/16/level3.flag.txt.enc' download>flag</a> and the\n<a href='https://artifacts.picoctf.net/c/16/level3.hash.bin' download>hash</a> in the same directory too.</p>\n<p>There are 7 potential passwords with 1 being correct. You can find these by\nexamining the password checker script.</p>",
+      "hints": [
+        "<p>To view the level3.hash.bin file in the webshell, do: <code>$ bvi level3.hash.bin</code></p>",
+        "<p>To exit <code>bvi</code> type <code>:q</code> and press enter.</p>",
+        "<p>The <code>str_xor</code> function does not need to be reverse engineered for this\nchallenge.</p>"
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 82,
+    "name": "1_wanna_b3_a_r0ck5tar",
+    "author": "Alex Bushkin",
+    "difficulty": 2,
+    "event": {
+      "id": 1,
+      "name": "picoCTF 2019"
+    },
+    "category": {
+      "id": 5,
+      "name": "General Skills"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 1103,
+    "positive_rating_count": 232,
+    "users_solved": 17787,
+    "users_solved_during_event": 0,
+    "event_points": 350,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "The Rockstar language has changed since this problem was released! Use this Wayback Machine URL to use an older version of Rockstar, [here](https://web.archive.org/web/20190522020843/https://codewithrockstar.com/online).",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 198,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "I wrote you another <a href='//jupiter.challenges.picoctf.org/static/96904d361d61fada5bd2d13536706f9a/lyrics.txt'>song</a>. Put the flag in the picoCTF{} flag format",
+      "hints": [],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 49,
+    "name": "flag_shop",
+    "author": "Danny",
+    "difficulty": 2,
+    "event": {
+      "id": 1,
+      "name": "picoCTF 2019"
+    },
+    "category": {
+      "id": 5,
+      "name": "General Skills"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 1109,
+    "positive_rating_count": 1063,
+    "users_solved": 28468,
+    "users_solved_during_event": 0,
+    "event_points": 300,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 355,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "There's a flag shop selling stuff, can you buy a flag? <a href='//jupiter.challenges.picoctf.org/static/253c4651d852ac6342752ff222cf2a83/store.c'>Source</a>. Connect with <code>nc jupiter.challenges.picoctf.org 9745</code>.",
+      "hints": [
+        "Two's compliment can do some weird things when numbers get really big!"
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 48,
+    "name": "plumbing",
+    "author": "Alex Fulton/Danny Tunitis",
+    "difficulty": 2,
+    "event": {
+      "id": 1,
+      "name": "picoCTF 2019"
+    },
+    "category": {
+      "id": 5,
+      "name": "General Skills"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 626,
+    "positive_rating_count": 603,
+    "users_solved": 41693,
+    "users_solved_during_event": 0,
+    "event_points": 200,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 381,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "Sometimes you need to handle process data outside of a file. Can you find a way to keep the output from this program and search for the flag? Connect to <code>jupiter.challenges.picoctf.org 7480</code>.",
+      "hints": [
+        "Remember the flag format is picoCTF{XXXX}",
+        "What's a pipe? No not that kind of pipe... This <a href=\"http://www.linfo.org/pipes.html\">kind</a>"
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 35,
+    "name": "Based",
+    "author": "Alex Fulton/Daniel Tunitis",
+    "difficulty": 2,
+    "event": {
+      "id": 1,
+      "name": "picoCTF 2019"
+    },
+    "category": {
+      "id": 5,
+      "name": "General Skills"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 672,
+    "positive_rating_count": 578,
+    "users_solved": 35958,
+    "users_solved_during_event": 0,
+    "event_points": 200,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 344,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "To get truly 1337, you must understand different data encodings, such as hexadecimal or binary. Can you get the flag from this program to prove you are on the way to becoming 1337? Connect with <code>nc jupiter.challenges.picoctf.org 29221</code>.",
+      "hints": [
+        "I hear python can convert things.",
+        "It might help to have multiple windows open."
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 15,
+    "name": "mus1c",
+    "author": "Danny",
+    "difficulty": 2,
+    "event": {
+      "id": 1,
+      "name": "picoCTF 2019"
+    },
+    "category": {
+      "id": 5,
+      "name": "General Skills"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 1297,
+    "positive_rating_count": 402,
+    "users_solved": 29334,
+    "users_solved_during_event": 0,
+    "event_points": 300,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 39,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "I wrote you a <a href='//jupiter.challenges.picoctf.org/static/c0863a3b0170d6dd176be3a595b4b75e/lyrics.txt'>song</a>. Put it in the picoCTF{} flag format.",
+      "hints": [
+        "Do you think you can master rockstar?"
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  }
+]

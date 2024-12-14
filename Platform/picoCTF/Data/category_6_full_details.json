@@ -1,0 +1,2464 @@
+[
+  {
+    "id": 438,
+    "name": "heap 0",
+    "author": "Abrxs, pr1or1tyQ",
+    "difficulty": 1,
+    "event": {
+      "id": 73,
+      "name": "picoCTF 2024"
+    },
+    "category": {
+      "id": 6,
+      "name": "Binary Exploitation"
+    },
+    "tags": [
+      {
+        "id": 63,
+        "name": "browser_webshell_solvable"
+      },
+      {
+        "id": 74,
+        "name": "heap"
+      }
+    ],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 334,
+    "positive_rating_count": 305,
+    "users_solved": 18610,
+    "users_solved_during_event": 3290,
+    "event_points": 50,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 295528,
+      "status": "NOT_RUNNING",
+      "expires_in": null,
+      "description": "<p>Are overflows just a stack concern?</p>\n<p>Download the binary <a href='https://artifacts.picoctf.net/c_tethys/30/chall' download>here</a>.</p>\n<p>Download the source <a href='https://artifacts.picoctf.net/c_tethys/30/chall.c' download>here</a>.</p>",
+      "hints": [
+        "<p>What part of the heap do you have control over and how far is it from the\nsafe_var?</p>"
+      ],
+      "on_demand": true,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 433,
+    "name": "format string 0",
+    "author": "Cheng Zhang",
+    "difficulty": 1,
+    "event": {
+      "id": 73,
+      "name": "picoCTF 2024"
+    },
+    "category": {
+      "id": 6,
+      "name": "Binary Exploitation"
+    },
+    "tags": [
+      {
+        "id": 63,
+        "name": "browser_webshell_solvable"
+      },
+      {
+        "id": 14,
+        "name": "format_string"
+      }
+    ],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 432,
+    "positive_rating_count": 227,
+    "users_solved": 17324,
+    "users_solved_during_event": 3978,
+    "event_points": 50,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 295490,
+      "status": "NOT_RUNNING",
+      "expires_in": null,
+      "description": "<p>Can you use your knowledge of format strings to make the customers happy?</p>\n<p>Download the binary <a href='https://artifacts.picoctf.net/c_mimas/69/format-string-0' download>here</a>.</p>\n<p>Download the source <a href='https://artifacts.picoctf.net/c_mimas/69/format-string-0.c' download>here</a>.</p>",
+      "hints": [
+        "<p>This is an introduction of format string vulnerabilities. Look up &quot;format\nspecifiers&quot; if you have never seen them before.</p>",
+        "<p>Just try out the different options</p>"
+      ],
+      "on_demand": true,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 449,
+    "name": "format string 3",
+    "author": "SkrubLawd",
+    "difficulty": 2,
+    "event": {
+      "id": 73,
+      "name": "picoCTF 2024"
+    },
+    "category": {
+      "id": 6,
+      "name": "Binary Exploitation"
+    },
+    "tags": [
+      {
+        "id": 63,
+        "name": "browser_webshell_solvable"
+      },
+      {
+        "id": 14,
+        "name": "format_string"
+      }
+    ],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 45,
+    "positive_rating_count": 43,
+    "users_solved": 887,
+    "users_solved_during_event": 384,
+    "event_points": 300,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 295604,
+      "status": "NOT_RUNNING",
+      "expires_in": null,
+      "description": "<p>This program doesn't contain a win function. How can you win?</p>\n<p>Download the binary <a href='https://artifacts.picoctf.net/c_rhea/29/format-string-3' download>here</a>.</p>\n<p>Download the source <a href='https://artifacts.picoctf.net/c_rhea/29/format-string-3.c' download>here</a>.</p>\n<p>Download libc <a href='https://artifacts.picoctf.net/c_rhea/29/libc.so.6' download>here</a>, download the interpreter\n<a href='https://artifacts.picoctf.net/c_rhea/29/ld-linux-x86-64.so.2' download>here</a>. Run the binary with these two\nfiles present in the same directory.</p>",
+      "hints": [
+        "<p>Is there any way to change what a function points to?</p>"
+      ],
+      "on_demand": true,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 448,
+    "name": "format string 2",
+    "author": "SkrubLawd",
+    "difficulty": 2,
+    "event": {
+      "id": 73,
+      "name": "picoCTF 2024"
+    },
+    "category": {
+      "id": 6,
+      "name": "Binary Exploitation"
+    },
+    "tags": [
+      {
+        "id": 63,
+        "name": "browser_webshell_solvable"
+      },
+      {
+        "id": 14,
+        "name": "format_string"
+      }
+    ],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 62,
+    "positive_rating_count": 56,
+    "users_solved": 1505,
+    "users_solved_during_event": 509,
+    "event_points": 200,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 295597,
+      "status": "NOT_RUNNING",
+      "expires_in": null,
+      "description": "<p>This program is not impressed by cheap parlor tricks like reading arbitrary\ndata off the stack. To impress this program you must <em>change</em> data on the\nstack!</p>\n<p>Download the binary <a href='https://artifacts.picoctf.net/c_rhea/25/vuln' download>here</a>.</p>\n<p>Download the source <a href='https://artifacts.picoctf.net/c_rhea/25/vuln.c' download>here</a>.</p>",
+      "hints": [
+        "<p>pwntools are very useful for this problem!</p>"
+      ],
+      "on_demand": true,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 440,
+    "name": "heap 3",
+    "author": "Abrxs",
+    "difficulty": 2,
+    "event": {
+      "id": 73,
+      "name": "picoCTF 2024"
+    },
+    "category": {
+      "id": 6,
+      "name": "Binary Exploitation"
+    },
+    "tags": [
+      {
+        "id": 63,
+        "name": "browser_webshell_solvable"
+      },
+      {
+        "id": 74,
+        "name": "heap"
+      }
+    ],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 72,
+    "positive_rating_count": 71,
+    "users_solved": 2303,
+    "users_solved_during_event": 920,
+    "event_points": 200,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 295538,
+      "status": "NOT_RUNNING",
+      "expires_in": null,
+      "description": "<p>This program mishandles memory. Can you exploit it to get the flag?</p>\n<p>Download the binary <a href='https://artifacts.picoctf.net/c_tethys/5/chall' download>here</a>.</p>\n<p>Download the source <a href='https://artifacts.picoctf.net/c_tethys/5/chall.c' download>here</a>.</p>",
+      "hints": [
+        "<p>Check out &quot;use after free&quot;</p>"
+      ],
+      "on_demand": true,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 439,
+    "name": "heap 1",
+    "author": "Abrxs, pr1or1tyQ",
+    "difficulty": 2,
+    "event": {
+      "id": 73,
+      "name": "picoCTF 2024"
+    },
+    "category": {
+      "id": 6,
+      "name": "Binary Exploitation"
+    },
+    "tags": [
+      {
+        "id": 63,
+        "name": "browser_webshell_solvable"
+      },
+      {
+        "id": 74,
+        "name": "heap"
+      }
+    ],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 204,
+    "positive_rating_count": 195,
+    "users_solved": 7126,
+    "users_solved_during_event": 2094,
+    "event_points": 100,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 295531,
+      "status": "NOT_RUNNING",
+      "expires_in": null,
+      "description": "<p>Can you control your overflow?</p>\n<p>Download the binary <a href='https://artifacts.picoctf.net/c_tethys/2/chall' download>here</a>.</p>\n<p>Download the source <a href='https://artifacts.picoctf.net/c_tethys/2/chall.c' download>here</a>.</p>",
+      "hints": [
+        "<p>How can you tell where safe_var starts?</p>"
+      ],
+      "on_demand": true,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 435,
+    "name": "heap 2",
+    "author": "Abrxs, pr1or1tyQ",
+    "difficulty": 2,
+    "event": {
+      "id": 73,
+      "name": "picoCTF 2024"
+    },
+    "category": {
+      "id": 6,
+      "name": "Binary Exploitation"
+    },
+    "tags": [
+      {
+        "id": 63,
+        "name": "browser_webshell_solvable"
+      },
+      {
+        "id": 74,
+        "name": "heap"
+      }
+    ],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 85,
+    "positive_rating_count": 76,
+    "users_solved": 2538,
+    "users_solved_during_event": 898,
+    "event_points": 200,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 295503,
+      "status": "NOT_RUNNING",
+      "expires_in": null,
+      "description": "<p>Can you handle function pointers?</p>\n<p>Download the binary <a href='https://artifacts.picoctf.net/c_mimas/50/chall' download>here</a>.</p>\n<p>Download the source <a href='https://artifacts.picoctf.net/c_mimas/50/chall.c' download>here</a>.</p>",
+      "hints": [
+        "<p>Are you doing the right endianness?</p>"
+      ],
+      "on_demand": true,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 434,
+    "name": "format string 1",
+    "author": "syreal",
+    "difficulty": 2,
+    "event": {
+      "id": 73,
+      "name": "picoCTF 2024"
+    },
+    "category": {
+      "id": 6,
+      "name": "Binary Exploitation"
+    },
+    "tags": [
+      {
+        "id": 63,
+        "name": "browser_webshell_solvable"
+      },
+      {
+        "id": 14,
+        "name": "format_string"
+      }
+    ],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 174,
+    "positive_rating_count": 86,
+    "users_solved": 3509,
+    "users_solved_during_event": 1135,
+    "event_points": 100,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 295496,
+      "status": "NOT_RUNNING",
+      "expires_in": null,
+      "description": "<p>Patrick and Sponge Bob were really happy with those orders you made for them,\nbut now they're curious about the secret menu. Find it, and along the way,\nmaybe you'll find something else of interest!</p>\n<p>Download the binary <a href='https://artifacts.picoctf.net/c_mimas/44/format-string-1' download>here</a>.</p>\n<p>Download the source <a href='https://artifacts.picoctf.net/c_mimas/44/format-string-1.c' download>here</a>.</p>",
+      "hints": [
+        "<p>https://lettieri.iet.unipi.it/hacking/format-strings.pdf</p>",
+        "<p>Is this a 32-bit or 64-bit binary?</p>"
+      ],
+      "on_demand": true,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 403,
+    "name": "Picker IV",
+    "author": "LT 'syreal' Jones",
+    "difficulty": 2,
+    "event": null,
+    "category": {
+      "id": 6,
+      "name": "Binary Exploitation"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 68,
+    "positive_rating_count": 62,
+    "users_solved": 3253,
+    "users_solved_during_event": null,
+    "event_points": 100,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 295227,
+      "status": "NOT_RUNNING",
+      "expires_in": null,
+      "description": "<p>Can you figure out how this program works to get the flag?</p>",
+      "hints": [
+        "<p>With Python, there are no binaries. With compiled languages like C, there is\nsource code, and there are binaries. Binaries are created from source code,\nthey are a conversion from the human-readable source code, to the highly\nefficient machine language, in this case: x86_64.</p>",
+        "<p>How can you find the address that <code>win</code> is at?</p>"
+      ],
+      "on_demand": true,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 399,
+    "name": "Local Target",
+    "author": "OverTheWire.org / LT 'syreal' Jones",
+    "difficulty": 2,
+    "event": null,
+    "category": {
+      "id": 6,
+      "name": "Binary Exploitation"
+    },
+    "tags": [
+      {
+        "id": 9,
+        "name": "gets"
+      }
+    ],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 64,
+    "positive_rating_count": 59,
+    "users_solved": 3221,
+    "users_solved_during_event": null,
+    "event_points": 100,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 295215,
+      "status": "NOT_RUNNING",
+      "expires_in": null,
+      "description": "<p>Smash the stack</p>",
+      "hints": [
+        "<p>Do anything you can to change <code>num</code>.</p>",
+        "<p>When you change <code>num</code>, view the value as hexadecimal.</p>"
+      ],
+      "on_demand": true,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 387,
+    "name": "VNE",
+    "author": "Junias Bonou",
+    "difficulty": 2,
+    "event": {
+      "id": 72,
+      "name": "picoCTF 2023"
+    },
+    "category": {
+      "id": 6,
+      "name": "Binary Exploitation"
+    },
+    "tags": [
+      {
+        "id": 51,
+        "name": "bash"
+      },
+      {
+        "id": 59,
+        "name": "env"
+      },
+      {
+        "id": 60,
+        "name": "injection"
+      }
+    ],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 107,
+    "positive_rating_count": 100,
+    "users_solved": 2424,
+    "users_solved_during_event": 1093,
+    "event_points": 200,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 295193,
+      "status": "NOT_RUNNING",
+      "expires_in": null,
+      "description": "<p>We've got a binary that can list directories as root, try it out !!</p>",
+      "hints": [
+        "<p>Have you checked the content of the /root folder</p>",
+        "<p>Find a way to add more instructions to the ls</p>"
+      ],
+      "on_demand": true,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 382,
+    "name": "two-sum",
+    "author": "Mubarak Mikail",
+    "difficulty": 2,
+    "event": {
+      "id": 72,
+      "name": "picoCTF 2023"
+    },
+    "category": {
+      "id": 6,
+      "name": "Binary Exploitation"
+    },
+    "tags": [
+      {
+        "id": 55,
+        "name": "C"
+      },
+      {
+        "id": 56,
+        "name": "make"
+      }
+    ],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 149,
+    "positive_rating_count": 132,
+    "users_solved": 7274,
+    "users_solved_during_event": 2712,
+    "event_points": 100,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 295162,
+      "status": "NOT_RUNNING",
+      "expires_in": null,
+      "description": "<p>Can you solve this?</p>",
+      "hints": [
+        "<p>Integer overflow</p>",
+        "<p>Not necessarily a math problem</p>"
+      ],
+      "on_demand": true,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 352,
+    "name": "hijacking",
+    "author": "Theoneste Byagutangaza",
+    "difficulty": 2,
+    "event": {
+      "id": 72,
+      "name": "picoCTF 2023"
+    },
+    "category": {
+      "id": 6,
+      "name": "Binary Exploitation"
+    },
+    "tags": [
+      {
+        "id": 45,
+        "name": "privilege_escalation"
+      }
+    ],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 111,
+    "positive_rating_count": 75,
+    "users_solved": 2291,
+    "users_solved_during_event": 1022,
+    "event_points": 200,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 296116,
+      "status": "NOT_RUNNING",
+      "expires_in": null,
+      "description": "<p>Getting root access can allow you to read the flag. Luckily there is a python file that you might like to play with.</p>",
+      "hints": [
+        "<p>Check for Hidden files</p>",
+        "<p>No place like Home:)</p>"
+      ],
+      "on_demand": true,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 345,
+    "name": "babygame01",
+    "author": "Palash Oswal",
+    "difficulty": 2,
+    "event": {
+      "id": 72,
+      "name": "picoCTF 2023"
+    },
+    "category": {
+      "id": 6,
+      "name": "Binary Exploitation"
+    },
+    "tags": [
+      {
+        "id": 42,
+        "name": "game"
+      }
+    ],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 220,
+    "positive_rating_count": 128,
+    "users_solved": 3892,
+    "users_solved_during_event": 1121,
+    "event_points": 100,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 295232,
+      "status": "NOT_RUNNING",
+      "expires_in": null,
+      "description": "<p>Get the flag and reach the exit.</p>",
+      "hints": [
+        "<p>Use 'w','a','s','d' to move around.</p>",
+        "<p>There may be secret commands to make your life easy.</p>"
+      ],
+      "on_demand": true,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 319,
+    "name": "x-sixty-what",
+    "author": "Sanjay C / LT 'syreal' Jones",
+    "difficulty": 2,
+    "event": {
+      "id": 70,
+      "name": "picoCTF 2022"
+    },
+    "category": {
+      "id": 6,
+      "name": "Binary Exploitation"
+    },
+    "tags": [
+      {
+        "id": 43,
+        "name": "x64"
+      }
+    ],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 96,
+    "positive_rating_count": 78,
+    "users_solved": 3188,
+    "users_solved_during_event": 1093,
+    "event_points": 200,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "Reminder: local exploits may not always work the same way remotely due to differences between machines.",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 295297,
+      "status": "NOT_RUNNING",
+      "expires_in": null,
+      "description": "<p>Overflow x64 code</p>",
+      "hints": [
+        "<p>Now that we're in 64-bit, what used to be 4 bytes, now may be 8 bytes.</p>",
+        "<p>Jump to the second instruction (the one after the first <code>push</code>) in the <code>flag</code>\nfunction, if you're getting mysterious segmentation faults.</p>"
+      ],
+      "on_demand": true,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 293,
+    "name": "RPS",
+    "author": "Will Hong",
+    "difficulty": 2,
+    "event": {
+      "id": 70,
+      "name": "picoCTF 2022"
+    },
+    "category": {
+      "id": 6,
+      "name": "Binary Exploitation"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 277,
+    "positive_rating_count": 265,
+    "users_solved": 7932,
+    "users_solved_during_event": 2523,
+    "event_points": 200,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 296099,
+      "status": "NOT_RUNNING",
+      "expires_in": null,
+      "description": "<p>Here's a program that plays rock, paper, scissors against you. I hear something\ngood happens if you win 5 times in a row.</p>\n<p>The program's source code with the flag redacted can be downloaded\n<a href='https://artifacts.picoctf.net/c/147/game-redacted.c' download>here</a>.</p>",
+      "hints": [
+        "<p>How does the program check if you won?</p>"
+      ],
+      "on_demand": true,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 269,
+    "name": "flag leak",
+    "author": "Neel Bhavsar",
+    "difficulty": 2,
+    "event": {
+      "id": 70,
+      "name": "picoCTF 2022"
+    },
+    "category": {
+      "id": 6,
+      "name": "Binary Exploitation"
+    },
+    "tags": [
+      {
+        "id": 14,
+        "name": "format_string"
+      }
+    ],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 80,
+    "positive_rating_count": 61,
+    "users_solved": 3163,
+    "users_solved_during_event": 974,
+    "event_points": 300,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 295284,
+      "status": "NOT_RUNNING",
+      "expires_in": null,
+      "description": "<p>Story telling class 1/2</p>",
+      "hints": [
+        "<p>Format Strings</p>"
+      ],
+      "on_demand": true,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 262,
+    "name": "CVE-XXXX-XXXX",
+    "author": "Mubarak Mikail",
+    "difficulty": 2,
+    "event": {
+      "id": 70,
+      "name": "picoCTF 2022"
+    },
+    "category": {
+      "id": 6,
+      "name": "Binary Exploitation"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 304,
+    "positive_rating_count": 166,
+    "users_solved": 18793,
+    "users_solved_during_event": 4766,
+    "event_points": 100,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 294771,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "<p>Enter the CVE of the vulnerability as the flag with the correct flag format:</p>\n<p><code>picoCTF{CVE-XXXX-XXXXX}</code> replacing XXXX-XXXXX with the numbers for the\nmatching vulnerability.</p>\n<p>The CVE we're looking for is the first recorded remote code execution (RCE)\nvulnerability in 2021 in the Windows Print Spooler Service, which is available\nacross desktop and server versions of Windows operating systems. The service is\nused to manage printers and print servers.</p>",
+      "hints": [
+        "<p>We're not looking for the Local Spooler vulnerability in 2021...</p>"
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 259,
+    "name": "buffer overflow 2",
+    "author": "Sanjay C / Palash Oswal",
+    "difficulty": 2,
+    "event": {
+      "id": 70,
+      "name": "picoCTF 2022"
+    },
+    "category": {
+      "id": 6,
+      "name": "Binary Exploitation"
+    },
+    "tags": [
+      {
+        "id": 10,
+        "name": "arguments_on_the_stack"
+      },
+      {
+        "id": 9,
+        "name": "gets"
+      }
+    ],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 148,
+    "positive_rating_count": 144,
+    "users_solved": 4270,
+    "users_solved_during_event": 1217,
+    "event_points": 300,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 295278,
+      "status": "NOT_RUNNING",
+      "expires_in": null,
+      "description": "<p>Control the return address and arguments</p>",
+      "hints": [
+        "<p>Try using GDB to print out the stack once you write to it.</p>"
+      ],
+      "on_demand": true,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 258,
+    "name": "buffer overflow 1",
+    "author": "Sanjay C / Palash Oswal",
+    "difficulty": 2,
+    "event": {
+      "id": 70,
+      "name": "picoCTF 2022"
+    },
+    "category": {
+      "id": 6,
+      "name": "Binary Exploitation"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 223,
+    "positive_rating_count": 196,
+    "users_solved": 8158,
+    "users_solved_during_event": 1699,
+    "event_points": 200,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 295275,
+      "status": "NOT_RUNNING",
+      "expires_in": null,
+      "description": "<p>Control the return address</p>",
+      "hints": [
+        "<p>Make sure you consider big Endian vs small Endian.</p>",
+        "<p>Changing the address of the return pointer can call different functions.</p>"
+      ],
+      "on_demand": true,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 257,
+    "name": "buffer overflow 0",
+    "author": "Alex Fulton / Palash Oswal",
+    "difficulty": 2,
+    "event": {
+      "id": 70,
+      "name": "picoCTF 2022"
+    },
+    "category": {
+      "id": 6,
+      "name": "Binary Exploitation"
+    },
+    "tags": [
+      {
+        "id": 9,
+        "name": "gets"
+      }
+    ],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 318,
+    "positive_rating_count": 281,
+    "users_solved": 21155,
+    "users_solved_during_event": 4149,
+    "event_points": 100,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 296077,
+      "status": "NOT_RUNNING",
+      "expires_in": null,
+      "description": "<p>Let's start off simple, can you overflow the correct buffer? The program is\navailable <a href='https://artifacts.picoctf.net/c/172/vuln' download>here</a>. You can view source\n<a href='https://artifacts.picoctf.net/c/172/vuln.c' download>here</a>.</p>",
+      "hints": [
+        "<p>How can you trigger the flag to print?</p>",
+        "<p>If you try to do the math by hand, maybe try and add a few more characters.\nSometimes there are things you aren't expecting.</p>",
+        "<p>Run <code>man gets</code> and read the BUGS section. How many characters can the program\nreally read?</p>"
+      ],
+      "on_demand": true,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 252,
+    "name": "basic-file-exploit",
+    "author": "Will Hong",
+    "difficulty": 2,
+    "event": {
+      "id": 70,
+      "name": "picoCTF 2022"
+    },
+    "category": {
+      "id": 6,
+      "name": "Binary Exploitation"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 389,
+    "positive_rating_count": 324,
+    "users_solved": 19467,
+    "users_solved_during_event": 4672,
+    "event_points": 100,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 296075,
+      "status": "NOT_RUNNING",
+      "expires_in": null,
+      "description": "<p>The program provided allows you to write to a file and read what you wrote from\nit. Try playing around with it and see if you can break it!</p>\n<p>The program's source code with the flag redacted can be downloaded\n<a href='https://artifacts.picoctf.net/c/141/program-redacted.c' download>here</a>.</p>",
+      "hints": [
+        "<p>Try passing in things the program doesn't expect. Like a string instead of a\nnumber.</p>"
+      ],
+      "on_demand": true,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 216,
+    "name": "clutter-overflow",
+    "author": "notdeghost",
+    "difficulty": 2,
+    "event": {
+      "id": 67,
+      "name": "picoMini by redpwn"
+    },
+    "category": {
+      "id": 6,
+      "name": "Binary Exploitation"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 122,
+    "positive_rating_count": 110,
+    "users_solved": 3897,
+    "users_solved_during_event": 108,
+    "event_points": 150,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 1272,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "<p>Clutter, clutter everywhere and not a byte to use.</p>\n<p><code>nc mars.picoctf.net 31890</code></p>",
+      "hints": [],
+      "on_demand": false,
+      "endpoints": [
+        {
+          "endpoint": "<a href=\"https://artifacts.picoctf.net/picoMini+by+redpwn/Binary+Exploitation/clutter-overflow/chall.c\">chall.c</a>",
+          "label": "Download chall.c"
+        },
+        {
+          "endpoint": "<a href=\"https://artifacts.picoctf.net/picoMini+by+redpwn/Binary+Exploitation/clutter-overflow/chall\">chall</a>",
+          "label": "Download chall"
+        }
+      ]
+    }
+  },
+  {
+    "id": 105,
+    "name": "Stonks",
+    "author": "madStacks",
+    "difficulty": 2,
+    "event": {
+      "id": 34,
+      "name": "picoCTF 2021"
+    },
+    "category": {
+      "id": 6,
+      "name": "Binary Exploitation"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 1052,
+    "positive_rating_count": 738,
+    "users_solved": 31518,
+    "users_solved_during_event": 508,
+    "event_points": 20,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 466,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "I decided to try something noone else has before. I made a bot to automatically trade stonks for me using AI and machine learning. I wouldn't believe you if you told me it's unsecure! <a href='//mercury.picoctf.net/static/e4d297ce964e4f54225786fe7b153b4b/vuln.c'>vuln.c</a> <code>nc mercury.picoctf.net 20195</code>",
+      "hints": [
+        "Okay, maybe I'd believe you if you find my API key."
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 446,
+    "name": "babygame03",
+    "author": "Palash Oswal",
+    "difficulty": 3,
+    "event": {
+      "id": 73,
+      "name": "picoCTF 2024"
+    },
+    "category": {
+      "id": 6,
+      "name": "Binary Exploitation"
+    },
+    "tags": [
+      {
+        "id": 42,
+        "name": "game"
+      }
+    ],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 37,
+    "positive_rating_count": 33,
+    "users_solved": 320,
+    "users_solved_during_event": 217,
+    "event_points": 400,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 295582,
+      "status": "NOT_RUNNING",
+      "expires_in": null,
+      "description": "<p>Break the game and get the flag.</p>\n<p>Welcome to BabyGame 03! Navigate around the map and see what you can find! Be careful, you don't have many moves. There are obstacles that instantly end the game on collision.\nThe game is available to download <a href='https://artifacts.picoctf.net/c_rhea/32/game' download>here</a>. There is no source available, so you'll have to figure your way around the map.</p>",
+      "hints": [
+        "<p>Use 'w','a','s','d' to move around.</p>",
+        "<p>There may be secret commands to make your life easy.</p>"
+      ],
+      "on_demand": true,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 441,
+    "name": "high frequency troubles",
+    "author": "pepsipu",
+    "difficulty": 3,
+    "event": {
+      "id": 73,
+      "name": "picoCTF 2024"
+    },
+    "category": {
+      "id": 6,
+      "name": "Binary Exploitation"
+    },
+    "tags": [
+      {
+        "id": 74,
+        "name": "heap"
+      }
+    ],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 14,
+    "positive_rating_count": 13,
+    "users_solved": 76,
+    "users_solved_during_event": 31,
+    "event_points": 500,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 295549,
+      "status": "NOT_RUNNING",
+      "expires_in": null,
+      "description": "<p>Download the binary <a href='https://artifacts.picoctf.net/c_tethys/22/hft' download>here</a>.</p>\n<p>Download the source <a href='https://artifacts.picoctf.net/c_tethys/22/main.c' download>here</a>.</p>\n<p>Download libc <a href='https://artifacts.picoctf.net/c_tethys/22/libc.so.6' download>here</a>.</p>",
+      "hints": [
+        "<p>allocate a size greater than mp_.mmap_threshold</p>"
+      ],
+      "on_demand": true,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 380,
+    "name": "tic-tac",
+    "author": "Junias Bonou",
+    "difficulty": 3,
+    "event": {
+      "id": 72,
+      "name": "picoCTF 2023"
+    },
+    "category": {
+      "id": 6,
+      "name": "Binary Exploitation"
+    },
+    "tags": [
+      {
+        "id": 51,
+        "name": "bash"
+      },
+      {
+        "id": 44,
+        "name": "linux"
+      },
+      {
+        "id": 53,
+        "name": "toctou"
+      }
+    ],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 84,
+    "positive_rating_count": 77,
+    "users_solved": 1284,
+    "users_solved_during_event": 669,
+    "event_points": 200,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 295154,
+      "status": "NOT_RUNNING",
+      "expires_in": null,
+      "description": "<p>Someone created a program to read text files; we think the program reads files with root privileges but apparently it\nonly accepts to read files that are owned by the user running it.</p>",
+      "hints": [],
+      "on_demand": true,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 353,
+    "name": "Horsetrack",
+    "author": "madStacks",
+    "difficulty": 3,
+    "event": {
+      "id": 72,
+      "name": "picoCTF 2023"
+    },
+    "category": {
+      "id": 6,
+      "name": "Binary Exploitation"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 21,
+    "positive_rating_count": 15,
+    "users_solved": 139,
+    "users_solved_during_event": 75,
+    "event_points": 300,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 294989,
+      "status": "NOT_RUNNING",
+      "expires_in": null,
+      "description": "<p>I'm starting to write a game about horse racing, would you mind testing it out?\nMaybe you can find some of my easter eggs... Hopefully it's a heap of fun!</p>",
+      "hints": [
+        "<p>https://github.com/shellphish/how2heap/</p>"
+      ],
+      "on_demand": true,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 346,
+    "name": "babygame02",
+    "author": "Palash Oswal",
+    "difficulty": 3,
+    "event": {
+      "id": 72,
+      "name": "picoCTF 2023"
+    },
+    "category": {
+      "id": 6,
+      "name": "Binary Exploitation"
+    },
+    "tags": [
+      {
+        "id": 42,
+        "name": "game"
+      }
+    ],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 55,
+    "positive_rating_count": 31,
+    "users_solved": 768,
+    "users_solved_during_event": 275,
+    "event_points": 200,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 295241,
+      "status": "NOT_RUNNING",
+      "expires_in": null,
+      "description": "<p>Break the game and get the flag.</p>",
+      "hints": [
+        "<ul>\n<li>Use 'w','a','s','d' to move around.</li>\n<li>There may be secret commands to make your life easy.</li>\n</ul>"
+      ],
+      "on_demand": true,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 317,
+    "name": "wine",
+    "author": "Neel Bhavsar",
+    "difficulty": 3,
+    "event": {
+      "id": 70,
+      "name": "picoCTF 2022"
+    },
+    "category": {
+      "id": 6,
+      "name": "Binary Exploitation"
+    },
+    "tags": [
+      {
+        "id": 41,
+        "name": "windows"
+      }
+    ],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 63,
+    "positive_rating_count": 40,
+    "users_solved": 1068,
+    "users_solved_during_event": 561,
+    "event_points": 300,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 295712,
+      "status": "NOT_RUNNING",
+      "expires_in": null,
+      "description": "<p>Challenge best paired with wine.</p>",
+      "hints": [
+        "<p>Gets is dangerous. Even on windows.</p>"
+      ],
+      "on_demand": true,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 306,
+    "name": "stack cache",
+    "author": "Palash Oswal",
+    "difficulty": 3,
+    "event": {
+      "id": 70,
+      "name": "picoCTF 2022"
+    },
+    "category": {
+      "id": 6,
+      "name": "Binary Exploitation"
+    },
+    "tags": [
+      {
+        "id": 33,
+        "name": "cache"
+      },
+      {
+        "id": 34,
+        "name": "compiler"
+      },
+      {
+        "id": 35,
+        "name": "undefined_behavior"
+      }
+    ],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 46,
+    "positive_rating_count": 32,
+    "users_solved": 821,
+    "users_solved_during_event": 407,
+    "event_points": 400,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 295293,
+      "status": "NOT_RUNNING",
+      "expires_in": null,
+      "description": "<p>Undefined behaviours are fun.</p>",
+      "hints": [
+        "<p>Maybe there is content left over from stack?</p>",
+        "<p>Try compiling it with gcc and clang-12 to see how the binaries differ</p>"
+      ],
+      "on_demand": true,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 302,
+    "name": "solfire",
+    "author": "notdeghost",
+    "difficulty": 3,
+    "event": {
+      "id": 70,
+      "name": "picoCTF 2022"
+    },
+    "category": {
+      "id": 6,
+      "name": "Binary Exploitation"
+    },
+    "tags": [
+      {
+        "id": 31,
+        "name": "blockchain"
+      }
+    ],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 6,
+    "positive_rating_count": 4,
+    "users_solved": 17,
+    "users_solved_during_event": 7,
+    "event_points": 500,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 294871,
+      "status": "NOT_RUNNING",
+      "expires_in": null,
+      "description": "<p>What is debt? A perversion of a promise?</p>\n<p>Surely one has to <a href=\"https://web.archive.org/web/20221207162228/https://osec.io/blog/tutorials/2022-03-14-solana-security-intro/\">pay one's debts</a>.</p>",
+      "hints": [],
+      "on_demand": true,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 292,
+    "name": "ropfu",
+    "author": "Sanjay C / LT 'syreal' Jones",
+    "difficulty": 3,
+    "event": {
+      "id": 70,
+      "name": "picoCTF 2022"
+    },
+    "category": {
+      "id": 6,
+      "name": "Binary Exploitation"
+    },
+    "tags": [
+      {
+        "id": 29,
+        "name": "ROP"
+      }
+    ],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 87,
+    "positive_rating_count": 80,
+    "users_solved": 1780,
+    "users_solved_during_event": 604,
+    "event_points": 300,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 295289,
+      "status": "NOT_RUNNING",
+      "expires_in": null,
+      "description": "<p>What's ROP?</p>",
+      "hints": [
+        "<p>This is a classic ROP to get a shell</p>"
+      ],
+      "on_demand": true,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 272,
+    "name": "function overwrite",
+    "author": "Neel Bhavsar",
+    "difficulty": 3,
+    "event": {
+      "id": 70,
+      "name": "picoCTF 2022"
+    },
+    "category": {
+      "id": 6,
+      "name": "Binary Exploitation"
+    },
+    "tags": [
+      {
+        "id": 16,
+        "name": "Array_bounds"
+      },
+      {
+        "id": 17,
+        "name": "Function_pointers"
+      }
+    ],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 98,
+    "positive_rating_count": 96,
+    "users_solved": 1363,
+    "users_solved_during_event": 520,
+    "event_points": 400,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 295286,
+      "status": "NOT_RUNNING",
+      "expires_in": null,
+      "description": "<p>Story telling class 2/2</p>",
+      "hints": [
+        "<p>Don't be so negative</p>"
+      ],
+      "on_demand": true,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 260,
+    "name": "buffer overflow 3",
+    "author": "Sanjay C / Palash Oswal",
+    "difficulty": 3,
+    "event": {
+      "id": 70,
+      "name": "picoCTF 2022"
+    },
+    "category": {
+      "id": 6,
+      "name": "Binary Exploitation"
+    },
+    "tags": [
+      {
+        "id": 11,
+        "name": "canary"
+      }
+    ],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 120,
+    "positive_rating_count": 104,
+    "users_solved": 1740,
+    "users_solved_during_event": 791,
+    "event_points": 300,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 295301,
+      "status": "NOT_RUNNING",
+      "expires_in": null,
+      "description": "<p>Do you think you can bypass the protection and get the flag?</p>",
+      "hints": [
+        "<p>Maybe there's a smart way to brute-force the canary?</p>"
+      ],
+      "on_demand": true,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 218,
+    "name": "vr-school",
+    "author": "notdeghost",
+    "difficulty": 3,
+    "event": {
+      "id": 67,
+      "name": "picoMini by redpwn"
+    },
+    "category": {
+      "id": 6,
+      "name": "Binary Exploitation"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 2,
+    "positive_rating_count": 2,
+    "users_solved": 119,
+    "users_solved_during_event": 3,
+    "event_points": 500,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 1274,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "<p>Join my online school! Don't get lost in the virtual functions..</p>\n<p><code>nc mars.picoctf.net 31638</code></p>",
+      "hints": [],
+      "on_demand": false,
+      "endpoints": [
+        {
+          "endpoint": "<a href=\"https://artifacts.picoctf.net/picoMini+by+redpwn/Binary+Exploitation/vr-school/Dockerfile\">Dockerfile</a>",
+          "label": "Download Dockerfile"
+        },
+        {
+          "endpoint": "<a href=\"https://artifacts.picoctf.net/picoMini+by+redpwn/Binary+Exploitation/vr-school/chall\">chall</a>",
+          "label": "Download chall"
+        }
+      ]
+    }
+  },
+  {
+    "id": 217,
+    "name": "homework",
+    "author": "tpa",
+    "difficulty": 3,
+    "event": {
+      "id": 67,
+      "name": "picoMini by redpwn"
+    },
+    "category": {
+      "id": 6,
+      "name": "Binary Exploitation"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 9,
+    "positive_rating_count": 9,
+    "users_solved": 94,
+    "users_solved_during_event": 3,
+    "event_points": 400,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 1273,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "<p>\"time to do some homework!\"</p>\n<p><code>nc mars.picoctf.net 31689</code></p>",
+      "hints": [],
+      "on_demand": false,
+      "endpoints": [
+        {
+          "endpoint": "<a href=\"https://artifacts.picoctf.net/picoMini+by+redpwn/Binary+Exploitation/homework/homework\">homework</a>",
+          "label": "Download homework"
+        }
+      ]
+    }
+  },
+  {
+    "id": 215,
+    "name": "fermat-strings",
+    "author": "notdeghost",
+    "difficulty": 3,
+    "event": {
+      "id": 67,
+      "name": "picoMini by redpwn"
+    },
+    "category": {
+      "id": 6,
+      "name": "Binary Exploitation"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 17,
+    "positive_rating_count": 17,
+    "users_solved": 506,
+    "users_solved_during_event": 13,
+    "event_points": 250,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 1271,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "<p>Fermat's last theorem solver as a service.</p>\n<p><code>nc mars.picoctf.net 31929</code></p>",
+      "hints": [],
+      "on_demand": false,
+      "endpoints": [
+        {
+          "endpoint": "<a href=\"https://artifacts.picoctf.net/picoMini+by+redpwn/Binary+Exploitation/fermat-strings/chall.c\">chall.c</a>",
+          "label": "Download chall.c"
+        },
+        {
+          "endpoint": "<a href=\"https://artifacts.picoctf.net/picoMini+by+redpwn/Binary+Exploitation/fermat-strings/Dockerfile\">Dockerfile</a>",
+          "label": "Download Dockerfile"
+        },
+        {
+          "endpoint": "<a href=\"https://artifacts.picoctf.net/picoMini+by+redpwn/Binary+Exploitation/fermat-strings/chall\">chall</a>",
+          "label": "Download chall"
+        }
+      ]
+    }
+  },
+  {
+    "id": 214,
+    "name": "lockdown-horses",
+    "author": "kfb",
+    "difficulty": 3,
+    "event": {
+      "id": 67,
+      "name": "picoMini by redpwn"
+    },
+    "category": {
+      "id": 6,
+      "name": "Binary Exploitation"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 8,
+    "positive_rating_count": 7,
+    "users_solved": 236,
+    "users_solved_during_event": 7,
+    "event_points": 450,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 1270,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "<p>Here at Moar Horse Industries, we believe, especially during these troubling times,\nthat everyone should be able to make a horse say whatever they want.</p>\n<p>We were tired of people getting shells everywhere, so now it should be impossible!\nCan you still find a way to rope yourself out of this one?</p>\n<p>Flag is in the current directory. <a href=\"https://github.com/david942j/seccomp-tools\">seccomp-tools</a>\nmight be helpful.</p>\n<p><code>nc mars.picoctf.net 31809</code></p>",
+      "hints": [],
+      "on_demand": false,
+      "endpoints": [
+        {
+          "endpoint": "<a href=\"https://artifacts.picoctf.net/picoMini+by+redpwn/Binary+Exploitation/lockdown-horses/horse\">horse</a>",
+          "label": "Download horse"
+        },
+        {
+          "endpoint": "<a href=\"https://artifacts.picoctf.net/picoMini+by+redpwn/Binary+Exploitation/lockdown-horses/Dockerfile\">Dockerfile</a>",
+          "label": "Download Dockerfile"
+        }
+      ]
+    }
+  },
+  {
+    "id": 213,
+    "name": "SaaS",
+    "author": "notdeghost",
+    "difficulty": 3,
+    "event": {
+      "id": 67,
+      "name": "picoMini by redpwn"
+    },
+    "category": {
+      "id": 6,
+      "name": "Binary Exploitation"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 6,
+    "positive_rating_count": 4,
+    "users_solved": 285,
+    "users_solved_during_event": 9,
+    "event_points": 350,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 1269,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "<p>Shellcode as a Service runs any assembly code you give it!\nFor extra safety, you're not allowed to do a lot...</p>\n<p><code>nc mars.picoctf.net 31021</code></p>",
+      "hints": [],
+      "on_demand": false,
+      "endpoints": [
+        {
+          "endpoint": "<a href=\"https://artifacts.picoctf.net/picoMini+by+redpwn/Binary+Exploitation/saas/chall.c\">chall.c</a>",
+          "label": "Download chall.c"
+        },
+        {
+          "endpoint": "<a href=\"https://artifacts.picoctf.net/picoMini+by+redpwn/Binary+Exploitation/saas/Dockerfile\">Dockerfile</a>",
+          "label": "Download Dockerfile"
+        },
+        {
+          "endpoint": "<a href=\"https://artifacts.picoctf.net/picoMini+by+redpwn/Binary+Exploitation/saas/chall\">chall</a>",
+          "label": "Download chall"
+        }
+      ]
+    }
+  },
+  {
+    "id": 187,
+    "name": "Unsubscriptions Are Free",
+    "author": "thelshell",
+    "difficulty": 3,
+    "event": {
+      "id": 34,
+      "name": "picoCTF 2021"
+    },
+    "category": {
+      "id": 6,
+      "name": "Binary Exploitation"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 82,
+    "positive_rating_count": 72,
+    "users_solved": 2083,
+    "users_solved_during_event": 144,
+    "event_points": 100,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 1039,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "Check out my new video-game and spaghetti-eating streaming channel on Twixer! <a href='//mercury.picoctf.net/static/69ab375d13894d1ca38a04cd0d3b7328/vuln'>program</a> and get a flag. <a href='//mercury.picoctf.net/static/69ab375d13894d1ca38a04cd0d3b7328/vuln.c'>source</a> <code>nc mercury.picoctf.net 4593</code>",
+      "hints": [
+        "<a href=\"http://homes.sice.indiana.edu/yh33/Teaching/I433-2016/lec13-HeapAttacks.pdf\">http://homes.sice.indiana.edu/yh33/Teaching/I433-2016/lec13-HeapAttacks.pdf</a>"
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 184,
+    "name": "filtered-shellcode",
+    "author": "madStacks",
+    "difficulty": 3,
+    "event": {
+      "id": 34,
+      "name": "picoCTF 2021"
+    },
+    "category": {
+      "id": 6,
+      "name": "Binary Exploitation"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 44,
+    "positive_rating_count": 42,
+    "users_solved": 823,
+    "users_solved_during_event": 105,
+    "event_points": 160,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 1019,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "A program that just runs the code you give it? That seems kinda boring... <a href='//mercury.picoctf.net/static/bbf1df1382e5c08be25164bda6357775/fun'>fun</a> <code>nc mercury.picoctf.net 35338</code>",
+      "hints": [
+        "Take a look at the calling convention and see how you might be able to setup all the registers"
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 181,
+    "name": "Bizz Fuzz",
+    "author": "madStacks",
+    "difficulty": 3,
+    "event": {
+      "id": 34,
+      "name": "picoCTF 2021"
+    },
+    "category": {
+      "id": 6,
+      "name": "Binary Exploitation"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 14,
+    "positive_rating_count": 9,
+    "users_solved": 1101,
+    "users_solved_during_event": 31,
+    "event_points": 500,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 999,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "FizzBuzz was too easy, so I made something a little bit harder... There's a buffer overflow in this problem, good luck finding it! <a href='//mercury.picoctf.net/static/f2f5c8565fe4f19e0cbf3083f797ddd1/vuln'>vuln</a> <code>nc mercury.picoctf.net 26424</code>",
+      "hints": [
+        "What functions are imported? Where are they used? And what do these strings mean?",
+        "Woah, some of these functions seem similar, can you figure them out one group at a time?",
+        "If fancy new dissassemblers take too long, there's always objdump!",
+        "Have you heard of binary instrumentation before? It might keep you from running in circles. No promises.",
+        "ANGR is another great framework."
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 179,
+    "name": "Here's a LIBC",
+    "author": "madStacks",
+    "difficulty": 3,
+    "event": {
+      "id": 34,
+      "name": "picoCTF 2021"
+    },
+    "category": {
+      "id": 6,
+      "name": "Binary Exploitation"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 110,
+    "positive_rating_count": 106,
+    "users_solved": 2088,
+    "users_solved_during_event": 175,
+    "event_points": 90,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 983,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "I am once again asking for you to pwn this binary <a href='//mercury.picoctf.net/static/58622771a398cdc12767c5caab84fcb9/vuln'>vuln</a> <a href='//mercury.picoctf.net/static/58622771a398cdc12767c5caab84fcb9/libc.so.6'>libc.so.6</a> <a href='//mercury.picoctf.net/static/58622771a398cdc12767c5caab84fcb9/Makefile'>Makefile</a> <code>nc mercury.picoctf.net 24159</code>",
+      "hints": [
+        "PWNTools has a lot of useful features for getting offsets."
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 178,
+    "name": "Turboflan",
+    "author": "wparks",
+    "difficulty": 3,
+    "event": {
+      "id": 34,
+      "name": "picoCTF 2021"
+    },
+    "category": {
+      "id": 6,
+      "name": "Binary Exploitation"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 19,
+    "positive_rating_count": 17,
+    "users_solved": 114,
+    "users_solved_during_event": 33,
+    "event_points": 600,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 977,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "A Radiant Gourmet Flan told our young Turboflan hero to stop rushing and slow down. Has he listened? <a href='//mercury.picoctf.net/static/5636e33f392746cfa0648b74ec01722a/d8'>d8</a> <a href='//mercury.picoctf.net/static/5636e33f392746cfa0648b74ec01722a/source.tar.gz'>source.tar.gz</a> <a href='//mercury.picoctf.net/static/5636e33f392746cfa0648b74ec01722a/server.py'>server.py</a> Connect at mercury.picoctf.net 17466",
+      "hints": [
+        "There are a bunch of public writeups on v8 exploitation. Find the relevent ones",
+        "There likely are many ways to solve this problem."
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 172,
+    "name": "The Office",
+    "author": "madStacks",
+    "difficulty": 3,
+    "event": {
+      "id": 34,
+      "name": "picoCTF 2021"
+    },
+    "category": {
+      "id": 6,
+      "name": "Binary Exploitation"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 17,
+    "positive_rating_count": 15,
+    "users_solved": 163,
+    "users_solved_during_event": 36,
+    "event_points": 400,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 939,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "I'm tired of having to secure my data on the heap, so I decided to implement my own version of malloc with canaries. It's 10x more secure and only 100x slower! <a href='//mercury.picoctf.net/static/d7d69b6dc8245d8ad10507bb32a02bae/the_office'>the_office</a> <code>nc mercury.picoctf.net 45725</code>",
+      "hints": [
+        "The heapcheck function contains a lot of useful debugging info. See if you can get it to work."
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 168,
+    "name": "Kit Engine",
+    "author": "wparks",
+    "difficulty": 3,
+    "event": {
+      "id": 34,
+      "name": "picoCTF 2021"
+    },
+    "category": {
+      "id": 6,
+      "name": "Binary Exploitation"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 31,
+    "positive_rating_count": 30,
+    "users_solved": 383,
+    "users_solved_during_event": 98,
+    "event_points": 375,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 909,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "Start your engines!! <a href='//mercury.picoctf.net/static/6e15c605b9f214d7afc35e68b4ae307f/d8'>d8</a> <a href='//mercury.picoctf.net/static/6e15c605b9f214d7afc35e68b4ae307f/source.tar.gz'>source.tar.gz</a> <a href='//mercury.picoctf.net/static/6e15c605b9f214d7afc35e68b4ae307f/server.py'>server.py</a> Connect at mercury.picoctf.net 62123",
+      "hints": [
+        "Having a good foundation may be helpful later",
+        "Make sure your shellcode works for the situation."
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 164,
+    "name": "Stonk Market",
+    "author": "madStacks",
+    "difficulty": 3,
+    "event": {
+      "id": 34,
+      "name": "picoCTF 2021"
+    },
+    "category": {
+      "id": 6,
+      "name": "Binary Exploitation"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 25,
+    "positive_rating_count": 25,
+    "users_solved": 335,
+    "users_solved_during_event": 34,
+    "event_points": 180,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 1215,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "I've learned my lesson, no more reading my API key into memory. Now there's no useful information you can leak! <a href='//mercury.picoctf.net/static/845f9026b3ed714a87fdf98fb9c79203/vuln'>vuln</a> <a href='//mercury.picoctf.net/static/845f9026b3ed714a87fdf98fb9c79203/vuln.c'>vuln.c</a> <a href='//mercury.picoctf.net/static/845f9026b3ed714a87fdf98fb9c79203/Makefile'>Makefile</a> <code>nc mercury.picoctf.net 12784</code>",
+      "hints": [],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 146,
+    "name": "Cache Me Outside",
+    "author": "madStacks",
+    "difficulty": 3,
+    "event": {
+      "id": 34,
+      "name": "picoCTF 2021"
+    },
+    "category": {
+      "id": 6,
+      "name": "Binary Exploitation"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 109,
+    "positive_rating_count": 81,
+    "users_solved": 2284,
+    "users_solved_during_event": 117,
+    "event_points": 70,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 757,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "While being super relevant with my meme references, I wrote a program to see how much you understand heap allocations. <code>nc mercury.picoctf.net 31153</code> <a href='//mercury.picoctf.net/static/af9d9987f1c92fcaf931198b7d40a581/heapedit'>heapedit</a> <a href='//mercury.picoctf.net/static/af9d9987f1c92fcaf931198b7d40a581/Makefile'>Makefile</a> <a href='//mercury.picoctf.net/static/af9d9987f1c92fcaf931198b7d40a581/libc.so.6'>libc.so.6</a>",
+      "hints": [
+        "It may be helpful to read a little bit on GLIBC's tcache."
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 135,
+    "name": "Download Horsepower",
+    "author": "wparks",
+    "difficulty": 3,
+    "event": {
+      "id": 34,
+      "name": "picoCTF 2021"
+    },
+    "category": {
+      "id": 6,
+      "name": "Binary Exploitation"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 29,
+    "positive_rating_count": 27,
+    "users_solved": 137,
+    "users_solved_during_event": 55,
+    "event_points": 450,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 676,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "Gotta go fast <a href='//mercury.picoctf.net/static/97f2af641c6911aab82a0b142b7acc62/d8'>d8</a> <a href='//mercury.picoctf.net/static/97f2af641c6911aab82a0b142b7acc62/source.tar.gz'>source.tar.gz</a> <a href='//mercury.picoctf.net/static/97f2af641c6911aab82a0b142b7acc62/server.py'>server.py</a> Connect at mercury.picoctf.net 60233",
+      "hints": [
+        "Learn how things are represented in memory",
+        "Try to make sure your exploit is resilient to differing offsets between objects",
+        "The V8 codebase changes often! Make sure you're accounting for any changes"
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 90,
+    "name": "Guessing Game 1",
+    "author": "madStacks",
+    "difficulty": 3,
+    "event": {
+      "id": 3,
+      "name": "picoCTF 2020 Mini-Competition"
+    },
+    "category": {
+      "id": 6,
+      "name": "Binary Exploitation"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 117,
+    "positive_rating_count": 111,
+    "users_solved": 1169,
+    "users_solved_during_event": 152,
+    "event_points": 1,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 331,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "I made a simple game to show off my programming skills. See if you can beat it! <a href='//jupiter.challenges.picoctf.org/static/3087c07bcba6f4ca29aa2dffab66c19f/vuln'>vuln</a> <a href='//jupiter.challenges.picoctf.org/static/3087c07bcba6f4ca29aa2dffab66c19f/vuln.c'>vuln.c</a> <a href='//jupiter.challenges.picoctf.org/static/3087c07bcba6f4ca29aa2dffab66c19f/Makefile'>Makefile</a> <code>nc jupiter.challenges.picoctf.org 28953</code>",
+      "hints": [
+        "Tools can be helpful, but you may need to look around for yourself.",
+        "Remember, in CTF problems, if something seems weird it probably means something..."
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 89,
+    "name": "Guessing Game 2",
+    "author": "madStacks",
+    "difficulty": 3,
+    "event": {
+      "id": 3,
+      "name": "picoCTF 2020 Mini-Competition"
+    },
+    "category": {
+      "id": 6,
+      "name": "Binary Exploitation"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 53,
+    "positive_rating_count": 44,
+    "users_solved": 443,
+    "users_solved_during_event": 89,
+    "event_points": 1,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 372,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "It's the Return of your favorite game! <a href='//jupiter.challenges.picoctf.org/static/98f4d8f74d09caee6c86c36d75c092a6/vuln'>vuln</a> <a href='//jupiter.challenges.picoctf.org/static/98f4d8f74d09caee6c86c36d75c092a6/vuln.c'>vuln.c</a> <a href='//jupiter.challenges.picoctf.org/static/98f4d8f74d09caee6c86c36d75c092a6/Makefile'>Makefile</a> <code>nc jupiter.challenges.picoctf.org 57529</code>",
+      "hints": [
+        "No longer a static binary, but maybe this will help <a href=\"https://libc.rip\">https://libc.rip</a>",
+        "Check out the other differences in the Makefile as well."
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 75,
+    "name": "zero_to_hero",
+    "author": "Claude",
+    "difficulty": 3,
+    "event": {
+      "id": 1,
+      "name": "picoCTF 2019"
+    },
+    "category": {
+      "id": 6,
+      "name": "Binary Exploitation"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 18,
+    "positive_rating_count": 18,
+    "users_solved": 157,
+    "users_solved_during_event": 0,
+    "event_points": 500,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 326,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "Now you're really cooking. Can you pwn <a href='//jupiter.challenges.picoctf.org/static/199c7f352dbe255eb173dfd6da6a93a3/zero_to_hero'>this</a> service?. Connect with <code>nc jupiter.challenges.picoctf.org 29476</code>. <a href='//jupiter.challenges.picoctf.org/static/199c7f352dbe255eb173dfd6da6a93a3/libc.so.6'>libc.so.6</a> <a href='//jupiter.challenges.picoctf.org/static/199c7f352dbe255eb173dfd6da6a93a3/ld-2.29.so'>ld-2.29.so</a>",
+      "hints": [
+        "Make sure to both files are in the same directory as the executable, and set LD_PRELOAD to the path of libc.so.6"
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 55,
+    "name": "sice_cream",
+    "author": "Samuel",
+    "difficulty": 3,
+    "event": {
+      "id": 1,
+      "name": "picoCTF 2019"
+    },
+    "category": {
+      "id": 6,
+      "name": "Binary Exploitation"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 9,
+    "positive_rating_count": 8,
+    "users_solved": 66,
+    "users_solved_during_event": 0,
+    "event_points": 500,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 322,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "Just pwn this <a href='//jupiter.challenges.picoctf.org/static/8715579c7b1c8027c5fcea197b7a8e09/sice_cream'>program</a> and get a flag. Connect with <code>nc jupiter.challenges.picoctf.org 51860</code>. <a href='//jupiter.challenges.picoctf.org/static/8715579c7b1c8027c5fcea197b7a8e09/libc.so.6'>libc.so.6</a> <a href='//jupiter.challenges.picoctf.org/static/8715579c7b1c8027c5fcea197b7a8e09/ld-2.23.so'>ld-2.23.so</a>.",
+      "hints": [
+        "Make sure to both files are in the same directory as the executable, and set LD_PRELOAD to the path of libc.so.6"
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 50,
+    "name": "seed-sPRiNG",
+    "author": "John Hammond",
+    "difficulty": 3,
+    "event": {
+      "id": 1,
+      "name": "picoCTF 2019"
+    },
+    "category": {
+      "id": 6,
+      "name": "Binary Exploitation"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 44,
+    "positive_rating_count": 33,
+    "users_solved": 621,
+    "users_solved_during_event": 0,
+    "event_points": 350,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 375,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "The most revolutionary game is finally available: seed sPRiNG is open right now! <a href='//jupiter.challenges.picoctf.org/static/c55cb5df6751e2eda359ea167f6015de/seed_spring'>seed_spring</a>. Connect to it with <code>nc jupiter.challenges.picoctf.org 8311</code>.",
+      "hints": [
+        "How is that program deciding what the height is?",
+        "You and the program should sync up!"
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  }
+]

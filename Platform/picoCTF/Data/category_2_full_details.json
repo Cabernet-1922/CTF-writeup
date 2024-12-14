@@ -1,0 +1,2633 @@
+[
+  {
+    "id": 418,
+    "name": "interencdec",
+    "author": "NGIRIMANA Schadrack",
+    "difficulty": 1,
+    "event": {
+      "id": 73,
+      "name": "picoCTF 2024"
+    },
+    "category": {
+      "id": 2,
+      "name": "Cryptography"
+    },
+    "tags": [
+      {
+        "id": 49,
+        "name": "base64"
+      },
+      {
+        "id": 63,
+        "name": "browser_webshell_solvable"
+      },
+      {
+        "id": 68,
+        "name": "caesar"
+      }
+    ],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 374,
+    "positive_rating_count": 326,
+    "users_solved": 24912,
+    "users_solved_during_event": 5049,
+    "event_points": 50,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 296002,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "<p>Can you get the real meaning from this file.</p>\n<p>Download the file <a href='https://artifacts.picoctf.net/c_titan/110/enc_flag' download>here</a>.</p>\n",
+      "hints": [
+        "<p>Engaging in various decoding processes is of utmost importance</p>"
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 144,
+    "name": "Mod 26",
+    "author": "Pandu",
+    "difficulty": 1,
+    "event": {
+      "id": 34,
+      "name": "picoCTF 2021"
+    },
+    "category": {
+      "id": 2,
+      "name": "Cryptography"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 4106,
+    "positive_rating_count": 3806,
+    "users_solved": 242797,
+    "users_solved_during_event": 6357,
+    "event_points": 10,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 740,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "Cryptography can be easy, do you know what ROT13 is? <code>cvpbPGS{arkg_gvzr_V'yy_gel_2_ebhaqf_bs_ebg13_MAZyqFQj}</code>",
+      "hints": [
+        "This can be solved online if you don't want to do it by hand!"
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 68,
+    "name": "The Numbers",
+    "author": "Danny",
+    "difficulty": 1,
+    "event": {
+      "id": 1,
+      "name": "picoCTF 2019"
+    },
+    "category": {
+      "id": 2,
+      "name": "Cryptography"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 1710,
+    "positive_rating_count": 1113,
+    "users_solved": 81715,
+    "users_solved_during_event": 0,
+    "event_points": 50,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 162,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "The <a href='//jupiter.challenges.picoctf.org/static/f209a32253affb6f547a585649ba4fda/the_numbers.png'>numbers</a>... what do they mean?",
+      "hints": [
+        "The flag is in the format PICOCTF{}"
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 62,
+    "name": "13",
+    "author": "Alex Fulton/Daniel Tunitis",
+    "difficulty": 1,
+    "event": {
+      "id": 1,
+      "name": "picoCTF 2019"
+    },
+    "category": {
+      "id": 2,
+      "name": "Cryptography"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 646,
+    "positive_rating_count": 563,
+    "users_solved": 69265,
+    "users_solved_during_event": 0,
+    "event_points": 100,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 150,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "Cryptography can be easy, do you know what ROT13 is? <code>cvpbPGS{abg_gbb_onq_bs_n_ceboyrz}</code>",
+      "hints": [
+        "This can be solved online if you don't want to do it by hand!"
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 422,
+    "name": "rsa_oracle",
+    "author": "Geoffrey Njogu",
+    "difficulty": 2,
+    "event": {
+      "id": 73,
+      "name": "picoCTF 2024"
+    },
+    "category": {
+      "id": 2,
+      "name": "Cryptography"
+    },
+    "tags": [
+      {
+        "id": 63,
+        "name": "browser_webshell_solvable"
+      }
+    ],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 94,
+    "positive_rating_count": 89,
+    "users_solved": 1410,
+    "users_solved_during_event": 498,
+    "event_points": 300,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 295883,
+      "status": "NOT_RUNNING",
+      "expires_in": null,
+      "description": "<p>Can you abuse the oracle?</p>\n<p>An attacker was able to intercept communications between a bank and a fintech company. They managed to get the <a href='https://artifacts.picoctf.net/c_titan/149/secret.enc' download>message</a> (ciphertext) and the <a href='https://artifacts.picoctf.net/c_titan/149/password.enc' download>password</a> that was used to encrypt the message.</p>",
+      "hints": [
+        "<p>Crytography Threat models: chosen plaintext attack.</p>",
+        "<p>OpenSSL can be used to decrypt the message. e.g <code>openssl enc -aes-256-cbc -d ...</code></p>",
+        "<p>The key to getting the flag is by sending a custom message to the server by taking advantage of the RSA encryption algorithm.</p>",
+        "<p>Minimum requirements for a useful cryptosystem is CPA security.</p>"
+      ],
+      "on_demand": true,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 412,
+    "name": "Custom encryption",
+    "author": "NGIRIMANA Schadrack",
+    "difficulty": 2,
+    "event": {
+      "id": 73,
+      "name": "picoCTF 2024"
+    },
+    "category": {
+      "id": 2,
+      "name": "Cryptography"
+    },
+    "tags": [
+      {
+        "id": 66,
+        "name": "ASCII_encoding"
+      },
+      {
+        "id": 67,
+        "name": "XOR"
+      },
+      {
+        "id": 63,
+        "name": "browser_webshell_solvable"
+      }
+    ],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 174,
+    "positive_rating_count": 152,
+    "users_solved": 4553,
+    "users_solved_during_event": 2080,
+    "event_points": 100,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 295980,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "<p>Can you get sense of this code file  and write the function that will decode the given encrypted file content.</p>\n<p>Find the encrypted file here <a href='https://artifacts.picoctf.net/c_titan/92/enc_flag' download>flag_info</a> and  <a href='https://artifacts.picoctf.net/c_titan/92/custom_encryption.py' download>code file</a> might be good to analyze and get the flag.</p>\n",
+      "hints": [
+        "<p>Understanding encryption algorithm to come up with decryption algorithm.</p>"
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 407,
+    "name": "C3",
+    "author": "Matt Superdock",
+    "difficulty": 2,
+    "event": {
+      "id": 73,
+      "name": "picoCTF 2024"
+    },
+    "category": {
+      "id": 2,
+      "name": "Cryptography"
+    },
+    "tags": [
+      {
+        "id": 63,
+        "name": "browser_webshell_solvable"
+      }
+    ],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 267,
+    "positive_rating_count": 84,
+    "users_solved": 2739,
+    "users_solved_during_event": 1177,
+    "event_points": 200,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 295957,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "<p>This is the Custom Cyclical Cipher!</p>\n<p>Download the ciphertext <a href='https://artifacts.picoctf.net/c_titan/47/ciphertext' download>here</a>.</p>\n<p>Download the encoder <a href='https://artifacts.picoctf.net/c_titan/47/convert.py' download>here</a>.</p>\n<p>Enclose the flag in our wrapper for submission. If the flag was &quot;example&quot; you\nwould submit &quot;picoCTF{example}&quot;.</p>\n",
+      "hints": [
+        "<p>Modern crypto schemes don't depend on the encoder to be secret, but this one\ndoes.</p>"
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 373,
+    "name": "rotation",
+    "author": "Loic Shema",
+    "difficulty": 2,
+    "event": {
+      "id": 72,
+      "name": "picoCTF 2023"
+    },
+    "category": {
+      "id": 2,
+      "name": "Cryptography"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 217,
+    "positive_rating_count": 195,
+    "users_solved": 18189,
+    "users_solved_during_event": 5497,
+    "event_points": 100,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 295113,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "<p>You will find the flag after decrypting this file</p>\n<p>Download the encrypted flag <a href='https://artifacts.picoctf.net/c/389/encrypted.txt' download>here</a>.</p>",
+      "hints": [
+        "<p>Sometimes rotation is right</p>"
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 367,
+    "name": "ReadMyCert",
+    "author": "Sunday Jacob Nwanyim",
+    "difficulty": 2,
+    "event": {
+      "id": 72,
+      "name": "picoCTF 2023"
+    },
+    "category": {
+      "id": 2,
+      "name": "Cryptography"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 234,
+    "positive_rating_count": 201,
+    "users_solved": 15496,
+    "users_solved_during_event": 5550,
+    "event_points": 100,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 295067,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "<p>How about we take you on an adventure on exploring certificate signing requests</p>\n<p>Take a look at this CSR file <a href='https://artifacts.picoctf.net/c/422/readmycert.csr' download>here</a>.</p>",
+      "hints": [
+        "<p>Download the certificate signing request and try to read it.</p>"
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 351,
+    "name": "HideToSee",
+    "author": "Sunday Jacob Nwanyim",
+    "difficulty": 2,
+    "event": {
+      "id": 72,
+      "name": "picoCTF 2023"
+    },
+    "category": {
+      "id": 2,
+      "name": "Cryptography"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 432,
+    "positive_rating_count": 164,
+    "users_solved": 10133,
+    "users_solved_during_event": 2597,
+    "event_points": 100,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 294973,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "<p>How about some hide and seek heh?</p>\n<p>Look at this image <a href='https://artifacts.picoctf.net/c/237/atbash.jpg' download>here</a>.</p>",
+      "hints": [
+        "<p>Download the image  and try to extract it.</p>"
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 316,
+    "name": "Vigenere",
+    "author": "Mubarak Mikail",
+    "difficulty": 2,
+    "event": {
+      "id": 70,
+      "name": "picoCTF 2022"
+    },
+    "category": {
+      "id": 2,
+      "name": "Cryptography"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 225,
+    "positive_rating_count": 202,
+    "users_solved": 23859,
+    "users_solved_during_event": 4499,
+    "event_points": 100,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 294912,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "<p>Can you decrypt this message?</p>\n<p>Decrypt this <a href='https://artifacts.picoctf.net/c/160/cipher.txt' download>message</a> using this key &quot;CYLAB&quot;.</p>",
+      "hints": [
+        "<p>https://en.wikipedia.org/wiki/Vigen%C3%A8re_cipher</p>"
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 312,
+    "name": "transposition-trial",
+    "author": "Will Hong",
+    "difficulty": 2,
+    "event": {
+      "id": 70,
+      "name": "picoCTF 2022"
+    },
+    "category": {
+      "id": 2,
+      "name": "Cryptography"
+    },
+    "tags": [
+      {
+        "id": 38,
+        "name": "cryptography"
+      }
+    ],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 152,
+    "positive_rating_count": 127,
+    "users_solved": 11170,
+    "users_solved_during_event": 3158,
+    "event_points": 100,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 294898,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "<p>Our data got corrupted on the way here. Luckily, nothing got replaced, but every block of 3 got scrambled around! The first word seems to be three letters long, maybe you can use that to recover the rest of the message.</p>\n<p>Download the corrupted message <a href='https://artifacts.picoctf.net/c/192/message.txt' download>here</a>.</p>",
+      "hints": [
+        "<p>Split the message up into blocks of 3 and see how the first block is scrambled</p>"
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 309,
+    "name": "substitution2",
+    "author": "Will Hong",
+    "difficulty": 2,
+    "event": {
+      "id": 70,
+      "name": "picoCTF 2022"
+    },
+    "category": {
+      "id": 2,
+      "name": "Cryptography"
+    },
+    "tags": [
+      {
+        "id": 36,
+        "name": "Substitution"
+      }
+    ],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 145,
+    "positive_rating_count": 126,
+    "users_solved": 13691,
+    "users_solved_during_event": 3382,
+    "event_points": 100,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 294892,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "<p>It seems that another encrypted message has been intercepted. The encryptor\nseems to have learned their lesson though and now there isn't any punctuation!\nCan you still crack the cipher?</p>\n<p>Download the message <a href='https://artifacts.picoctf.net/c/112/message.txt' download>here</a>.</p>",
+      "hints": [
+        "<p>Try refining your frequency attack, maybe analyzing groups of letters would\nimprove your results?</p>"
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 308,
+    "name": "substitution1",
+    "author": "Will Hong",
+    "difficulty": 2,
+    "event": {
+      "id": 70,
+      "name": "picoCTF 2022"
+    },
+    "category": {
+      "id": 2,
+      "name": "Cryptography"
+    },
+    "tags": [
+      {
+        "id": 37,
+        "name": "Substitution_cipher"
+      }
+    ],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 431,
+    "positive_rating_count": 194,
+    "users_solved": 13561,
+    "users_solved_during_event": 3436,
+    "event_points": 100,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 294889,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "<p>A second message has come in the mail, and it seems almost identical to the first one. Maybe the same thing will work again.</p>\n<p>Download the message <a href='https://artifacts.picoctf.net/c/181/message.txt' download>here</a>.</p>",
+      "hints": [
+        "<p>Try a frequency attack</p>",
+        "<p>Do the punctuation and the individual words help you make any substitutions?</p>"
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 307,
+    "name": "substitution0",
+    "author": "Will Hong",
+    "difficulty": 2,
+    "event": {
+      "id": 70,
+      "name": "picoCTF 2022"
+    },
+    "category": {
+      "id": 2,
+      "name": "Cryptography"
+    },
+    "tags": [
+      {
+        "id": 36,
+        "name": "Substitution"
+      }
+    ],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 218,
+    "positive_rating_count": 196,
+    "users_solved": 19872,
+    "users_solved_during_event": 4424,
+    "event_points": 100,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 294885,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "<p>A message has come in but it seems to be all scrambled. Luckily it seems to\nhave the key at the beginning. Can you crack this substitution cipher?</p>\n<p>Download the message <a href='https://artifacts.picoctf.net/c/152/message.txt' download>here</a>.</p>",
+      "hints": [
+        "<p>Try a frequency attack. An online tool might help.</p>"
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 289,
+    "name": "rail-fence",
+    "author": "Will Hong",
+    "difficulty": 2,
+    "event": {
+      "id": 70,
+      "name": "picoCTF 2022"
+    },
+    "category": {
+      "id": 2,
+      "name": "Cryptography"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 140,
+    "positive_rating_count": 117,
+    "users_solved": 14787,
+    "users_solved_during_event": 4062,
+    "event_points": 100,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 294841,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "<p>A type of transposition cipher is the rail fence cipher, which is described\n<a href=\"https://en.wikipedia.org/wiki/Rail_fence_cipher\">here</a>. Here is one such\ncipher encrypted using the rail fence with 4 rails. Can you decrypt it?</p>\n<p>Download the message <a href='https://artifacts.picoctf.net/c/190/message.txt' download>here</a>.</p>\n<p>Put the decoded message in the picoCTF flag format, <code>picoCTF{decoded_message}</code>.</p>",
+      "hints": [
+        "<p>Once you've understood how the cipher works, it's best to draw it out\nyourself on paper</p>"
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 280,
+    "name": "morse-code",
+    "author": "Will Hong",
+    "difficulty": 2,
+    "event": {
+      "id": 70,
+      "name": "picoCTF 2022"
+    },
+    "category": {
+      "id": 2,
+      "name": "Cryptography"
+    },
+    "tags": [
+      {
+        "id": 22,
+        "name": "morse_code"
+      }
+    ],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 207,
+    "positive_rating_count": 149,
+    "users_solved": 16629,
+    "users_solved_during_event": 4174,
+    "event_points": 100,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 294820,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "<p>Morse code is well known. Can you decrypt this?</p>\n<p>Download the file <a href='https://artifacts.picoctf.net/c/79/morse_chal.wav' download>here</a>.</p>\n<p>Wrap your answer with picoCTF{}, put underscores in place of pauses, and use\nall lowercase.</p>",
+      "hints": [
+        "<p>Audacity is a really good program to analyze morse code audio.</p>"
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 261,
+    "name": "credstuff",
+    "author": "Will Hong / LT 'syreal' Jones",
+    "difficulty": 2,
+    "event": {
+      "id": 70,
+      "name": "picoCTF 2022"
+    },
+    "category": {
+      "id": 2,
+      "name": "Cryptography"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 238,
+    "positive_rating_count": 180,
+    "users_solved": 16718,
+    "users_solved_during_event": 4290,
+    "event_points": 100,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 294770,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "<p>We found a leak of a blackmarket website's login credentials. Can you find the\npassword of the user <code>cultiris</code> and successfully decrypt it?</p>\n<p>Download the leak <a href='https://artifacts.picoctf.net/c/151/leak.tar' download>here</a>.</p>\n<p>The first user in <code>usernames.txt</code> corresponds to the first password in\n<code>passwords.txt</code>. The second user corresponds to the second password, and so on.</p>",
+      "hints": [
+        "<p>Maybe other passwords will have hints about the leak?</p>"
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 254,
+    "name": "basic-mod2",
+    "author": "Will Hong",
+    "difficulty": 2,
+    "event": {
+      "id": 70,
+      "name": "picoCTF 2022"
+    },
+    "category": {
+      "id": 2,
+      "name": "Cryptography"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 267,
+    "positive_rating_count": 201,
+    "users_solved": 14343,
+    "users_solved_during_event": 4167,
+    "event_points": 100,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 294751,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "<p>A new modular challenge!</p>\n<p>Download the message <a href='https://artifacts.picoctf.net/c/180/message.txt' download>here</a>.</p>\n<p>Take each number mod 41 and find the modular inverse for the result. Then map\nto the following character set: 1-26 are the alphabet, 27-36 are the decimal\ndigits, and 37 is an underscore.</p>\n<p>Wrap your decrypted message in the picoCTF flag format\n(i.e. <code>picoCTF{decrypted_message}</code>)</p>",
+      "hints": [
+        "<p>Do you know what the modular inverse is?</p>",
+        "<p>The inverse modulo <em>z</em> of <em>x</em> is the number, <em>y</em> that when multiplied by <em>x</em>\nis 1 modulo <em>z</em></p>",
+        "<p>It's recommended to use a tool to find the modular inverses</p>"
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 253,
+    "name": "basic-mod1",
+    "author": "Will Hong",
+    "difficulty": 2,
+    "event": {
+      "id": 70,
+      "name": "picoCTF 2022"
+    },
+    "category": {
+      "id": 2,
+      "name": "Cryptography"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 459,
+    "positive_rating_count": 347,
+    "users_solved": 21009,
+    "users_solved_during_event": 5515,
+    "event_points": 100,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 294746,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "<p>We found this weird message being passed around on the servers, we think we\nhave a working decryption scheme.</p>\n<p>Download the message <a href='https://artifacts.picoctf.net/c/129/message.txt' download>here</a>.</p>\n<p>Take each number mod 37 and map it to the following character set: 0-25 is the\nalphabet (uppercase), 26-35 are the decimal digits, and 36 is an underscore.</p>\n<p>Wrap your decrypted message in the picoCTF flag format\n(i.e. <code>picoCTF{decrypted_message}</code>)</p>",
+      "hints": [
+        "<p>Do you know what <code>mod 37</code> means?</p>",
+        "<p><code>mod 37</code> means modulo 37. It gives the remainder of a number after being\ndivided by 37.</p>"
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 210,
+    "name": "spelling-quiz",
+    "author": "BrownieInMotion",
+    "difficulty": 2,
+    "event": {
+      "id": 67,
+      "name": "picoMini by redpwn"
+    },
+    "category": {
+      "id": 2,
+      "name": "Cryptography"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 94,
+    "positive_rating_count": 80,
+    "users_solved": 5477,
+    "users_solved_during_event": 84,
+    "event_points": 100,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 1266,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "<p>I found the flag, but my brother wrote a program to encrypt all his text files. He has a spelling quiz study guide too, but I don't know if that helps.</p>",
+      "hints": [],
+      "on_demand": false,
+      "endpoints": [
+        {
+          "endpoint": "<a href=\"https://artifacts.picoctf.net/picoMini+by+redpwn/Cryptography/spelling-quiz/public.zip\">public.zip</a>",
+          "label": "Download public.zip"
+        }
+      ]
+    }
+  },
+  {
+    "id": 188,
+    "name": "Mini RSA",
+    "author": "Sara",
+    "difficulty": 2,
+    "event": {
+      "id": 34,
+      "name": "picoCTF 2021"
+    },
+    "category": {
+      "id": 2,
+      "name": "Cryptography"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 163,
+    "positive_rating_count": 139,
+    "users_solved": 6642,
+    "users_solved_during_event": 371,
+    "event_points": 70,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 1051,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "What happens if you have a small exponent? There is a twist though, we padded the plaintext so that (M ** e) is just barely larger than N. Let's decrypt this: <a href='//mercury.picoctf.net/static/e7e63a387acc347648918f419d1ae438/ciphertext'>ciphertext</a>",
+      "hints": [
+        "RSA <a href=\"https://en.wikipedia.org/wiki/RSA_(cryptosystem)\">tutorial</a>",
+        "How could having too small of an <code>e</code> affect the security of this key?",
+        "Make sure you don't lose precision, the numbers are pretty big (besides the <code>e</code> value)",
+        "You shouldn't have to make <i>too</i> many guesses",
+        "<code>pico</code> is in the flag, but not at the beginning"
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 162,
+    "name": "Mind your Ps and Qs",
+    "author": "Sara",
+    "difficulty": 2,
+    "event": {
+      "id": 34,
+      "name": "picoCTF 2021"
+    },
+    "category": {
+      "id": 2,
+      "name": "Cryptography"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 752,
+    "positive_rating_count": 637,
+    "users_solved": 43694,
+    "users_solved_during_event": 1314,
+    "event_points": 20,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 870,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "In RSA, a small <code>e</code> value can be problematic, but what about <code>N</code>? Can you decrypt this? <a href='//mercury.picoctf.net/static/2604f8b51a5cc62d38a3736938f19cef/values'>values</a>",
+      "hints": [
+        "Bits are expensive, I used only a little bit over 100 to save money"
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 159,
+    "name": "Dachshund Attacks",
+    "author": "Sara",
+    "difficulty": 2,
+    "event": {
+      "id": 34,
+      "name": "picoCTF 2021"
+    },
+    "category": {
+      "id": 2,
+      "name": "Cryptography"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 160,
+    "positive_rating_count": 139,
+    "users_solved": 8252,
+    "users_solved_during_event": 581,
+    "event_points": 80,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 847,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "What if <code>d</code> is too small? Connect with <code>nc mercury.picoctf.net 62786</code>.",
+      "hints": [
+        "What do you think about my pet? <a href='//mercury.picoctf.net/static/c459cf0a2492fe5cc92d536a4e5b2293/dachshund.jpg'>dachshund.jpg</a>"
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 158,
+    "name": "New Caesar",
+    "author": "madStacks",
+    "difficulty": 2,
+    "event": {
+      "id": 34,
+      "name": "picoCTF 2021"
+    },
+    "category": {
+      "id": 2,
+      "name": "Cryptography"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 307,
+    "positive_rating_count": 205,
+    "users_solved": 9692,
+    "users_solved_during_event": 578,
+    "event_points": 60,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 840,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "We found a brand new type of encryption, can you break the secret code? (Wrap with picoCTF{}) <code>lkmjkemjmkiekeijiiigljlhilihliikiliginliljimiklligljiflhiniiiniiihlhilimlhijil</code> <a href='//mercury.picoctf.net/static/c9043977604318594ab73d126a01d0b1/new_caesar.py'>new_caesar.py</a>",
+      "hints": [
+        "How does the cipher work if the alphabet isn't 26 letters?",
+        "Even though the letters are split up, the same paradigms still apply"
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 154,
+    "name": "No Padding, No Problem",
+    "author": "Sara",
+    "difficulty": 2,
+    "event": {
+      "id": 34,
+      "name": "picoCTF 2021"
+    },
+    "category": {
+      "id": 2,
+      "name": "Cryptography"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 104,
+    "positive_rating_count": 93,
+    "users_solved": 4193,
+    "users_solved_during_event": 323,
+    "event_points": 90,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 813,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "Oracles can be your best friend, they will decrypt anything, except the flag's ciphertext. How will you break it? Connect with <code>nc mercury.picoctf.net 33780</code>.",
+      "hints": [
+        "What can you do with a different pair of ciphertext and plaintext? What if it is not so different after all..."
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 125,
+    "name": "Easy Peasy",
+    "author": "madStacks",
+    "difficulty": 2,
+    "event": {
+      "id": 34,
+      "name": "picoCTF 2021"
+    },
+    "category": {
+      "id": 2,
+      "name": "Cryptography"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 438,
+    "positive_rating_count": 259,
+    "users_solved": 10918,
+    "users_solved_during_event": 420,
+    "event_points": 40,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 607,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "A one-time pad is unbreakable, but can you manage to recover the flag? (Wrap with picoCTF{}) <code>nc mercury.picoctf.net 64260</code> <a href='//mercury.picoctf.net/static/338fdafc11b7fbfb9cca5edac5085d05/otp.py'>otp.py</a>",
+      "hints": [
+        "Maybe there's a way to make this a 2x pad."
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 100,
+    "name": "Pixelated",
+    "author": "Sara",
+    "difficulty": 2,
+    "event": {
+      "id": 34,
+      "name": "picoCTF 2021"
+    },
+    "category": {
+      "id": 2,
+      "name": "Cryptography"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 166,
+    "positive_rating_count": 142,
+    "users_solved": 7994,
+    "users_solved_during_event": 585,
+    "event_points": 200,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 430,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "I have these 2 images, can you make a flag out of them? <a href='//mercury.picoctf.net/static/6e4afb967ef8c865f79f3a8cd7767cca/scrambled1.png'>scrambled1.png</a> <a href='//mercury.picoctf.net/static/6e4afb967ef8c865f79f3a8cd7767cca/scrambled2.png'>scrambled2.png</a>",
+      "hints": [
+        "<a href=\"https://en.wikipedia.org/wiki/Visual_cryptography\">https://en.wikipedia.org/wiki/Visual_cryptography</a>",
+        "Think of different ways you can \"stack\" images"
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 64,
+    "name": "caesar",
+    "author": "Sanjay C/Daniel Tunitis",
+    "difficulty": 2,
+    "event": {
+      "id": 1,
+      "name": "picoCTF 2019"
+    },
+    "category": {
+      "id": 2,
+      "name": "Cryptography"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 552,
+    "positive_rating_count": 357,
+    "users_solved": 48005,
+    "users_solved_during_event": 0,
+    "event_points": 100,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 154,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "Decrypt this <a href='//jupiter.challenges.picoctf.org/static/49f31c8f17817dc2d367428c9e5ab0bc/ciphertext'>message</a>.",
+      "hints": [
+        "caesar cipher <a href=\"https://learncryptography.com/classical-encryption/caesar-cipher\">tutorial</a>"
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 43,
+    "name": "Easy1",
+    "author": "Alex Fulton/Danny",
+    "difficulty": 2,
+    "event": {
+      "id": 1,
+      "name": "picoCTF 2019"
+    },
+    "category": {
+      "id": 2,
+      "name": "Cryptography"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 748,
+    "positive_rating_count": 487,
+    "users_solved": 39453,
+    "users_solved_during_event": 0,
+    "event_points": 100,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 105,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "The one time pad can be cryptographically secure, but not when you know the key. Can you solve this? We've given you the encrypted flag, key, and a table to help <code>UFJKXQZQUNB</code> with the key of <code>SOLVECRYPTO</code>. Can you use this <a href='//jupiter.challenges.picoctf.org/static/1fd21547c154c678d2dab145c29f1d79/table.txt'>table</a> to solve it?. ",
+      "hints": [
+        "Submit your answer in our flag format. For example, if your answer was 'hello', you would submit 'picoCTF{HELLO}' as the flag.",
+        "Please use all caps for the message."
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 40,
+    "name": "Mr-Worldwide",
+    "author": "Danny",
+    "difficulty": 2,
+    "event": {
+      "id": 1,
+      "name": "picoCTF 2019"
+    },
+    "category": {
+      "id": 2,
+      "name": "Cryptography"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 356,
+    "positive_rating_count": 119,
+    "users_solved": 13426,
+    "users_solved_during_event": 0,
+    "event_points": 200,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 100,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "A musician left us a <a href='//jupiter.challenges.picoctf.org/static/d5570d48262dbba2a31f2a940409ad9d/message.txt'>message</a>. What's it mean?",
+      "hints": [],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 38,
+    "name": "waves over lambda",
+    "author": "invisibility/danny",
+    "difficulty": 2,
+    "event": {
+      "id": 1,
+      "name": "picoCTF 2019"
+    },
+    "category": {
+      "id": 2,
+      "name": "Cryptography"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 134,
+    "positive_rating_count": 55,
+    "users_solved": 4460,
+    "users_solved_during_event": 0,
+    "event_points": 300,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 295,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "We made a lot of substitutions to encrypt this. Can you decrypt it? Connect with <code>nc jupiter.challenges.picoctf.org 13758</code>.",
+      "hints": [
+        "Flag is not in the usual flag format"
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 31,
+    "name": "Flags",
+    "author": "Danny",
+    "difficulty": 2,
+    "event": {
+      "id": 1,
+      "name": "picoCTF 2019"
+    },
+    "category": {
+      "id": 2,
+      "name": "Cryptography"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 343,
+    "positive_rating_count": 198,
+    "users_solved": 20371,
+    "users_solved_during_event": 0,
+    "event_points": 200,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 77,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "What do the <a href='//jupiter.challenges.picoctf.org/static/fbeb5f9040d62b18878d199cdda2d253/flag.png'>flags</a> mean?",
+      "hints": [
+        "The flag is in the format PICOCTF{}"
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 21,
+    "name": "Tapping",
+    "author": "Danny",
+    "difficulty": 2,
+    "event": {
+      "id": 1,
+      "name": "picoCTF 2019"
+    },
+    "category": {
+      "id": 2,
+      "name": "Cryptography"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 232,
+    "positive_rating_count": 148,
+    "users_solved": 17918,
+    "users_solved_during_event": 0,
+    "event_points": 200,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 341,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "Theres tapping coming in from the wires. What's it saying <code>nc jupiter.challenges.picoctf.org 21610</code>.",
+      "hints": [
+        "What kind of encoding uses dashes and dots?",
+        "The flag is in the format PICOCTF{}"
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 6,
+    "name": "john_pollard",
+    "author": "Samuel S",
+    "difficulty": 2,
+    "event": {
+      "id": 1,
+      "name": "picoCTF 2019"
+    },
+    "category": {
+      "id": 2,
+      "name": "Cryptography"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 79,
+    "positive_rating_count": 46,
+    "users_solved": 5338,
+    "users_solved_during_event": 0,
+    "event_points": 500,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 16,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "Sometimes RSA <a href='//jupiter.challenges.picoctf.org/static/c882787a19ed5d627eea50f318d87ac5/cert'>certificates</a> are breakable",
+      "hints": [
+        "The flag is in the format picoCTF{p,q}",
+        "Try swapping p and q if it does not work"
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 3,
+    "name": "la cifra de",
+    "author": "Alex Fulton/Daniel Tunitis",
+    "difficulty": 2,
+    "event": {
+      "id": 1,
+      "name": "picoCTF 2019"
+    },
+    "category": {
+      "id": 2,
+      "name": "Cryptography"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 229,
+    "positive_rating_count": 190,
+    "users_solved": 13107,
+    "users_solved_during_event": 0,
+    "event_points": 200,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 379,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "I found this cipher in an old book. Can you figure out what it says? Connect with <code>nc jupiter.challenges.picoctf.org 58295</code>.",
+      "hints": [
+        "There are tools that make this easy.",
+        "Perhaps looking at history will help"
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 417,
+    "name": "flag_printer",
+    "author": "ehhthing",
+    "difficulty": 3,
+    "event": {
+      "id": 73,
+      "name": "picoCTF 2024"
+    },
+    "category": {
+      "id": 2,
+      "name": "Cryptography"
+    },
+    "tags": [
+      {
+        "id": 63,
+        "name": "browser_webshell_solvable"
+      }
+    ],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 27,
+    "positive_rating_count": 9,
+    "users_solved": 158,
+    "users_solved_during_event": 77,
+    "event_points": 500,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 296001,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "<p>I made a program to solve a problem, but it seems too slow :(</p>\n<p>Download the program <a href='https://artifacts.picoctf.net/c_titan/19/flag_printer.py' download>here</a>.</p>\n<p>Download the message <a href='https://artifacts.picoctf.net/c_titan/19/encoded.txt' download>here</a>.</p>\n",
+      "hints": [
+        "<p><code>ax^2 + bx + c</code></p>"
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 379,
+    "name": "SRA",
+    "author": "f0xtr0t",
+    "difficulty": 3,
+    "event": {
+      "id": 72,
+      "name": "picoCTF 2023"
+    },
+    "category": {
+      "id": 2,
+      "name": "Cryptography"
+    },
+    "tags": [
+      {
+        "id": 26,
+        "name": "rsa"
+      }
+    ],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 65,
+    "positive_rating_count": 58,
+    "users_solved": 689,
+    "users_solved_during_event": 341,
+    "event_points": 400,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 295149,
+      "status": "NOT_RUNNING",
+      "expires_in": null,
+      "description": "<p>I just recently learnt about the SRA public key cryptosystem... or wait, was\nit supposed to be RSA? Hmmm, I should probably check...</p>",
+      "hints": [],
+      "on_demand": true,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 366,
+    "name": "PowerAnalysis: Warmup",
+    "author": "Anish Singhani",
+    "difficulty": 3,
+    "event": {
+      "id": 72,
+      "name": "picoCTF 2023"
+    },
+    "category": {
+      "id": 2,
+      "name": "Cryptography"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 79,
+    "positive_rating_count": 70,
+    "users_solved": 615,
+    "users_solved_during_event": 344,
+    "event_points": 200,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 295060,
+      "status": "NOT_RUNNING",
+      "expires_in": null,
+      "description": "<p>This encryption algorithm leaks a &quot;bit&quot; of data every time it does a computation. Use this to figure out the encryption key.</p>",
+      "hints": [
+        "<p>The &quot;encryption&quot; algorithm is simple and the correlation between the leakage and the key can be very easily modeled.</p>"
+      ],
+      "on_demand": true,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 365,
+    "name": "PowerAnalysis: Part 2",
+    "author": "Anish Singhani",
+    "difficulty": 3,
+    "event": {
+      "id": 72,
+      "name": "picoCTF 2023"
+    },
+    "category": {
+      "id": 2,
+      "name": "Cryptography"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 20,
+    "positive_rating_count": 17,
+    "users_solved": 285,
+    "users_solved_during_event": 154,
+    "event_points": 500,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 295052,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "<p>This embedded system allows you to measure the power consumption of the CPU while it is running an AES encryption algorithm. However, this time you have access to only a very limited number of measurements.</p>\n<p>Download the power-consumption traces for a sample of encryptions <a href='https://artifacts.picoctf.net/c/316/traces.zip' download>traces.zip</a> The flag will be of the format <code>picoCTF{&lt;encryption key&gt;}</code> where <code>&lt;encryption key&gt;</code> is 32 lowercase hex characters comprising the 16-byte encryption key being used by the program.</p>",
+      "hints": [
+        "<p>The power consumption is correlated with the Hamming weight of the bits being processed</p>",
+        "<p>You will need to figure out how to deal with the noise</p>"
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 364,
+    "name": "PowerAnalysis: Part 1",
+    "author": "Anish Singhani",
+    "difficulty": 3,
+    "event": {
+      "id": 72,
+      "name": "picoCTF 2023"
+    },
+    "category": {
+      "id": 2,
+      "name": "Cryptography"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 28,
+    "positive_rating_count": 27,
+    "users_solved": 273,
+    "users_solved_during_event": 149,
+    "event_points": 400,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 295045,
+      "status": "NOT_RUNNING",
+      "expires_in": null,
+      "description": "<p>This embedded system allows you to measure the power consumption of the CPU while it is running an AES encryption algorithm. Use this information to leak the key via dynamic power analysis.</p>",
+      "hints": [
+        "<p>The power consumption is correlated with the Hamming weight of the bits being processed</p>",
+        "<p>You will need to figure out how to deal with the noise</p>"
+      ],
+      "on_demand": true,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 315,
+    "name": "Very Smooth",
+    "author": "Joshua Inscoe",
+    "difficulty": 3,
+    "event": {
+      "id": 70,
+      "name": "picoCTF 2022"
+    },
+    "category": {
+      "id": 2,
+      "name": "Cryptography"
+    },
+    "tags": [
+      {
+        "id": 24,
+        "name": "backdoor"
+      },
+      {
+        "id": 26,
+        "name": "rsa"
+      }
+    ],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 57,
+    "positive_rating_count": 51,
+    "users_solved": 1392,
+    "users_solved_during_event": 656,
+    "event_points": 300,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 294908,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "<p>Forget safe primes... Here, we like to live life dangerously... &gt;:)</p>\n<ul>\n<li><a href='https://artifacts.picoctf.net/c/148/gen.py' download>gen.py</a></li>\n<li><a href='https://artifacts.picoctf.net/c/148/output.txt' download>output.txt</a></li>\n</ul>",
+      "hints": [
+        "<p>Don't look at me... Go ask Mr. Pollard if you need a hint!</p>"
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 310,
+    "name": "Sum-O-Primes",
+    "author": "Joshua Inscoe",
+    "difficulty": 3,
+    "event": {
+      "id": 70,
+      "name": "picoCTF 2022"
+    },
+    "category": {
+      "id": 2,
+      "name": "Cryptography"
+    },
+    "tags": [
+      {
+        "id": 26,
+        "name": "rsa"
+      }
+    ],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 86,
+    "positive_rating_count": 80,
+    "users_solved": 1989,
+    "users_solved_during_event": 913,
+    "event_points": 400,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 294896,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "<p>We have so much faith in RSA we give you not just the product of the primes,\nbut their sum as well!</p>\n<ul>\n<li><a href='https://artifacts.picoctf.net/c/99/gen.py' download>gen.py</a></li>\n<li><a href='https://artifacts.picoctf.net/c/99/output.txt' download>output.txt</a></li>\n</ul>",
+      "hints": [
+        "<p>I love squares :)</p>"
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 297,
+    "name": "Sequences",
+    "author": "Anish Singhani",
+    "difficulty": 3,
+    "event": {
+      "id": 70,
+      "name": "picoCTF 2022"
+    },
+    "category": {
+      "id": 2,
+      "name": "Cryptography"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 57,
+    "positive_rating_count": 44,
+    "users_solved": 1199,
+    "users_solved_during_event": 579,
+    "event_points": 400,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 294861,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "<p>I wrote this linear recurrence function, can you figure out how to make it run\nfast enough and get the flag?</p>\n<p>Download the code here <a href='https://artifacts.picoctf.net/c/66/sequences.py' download>sequences.py</a></p>\n<p>Note that even an efficient solution might take several seconds to run. If your\nsolution is taking several minutes, then you may need to reconsider your\napproach.</p>",
+      "hints": [
+        "<p>Google &quot;matrix diagonalization&quot;. Can you figure out how to apply it to this\nfunction?</p>"
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 283,
+    "name": "NSA Backdoor",
+    "author": "Joshua Inscoe",
+    "difficulty": 3,
+    "event": {
+      "id": 70,
+      "name": "picoCTF 2022"
+    },
+    "category": {
+      "id": 2,
+      "name": "Cryptography"
+    },
+    "tags": [
+      {
+        "id": 24,
+        "name": "backdoor"
+      },
+      {
+        "id": 25,
+        "name": "diffie_hellman"
+      },
+      {
+        "id": 26,
+        "name": "rsa"
+      }
+    ],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 51,
+    "positive_rating_count": 43,
+    "users_solved": 620,
+    "users_solved_during_event": 351,
+    "event_points": 500,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 294822,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "<p>I heard someone has been sneakily installing backdoors in open-source\nimplementations of Diffie-Hellman... I wonder who it could be... ;)</p>\n<ul>\n<li><a href='https://artifacts.picoctf.net/c/210/gen.py' download>gen.py</a></li>\n<li><a href='https://artifacts.picoctf.net/c/210/output.txt' download>output.txt</a></li>\n</ul>",
+      "hints": [
+        "<p>Look for Mr. Wong's whitepaper... His work has helped so many cats!</p>"
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 212,
+    "name": "college-rowing-team",
+    "author": "Boolean",
+    "difficulty": 3,
+    "event": {
+      "id": 67,
+      "name": "picoMini by redpwn"
+    },
+    "category": {
+      "id": 2,
+      "name": "Cryptography"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 32,
+    "positive_rating_count": 30,
+    "users_solved": 1431,
+    "users_solved_during_event": 51,
+    "event_points": 250,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 1268,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "<p>I just joined my college's rowing team! To make a good first impression, I started sending my teammates positive automated messages every day. I even send them flags from time to time!</p>",
+      "hints": [],
+      "on_demand": false,
+      "endpoints": [
+        {
+          "endpoint": "<a href=\"https://artifacts.picoctf.net/picoMini+by+redpwn/Cryptography/college-rowing-team/encrypted-messages.txt\">encrypted-messages.txt</a>",
+          "label": "Download encrypted-messages.txt"
+        },
+        {
+          "endpoint": "<a href=\"https://artifacts.picoctf.net/picoMini+by+redpwn/Cryptography/college-rowing-team/encrypt.py\">encrypt.py</a>",
+          "label": "Download encrypt.py"
+        }
+      ]
+    }
+  },
+  {
+    "id": 211,
+    "name": "corrupt-key-2",
+    "author": "Tux",
+    "difficulty": 3,
+    "event": {
+      "id": 67,
+      "name": "picoMini by redpwn"
+    },
+    "category": {
+      "id": 2,
+      "name": "Cryptography"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 8,
+    "positive_rating_count": 8,
+    "users_solved": 38,
+    "users_solved_during_event": 1,
+    "event_points": 500,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 1267,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "<p>Key corrupted again...</p>",
+      "hints": [],
+      "on_demand": false,
+      "endpoints": [
+        {
+          "endpoint": "<a href=\"https://artifacts.picoctf.net/picoMini+by+redpwn/Cryptography/corrupt-key-2/private.key\">private.key</a>",
+          "label": "Download private.key"
+        },
+        {
+          "endpoint": "<a href=\"https://artifacts.picoctf.net/picoMini+by+redpwn/Cryptography/corrupt-key-2/msg.enc\">msg.enc</a>",
+          "label": "Download msg.enc"
+        }
+      ]
+    }
+  },
+  {
+    "id": 209,
+    "name": "triple-secure",
+    "author": "Boolean",
+    "difficulty": 3,
+    "event": {
+      "id": 67,
+      "name": "picoMini by redpwn"
+    },
+    "category": {
+      "id": 2,
+      "name": "Cryptography"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 52,
+    "positive_rating_count": 50,
+    "users_solved": 1846,
+    "users_solved_during_event": 54,
+    "event_points": 150,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 1265,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "<p>To get the flag, you must break RSA not once, but three times!</p>",
+      "hints": [],
+      "on_demand": false,
+      "endpoints": [
+        {
+          "endpoint": "<a href=\"https://artifacts.picoctf.net/picoMini+by+redpwn/Cryptography/triple-secure/public-key.txt\">public-key.txt</a>",
+          "label": "Download public-key.txt"
+        },
+        {
+          "endpoint": "<a href=\"https://artifacts.picoctf.net/picoMini+by+redpwn/Cryptography/triple-secure/encrypt.py\">encrypt.py</a>",
+          "label": "Download encrypt.py"
+        }
+      ]
+    }
+  },
+  {
+    "id": 208,
+    "name": "XtraORdinary",
+    "author": "Boolean",
+    "difficulty": 3,
+    "event": {
+      "id": 67,
+      "name": "picoMini by redpwn"
+    },
+    "category": {
+      "id": 2,
+      "name": "Cryptography"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 62,
+    "positive_rating_count": 54,
+    "users_solved": 1559,
+    "users_solved_during_event": 43,
+    "event_points": 150,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 1264,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "<p>Check out my new, never-before-seen method of encryption! I totally invented it myself. I added so many for loops that I don't even know what it does. It's extraordinarily secure!</p>",
+      "hints": [],
+      "on_demand": false,
+      "endpoints": [
+        {
+          "endpoint": "<a href=\"https://artifacts.picoctf.net/picoMini+by+redpwn/Cryptography/xtraordinary/output.txt\">output.txt</a>",
+          "label": "Download output.txt"
+        },
+        {
+          "endpoint": "<a href=\"https://artifacts.picoctf.net/picoMini+by+redpwn/Cryptography/xtraordinary/encrypt.py\">encrypt.py</a>",
+          "label": "Download encrypt.py"
+        }
+      ]
+    }
+  },
+  {
+    "id": 207,
+    "name": "corrupt-key-1",
+    "author": "Tux",
+    "difficulty": 3,
+    "event": {
+      "id": 67,
+      "name": "picoMini by redpwn"
+    },
+    "category": {
+      "id": 2,
+      "name": "Cryptography"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 12,
+    "positive_rating_count": 8,
+    "users_solved": 210,
+    "users_solved_during_event": 3,
+    "event_points": 350,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 1263,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "<p>How to fix corrupted key???</p>",
+      "hints": [],
+      "on_demand": false,
+      "endpoints": [
+        {
+          "endpoint": "<a href=\"https://artifacts.picoctf.net/picoMini+by+redpwn/Cryptography/corrupt-key-1/private.key\">private.key</a>",
+          "label": "Download private.key"
+        },
+        {
+          "endpoint": "<a href=\"https://artifacts.picoctf.net/picoMini+by+redpwn/Cryptography/corrupt-key-1/msg.enc\">msg.enc</a>",
+          "label": "Download msg.enc"
+        }
+      ]
+    }
+  },
+  {
+    "id": 148,
+    "name": "New Vignere",
+    "author": "madStacks",
+    "difficulty": 3,
+    "event": {
+      "id": 34,
+      "name": "picoCTF 2021"
+    },
+    "category": {
+      "id": 2,
+      "name": "Cryptography"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 54,
+    "positive_rating_count": 48,
+    "users_solved": 1085,
+    "users_solved_during_event": 255,
+    "event_points": 300,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 768,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "Another slight twist on a classic, see if you can recover the flag. (Wrap with picoCTF{}) <code>bkglibgkhghkijphhhejggikgjkbhefgpienefjdioghhchffhmmhhbjgclpjfkp</code> <a href='//mercury.picoctf.net/static/aa30610884045b68f73057a1a6d9d68c/new_vignere.py'>new_vignere.py</a>",
+      "hints": [
+        "<a href=\"https://en.wikipedia.org/wiki/Vigen%C3%A8re_cipher#Cryptanalysis\">https://en.wikipedia.org/wiki/Vigen%C3%A8re_cipher#Cryptanalysis</a>"
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 140,
+    "name": "Double DES",
+    "author": "madStacks",
+    "difficulty": 3,
+    "event": {
+      "id": 34,
+      "name": "picoCTF 2021"
+    },
+    "category": {
+      "id": 2,
+      "name": "Cryptography"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 57,
+    "positive_rating_count": 42,
+    "users_solved": 1519,
+    "users_solved_during_event": 213,
+    "event_points": 120,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 716,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "I wanted an encryption service that's more secure than regular DES, but not as slow as 3DES... The flag is not in standard format. <code>nc mercury.picoctf.net 5958</code> <a href='//mercury.picoctf.net/static/c4dfb8340dd2d5808d92f34a5683c04d/ddes.py'>ddes.py</a>",
+      "hints": [
+        "How large is the keyspace?"
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 136,
+    "name": "Clouds",
+    "author": "madStacks",
+    "difficulty": 3,
+    "event": {
+      "id": 34,
+      "name": "picoCTF 2021"
+    },
+    "category": {
+      "id": 2,
+      "name": "Cryptography"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 12,
+    "positive_rating_count": 11,
+    "users_solved": 71,
+    "users_solved_during_event": 16,
+    "event_points": 500,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 1202,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "Cloud watching is a lot of fun! There are so many different shapes you see in them, and so many different types. They even inspired me to dig up an old cipher I once found to store notes about them. See if you can decrypt them! <code>nc mercury.picoctf.net 10304</code> <a href='//mercury.picoctf.net/static/0628a018490772c4cf32356734fad366/clouds.py'>clouds.py</a><br>The flag for this challenge does not include the standard <code>picoCTF{}</code> wrapper.",
+      "hints": [
+        "Have you heard of differential cryptanalysis?"
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 127,
+    "name": "Compress and Attack",
+    "author": "Jake Beley",
+    "difficulty": 3,
+    "event": {
+      "id": 34,
+      "name": "picoCTF 2021"
+    },
+    "category": {
+      "id": 2,
+      "name": "Cryptography"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 70,
+    "positive_rating_count": 66,
+    "users_solved": 2095,
+    "users_solved_during_event": 163,
+    "event_points": 130,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 1115,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "Your goal is to find the flag. <a href='//mercury.picoctf.net/static/04d2020011483caf8c9d8fb9fa54d4f5/compress_and_attack.py'>compress_and_attack.py</a> <code>nc mercury.picoctf.net 29858</code>",
+      "hints": [
+        "The flag only contains uppercase and lowercase letters, underscores, and braces (curly brackets)"
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 123,
+    "name": "It's Not My Fault 1",
+    "author": "rkm0959",
+    "difficulty": 3,
+    "event": {
+      "id": 34,
+      "name": "picoCTF 2021"
+    },
+    "category": {
+      "id": 2,
+      "name": "Cryptography"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 35,
+    "positive_rating_count": 33,
+    "users_solved": 1100,
+    "users_solved_during_event": 82,
+    "event_points": 100,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 596,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "What do you mean RSA with CRT has an attack that's not a fault attack? Connect with <code>nc mercury.picoctf.net 56093</code>. <a href='//mercury.picoctf.net/static/1901d1b2dae48da1a9326f2b90b7f1a6/not_my_fault.py'>not_my_fault.py</a>",
+      "hints": [],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 114,
+    "name": "Play Nice",
+    "author": "madStacks",
+    "difficulty": 3,
+    "event": {
+      "id": 34,
+      "name": "picoCTF 2021"
+    },
+    "category": {
+      "id": 2,
+      "name": "Cryptography"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 82,
+    "positive_rating_count": 30,
+    "users_solved": 2715,
+    "users_solved_during_event": 410,
+    "event_points": 110,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 530,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "Not all ancient ciphers were so bad... The flag is not in standard format. <code>nc mercury.picoctf.net 30568</code> <a href='//mercury.picoctf.net/static/9e655bebf3ad245e74ce5ca3a8352af1/playfair.py'>playfair.py</a>",
+      "hints": [],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 107,
+    "name": "Scrambled: RSA",
+    "author": "Sara",
+    "difficulty": 3,
+    "event": {
+      "id": 34,
+      "name": "picoCTF 2021"
+    },
+    "category": {
+      "id": 2,
+      "name": "Cryptography"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 46,
+    "positive_rating_count": 39,
+    "users_solved": 917,
+    "users_solved_during_event": 99,
+    "event_points": 140,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 485,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "Hmmm I wonder if you have learned your lesson... Let's see if you understand RSA and how the encryption works. Connect with <code>nc mercury.picoctf.net 4484</code>.",
+      "hints": [
+        "Look at the ciphertext, anything fishy, maybe a little bit long?",
+        "What happens if you encrypt the same input multiple times?",
+        "Is RSA deterministic, why would outputs vary?"
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 78,
+    "name": "b00tl3gRSA3",
+    "author": "invisibility",
+    "difficulty": 3,
+    "event": {
+      "id": 1,
+      "name": "picoCTF 2019"
+    },
+    "category": {
+      "id": 2,
+      "name": "Cryptography"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 34,
+    "positive_rating_count": 33,
+    "users_solved": 1174,
+    "users_solved_during_event": 0,
+    "event_points": 450,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 361,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "Why use p and q when I can use more? Connect with <code>nc jupiter.challenges.picoctf.org 3726</code>.",
+      "hints": [
+        "There's more prime factors than p and q, finding d is going to be different."
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 76,
+    "name": "AES-ABC",
+    "author": "waituckw",
+    "difficulty": 3,
+    "event": {
+      "id": 1,
+      "name": "picoCTF 2019"
+    },
+    "category": {
+      "id": 2,
+      "name": "Cryptography"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 30,
+    "positive_rating_count": 22,
+    "users_solved": 1742,
+    "users_solved_during_event": 0,
+    "event_points": 400,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 182,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "AES-ECB is bad, so I rolled my own cipher block chaining mechanism - Addition Block Chaining! You can find the source here: <a href='//jupiter.challenges.picoctf.org/static/1b1beb0a49c958d0f2423800eaff58a7/aes-abc.py'>aes-abc.py</a>. The AES-ABC flag is <a href='//jupiter.challenges.picoctf.org/static/1b1beb0a49c958d0f2423800eaff58a7/body.enc.ppm'>body.enc.ppm</a> ",
+      "hints": [
+        "You probably want to figure out what the flag looks like in ECB form..."
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 73,
+    "name": "miniRSA",
+    "author": "speeeday/Danny",
+    "difficulty": 3,
+    "event": {
+      "id": 1,
+      "name": "picoCTF 2019"
+    },
+    "category": {
+      "id": 2,
+      "name": "Cryptography"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 59,
+    "positive_rating_count": 51,
+    "users_solved": 4374,
+    "users_solved_during_event": 0,
+    "event_points": 300,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 177,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "Let's decrypt this: <a href='//jupiter.challenges.picoctf.org/static/ee7e2388b45f521b285334abb5a63771/ciphertext'>ciphertext</a>? Something seems a bit small.",
+      "hints": [
+        "RSA <a href=\"https://en.wikipedia.org/wiki/RSA_(cryptosystem)\">tutorial</a>",
+        "How could having too small an e affect the security of this 2048 bit key?",
+        "Make sure you don't lose precision, the numbers are pretty big (besides the e value)"
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 61,
+    "name": "rsa-pop-quiz",
+    "author": "wparks/nmontierth",
+    "difficulty": 3,
+    "event": {
+      "id": 1,
+      "name": "picoCTF 2019"
+    },
+    "category": {
+      "id": 2,
+      "name": "Cryptography"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 211,
+    "positive_rating_count": 109,
+    "users_solved": 3350,
+    "users_solved_during_event": 0,
+    "event_points": 200,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 316,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "Class, take your seats! It's PRIME-time for a quiz... <code>nc jupiter.challenges.picoctf.org 58617</code>",
+      "hints": [
+        "<a href=\"https://simple.wikipedia.org/wiki/RSA_algorithm\">RSA info</a>"
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 2,
+    "name": "b00tl3gRSA2",
+    "author": "invisibility",
+    "difficulty": 3,
+    "event": {
+      "id": 1,
+      "name": "picoCTF 2019"
+    },
+    "category": {
+      "id": 2,
+      "name": "Cryptography"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 43,
+    "positive_rating_count": 41,
+    "users_solved": 2684,
+    "users_solved_during_event": 0,
+    "event_points": 400,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 301,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "In RSA d is a lot bigger than e, why don't we use d to encrypt instead of e? Connect with <code>nc jupiter.challenges.picoctf.org 18243</code>.",
+      "hints": [
+        "What is e generally?"
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  }
+]

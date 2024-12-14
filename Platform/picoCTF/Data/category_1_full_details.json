@@ -1,0 +1,2416 @@
+[
+  {
+    "id": 427,
+    "name": "WebDecode",
+    "author": "Nana Ama Atombo-Sackey",
+    "difficulty": 1,
+    "event": {
+      "id": 73,
+      "name": "picoCTF 2024"
+    },
+    "category": {
+      "id": 1,
+      "name": "Web Exploitation"
+    },
+    "tags": [
+      {
+        "id": 63,
+        "name": "browser_webshell_solvable"
+      }
+    ],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 600,
+    "positive_rating_count": 522,
+    "users_solved": 41789,
+    "users_solved_during_event": 5938,
+    "event_points": 50,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 295919,
+      "status": "NOT_RUNNING",
+      "expires_in": null,
+      "description": "<p>Do you know how to use the web inspector?</p>",
+      "hints": [
+        "<p>Use the web inspector on other files included by the web page.</p>",
+        "<p>The flag may or may not be encoded</p>"
+      ],
+      "on_demand": true,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 426,
+    "name": "Unminify",
+    "author": "Jeffery John",
+    "difficulty": 1,
+    "event": {
+      "id": 73,
+      "name": "picoCTF 2024"
+    },
+    "category": {
+      "id": 1,
+      "name": "Web Exploitation"
+    },
+    "tags": [
+      {
+        "id": 63,
+        "name": "browser_webshell_solvable"
+      },
+      {
+        "id": 72,
+        "name": "minification"
+      },
+      {
+        "id": 8,
+        "name": "obfuscation"
+      }
+    ],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 381,
+    "positive_rating_count": 324,
+    "users_solved": 34235,
+    "users_solved_during_event": 5188,
+    "event_points": 100,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 295913,
+      "status": "NOT_RUNNING",
+      "expires_in": null,
+      "description": "<p>I don't like scrolling down to read the code of my website, so I've squished it. As a bonus, my pages load faster!</p>",
+      "hints": [
+        "<p>Try CTRL+U / ⌘+U in your browser to view the page source. You can also add 'view-source:' before the URL, or try <code>curl &lt;URL&gt;</code> in your shell.</p>",
+        "<p>Minification reduces the size of code, but does not change its functionality.</p>",
+        "<p>What tools do developers use when working on a website? Many text editors and browsers include formatting.</p>"
+      ],
+      "on_demand": true,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 419,
+    "name": "IntroToBurp",
+    "author": "Nana Ama Atombo-Sackey & Sabine Gisagara",
+    "difficulty": 1,
+    "event": {
+      "id": 73,
+      "name": "picoCTF 2024"
+    },
+    "category": {
+      "id": 1,
+      "name": "Web Exploitation"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 574,
+    "positive_rating_count": 254,
+    "users_solved": 17861,
+    "users_solved_during_event": 2417,
+    "event_points": 100,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 295645,
+      "status": "NOT_RUNNING",
+      "expires_in": null,
+      "description": "",
+      "hints": [
+        "<p>Try using burpsuite to intercept request to capture the flag.</p>",
+        "<p>Try mangling the request, maybe their server-side code doesn't handle\nmalformed requests very well.</p>"
+      ],
+      "on_demand": true,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 406,
+    "name": "Bookmarklet",
+    "author": "Jeffery John",
+    "difficulty": 1,
+    "event": {
+      "id": 73,
+      "name": "picoCTF 2024"
+    },
+    "category": {
+      "id": 1,
+      "name": "Web Exploitation"
+    },
+    "tags": [
+      {
+        "id": 65,
+        "name": "browser"
+      },
+      {
+        "id": 63,
+        "name": "browser_webshell_solvable"
+      },
+      {
+        "id": 8,
+        "name": "obfuscation"
+      }
+    ],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 530,
+    "positive_rating_count": 496,
+    "users_solved": 31287,
+    "users_solved_during_event": 7269,
+    "event_points": 50,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 295812,
+      "status": "NOT_RUNNING",
+      "expires_in": null,
+      "description": "<p>Why search for the flag when I can make a bookmarklet to print it for me?</p>",
+      "hints": [
+        "<p>A bookmarklet is a bookmark that runs JavaScript instead of loading a webpage.</p>",
+        "<p>What happens when you click a bookmarklet?</p>",
+        "<p>Web browsers have other ways to run JavaScript too.</p>"
+      ],
+      "on_demand": true,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 278,
+    "name": "Local Authority",
+    "author": "LT 'syreal' Jones",
+    "difficulty": 1,
+    "event": {
+      "id": 70,
+      "name": "picoCTF 2022"
+    },
+    "category": {
+      "id": 1,
+      "name": "Web Exploitation"
+    },
+    "tags": [
+      {
+        "id": 19,
+        "name": "inspector"
+      }
+    ],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 636,
+    "positive_rating_count": 598,
+    "users_solved": 50249,
+    "users_solved_during_event": 6093,
+    "event_points": 100,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 296090,
+      "status": "NOT_RUNNING",
+      "expires_in": null,
+      "description": "<p>Can you get the flag?</p>",
+      "hints": [
+        "<p>How is the password checked on this website?</p>"
+      ],
+      "on_demand": true,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 275,
+    "name": "Inspect HTML",
+    "author": "LT 'syreal' Jones",
+    "difficulty": 1,
+    "event": {
+      "id": 70,
+      "name": "picoCTF 2022"
+    },
+    "category": {
+      "id": 1,
+      "name": "Web Exploitation"
+    },
+    "tags": [
+      {
+        "id": 19,
+        "name": "inspector"
+      }
+    ],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 802,
+    "positive_rating_count": 552,
+    "users_solved": 65665,
+    "users_solved_during_event": 7359,
+    "event_points": 100,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 296088,
+      "status": "NOT_RUNNING",
+      "expires_in": null,
+      "description": "<p>Can you get the flag?</p>",
+      "hints": [
+        "<p>What is the web inspector in web browsers?</p>"
+      ],
+      "on_demand": true,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 274,
+    "name": "Includes",
+    "author": "LT 'syreal' Jones",
+    "difficulty": 1,
+    "event": {
+      "id": 70,
+      "name": "picoCTF 2022"
+    },
+    "category": {
+      "id": 1,
+      "name": "Web Exploitation"
+    },
+    "tags": [
+      {
+        "id": 19,
+        "name": "inspector"
+      }
+    ],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 545,
+    "positive_rating_count": 441,
+    "users_solved": 51887,
+    "users_solved_during_event": 6854,
+    "event_points": 100,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 296083,
+      "status": "NOT_RUNNING",
+      "expires_in": null,
+      "description": "<p>Can you get the flag?</p>",
+      "hints": [
+        "<p>Is there more code than what the inspector initially shows?</p>"
+      ],
+      "on_demand": true,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 173,
+    "name": "Cookies",
+    "author": "madStacks",
+    "difficulty": 1,
+    "event": {
+      "id": 34,
+      "name": "picoCTF 2021"
+    },
+    "category": {
+      "id": 1,
+      "name": "Web Exploitation"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 2140,
+    "positive_rating_count": 1371,
+    "users_solved": 74971,
+    "users_solved_during_event": 1787,
+    "event_points": 40,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 947,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "Who doesn't love cookies? Try to figure out the best one. <a href=\"http://mercury.picoctf.net:29649/\">http://mercury.picoctf.net:29649/</a>",
+      "hints": [],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 161,
+    "name": "Scavenger Hunt",
+    "author": "madStacks",
+    "difficulty": 1,
+    "event": {
+      "id": 34,
+      "name": "picoCTF 2021"
+    },
+    "category": {
+      "id": 1,
+      "name": "Web Exploitation"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 1874,
+    "positive_rating_count": 1265,
+    "users_solved": 62253,
+    "users_solved_during_event": 1327,
+    "event_points": 50,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 862,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "There is some interesting information hidden around this site <a href=\"http://mercury.picoctf.net:27278/\">http://mercury.picoctf.net:27278/</a>. Can you find it?",
+      "hints": [
+        "You should have enough hints to find the files, don't run a brute forcer."
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 132,
+    "name": "GET aHEAD",
+    "author": "madStacks",
+    "difficulty": 1,
+    "event": {
+      "id": 34,
+      "name": "picoCTF 2021"
+    },
+    "category": {
+      "id": 1,
+      "name": "Web Exploitation"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 2279,
+    "positive_rating_count": 2013,
+    "users_solved": 94116,
+    "users_solved_during_event": 1755,
+    "event_points": 20,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 654,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "Find the flag being held on this server to get ahead of the competition <a href=\"http://mercury.picoctf.net:47967/\">http://mercury.picoctf.net:47967/</a>",
+      "hints": [
+        "Maybe you have more than 2 choices",
+        "Check out tools like Burpsuite to modify your requests and look at the responses"
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 66,
+    "name": "dont-use-client-side",
+    "author": "Alex Fulton/Danny",
+    "difficulty": 1,
+    "event": {
+      "id": 1,
+      "name": "picoCTF 2019"
+    },
+    "category": {
+      "id": 1,
+      "name": "Web Exploitation"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 777,
+    "positive_rating_count": 688,
+    "users_solved": 67329,
+    "users_solved_during_event": 0,
+    "event_points": 100,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 352,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "Can you break into this super secure portal? <code>https://jupiter.challenges.picoctf.org/problem/17682/</code> (<a href=\"https://jupiter.challenges.picoctf.org/problem/17682/\">link</a>) or http://jupiter.challenges.picoctf.org:17682",
+      "hints": [
+        "Never trust the client"
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 46,
+    "name": "logon",
+    "author": "bobson",
+    "difficulty": 1,
+    "event": {
+      "id": 1,
+      "name": "picoCTF 2019"
+    },
+    "category": {
+      "id": 1,
+      "name": "Web Exploitation"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 1175,
+    "positive_rating_count": 1088,
+    "users_solved": 66080,
+    "users_solved_during_event": 0,
+    "event_points": 100,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 397,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "The factory is hiding things from all of its users. Can you login as Joe and find what they've been looking at? <code>https://jupiter.challenges.picoctf.org/problem/44573/</code> (<a href=\"https://jupiter.challenges.picoctf.org/problem/44573/\">link</a>) or http://jupiter.challenges.picoctf.org:44573",
+      "hints": [
+        "Hmm it doesn't seem to check anyone's password, except for Joe's?"
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 18,
+    "name": "Insp3ct0r",
+    "author": "zaratec/danny",
+    "difficulty": 1,
+    "event": {
+      "id": 1,
+      "name": "picoCTF 2019"
+    },
+    "category": {
+      "id": 1,
+      "name": "Web Exploitation"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 2467,
+    "positive_rating_count": 2260,
+    "users_solved": 124429,
+    "users_solved_during_event": 0,
+    "event_points": 50,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 305,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "Kishor Balan tipped us off that the following code may need inspection: <code>https://jupiter.challenges.picoctf.org/problem/9670/</code> (<a href=\"https://jupiter.challenges.picoctf.org/problem/9670/\">link</a>) or http://jupiter.challenges.picoctf.org:9670",
+      "hints": [
+        "How do you inspect web code on a browser?",
+        "There's 3 parts"
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 4,
+    "name": "where are the robots",
+    "author": "zaratec/Danny",
+    "difficulty": 1,
+    "event": {
+      "id": 1,
+      "name": "picoCTF 2019"
+    },
+    "category": {
+      "id": 1,
+      "name": "Web Exploitation"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 1552,
+    "positive_rating_count": 1370,
+    "users_solved": 87180,
+    "users_solved_during_event": 0,
+    "event_points": 100,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 365,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "Can you find the robots? <code>https://jupiter.challenges.picoctf.org/problem/36474/</code> (<a href=\"https://jupiter.challenges.picoctf.org/problem/36474/\">link</a>) or http://jupiter.challenges.picoctf.org:36474",
+      "hints": [
+        "What part of the website could tell you where the creator doesn't want you to look?"
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 445,
+    "name": "Trickster",
+    "author": "Junias Bonou",
+    "difficulty": 2,
+    "event": {
+      "id": 73,
+      "name": "picoCTF 2024"
+    },
+    "category": {
+      "id": 1,
+      "name": "Web Exploitation"
+    },
+    "tags": [
+      {
+        "id": 63,
+        "name": "browser_webshell_solvable"
+      }
+    ],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 279,
+    "positive_rating_count": 273,
+    "users_solved": 6915,
+    "users_solved_during_event": 1130,
+    "event_points": 300,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 295574,
+      "status": "NOT_RUNNING",
+      "expires_in": null,
+      "description": "<p>I found a web app that can help process images: PNG images only!</p>",
+      "hints": [],
+      "on_demand": true,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 443,
+    "name": "No Sql Injection",
+    "author": "NGIRIMANA Schadrack",
+    "difficulty": 2,
+    "event": {
+      "id": 73,
+      "name": "picoCTF 2024"
+    },
+    "category": {
+      "id": 1,
+      "name": "Web Exploitation"
+    },
+    "tags": [
+      {
+        "id": 63,
+        "name": "browser_webshell_solvable"
+      }
+    ],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 93,
+    "positive_rating_count": 85,
+    "users_solved": 2980,
+    "users_solved_during_event": 1531,
+    "event_points": 200,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 296126,
+      "status": "NOT_RUNNING",
+      "expires_in": null,
+      "description": "<p>Can you try to get access to this website to get the flag?</p>\n<p>You can download the source <a href='https://artifacts.picoctf.net/c_atlas/36/app.tar.gz' download>here</a>.</p>",
+      "hints": [
+        "<p>Not only SQL injection exist but also NonSQL injection exists.</p>",
+        "<p>Make sure you look at everything the server is sending back.</p>"
+      ],
+      "on_demand": true,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 376,
+    "name": "SOAP",
+    "author": "Geoffrey Njogu",
+    "difficulty": 2,
+    "event": {
+      "id": 72,
+      "name": "picoCTF 2023"
+    },
+    "category": {
+      "id": 1,
+      "name": "Web Exploitation"
+    },
+    "tags": [
+      {
+        "id": 50,
+        "name": "XXE"
+      }
+    ],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 326,
+    "positive_rating_count": 299,
+    "users_solved": 12409,
+    "users_solved_during_event": 2202,
+    "event_points": 100,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 295123,
+      "status": "NOT_RUNNING",
+      "expires_in": null,
+      "description": "<p>The web project was rushed and no security assessment was done. Can you read the /etc/passwd file?</p>",
+      "hints": [
+        "<p>XML external entity Injection</p>"
+      ],
+      "on_demand": true,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 358,
+    "name": "More SQLi",
+    "author": "Mubarak Mikail",
+    "difficulty": 2,
+    "event": {
+      "id": 72,
+      "name": "picoCTF 2023"
+    },
+    "category": {
+      "id": 1,
+      "name": "Web Exploitation"
+    },
+    "tags": [
+      {
+        "id": 23,
+        "name": "sql"
+      }
+    ],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 283,
+    "positive_rating_count": 231,
+    "users_solved": 11659,
+    "users_solved_during_event": 1691,
+    "event_points": 200,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 295015,
+      "status": "NOT_RUNNING",
+      "expires_in": null,
+      "description": "<p>Can you find the flag on this website.</p>",
+      "hints": [
+        "<p>SQLiLite</p>"
+      ],
+      "on_demand": true,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 356,
+    "name": "MatchTheRegex",
+    "author": "Sunday Jacob Nwanyim",
+    "difficulty": 2,
+    "event": {
+      "id": 72,
+      "name": "picoCTF 2023"
+    },
+    "category": {
+      "id": 1,
+      "name": "Web Exploitation"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 400,
+    "positive_rating_count": 199,
+    "users_solved": 17519,
+    "users_solved_during_event": 3856,
+    "event_points": 100,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 295009,
+      "status": "NOT_RUNNING",
+      "expires_in": null,
+      "description": "<p>How about trying to match a regular expression</p>",
+      "hints": [
+        "<p>Access the webpage and try to match the regular expression associated with the text field</p>"
+      ],
+      "on_demand": true,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 355,
+    "name": "Java Code Analysis!?!",
+    "author": "Nandan Desai",
+    "difficulty": 2,
+    "event": {
+      "id": 72,
+      "name": "picoCTF 2023"
+    },
+    "category": {
+      "id": 1,
+      "name": "Web Exploitation"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 188,
+    "positive_rating_count": 173,
+    "users_solved": 4040,
+    "users_solved_during_event": 964,
+    "event_points": 300,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 295002,
+      "status": "NOT_RUNNING",
+      "expires_in": null,
+      "description": "<p>BookShelf Pico, my premium online book-reading service.</p>\n<p>I believe that my website is super secure. I challenge you to prove me wrong by reading the 'Flag' book!</p>",
+      "hints": [
+        "<p>Maybe try to find the JWT Signing Key (&quot;secret key&quot;) in the source code? Maybe it's hardcoded somewhere? Or maybe try to crack it?</p>",
+        "<p>The 'role' and 'userId' fields in the JWT can be of interest to you!</p>",
+        "<p>The 'controllers', 'services' and 'security' java packages in the given source code might need your attention. We've provided a README.md file that contains some documentation.</p>",
+        "<p>Upgrade your 'role' with the <em>new</em> (cracked) JWT. And re-login for the new role to get reflected in browser's localStorage.</p>"
+      ],
+      "on_demand": true,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 349,
+    "name": "findme",
+    "author": "Geoffrey Njogu",
+    "difficulty": 2,
+    "event": {
+      "id": 72,
+      "name": "picoCTF 2023"
+    },
+    "category": {
+      "id": 1,
+      "name": "Web Exploitation"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 462,
+    "positive_rating_count": 317,
+    "users_solved": 19328,
+    "users_solved_during_event": 3300,
+    "event_points": 100,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 294962,
+      "status": "NOT_RUNNING",
+      "expires_in": null,
+      "description": "<p>Help us test the form by submiting the username as <code>test</code> and password as <code>test!</code></p>",
+      "hints": [
+        "<p>any redirections?</p>"
+      ],
+      "on_demand": true,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 304,
+    "name": "SQLiLite",
+    "author": "Mubarak Mikail",
+    "difficulty": 2,
+    "event": {
+      "id": 70,
+      "name": "picoCTF 2022"
+    },
+    "category": {
+      "id": 1,
+      "name": "Web Exploitation"
+    },
+    "tags": [
+      {
+        "id": 23,
+        "name": "sql"
+      }
+    ],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 408,
+    "positive_rating_count": 381,
+    "users_solved": 20740,
+    "users_solved_during_event": 3561,
+    "event_points": 300,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 294876,
+      "status": "NOT_RUNNING",
+      "expires_in": null,
+      "description": "<p>Can you login to this website?</p>",
+      "hints": [
+        "<p><code>admin</code> is the user you want to login as.</p>"
+      ],
+      "on_demand": true,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 303,
+    "name": "SQL Direct",
+    "author": "Mubarak Mikail / LT 'syreal' Jones",
+    "difficulty": 2,
+    "event": {
+      "id": 70,
+      "name": "picoCTF 2022"
+    },
+    "category": {
+      "id": 1,
+      "name": "Web Exploitation"
+    },
+    "tags": [
+      {
+        "id": 23,
+        "name": "sql"
+      }
+    ],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 272,
+    "positive_rating_count": 242,
+    "users_solved": 17192,
+    "users_solved_during_event": 3313,
+    "event_points": 200,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 294873,
+      "status": "NOT_RUNNING",
+      "expires_in": null,
+      "description": "<p>Connect to this PostgreSQL server and find the flag!</p>",
+      "hints": [
+        "<p>What does a SQL database contain?</p>"
+      ],
+      "on_demand": true,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 296,
+    "name": "Secrets",
+    "author": "Geoffrey Njogu",
+    "difficulty": 2,
+    "event": {
+      "id": 70,
+      "name": "picoCTF 2022"
+    },
+    "category": {
+      "id": 1,
+      "name": "Web Exploitation"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 468,
+    "positive_rating_count": 354,
+    "users_solved": 21371,
+    "users_solved_during_event": 3449,
+    "event_points": 200,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 296105,
+      "status": "NOT_RUNNING",
+      "expires_in": null,
+      "description": "<p>We have several pages hidden. Can you find the one with the flag?</p>",
+      "hints": [
+        "<p>folders folders folders</p>"
+      ],
+      "on_demand": true,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 295,
+    "name": "Search source",
+    "author": "Mubarak Mikail",
+    "difficulty": 2,
+    "event": {
+      "id": 70,
+      "name": "picoCTF 2022"
+    },
+    "category": {
+      "id": 1,
+      "name": "Web Exploitation"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 581,
+    "positive_rating_count": 317,
+    "users_solved": 31080,
+    "users_solved_during_event": 4403,
+    "event_points": 100,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 296103,
+      "status": "NOT_RUNNING",
+      "expires_in": null,
+      "description": "<p>The developer of this website mistakenly left an important artifact in the website source, can you find it?</p>",
+      "hints": [
+        "<p>How could you mirror the website on your local machine so you could use more powerful tools for searching?</p>"
+      ],
+      "on_demand": true,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 291,
+    "name": "Roboto Sans",
+    "author": "Mubarak Mikail",
+    "difficulty": 2,
+    "event": {
+      "id": 70,
+      "name": "picoCTF 2022"
+    },
+    "category": {
+      "id": 1,
+      "name": "Web Exploitation"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 493,
+    "positive_rating_count": 232,
+    "users_solved": 19990,
+    "users_solved_during_event": 3119,
+    "event_points": 200,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 296095,
+      "status": "NOT_RUNNING",
+      "expires_in": null,
+      "description": "<p>The flag is somewhere on this web application not necessarily on the website. Find it.</p>",
+      "hints": [],
+      "on_demand": true,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 288,
+    "name": "Power Cookie",
+    "author": "LT 'syreal' Jones",
+    "difficulty": 2,
+    "event": {
+      "id": 70,
+      "name": "picoCTF 2022"
+    },
+    "category": {
+      "id": 1,
+      "name": "Web Exploitation"
+    },
+    "tags": [
+      {
+        "id": 28,
+        "name": "cookie"
+      }
+    ],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 396,
+    "positive_rating_count": 366,
+    "users_solved": 27052,
+    "users_solved_during_event": 5230,
+    "event_points": 200,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 296092,
+      "status": "NOT_RUNNING",
+      "expires_in": null,
+      "description": "<p>Can you get the flag?</p>",
+      "hints": [
+        "<p>Do you know how to modify cookies?</p>"
+      ],
+      "on_demand": true,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 270,
+    "name": "Forbidden Paths",
+    "author": "LT 'syreal' Jones",
+    "difficulty": 2,
+    "event": {
+      "id": 70,
+      "name": "picoCTF 2022"
+    },
+    "category": {
+      "id": 1,
+      "name": "Web Exploitation"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 395,
+    "positive_rating_count": 350,
+    "users_solved": 24442,
+    "users_solved_during_event": 4102,
+    "event_points": 200,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 296081,
+      "status": "NOT_RUNNING",
+      "expires_in": null,
+      "description": "<p>Can you get the flag?</p>\n<p>We know that the website files live in <code>/usr/share/nginx/html/</code> and the flag is at <code>/flag.txt</code>\nbut the website is filtering absolute file paths. Can you get past the filter\nto read the flag?</p>",
+      "hints": [],
+      "on_demand": true,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 236,
+    "name": "JAuth",
+    "author": "Geoffrey Njogu",
+    "difficulty": 2,
+    "event": null,
+    "category": {
+      "id": 1,
+      "name": "Web Exploitation"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 126,
+    "positive_rating_count": 109,
+    "users_solved": 4355,
+    "users_solved_during_event": null,
+    "event_points": 300,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 296066,
+      "status": "NOT_RUNNING",
+      "expires_in": null,
+      "description": "<p>Most web application developers use third party components without testing their security. Some of the past affected companies are:</p>\n<ul>\n<li>Equifax (a US credit bureau organization) - breach due to unpatched Apache Struts web framework CVE-2017-5638</li>\n<li>Mossack Fonesca (Panama Papers law firm) breach - unpatched version of Drupal CMS used</li>\n<li>VerticalScope (internet media company) - outdated version of vBulletin forum software used</li>\n</ul>\n<p>Can you identify the components and exploit the vulnerable one?</p>",
+      "hints": [
+        "<p>Use the web browser tools to check out the JWT cookie.</p>",
+        "<p>The JWT should always have two (2) <code>.</code> separators.</p>"
+      ],
+      "on_demand": true,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 202,
+    "name": "caas",
+    "author": "BrownieInMotion",
+    "difficulty": 2,
+    "event": {
+      "id": 67,
+      "name": "picoMini by redpwn"
+    },
+    "category": {
+      "id": 1,
+      "name": "Web Exploitation"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 580,
+    "positive_rating_count": 559,
+    "users_solved": 16889,
+    "users_solved_during_event": 145,
+    "event_points": 150,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 1258,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "<p>Now presenting <a href=\"https://caas.mars.picoctf.net\">cowsay as a service</a></p>",
+      "hints": [],
+      "on_demand": false,
+      "endpoints": [
+        {
+          "endpoint": "<a href=\"https://artifacts.picoctf.net/picoMini+by+redpwn/Web+Exploitation/caas/index.js\">index.js</a>",
+          "label": "Download index.js"
+        }
+      ]
+    }
+  },
+  {
+    "id": 200,
+    "name": "login",
+    "author": "BrownieInMotion",
+    "difficulty": 2,
+    "event": {
+      "id": 67,
+      "name": "picoMini by redpwn"
+    },
+    "category": {
+      "id": 1,
+      "name": "Web Exploitation"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 673,
+    "positive_rating_count": 619,
+    "users_solved": 44547,
+    "users_solved_during_event": 266,
+    "event_points": 100,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 1256,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "<p>My dog-sitter's brother made this website but I can't get in; can you help?</p>\n<p><a href=\"https://login.mars.picoctf.net\">login.mars.picoctf.net</a></p>",
+      "hints": [],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 180,
+    "name": "Super Serial",
+    "author": "madStacks",
+    "difficulty": 2,
+    "event": {
+      "id": 34,
+      "name": "picoCTF 2021"
+    },
+    "category": {
+      "id": 1,
+      "name": "Web Exploitation"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 254,
+    "positive_rating_count": 216,
+    "users_solved": 6905,
+    "users_solved_during_event": 279,
+    "event_points": 130,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 991,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "Try to recover the flag stored on this website <a href=\"http://mercury.picoctf.net:25395/\">http://mercury.picoctf.net:25395/</a>",
+      "hints": [
+        "The flag is at ../flag"
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 177,
+    "name": "Most Cookies",
+    "author": "madStacks",
+    "difficulty": 2,
+    "event": {
+      "id": 34,
+      "name": "picoCTF 2021"
+    },
+    "category": {
+      "id": 1,
+      "name": "Web Exploitation"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 248,
+    "positive_rating_count": 235,
+    "users_solved": 6322,
+    "users_solved_during_event": 591,
+    "event_points": 150,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 970,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "Alright, enough of using my own encryption. Flask session cookies should be plenty secure! <a href='//mercury.picoctf.net/static/cae5577e6b8f86e17d7884723204f61e/server.py'>server.py</a> <a href=\"http://mercury.picoctf.net:6259/\">http://mercury.picoctf.net:6259/</a>",
+      "hints": [
+        "How secure is a flask cookie?"
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 174,
+    "name": "Web Gauntlet 2",
+    "author": "madStacks",
+    "difficulty": 2,
+    "event": {
+      "id": 34,
+      "name": "picoCTF 2021"
+    },
+    "category": {
+      "id": 1,
+      "name": "Web Exploitation"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 135,
+    "positive_rating_count": 120,
+    "users_solved": 6962,
+    "users_solved_during_event": 282,
+    "event_points": 170,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "If the flag is not displayed after completing this challenge, try clearing your cookies. Cookies set by other challenges may prevent the flag from displaying properly.",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 953,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "This website looks familiar... Log in as admin Site: <a href=\"http://mercury.picoctf.net:26215/\">http://mercury.picoctf.net:26215/</a> Filter: <a href=\"http://mercury.picoctf.net:26215/filter.php\">http://mercury.picoctf.net:26215/filter.php</a>",
+      "hints": [
+        "I tried to make it a little bit less contrived since the mini competition.",
+        "Each filter is separated by a space. Spaces are not filtered.",
+        "There is only 1 round this time, when you beat it the flag will be in filter.php.",
+        "There is a length component now.",
+        "sqlite"
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 152,
+    "name": "Some Assembly Required 1",
+    "author": "Sears Schulz",
+    "difficulty": 2,
+    "event": {
+      "id": 34,
+      "name": "picoCTF 2021"
+    },
+    "category": {
+      "id": 1,
+      "name": "Web Exploitation"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 612,
+    "positive_rating_count": 428,
+    "users_solved": 31842,
+    "users_solved_during_event": 1237,
+    "event_points": 70,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 795,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "<a href=\"http://mercury.picoctf.net:40226/index.html\">http://mercury.picoctf.net:40226/index.html</a>",
+      "hints": [],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 142,
+    "name": "Who are you?",
+    "author": "madStacks",
+    "difficulty": 2,
+    "event": {
+      "id": 34,
+      "name": "picoCTF 2021"
+    },
+    "category": {
+      "id": 1,
+      "name": "Web Exploitation"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 985,
+    "positive_rating_count": 774,
+    "users_solved": 22880,
+    "users_solved_during_event": 878,
+    "event_points": 60,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 724,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "Let me in. Let me iiiiiiinnnnnnnnnnnnnnnnnnnn <a href=\"http://mercury.picoctf.net:38322/\">http://mercury.picoctf.net:38322/</a>",
+      "hints": [
+        "It ain't much, but it's an RFC <a href=\"https://tools.ietf.org/html/rfc2616\">https://tools.ietf.org/html/rfc2616</a>"
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 131,
+    "name": "Some Assembly Required 2",
+    "author": "Sears Schulz",
+    "difficulty": 2,
+    "event": {
+      "id": 34,
+      "name": "picoCTF 2021"
+    },
+    "category": {
+      "id": 1,
+      "name": "Web Exploitation"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 148,
+    "positive_rating_count": 101,
+    "users_solved": 7196,
+    "users_solved_during_event": 378,
+    "event_points": 110,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 653,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "<a href=\"http://mercury.picoctf.net:7319/index.html\">http://mercury.picoctf.net:7319/index.html</a>",
+      "hints": [],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 128,
+    "name": "Web Gauntlet 3",
+    "author": "madStacks",
+    "difficulty": 2,
+    "event": {
+      "id": 34,
+      "name": "picoCTF 2021"
+    },
+    "category": {
+      "id": 1,
+      "name": "Web Exploitation"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 83,
+    "positive_rating_count": 64,
+    "users_solved": 4589,
+    "users_solved_during_event": 272,
+    "event_points": 300,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "If the flag is not displayed after completing this challenge, try clearing your cookies. Cookies set by other challenges may prevent the flag from displaying properly.",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 626,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "Last time, I promise! Only 25 characters this time. Log in as admin Site: <a href=\"http://mercury.picoctf.net:32946/\">http://mercury.picoctf.net:32946/</a> Filter: <a href=\"http://mercury.picoctf.net:32946/filter.php\">http://mercury.picoctf.net:32946/filter.php</a>",
+      "hints": [
+        "Each filter is separated by a space. Spaces are not filtered.",
+        "There is only 1 round this time, when you beat it the flag will be in filter.php.",
+        "sqlite"
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 124,
+    "name": "More Cookies",
+    "author": "madStacks",
+    "difficulty": 2,
+    "event": {
+      "id": 34,
+      "name": "picoCTF 2021"
+    },
+    "category": {
+      "id": 1,
+      "name": "Web Exploitation"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 467,
+    "positive_rating_count": 167,
+    "users_solved": 8936,
+    "users_solved_during_event": 75,
+    "event_points": 90,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 599,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "I forgot Cookies can Be modified Client-side, so now I decided to encrypt them! <a href=\"http://mercury.picoctf.net:43275/\">http://mercury.picoctf.net:43275/</a>",
+      "hints": [
+        "<a href=\"https://en.wikipedia.org/wiki/Homomorphic_encryption\">https://en.wikipedia.org/wiki/Homomorphic_encryption</a>",
+        "The search endpoint is only helpful for telling you if you are admin or not, you won't be able to guess the flag name"
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 109,
+    "name": "It is my Birthday",
+    "author": "madStacks",
+    "difficulty": 2,
+    "event": {
+      "id": 34,
+      "name": "picoCTF 2021"
+    },
+    "category": {
+      "id": 1,
+      "name": "Web Exploitation"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 441,
+    "positive_rating_count": 352,
+    "users_solved": 21590,
+    "users_solved_during_event": 672,
+    "event_points": 100,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 497,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "I sent out 2 invitations to all of my friends for my birthday! I'll know if they get stolen because the two invites look similar, and they even have the same md5 hash, but they are slightly different! You wouldn't believe how long it took me to find a collision. Anyway, see if you're invited by submitting 2 PDFs to my website. <a href=\"http://mercury.picoctf.net:20277/\">http://mercury.picoctf.net:20277/</a>",
+      "hints": [
+        "Look at the category of this problem.",
+        "How may a PHP site check the rules in the description?"
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 88,
+    "name": "Web Gauntlet",
+    "author": "madStacks",
+    "difficulty": 2,
+    "event": {
+      "id": 3,
+      "name": "picoCTF 2020 Mini-Competition"
+    },
+    "category": {
+      "id": 1,
+      "name": "Web Exploitation"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 466,
+    "positive_rating_count": 426,
+    "users_solved": 12193,
+    "users_solved_during_event": 413,
+    "event_points": 1,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "If the flag is not displayed after completing this challenge, try clearing your cookies. Cookies set by other challenges may prevent the flag from displaying properly.",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 312,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "Can you beat the filters? Log in as admin <a href=\"http://jupiter.challenges.picoctf.org:54319/\">http://jupiter.challenges.picoctf.org:54319/</a> <a href=\"http://jupiter.challenges.picoctf.org:54319/filter.php\">http://jupiter.challenges.picoctf.org:54319/filter.php</a>",
+      "hints": [
+        "You are not allowed to login with valid credentials.",
+        "Write down the injections you use in case you lose your progress.",
+        "For some filters it may be hard to see the characters, always (always) look at the raw hex in the response.",
+        "sqlite",
+        "If your cookie keeps getting reset, try using a private browser window"
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 80,
+    "name": "Irish-Name-Repo 1",
+    "author": "Chris Hensler",
+    "difficulty": 2,
+    "event": {
+      "id": 1,
+      "name": "picoCTF 2019"
+    },
+    "category": {
+      "id": 1,
+      "name": "Web Exploitation"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 314,
+    "positive_rating_count": 292,
+    "users_solved": 19636,
+    "users_solved_during_event": 0,
+    "event_points": 300,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 359,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "There is a website running at <code>https://jupiter.challenges.picoctf.org/problem/33850/</code> (<a href=\"https://jupiter.challenges.picoctf.org/problem/33850/\">link</a>) or http://jupiter.challenges.picoctf.org:33850. Do you think you can log us in? Try to see if you can login!",
+      "hints": [
+        "There doesn't seem to be many ways to interact with this. I wonder if the users are kept in a database?",
+        "Try to think about how the website verifies your login."
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 69,
+    "name": "Client-side-again",
+    "author": "Danny",
+    "difficulty": 2,
+    "event": {
+      "id": 1,
+      "name": "picoCTF 2019"
+    },
+    "category": {
+      "id": 1,
+      "name": "Web Exploitation"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 292,
+    "positive_rating_count": 219,
+    "users_solved": 19963,
+    "users_solved_during_event": 0,
+    "event_points": 200,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 335,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "Can you break into this super secure portal? <code>https://jupiter.challenges.picoctf.org/problem/56816/</code> (<a href=\"https://jupiter.challenges.picoctf.org/problem/56816/\">link</a>) or http://jupiter.challenges.picoctf.org:56816",
+      "hints": [
+        "What is obfuscation?"
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 59,
+    "name": "Irish-Name-Repo 2",
+    "author": "Xingyang Pan",
+    "difficulty": 2,
+    "event": {
+      "id": 1,
+      "name": "picoCTF 2019"
+    },
+    "category": {
+      "id": 1,
+      "name": "Web Exploitation"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 173,
+    "positive_rating_count": 149,
+    "users_solved": 14233,
+    "users_solved_during_event": 0,
+    "event_points": 350,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 319,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "There is a website running at <code>https://jupiter.challenges.picoctf.org/problem/64649/</code> (<a href=\"https://jupiter.challenges.picoctf.org/problem/64649/\">link</a>). Someone has bypassed the login before, and now it's being strengthened. Try to see if you can still login! or http://jupiter.challenges.picoctf.org:64649",
+      "hints": [
+        "The password is being filtered."
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 25,
+    "name": "JaWT Scratchpad",
+    "author": "John Hammond",
+    "difficulty": 2,
+    "event": {
+      "id": 1,
+      "name": "picoCTF 2019"
+    },
+    "category": {
+      "id": 1,
+      "name": "Web Exploitation"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 182,
+    "positive_rating_count": 150,
+    "users_solved": 5506,
+    "users_solved_during_event": 0,
+    "event_points": 400,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "Internal server errors can be intentionally returned by this challenge. If you experience one, try clearing your cookies.",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 350,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "Check the admin scratchpad! <code>https://jupiter.challenges.picoctf.org/problem/63090/</code> or http://jupiter.challenges.picoctf.org:63090",
+      "hints": [
+        "What is that cookie?",
+        "Have you heard of JWT?"
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 9,
+    "name": "picobrowser",
+    "author": "Archit",
+    "difficulty": 2,
+    "event": {
+      "id": 1,
+      "name": "picoCTF 2019"
+    },
+    "category": {
+      "id": 1,
+      "name": "Web Exploitation"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 501,
+    "positive_rating_count": 459,
+    "users_solved": 31213,
+    "users_solved_during_event": 0,
+    "event_points": 200,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 290,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "This website can be rendered only by <b>picobrowser</b>, go and catch the flag! <code>https://jupiter.challenges.picoctf.org/problem/28921/</code> (<a href=\"https://jupiter.challenges.picoctf.org/problem/28921/\">link</a>) or http://jupiter.challenges.picoctf.org:28921",
+      "hints": [
+        "You don't need to download a new web browser"
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 8,
+    "name": "Irish-Name-Repo 3",
+    "author": "Xingyang Pan",
+    "difficulty": 2,
+    "event": {
+      "id": 1,
+      "name": "picoCTF 2019"
+    },
+    "category": {
+      "id": 1,
+      "name": "Web Exploitation"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 202,
+    "positive_rating_count": 194,
+    "users_solved": 11183,
+    "users_solved_during_event": 0,
+    "event_points": 400,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 304,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "There is a secure website running at <code>https://jupiter.challenges.picoctf.org/problem/40742/</code> (<a href=\"https://jupiter.challenges.picoctf.org/problem/40742/\">link</a>) or http://jupiter.challenges.picoctf.org:40742. Try to see if you can login as admin!",
+      "hints": [
+        "Seems like the password is encrypted."
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 447,
+    "name": "elements",
+    "author": "ehhthing",
+    "difficulty": 3,
+    "event": {
+      "id": 73,
+      "name": "picoCTF 2024"
+    },
+    "category": {
+      "id": 1,
+      "name": "Web Exploitation"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 32,
+    "positive_rating_count": 25,
+    "users_solved": 516,
+    "users_solved_during_event": 39,
+    "event_points": 500,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "Online mode was a \"for fun\" feature present in the picoCTF 2024 competition, but has been removed for the picoGym and is not required for solving the problem.",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 295588,
+      "status": "NOT_RUNNING",
+      "expires_in": null,
+      "description": "<p>Insert Standard Web Challenge Here.</p>\n<p>Source code: <code><a href='https://artifacts.picoctf.net/c_rhea/9/elements.tar.gz' download>elements.tar.gz</a></code></p>",
+      "hints": [],
+      "on_demand": true,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 360,
+    "name": "msfroggenerator2",
+    "author": "ehhthing",
+    "difficulty": 3,
+    "event": {
+      "id": 72,
+      "name": "picoCTF 2023"
+    },
+    "category": {
+      "id": 1,
+      "name": "Web Exploitation"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 25,
+    "positive_rating_count": 24,
+    "users_solved": 473,
+    "users_solved_during_event": 23,
+    "event_points": 500,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 295028,
+      "status": "NOT_RUNNING",
+      "expires_in": null,
+      "description": "<p>The Frog Software Foundation (FSF) made a customizable msfrog generator! Make your own msfrog today, now fully rendered client side using canvas ✨magic✨.</p>",
+      "hints": [],
+      "on_demand": true,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 344,
+    "name": "cancri-sp",
+    "author": "NotDeGhost",
+    "difficulty": 3,
+    "event": {
+      "id": 72,
+      "name": "picoCTF 2023"
+    },
+    "category": {
+      "id": 1,
+      "name": "Web Exploitation"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 2,
+    "positive_rating_count": 1,
+    "users_solved": 26,
+    "users_solved_during_event": 8,
+    "event_points": 500,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 294924,
+      "status": "NOT_RUNNING",
+      "expires_in": null,
+      "description": "<p>Life is short; opportunity fleeting; the experiment perilous; judgment flawed.</p>",
+      "hints": [
+        "<p>CSP has many meanings</p>",
+        "<p>sp stands for solana pwnable</p>",
+        "<p>Note that outbound TCP access is only permitted on ports 80 and 443.</p>"
+      ],
+      "on_demand": true,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 282,
+    "name": "noted",
+    "author": "ehhthing",
+    "difficulty": 3,
+    "event": {
+      "id": 70,
+      "name": "picoCTF 2022"
+    },
+    "category": {
+      "id": 1,
+      "name": "Web Exploitation"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 68,
+    "positive_rating_count": 58,
+    "users_solved": 1631,
+    "users_solved_during_event": 122,
+    "event_points": 500,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 294821,
+      "status": "NOT_RUNNING",
+      "expires_in": null,
+      "description": "<p>I made a nice web app that lets you take notes. I'm pretty sure I've followed\nall the best practices so its definitely secure right?</p>\n<p>Note that the headless browser used for the &quot;report&quot; feature does <strong>not</strong> have\naccess to the internet.</p>",
+      "hints": [
+        "<p>Are you <em>sure</em> I followed all the best practices?</p>",
+        "<p>There's more than just HTTP(S)!</p>",
+        "<p>Things that require user interaction normally in Chrome might not require it\nin Headless Chrome.</p>"
+      ],
+      "on_demand": true,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 277,
+    "name": "Live Art",
+    "author": "zwad3",
+    "difficulty": 3,
+    "event": {
+      "id": 70,
+      "name": "picoCTF 2022"
+    },
+    "category": {
+      "id": 1,
+      "name": "Web Exploitation"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 18,
+    "positive_rating_count": 13,
+    "users_solved": 233,
+    "users_solved_during_event": 10,
+    "event_points": 500,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 294812,
+      "status": "NOT_RUNNING",
+      "expires_in": null,
+      "description": "<p>There's nothing quite as fun as drawing for an audience. So sign up for LiveArt\ntoday and show the world what you can do.</p>",
+      "hints": [
+        "<p>The flag will be the admin's username/broadcast link, at the origin <code>http://localhost:4000/</code></p>",
+        "<p>https://html.spec.whatwg.org/multipage/custom-elements.html</p>"
+      ],
+      "on_demand": true,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 204,
+    "name": "notepad",
+    "author": "ginkoid",
+    "difficulty": 3,
+    "event": {
+      "id": 67,
+      "name": "picoMini by redpwn"
+    },
+    "category": {
+      "id": 1,
+      "name": "Web Exploitation"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 103,
+    "positive_rating_count": 89,
+    "users_solved": 2263,
+    "users_solved_during_event": 19,
+    "event_points": 250,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 1260,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "<p>This note-taking site seems a bit off.</p>\n<p><a href=\"https://notepad.mars.picoctf.net\">notepad.mars.picoctf.net</a></p>",
+      "hints": [],
+      "on_demand": false,
+      "endpoints": [
+        {
+          "endpoint": "<a href=\"https://artifacts.picoctf.net/picoMini+by+redpwn/Web+Exploitation/notepad/notepad.tar\">notepad.tar</a>",
+          "label": "Download notepad.tar"
+        }
+      ]
+    }
+  },
+  {
+    "id": 190,
+    "name": "Bithug",
+    "author": "zwad3",
+    "difficulty": 3,
+    "event": {
+      "id": 34,
+      "name": "picoCTF 2021"
+    },
+    "category": {
+      "id": 1,
+      "name": "Web Exploitation"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 39,
+    "positive_rating_count": 35,
+    "users_solved": 1927,
+    "users_solved_during_event": 48,
+    "event_points": 500,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "The hint for this challenge should read:\r\n\r\nEvery user gets their own target repository to attack called_/<user>.git, but no permission to read it.",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 1064,
+      "status": "NOT_RUNNING",
+      "expires_in": null,
+      "description": "Code management software is way too bloated. Try our new lightweight solution, BitHug.<br>Source: <a href='//venus.picoctf.net/static/b8d1e1902b454c33453fadaf25e4bd48/distribution.tgz'>distribution.tgz</a>",
+      "hints": [
+        "Every user gets their own target repository to attack called <code>_/<user>.git</code>, but no permission to read it"
+      ],
+      "on_demand": true,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 182,
+    "name": "Some Assembly Required 4",
+    "author": "Sears Schulz",
+    "difficulty": 3,
+    "event": {
+      "id": 34,
+      "name": "picoCTF 2021"
+    },
+    "category": {
+      "id": 1,
+      "name": "Web Exploitation"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 19,
+    "positive_rating_count": 17,
+    "users_solved": 615,
+    "users_solved_during_event": 137,
+    "event_points": 200,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 1008,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "<a href=\"http://mercury.picoctf.net:54609/index.html\">http://mercury.picoctf.net:54609/index.html</a>",
+      "hints": [],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 153,
+    "name": "Some Assembly Required 3",
+    "author": "Sears Schulz",
+    "difficulty": 3,
+    "event": {
+      "id": 34,
+      "name": "picoCTF 2021"
+    },
+    "category": {
+      "id": 1,
+      "name": "Web Exploitation"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 60,
+    "positive_rating_count": 43,
+    "users_solved": 1707,
+    "users_solved_during_event": 229,
+    "event_points": 160,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 806,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "<a href=\"http://mercury.picoctf.net:10388/index.html\">http://mercury.picoctf.net:10388/index.html</a>",
+      "hints": [],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 33,
+    "name": "Java Script Kiddie 2",
+    "author": "John Johnson",
+    "difficulty": 3,
+    "event": {
+      "id": 1,
+      "name": "picoCTF 2019"
+    },
+    "category": {
+      "id": 1,
+      "name": "Web Exploitation"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 34,
+    "positive_rating_count": 29,
+    "users_solved": 858,
+    "users_solved_during_event": 0,
+    "event_points": 450,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 287,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "The image link appears broken... twice as badly... https://jupiter.challenges.picoctf.org/problem/51400 or http://jupiter.challenges.picoctf.org:51400",
+      "hints": [
+        "This is only a JavaScript problem."
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 29,
+    "name": "Java Script Kiddie",
+    "author": "John Johnson",
+    "difficulty": 3,
+    "event": {
+      "id": 1,
+      "name": "picoCTF 2019"
+    },
+    "category": {
+      "id": 1,
+      "name": "Web Exploitation"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 83,
+    "positive_rating_count": 72,
+    "users_solved": 1308,
+    "users_solved_during_event": 0,
+    "event_points": 400,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 338,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "The image link appears broken... https://jupiter.challenges.picoctf.org/problem/58112 or http://jupiter.challenges.picoctf.org:58112",
+      "hints": [
+        "This is only a JavaScript problem."
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  }
+]

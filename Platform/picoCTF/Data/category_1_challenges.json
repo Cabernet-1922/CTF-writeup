@@ -1,0 +1,1767 @@
+{
+  "count": 58,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "id": 427,
+      "name": "WebDecode",
+      "author": "Nana Ama Atombo-Sackey",
+      "difficulty": 1,
+      "event": {
+        "id": 73,
+        "name": "picoCTF 2024"
+      },
+      "category": {
+        "id": 1,
+        "name": "Web Exploitation"
+      },
+      "tags": [
+        {
+          "id": 63,
+          "name": "browser_webshell_solvable"
+        }
+      ],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 600,
+      "positive_rating_count": 522,
+      "users_solved": 41789,
+      "users_solved_during_event": 5938,
+      "event_points": 50,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 426,
+      "name": "Unminify",
+      "author": "Jeffery John",
+      "difficulty": 1,
+      "event": {
+        "id": 73,
+        "name": "picoCTF 2024"
+      },
+      "category": {
+        "id": 1,
+        "name": "Web Exploitation"
+      },
+      "tags": [
+        {
+          "id": 63,
+          "name": "browser_webshell_solvable"
+        },
+        {
+          "id": 72,
+          "name": "minification"
+        },
+        {
+          "id": 8,
+          "name": "obfuscation"
+        }
+      ],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 381,
+      "positive_rating_count": 324,
+      "users_solved": 34235,
+      "users_solved_during_event": 5188,
+      "event_points": 100,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 419,
+      "name": "IntroToBurp",
+      "author": "Nana Ama Atombo-Sackey & Sabine Gisagara",
+      "difficulty": 1,
+      "event": {
+        "id": 73,
+        "name": "picoCTF 2024"
+      },
+      "category": {
+        "id": 1,
+        "name": "Web Exploitation"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 574,
+      "positive_rating_count": 254,
+      "users_solved": 17861,
+      "users_solved_during_event": 2417,
+      "event_points": 100,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 406,
+      "name": "Bookmarklet",
+      "author": "Jeffery John",
+      "difficulty": 1,
+      "event": {
+        "id": 73,
+        "name": "picoCTF 2024"
+      },
+      "category": {
+        "id": 1,
+        "name": "Web Exploitation"
+      },
+      "tags": [
+        {
+          "id": 65,
+          "name": "browser"
+        },
+        {
+          "id": 63,
+          "name": "browser_webshell_solvable"
+        },
+        {
+          "id": 8,
+          "name": "obfuscation"
+        }
+      ],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 530,
+      "positive_rating_count": 496,
+      "users_solved": 31287,
+      "users_solved_during_event": 7269,
+      "event_points": 50,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 278,
+      "name": "Local Authority",
+      "author": "LT 'syreal' Jones",
+      "difficulty": 1,
+      "event": {
+        "id": 70,
+        "name": "picoCTF 2022"
+      },
+      "category": {
+        "id": 1,
+        "name": "Web Exploitation"
+      },
+      "tags": [
+        {
+          "id": 19,
+          "name": "inspector"
+        }
+      ],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 636,
+      "positive_rating_count": 598,
+      "users_solved": 50249,
+      "users_solved_during_event": 6093,
+      "event_points": 100,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 275,
+      "name": "Inspect HTML",
+      "author": "LT 'syreal' Jones",
+      "difficulty": 1,
+      "event": {
+        "id": 70,
+        "name": "picoCTF 2022"
+      },
+      "category": {
+        "id": 1,
+        "name": "Web Exploitation"
+      },
+      "tags": [
+        {
+          "id": 19,
+          "name": "inspector"
+        }
+      ],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 802,
+      "positive_rating_count": 552,
+      "users_solved": 65664,
+      "users_solved_during_event": 7359,
+      "event_points": 100,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 274,
+      "name": "Includes",
+      "author": "LT 'syreal' Jones",
+      "difficulty": 1,
+      "event": {
+        "id": 70,
+        "name": "picoCTF 2022"
+      },
+      "category": {
+        "id": 1,
+        "name": "Web Exploitation"
+      },
+      "tags": [
+        {
+          "id": 19,
+          "name": "inspector"
+        }
+      ],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 545,
+      "positive_rating_count": 441,
+      "users_solved": 51887,
+      "users_solved_during_event": 6854,
+      "event_points": 100,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 173,
+      "name": "Cookies",
+      "author": "madStacks",
+      "difficulty": 1,
+      "event": {
+        "id": 34,
+        "name": "picoCTF 2021"
+      },
+      "category": {
+        "id": 1,
+        "name": "Web Exploitation"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 2140,
+      "positive_rating_count": 1371,
+      "users_solved": 74971,
+      "users_solved_during_event": 1787,
+      "event_points": 40,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 161,
+      "name": "Scavenger Hunt",
+      "author": "madStacks",
+      "difficulty": 1,
+      "event": {
+        "id": 34,
+        "name": "picoCTF 2021"
+      },
+      "category": {
+        "id": 1,
+        "name": "Web Exploitation"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 1874,
+      "positive_rating_count": 1265,
+      "users_solved": 62253,
+      "users_solved_during_event": 1327,
+      "event_points": 50,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 132,
+      "name": "GET aHEAD",
+      "author": "madStacks",
+      "difficulty": 1,
+      "event": {
+        "id": 34,
+        "name": "picoCTF 2021"
+      },
+      "category": {
+        "id": 1,
+        "name": "Web Exploitation"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 2279,
+      "positive_rating_count": 2013,
+      "users_solved": 94116,
+      "users_solved_during_event": 1755,
+      "event_points": 20,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 66,
+      "name": "dont-use-client-side",
+      "author": "Alex Fulton/Danny",
+      "difficulty": 1,
+      "event": {
+        "id": 1,
+        "name": "picoCTF 2019"
+      },
+      "category": {
+        "id": 1,
+        "name": "Web Exploitation"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 777,
+      "positive_rating_count": 688,
+      "users_solved": 67329,
+      "users_solved_during_event": 0,
+      "event_points": 100,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 46,
+      "name": "logon",
+      "author": "bobson",
+      "difficulty": 1,
+      "event": {
+        "id": 1,
+        "name": "picoCTF 2019"
+      },
+      "category": {
+        "id": 1,
+        "name": "Web Exploitation"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 1175,
+      "positive_rating_count": 1088,
+      "users_solved": 66080,
+      "users_solved_during_event": 0,
+      "event_points": 100,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 18,
+      "name": "Insp3ct0r",
+      "author": "zaratec/danny",
+      "difficulty": 1,
+      "event": {
+        "id": 1,
+        "name": "picoCTF 2019"
+      },
+      "category": {
+        "id": 1,
+        "name": "Web Exploitation"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 2467,
+      "positive_rating_count": 2260,
+      "users_solved": 124429,
+      "users_solved_during_event": 0,
+      "event_points": 50,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 4,
+      "name": "where are the robots",
+      "author": "zaratec/Danny",
+      "difficulty": 1,
+      "event": {
+        "id": 1,
+        "name": "picoCTF 2019"
+      },
+      "category": {
+        "id": 1,
+        "name": "Web Exploitation"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 1552,
+      "positive_rating_count": 1370,
+      "users_solved": 87180,
+      "users_solved_during_event": 0,
+      "event_points": 100,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 445,
+      "name": "Trickster",
+      "author": "Junias Bonou",
+      "difficulty": 2,
+      "event": {
+        "id": 73,
+        "name": "picoCTF 2024"
+      },
+      "category": {
+        "id": 1,
+        "name": "Web Exploitation"
+      },
+      "tags": [
+        {
+          "id": 63,
+          "name": "browser_webshell_solvable"
+        }
+      ],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 279,
+      "positive_rating_count": 273,
+      "users_solved": 6915,
+      "users_solved_during_event": 1130,
+      "event_points": 300,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 443,
+      "name": "No Sql Injection",
+      "author": "NGIRIMANA Schadrack",
+      "difficulty": 2,
+      "event": {
+        "id": 73,
+        "name": "picoCTF 2024"
+      },
+      "category": {
+        "id": 1,
+        "name": "Web Exploitation"
+      },
+      "tags": [
+        {
+          "id": 63,
+          "name": "browser_webshell_solvable"
+        }
+      ],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 93,
+      "positive_rating_count": 85,
+      "users_solved": 2980,
+      "users_solved_during_event": 1531,
+      "event_points": 200,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 376,
+      "name": "SOAP",
+      "author": "Geoffrey Njogu",
+      "difficulty": 2,
+      "event": {
+        "id": 72,
+        "name": "picoCTF 2023"
+      },
+      "category": {
+        "id": 1,
+        "name": "Web Exploitation"
+      },
+      "tags": [
+        {
+          "id": 50,
+          "name": "XXE"
+        }
+      ],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 326,
+      "positive_rating_count": 299,
+      "users_solved": 12409,
+      "users_solved_during_event": 2202,
+      "event_points": 100,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 358,
+      "name": "More SQLi",
+      "author": "Mubarak Mikail",
+      "difficulty": 2,
+      "event": {
+        "id": 72,
+        "name": "picoCTF 2023"
+      },
+      "category": {
+        "id": 1,
+        "name": "Web Exploitation"
+      },
+      "tags": [
+        {
+          "id": 23,
+          "name": "sql"
+        }
+      ],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 283,
+      "positive_rating_count": 231,
+      "users_solved": 11659,
+      "users_solved_during_event": 1691,
+      "event_points": 200,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 356,
+      "name": "MatchTheRegex",
+      "author": "Sunday Jacob Nwanyim",
+      "difficulty": 2,
+      "event": {
+        "id": 72,
+        "name": "picoCTF 2023"
+      },
+      "category": {
+        "id": 1,
+        "name": "Web Exploitation"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 400,
+      "positive_rating_count": 199,
+      "users_solved": 17519,
+      "users_solved_during_event": 3856,
+      "event_points": 100,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 355,
+      "name": "Java Code Analysis!?!",
+      "author": "Nandan Desai",
+      "difficulty": 2,
+      "event": {
+        "id": 72,
+        "name": "picoCTF 2023"
+      },
+      "category": {
+        "id": 1,
+        "name": "Web Exploitation"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 188,
+      "positive_rating_count": 173,
+      "users_solved": 4040,
+      "users_solved_during_event": 964,
+      "event_points": 300,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 349,
+      "name": "findme",
+      "author": "Geoffrey Njogu",
+      "difficulty": 2,
+      "event": {
+        "id": 72,
+        "name": "picoCTF 2023"
+      },
+      "category": {
+        "id": 1,
+        "name": "Web Exploitation"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 462,
+      "positive_rating_count": 317,
+      "users_solved": 19328,
+      "users_solved_during_event": 3300,
+      "event_points": 100,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 304,
+      "name": "SQLiLite",
+      "author": "Mubarak Mikail",
+      "difficulty": 2,
+      "event": {
+        "id": 70,
+        "name": "picoCTF 2022"
+      },
+      "category": {
+        "id": 1,
+        "name": "Web Exploitation"
+      },
+      "tags": [
+        {
+          "id": 23,
+          "name": "sql"
+        }
+      ],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 408,
+      "positive_rating_count": 381,
+      "users_solved": 20740,
+      "users_solved_during_event": 3561,
+      "event_points": 300,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 303,
+      "name": "SQL Direct",
+      "author": "Mubarak Mikail / LT 'syreal' Jones",
+      "difficulty": 2,
+      "event": {
+        "id": 70,
+        "name": "picoCTF 2022"
+      },
+      "category": {
+        "id": 1,
+        "name": "Web Exploitation"
+      },
+      "tags": [
+        {
+          "id": 23,
+          "name": "sql"
+        }
+      ],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 272,
+      "positive_rating_count": 242,
+      "users_solved": 17192,
+      "users_solved_during_event": 3313,
+      "event_points": 200,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 296,
+      "name": "Secrets",
+      "author": "Geoffrey Njogu",
+      "difficulty": 2,
+      "event": {
+        "id": 70,
+        "name": "picoCTF 2022"
+      },
+      "category": {
+        "id": 1,
+        "name": "Web Exploitation"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 468,
+      "positive_rating_count": 354,
+      "users_solved": 21371,
+      "users_solved_during_event": 3449,
+      "event_points": 200,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 295,
+      "name": "Search source",
+      "author": "Mubarak Mikail",
+      "difficulty": 2,
+      "event": {
+        "id": 70,
+        "name": "picoCTF 2022"
+      },
+      "category": {
+        "id": 1,
+        "name": "Web Exploitation"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 581,
+      "positive_rating_count": 317,
+      "users_solved": 31079,
+      "users_solved_during_event": 4403,
+      "event_points": 100,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 291,
+      "name": "Roboto Sans",
+      "author": "Mubarak Mikail",
+      "difficulty": 2,
+      "event": {
+        "id": 70,
+        "name": "picoCTF 2022"
+      },
+      "category": {
+        "id": 1,
+        "name": "Web Exploitation"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 493,
+      "positive_rating_count": 232,
+      "users_solved": 19990,
+      "users_solved_during_event": 3119,
+      "event_points": 200,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 288,
+      "name": "Power Cookie",
+      "author": "LT 'syreal' Jones",
+      "difficulty": 2,
+      "event": {
+        "id": 70,
+        "name": "picoCTF 2022"
+      },
+      "category": {
+        "id": 1,
+        "name": "Web Exploitation"
+      },
+      "tags": [
+        {
+          "id": 28,
+          "name": "cookie"
+        }
+      ],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 396,
+      "positive_rating_count": 366,
+      "users_solved": 27052,
+      "users_solved_during_event": 5230,
+      "event_points": 200,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 270,
+      "name": "Forbidden Paths",
+      "author": "LT 'syreal' Jones",
+      "difficulty": 2,
+      "event": {
+        "id": 70,
+        "name": "picoCTF 2022"
+      },
+      "category": {
+        "id": 1,
+        "name": "Web Exploitation"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 395,
+      "positive_rating_count": 350,
+      "users_solved": 24442,
+      "users_solved_during_event": 4102,
+      "event_points": 200,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 236,
+      "name": "JAuth",
+      "author": "Geoffrey Njogu",
+      "difficulty": 2,
+      "event": null,
+      "category": {
+        "id": 1,
+        "name": "Web Exploitation"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 126,
+      "positive_rating_count": 109,
+      "users_solved": 4355,
+      "users_solved_during_event": null,
+      "event_points": 300,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 202,
+      "name": "caas",
+      "author": "BrownieInMotion",
+      "difficulty": 2,
+      "event": {
+        "id": 67,
+        "name": "picoMini by redpwn"
+      },
+      "category": {
+        "id": 1,
+        "name": "Web Exploitation"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 580,
+      "positive_rating_count": 559,
+      "users_solved": 16889,
+      "users_solved_during_event": 145,
+      "event_points": 150,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 200,
+      "name": "login",
+      "author": "BrownieInMotion",
+      "difficulty": 2,
+      "event": {
+        "id": 67,
+        "name": "picoMini by redpwn"
+      },
+      "category": {
+        "id": 1,
+        "name": "Web Exploitation"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 673,
+      "positive_rating_count": 619,
+      "users_solved": 44547,
+      "users_solved_during_event": 266,
+      "event_points": 100,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 180,
+      "name": "Super Serial",
+      "author": "madStacks",
+      "difficulty": 2,
+      "event": {
+        "id": 34,
+        "name": "picoCTF 2021"
+      },
+      "category": {
+        "id": 1,
+        "name": "Web Exploitation"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 254,
+      "positive_rating_count": 216,
+      "users_solved": 6905,
+      "users_solved_during_event": 279,
+      "event_points": 130,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 177,
+      "name": "Most Cookies",
+      "author": "madStacks",
+      "difficulty": 2,
+      "event": {
+        "id": 34,
+        "name": "picoCTF 2021"
+      },
+      "category": {
+        "id": 1,
+        "name": "Web Exploitation"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 248,
+      "positive_rating_count": 235,
+      "users_solved": 6322,
+      "users_solved_during_event": 591,
+      "event_points": 150,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 174,
+      "name": "Web Gauntlet 2",
+      "author": "madStacks",
+      "difficulty": 2,
+      "event": {
+        "id": 34,
+        "name": "picoCTF 2021"
+      },
+      "category": {
+        "id": 1,
+        "name": "Web Exploitation"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 135,
+      "positive_rating_count": 120,
+      "users_solved": 6962,
+      "users_solved_during_event": 282,
+      "event_points": 170,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "If the flag is not displayed after completing this challenge, try clearing your cookies. Cookies set by other challenges may prevent the flag from displaying properly.",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 152,
+      "name": "Some Assembly Required 1",
+      "author": "Sears Schulz",
+      "difficulty": 2,
+      "event": {
+        "id": 34,
+        "name": "picoCTF 2021"
+      },
+      "category": {
+        "id": 1,
+        "name": "Web Exploitation"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 612,
+      "positive_rating_count": 428,
+      "users_solved": 31842,
+      "users_solved_during_event": 1237,
+      "event_points": 70,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 142,
+      "name": "Who are you?",
+      "author": "madStacks",
+      "difficulty": 2,
+      "event": {
+        "id": 34,
+        "name": "picoCTF 2021"
+      },
+      "category": {
+        "id": 1,
+        "name": "Web Exploitation"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 985,
+      "positive_rating_count": 774,
+      "users_solved": 22880,
+      "users_solved_during_event": 878,
+      "event_points": 60,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 131,
+      "name": "Some Assembly Required 2",
+      "author": "Sears Schulz",
+      "difficulty": 2,
+      "event": {
+        "id": 34,
+        "name": "picoCTF 2021"
+      },
+      "category": {
+        "id": 1,
+        "name": "Web Exploitation"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 148,
+      "positive_rating_count": 101,
+      "users_solved": 7196,
+      "users_solved_during_event": 378,
+      "event_points": 110,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 128,
+      "name": "Web Gauntlet 3",
+      "author": "madStacks",
+      "difficulty": 2,
+      "event": {
+        "id": 34,
+        "name": "picoCTF 2021"
+      },
+      "category": {
+        "id": 1,
+        "name": "Web Exploitation"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 83,
+      "positive_rating_count": 64,
+      "users_solved": 4589,
+      "users_solved_during_event": 272,
+      "event_points": 300,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "If the flag is not displayed after completing this challenge, try clearing your cookies. Cookies set by other challenges may prevent the flag from displaying properly.",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 124,
+      "name": "More Cookies",
+      "author": "madStacks",
+      "difficulty": 2,
+      "event": {
+        "id": 34,
+        "name": "picoCTF 2021"
+      },
+      "category": {
+        "id": 1,
+        "name": "Web Exploitation"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 467,
+      "positive_rating_count": 167,
+      "users_solved": 8936,
+      "users_solved_during_event": 75,
+      "event_points": 90,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 109,
+      "name": "It is my Birthday",
+      "author": "madStacks",
+      "difficulty": 2,
+      "event": {
+        "id": 34,
+        "name": "picoCTF 2021"
+      },
+      "category": {
+        "id": 1,
+        "name": "Web Exploitation"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 441,
+      "positive_rating_count": 352,
+      "users_solved": 21590,
+      "users_solved_during_event": 672,
+      "event_points": 100,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 88,
+      "name": "Web Gauntlet",
+      "author": "madStacks",
+      "difficulty": 2,
+      "event": {
+        "id": 3,
+        "name": "picoCTF 2020 Mini-Competition"
+      },
+      "category": {
+        "id": 1,
+        "name": "Web Exploitation"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 466,
+      "positive_rating_count": 426,
+      "users_solved": 12192,
+      "users_solved_during_event": 413,
+      "event_points": 1,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "If the flag is not displayed after completing this challenge, try clearing your cookies. Cookies set by other challenges may prevent the flag from displaying properly.",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 80,
+      "name": "Irish-Name-Repo 1",
+      "author": "Chris Hensler",
+      "difficulty": 2,
+      "event": {
+        "id": 1,
+        "name": "picoCTF 2019"
+      },
+      "category": {
+        "id": 1,
+        "name": "Web Exploitation"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 314,
+      "positive_rating_count": 292,
+      "users_solved": 19636,
+      "users_solved_during_event": 0,
+      "event_points": 300,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 69,
+      "name": "Client-side-again",
+      "author": "Danny",
+      "difficulty": 2,
+      "event": {
+        "id": 1,
+        "name": "picoCTF 2019"
+      },
+      "category": {
+        "id": 1,
+        "name": "Web Exploitation"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 292,
+      "positive_rating_count": 219,
+      "users_solved": 19963,
+      "users_solved_during_event": 0,
+      "event_points": 200,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 59,
+      "name": "Irish-Name-Repo 2",
+      "author": "Xingyang Pan",
+      "difficulty": 2,
+      "event": {
+        "id": 1,
+        "name": "picoCTF 2019"
+      },
+      "category": {
+        "id": 1,
+        "name": "Web Exploitation"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 173,
+      "positive_rating_count": 149,
+      "users_solved": 14233,
+      "users_solved_during_event": 0,
+      "event_points": 350,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 25,
+      "name": "JaWT Scratchpad",
+      "author": "John Hammond",
+      "difficulty": 2,
+      "event": {
+        "id": 1,
+        "name": "picoCTF 2019"
+      },
+      "category": {
+        "id": 1,
+        "name": "Web Exploitation"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 182,
+      "positive_rating_count": 150,
+      "users_solved": 5506,
+      "users_solved_during_event": 0,
+      "event_points": 400,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "Internal server errors can be intentionally returned by this challenge. If you experience one, try clearing your cookies.",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 9,
+      "name": "picobrowser",
+      "author": "Archit",
+      "difficulty": 2,
+      "event": {
+        "id": 1,
+        "name": "picoCTF 2019"
+      },
+      "category": {
+        "id": 1,
+        "name": "Web Exploitation"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 501,
+      "positive_rating_count": 459,
+      "users_solved": 31213,
+      "users_solved_during_event": 0,
+      "event_points": 200,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 8,
+      "name": "Irish-Name-Repo 3",
+      "author": "Xingyang Pan",
+      "difficulty": 2,
+      "event": {
+        "id": 1,
+        "name": "picoCTF 2019"
+      },
+      "category": {
+        "id": 1,
+        "name": "Web Exploitation"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 202,
+      "positive_rating_count": 194,
+      "users_solved": 11183,
+      "users_solved_during_event": 0,
+      "event_points": 400,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 447,
+      "name": "elements",
+      "author": "ehhthing",
+      "difficulty": 3,
+      "event": {
+        "id": 73,
+        "name": "picoCTF 2024"
+      },
+      "category": {
+        "id": 1,
+        "name": "Web Exploitation"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 32,
+      "positive_rating_count": 25,
+      "users_solved": 516,
+      "users_solved_during_event": 39,
+      "event_points": 500,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "Online mode was a \"for fun\" feature present in the picoCTF 2024 competition, but has been removed for the picoGym and is not required for solving the problem.",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 360,
+      "name": "msfroggenerator2",
+      "author": "ehhthing",
+      "difficulty": 3,
+      "event": {
+        "id": 72,
+        "name": "picoCTF 2023"
+      },
+      "category": {
+        "id": 1,
+        "name": "Web Exploitation"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 25,
+      "positive_rating_count": 24,
+      "users_solved": 473,
+      "users_solved_during_event": 23,
+      "event_points": 500,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 344,
+      "name": "cancri-sp",
+      "author": "NotDeGhost",
+      "difficulty": 3,
+      "event": {
+        "id": 72,
+        "name": "picoCTF 2023"
+      },
+      "category": {
+        "id": 1,
+        "name": "Web Exploitation"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 2,
+      "positive_rating_count": 1,
+      "users_solved": 26,
+      "users_solved_during_event": 8,
+      "event_points": 500,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 282,
+      "name": "noted",
+      "author": "ehhthing",
+      "difficulty": 3,
+      "event": {
+        "id": 70,
+        "name": "picoCTF 2022"
+      },
+      "category": {
+        "id": 1,
+        "name": "Web Exploitation"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 68,
+      "positive_rating_count": 58,
+      "users_solved": 1631,
+      "users_solved_during_event": 122,
+      "event_points": 500,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 277,
+      "name": "Live Art",
+      "author": "zwad3",
+      "difficulty": 3,
+      "event": {
+        "id": 70,
+        "name": "picoCTF 2022"
+      },
+      "category": {
+        "id": 1,
+        "name": "Web Exploitation"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 18,
+      "positive_rating_count": 13,
+      "users_solved": 233,
+      "users_solved_during_event": 10,
+      "event_points": 500,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 204,
+      "name": "notepad",
+      "author": "ginkoid",
+      "difficulty": 3,
+      "event": {
+        "id": 67,
+        "name": "picoMini by redpwn"
+      },
+      "category": {
+        "id": 1,
+        "name": "Web Exploitation"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 103,
+      "positive_rating_count": 89,
+      "users_solved": 2263,
+      "users_solved_during_event": 19,
+      "event_points": 250,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 190,
+      "name": "Bithug",
+      "author": "zwad3",
+      "difficulty": 3,
+      "event": {
+        "id": 34,
+        "name": "picoCTF 2021"
+      },
+      "category": {
+        "id": 1,
+        "name": "Web Exploitation"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 39,
+      "positive_rating_count": 35,
+      "users_solved": 1927,
+      "users_solved_during_event": 48,
+      "event_points": 500,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "The hint for this challenge should read:\r\n\r\nEvery user gets their own target repository to attack called_/<user>.git, but no permission to read it.",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 182,
+      "name": "Some Assembly Required 4",
+      "author": "Sears Schulz",
+      "difficulty": 3,
+      "event": {
+        "id": 34,
+        "name": "picoCTF 2021"
+      },
+      "category": {
+        "id": 1,
+        "name": "Web Exploitation"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 19,
+      "positive_rating_count": 17,
+      "users_solved": 615,
+      "users_solved_during_event": 137,
+      "event_points": 200,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 153,
+      "name": "Some Assembly Required 3",
+      "author": "Sears Schulz",
+      "difficulty": 3,
+      "event": {
+        "id": 34,
+        "name": "picoCTF 2021"
+      },
+      "category": {
+        "id": 1,
+        "name": "Web Exploitation"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 60,
+      "positive_rating_count": 43,
+      "users_solved": 1707,
+      "users_solved_during_event": 229,
+      "event_points": 160,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 33,
+      "name": "Java Script Kiddie 2",
+      "author": "John Johnson",
+      "difficulty": 3,
+      "event": {
+        "id": 1,
+        "name": "picoCTF 2019"
+      },
+      "category": {
+        "id": 1,
+        "name": "Web Exploitation"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 34,
+      "positive_rating_count": 29,
+      "users_solved": 858,
+      "users_solved_during_event": 0,
+      "event_points": 450,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 29,
+      "name": "Java Script Kiddie",
+      "author": "John Johnson",
+      "difficulty": 3,
+      "event": {
+        "id": 1,
+        "name": "picoCTF 2019"
+      },
+      "category": {
+        "id": 1,
+        "name": "Web Exploitation"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 83,
+      "positive_rating_count": 72,
+      "users_solved": 1308,
+      "users_solved_during_event": 0,
+      "event_points": 400,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    }
+  ]
+}

@@ -1,0 +1,1718 @@
+{
+  "count": 51,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "id": 442,
+      "name": "Binary Search",
+      "author": "Jeffery John",
+      "difficulty": 1,
+      "event": {
+        "id": 73,
+        "name": "picoCTF 2024"
+      },
+      "category": {
+        "id": 5,
+        "name": "General Skills"
+      },
+      "tags": [
+        {
+          "id": 63,
+          "name": "browser_webshell_solvable"
+        },
+        {
+          "id": 76,
+          "name": "ls"
+        },
+        {
+          "id": 2,
+          "name": "shell"
+        }
+      ],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 591,
+      "positive_rating_count": 553,
+      "users_solved": 29540,
+      "users_solved_during_event": 4048,
+      "event_points": 100,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 425,
+      "name": "Time Machine",
+      "author": "Jeffery John",
+      "difficulty": 1,
+      "event": {
+        "id": 73,
+        "name": "picoCTF 2024"
+      },
+      "category": {
+        "id": 5,
+        "name": "General Skills"
+      },
+      "tags": [
+        {
+          "id": 63,
+          "name": "browser_webshell_solvable"
+        },
+        {
+          "id": 64,
+          "name": "git"
+        }
+      ],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 370,
+      "positive_rating_count": 343,
+      "users_solved": 27406,
+      "users_solved_during_event": 5596,
+      "event_points": 50,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 424,
+      "name": "Super SSH",
+      "author": "Jeffery John",
+      "difficulty": 1,
+      "event": {
+        "id": 73,
+        "name": "picoCTF 2024"
+      },
+      "category": {
+        "id": 5,
+        "name": "General Skills"
+      },
+      "tags": [
+        {
+          "id": 63,
+          "name": "browser_webshell_solvable"
+        },
+        {
+          "id": 2,
+          "name": "shell"
+        },
+        {
+          "id": 52,
+          "name": "ssh"
+        }
+      ],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 610,
+      "positive_rating_count": 572,
+      "users_solved": 37440,
+      "users_solved_during_event": 7260,
+      "event_points": 25,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 414,
+      "name": "endianness",
+      "author": "Nana Ama Atombo-Sackey",
+      "difficulty": 1,
+      "event": {
+        "id": 73,
+        "name": "picoCTF 2024"
+      },
+      "category": {
+        "id": 5,
+        "name": "General Skills"
+      },
+      "tags": [
+        {
+          "id": 63,
+          "name": "browser_webshell_solvable"
+        }
+      ],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 303,
+      "positive_rating_count": 174,
+      "users_solved": 12509,
+      "users_solved_during_event": 3166,
+      "event_points": 200,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 411,
+      "name": "Commitment Issues",
+      "author": "Jeffery John",
+      "difficulty": 1,
+      "event": {
+        "id": 73,
+        "name": "picoCTF 2024"
+      },
+      "category": {
+        "id": 5,
+        "name": "General Skills"
+      },
+      "tags": [
+        {
+          "id": 63,
+          "name": "browser_webshell_solvable"
+        },
+        {
+          "id": 64,
+          "name": "git"
+        }
+      ],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 413,
+      "positive_rating_count": 397,
+      "users_solved": 18774,
+      "users_solved_during_event": 5118,
+      "event_points": 50,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 410,
+      "name": "Collaborative Development",
+      "author": "Jeffery John",
+      "difficulty": 1,
+      "event": {
+        "id": 73,
+        "name": "picoCTF 2024"
+      },
+      "category": {
+        "id": 5,
+        "name": "General Skills"
+      },
+      "tags": [
+        {
+          "id": 63,
+          "name": "browser_webshell_solvable"
+        },
+        {
+          "id": 64,
+          "name": "git"
+        }
+      ],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 216,
+      "positive_rating_count": 206,
+      "users_solved": 13587,
+      "users_solved_during_event": 3779,
+      "event_points": 75,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 405,
+      "name": "Blame Game",
+      "author": "Jeffery John",
+      "difficulty": 1,
+      "event": {
+        "id": 73,
+        "name": "picoCTF 2024"
+      },
+      "category": {
+        "id": 5,
+        "name": "General Skills"
+      },
+      "tags": [
+        {
+          "id": 63,
+          "name": "browser_webshell_solvable"
+        },
+        {
+          "id": 64,
+          "name": "git"
+        }
+      ],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 214,
+      "positive_rating_count": 193,
+      "users_solved": 15877,
+      "users_solved_during_event": 4570,
+      "event_points": 75,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 404,
+      "name": "binhexa",
+      "author": "Nana Ama Atombo-Sackey",
+      "difficulty": 1,
+      "event": {
+        "id": 73,
+        "name": "picoCTF 2024"
+      },
+      "category": {
+        "id": 5,
+        "name": "General Skills"
+      },
+      "tags": [
+        {
+          "id": 63,
+          "name": "browser_webshell_solvable"
+        }
+      ],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 208,
+      "positive_rating_count": 165,
+      "users_solved": 13612,
+      "users_solved_during_event": 4516,
+      "event_points": 100,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 371,
+      "name": "repetitions",
+      "author": "Theoneste Byagutangaza",
+      "difficulty": 1,
+      "event": {
+        "id": 72,
+        "name": "picoCTF 2023"
+      },
+      "category": {
+        "id": 5,
+        "name": "General Skills"
+      },
+      "tags": [
+        {
+          "id": 49,
+          "name": "base64"
+        }
+      ],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 453,
+      "positive_rating_count": 404,
+      "users_solved": 26991,
+      "users_solved_during_event": 5397,
+      "event_points": 100,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 322,
+      "name": "Big Zip",
+      "author": "LT 'syreal' Jones",
+      "difficulty": 1,
+      "event": null,
+      "category": {
+        "id": 5,
+        "name": "General Skills"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 593,
+      "positive_rating_count": 574,
+      "users_solved": 38041,
+      "users_solved_during_event": null,
+      "event_points": 100,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 320,
+      "name": "First Find",
+      "author": "LT 'syreal' Jones",
+      "difficulty": 1,
+      "event": null,
+      "category": {
+        "id": 5,
+        "name": "General Skills"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 515,
+      "positive_rating_count": 451,
+      "users_solved": 43898,
+      "users_solved_during_event": null,
+      "event_points": 100,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 250,
+      "name": "runme.py",
+      "author": "Sujeet Kumar",
+      "difficulty": 1,
+      "event": {
+        "id": 69,
+        "name": "Beginner picoMini 2022"
+      },
+      "category": {
+        "id": 5,
+        "name": "General Skills"
+      },
+      "tags": [
+        {
+          "id": 1,
+          "name": "Python"
+        }
+      ],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 1080,
+      "positive_rating_count": 375,
+      "users_solved": 48587,
+      "users_solved_during_event": 5579,
+      "event_points": 5,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 246,
+      "name": "PW Crack 2",
+      "author": "LT 'syreal' Jones",
+      "difficulty": 1,
+      "event": {
+        "id": 69,
+        "name": "Beginner picoMini 2022"
+      },
+      "category": {
+        "id": 5,
+        "name": "General Skills"
+      },
+      "tags": [
+        {
+          "id": 6,
+          "name": "password_cracking"
+        }
+      ],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 504,
+      "positive_rating_count": 473,
+      "users_solved": 48474,
+      "users_solved_during_event": 3662,
+      "event_points": 35,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 245,
+      "name": "PW Crack 1",
+      "author": "LT 'syreal' Jones",
+      "difficulty": 1,
+      "event": {
+        "id": 69,
+        "name": "Beginner picoMini 2022"
+      },
+      "category": {
+        "id": 5,
+        "name": "General Skills"
+      },
+      "tags": [
+        {
+          "id": 6,
+          "name": "password_cracking"
+        }
+      ],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 552,
+      "positive_rating_count": 485,
+      "users_solved": 51060,
+      "users_solved_during_event": 3983,
+      "event_points": 25,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 243,
+      "name": "HashingJobApp",
+      "author": "LT 'syreal' Jones",
+      "difficulty": 1,
+      "event": {
+        "id": 69,
+        "name": "Beginner picoMini 2022"
+      },
+      "category": {
+        "id": 5,
+        "name": "General Skills"
+      },
+      "tags": [
+        {
+          "id": 1,
+          "name": "Python"
+        },
+        {
+          "id": 5,
+          "name": "hashing"
+        },
+        {
+          "id": 4,
+          "name": "nc"
+        },
+        {
+          "id": 2,
+          "name": "shell"
+        }
+      ],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 476,
+      "positive_rating_count": 381,
+      "users_solved": 44727,
+      "users_solved_during_event": 3694,
+      "event_points": 40,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 242,
+      "name": "Glitch Cat",
+      "author": "LT 'syreal' Jones",
+      "difficulty": 1,
+      "event": {
+        "id": 69,
+        "name": "Beginner picoMini 2022"
+      },
+      "category": {
+        "id": 5,
+        "name": "General Skills"
+      },
+      "tags": [
+        {
+          "id": 1,
+          "name": "Python"
+        },
+        {
+          "id": 4,
+          "name": "nc"
+        },
+        {
+          "id": 2,
+          "name": "shell"
+        }
+      ],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 563,
+      "positive_rating_count": 433,
+      "users_solved": 47562,
+      "users_solved_during_event": 3729,
+      "event_points": 30,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 241,
+      "name": "fixme2.py",
+      "author": "LT 'syreal' Jones",
+      "difficulty": 1,
+      "event": {
+        "id": 69,
+        "name": "Beginner picoMini 2022"
+      },
+      "category": {
+        "id": 5,
+        "name": "General Skills"
+      },
+      "tags": [
+        {
+          "id": 1,
+          "name": "Python"
+        }
+      ],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 460,
+      "positive_rating_count": 394,
+      "users_solved": 51493,
+      "users_solved_during_event": 4241,
+      "event_points": 25,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 240,
+      "name": "fixme1.py",
+      "author": "LT 'syreal' Jones",
+      "difficulty": 1,
+      "event": {
+        "id": 69,
+        "name": "Beginner picoMini 2022"
+      },
+      "category": {
+        "id": 5,
+        "name": "General Skills"
+      },
+      "tags": [
+        {
+          "id": 1,
+          "name": "Python"
+        }
+      ],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 533,
+      "positive_rating_count": 431,
+      "users_solved": 53341,
+      "users_solved_during_event": 4421,
+      "event_points": 25,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 239,
+      "name": "convertme.py",
+      "author": "LT 'syreal' Jones",
+      "difficulty": 1,
+      "event": {
+        "id": 69,
+        "name": "Beginner picoMini 2022"
+      },
+      "category": {
+        "id": 5,
+        "name": "General Skills"
+      },
+      "tags": [
+        {
+          "id": 1,
+          "name": "Python"
+        },
+        {
+          "id": 3,
+          "name": "base"
+        }
+      ],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 525,
+      "positive_rating_count": 445,
+      "users_solved": 56420,
+      "users_solved_during_event": 4951,
+      "event_points": 15,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 238,
+      "name": "Codebook",
+      "author": "LT 'syreal' Jones",
+      "difficulty": 1,
+      "event": {
+        "id": 69,
+        "name": "Beginner picoMini 2022"
+      },
+      "category": {
+        "id": 5,
+        "name": "General Skills"
+      },
+      "tags": [
+        {
+          "id": 1,
+          "name": "Python"
+        },
+        {
+          "id": 2,
+          "name": "shell"
+        }
+      ],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 727,
+      "positive_rating_count": 456,
+      "users_solved": 52657,
+      "users_solved_during_event": 4495,
+      "event_points": 20,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 189,
+      "name": "Magikarp Ground Mission",
+      "author": "syreal",
+      "difficulty": 1,
+      "event": {
+        "id": 34,
+        "name": "picoCTF 2021"
+      },
+      "category": {
+        "id": 5,
+        "name": "General Skills"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 1477,
+      "positive_rating_count": 1382,
+      "users_solved": 77761,
+      "users_solved_during_event": 2924,
+      "event_points": 30,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 176,
+      "name": "Tab, Tab, Attack",
+      "author": "syreal",
+      "difficulty": 1,
+      "event": {
+        "id": 34,
+        "name": "picoCTF 2021"
+      },
+      "category": {
+        "id": 5,
+        "name": "General Skills"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 1217,
+      "positive_rating_count": 1035,
+      "users_solved": 89872,
+      "users_solved_during_event": 3265,
+      "event_points": 20,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 170,
+      "name": "Wave a flag",
+      "author": "syreal",
+      "difficulty": 1,
+      "event": {
+        "id": 34,
+        "name": "picoCTF 2021"
+      },
+      "category": {
+        "id": 5,
+        "name": "General Skills"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 3133,
+      "positive_rating_count": 2866,
+      "users_solved": 170045,
+      "users_solved_during_event": 4318,
+      "event_points": 10,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 166,
+      "name": "Python Wrangling",
+      "author": "syreal",
+      "difficulty": 1,
+      "event": {
+        "id": 34,
+        "name": "picoCTF 2021"
+      },
+      "category": {
+        "id": 5,
+        "name": "General Skills"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 3998,
+      "positive_rating_count": 2987,
+      "users_solved": 146295,
+      "users_solved_during_event": 3228,
+      "event_points": 10,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 163,
+      "name": "Static ain't always noise",
+      "author": "syreal",
+      "difficulty": 1,
+      "event": {
+        "id": 34,
+        "name": "picoCTF 2021"
+      },
+      "category": {
+        "id": 5,
+        "name": "General Skills"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 1167,
+      "positive_rating_count": 1009,
+      "users_solved": 84087,
+      "users_solved_during_event": 3150,
+      "event_points": 20,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 156,
+      "name": "Nice netcat...",
+      "author": "syreal",
+      "difficulty": 1,
+      "event": {
+        "id": 34,
+        "name": "picoCTF 2021"
+      },
+      "category": {
+        "id": 5,
+        "name": "General Skills"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 2173,
+      "positive_rating_count": 2000,
+      "users_solved": 138721,
+      "users_solved_during_event": 4158,
+      "event_points": 15,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 147,
+      "name": "Obedient Cat",
+      "author": "syreal",
+      "difficulty": 1,
+      "event": {
+        "id": 34,
+        "name": "picoCTF 2021"
+      },
+      "category": {
+        "id": 5,
+        "name": "General Skills"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 6364,
+      "positive_rating_count": 5764,
+      "users_solved": 285770,
+      "users_solved_during_event": 6830,
+      "event_points": 5,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 86,
+      "name": "2Warm",
+      "author": "Sanjay C/Danny Tunitis",
+      "difficulty": 1,
+      "event": {
+        "id": 1,
+        "name": "picoCTF 2019"
+      },
+      "category": {
+        "id": 5,
+        "name": "General Skills"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 1209,
+      "positive_rating_count": 986,
+      "users_solved": 112912,
+      "users_solved_during_event": 0,
+      "event_points": 50,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 85,
+      "name": "First Grep",
+      "author": "Alex Fulton/Danny Tunitis",
+      "difficulty": 1,
+      "event": {
+        "id": 1,
+        "name": "picoCTF 2019"
+      },
+      "category": {
+        "id": 5,
+        "name": "General Skills"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 828,
+      "positive_rating_count": 770,
+      "users_solved": 80687,
+      "users_solved_during_event": 0,
+      "event_points": 100,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 67,
+      "name": "Bases",
+      "author": "Sanjay C/Danny T",
+      "difficulty": 1,
+      "event": {
+        "id": 1,
+        "name": "picoCTF 2019"
+      },
+      "category": {
+        "id": 5,
+        "name": "General Skills"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 648,
+      "positive_rating_count": 549,
+      "users_solved": 76902,
+      "users_solved_during_event": 0,
+      "event_points": 100,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 58,
+      "name": "Warmed Up",
+      "author": "Sanjay C/Danny Tunitis",
+      "difficulty": 1,
+      "event": {
+        "id": 1,
+        "name": "picoCTF 2019"
+      },
+      "category": {
+        "id": 5,
+        "name": "General Skills"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 1017,
+      "positive_rating_count": 838,
+      "users_solved": 113639,
+      "users_solved_during_event": 0,
+      "event_points": 50,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 37,
+      "name": "strings it",
+      "author": "Sanjay C/Danny Tunitis",
+      "difficulty": 1,
+      "event": {
+        "id": 1,
+        "name": "picoCTF 2019"
+      },
+      "category": {
+        "id": 5,
+        "name": "General Skills"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 1008,
+      "positive_rating_count": 856,
+      "users_solved": 78132,
+      "users_solved_during_event": 0,
+      "event_points": 100,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 34,
+      "name": "what's a net cat?",
+      "author": "Sanjay C/Danny Tunitis",
+      "difficulty": 1,
+      "event": {
+        "id": 1,
+        "name": "picoCTF 2019"
+      },
+      "category": {
+        "id": 5,
+        "name": "General Skills"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 986,
+      "positive_rating_count": 897,
+      "users_solved": 103563,
+      "users_solved_during_event": 0,
+      "event_points": 100,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 22,
+      "name": "Lets Warm Up",
+      "author": "Sanjay C/Danny Tunitis",
+      "difficulty": 1,
+      "event": {
+        "id": 1,
+        "name": "picoCTF 2019"
+      },
+      "category": {
+        "id": 5,
+        "name": "General Skills"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 1396,
+      "positive_rating_count": 1049,
+      "users_solved": 130241,
+      "users_solved_during_event": 0,
+      "event_points": 50,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 437,
+      "name": "dont-you-love-banners",
+      "author": "Loic Shema / syreal",
+      "difficulty": 2,
+      "event": {
+        "id": 73,
+        "name": "picoCTF 2024"
+      },
+      "category": {
+        "id": 5,
+        "name": "General Skills"
+      },
+      "tags": [
+        {
+          "id": 63,
+          "name": "browser_webshell_solvable"
+        },
+        {
+          "id": 2,
+          "name": "shell"
+        }
+      ],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 384,
+      "positive_rating_count": 364,
+      "users_solved": 7052,
+      "users_solved_during_event": 1899,
+      "event_points": 300,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 436,
+      "name": "SansAlpha",
+      "author": "syreal",
+      "difficulty": 2,
+      "event": {
+        "id": 73,
+        "name": "picoCTF 2024"
+      },
+      "category": {
+        "id": 5,
+        "name": "General Skills"
+      },
+      "tags": [
+        {
+          "id": 51,
+          "name": "bash"
+        },
+        {
+          "id": 63,
+          "name": "browser_webshell_solvable"
+        },
+        {
+          "id": 75,
+          "name": "shell_escape"
+        },
+        {
+          "id": 52,
+          "name": "ssh"
+        }
+      ],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 188,
+      "positive_rating_count": 164,
+      "users_solved": 3036,
+      "users_solved_during_event": 778,
+      "event_points": 400,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 390,
+      "name": "ASCII Numbers",
+      "author": "LT 'syreal' Jones",
+      "difficulty": 2,
+      "event": null,
+      "category": {
+        "id": 5,
+        "name": "General Skills"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 209,
+      "positive_rating_count": 181,
+      "users_solved": 21554,
+      "users_solved_during_event": null,
+      "event_points": 100,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 384,
+      "name": "useless",
+      "author": "Loic Shema",
+      "difficulty": 2,
+      "event": {
+        "id": 72,
+        "name": "picoCTF 2023"
+      },
+      "category": {
+        "id": 5,
+        "name": "General Skills"
+      },
+      "tags": [
+        {
+          "id": 57,
+          "name": "man"
+        }
+      ],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 437,
+      "positive_rating_count": 212,
+      "users_solved": 15086,
+      "users_solved_during_event": 3010,
+      "event_points": 100,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 378,
+      "name": "Specialer",
+      "author": "LT 'syreal' Jones, et al.",
+      "difficulty": 2,
+      "event": {
+        "id": 72,
+        "name": "picoCTF 2023"
+      },
+      "category": {
+        "id": 5,
+        "name": "General Skills"
+      },
+      "tags": [
+        {
+          "id": 51,
+          "name": "bash"
+        },
+        {
+          "id": 52,
+          "name": "ssh"
+        }
+      ],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 247,
+      "positive_rating_count": 222,
+      "users_solved": 8226,
+      "users_solved_during_event": 1379,
+      "event_points": 400,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 377,
+      "name": "Special",
+      "author": "LT 'syreal' Jones",
+      "difficulty": 2,
+      "event": {
+        "id": 72,
+        "name": "picoCTF 2023"
+      },
+      "category": {
+        "id": 5,
+        "name": "General Skills"
+      },
+      "tags": [
+        {
+          "id": 51,
+          "name": "bash"
+        },
+        {
+          "id": 52,
+          "name": "ssh"
+        }
+      ],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 327,
+      "positive_rating_count": 207,
+      "users_solved": 9151,
+      "users_solved_during_event": 1558,
+      "event_points": 300,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 363,
+      "name": "Permissions",
+      "author": "Geoffrey Njogu",
+      "difficulty": 2,
+      "event": {
+        "id": 72,
+        "name": "picoCTF 2023"
+      },
+      "category": {
+        "id": 5,
+        "name": "General Skills"
+      },
+      "tags": [
+        {
+          "id": 47,
+          "name": "vim"
+        }
+      ],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 418,
+      "positive_rating_count": 287,
+      "users_solved": 15599,
+      "users_solved_during_event": 3581,
+      "event_points": 100,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 347,
+      "name": "chrono",
+      "author": "Mubarak Mikail",
+      "difficulty": 2,
+      "event": {
+        "id": 72,
+        "name": "picoCTF 2023"
+      },
+      "category": {
+        "id": 5,
+        "name": "General Skills"
+      },
+      "tags": [
+        {
+          "id": 44,
+          "name": "linux"
+        }
+      ],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 588,
+      "positive_rating_count": 211,
+      "users_solved": 15635,
+      "users_solved_during_event": 3546,
+      "event_points": 100,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 251,
+      "name": "Serpentine",
+      "author": "LT 'syreal' Jones",
+      "difficulty": 2,
+      "event": {
+        "id": 69,
+        "name": "Beginner picoMini 2022"
+      },
+      "category": {
+        "id": 5,
+        "name": "General Skills"
+      },
+      "tags": [
+        {
+          "id": 1,
+          "name": "Python"
+        }
+      ],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 476,
+      "positive_rating_count": 428,
+      "users_solved": 35734,
+      "users_solved_during_event": 3613,
+      "event_points": 50,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 249,
+      "name": "PW Crack 5",
+      "author": "LT 'syreal' Jones",
+      "difficulty": 2,
+      "event": {
+        "id": 69,
+        "name": "Beginner picoMini 2022"
+      },
+      "category": {
+        "id": 5,
+        "name": "General Skills"
+      },
+      "tags": [
+        {
+          "id": 5,
+          "name": "hashing"
+        },
+        {
+          "id": 6,
+          "name": "password_cracking"
+        }
+      ],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 582,
+      "positive_rating_count": 528,
+      "users_solved": 28078,
+      "users_solved_during_event": 2493,
+      "event_points": 100,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 248,
+      "name": "PW Crack 4",
+      "author": "LT 'syreal' Jones",
+      "difficulty": 2,
+      "event": {
+        "id": 69,
+        "name": "Beginner picoMini 2022"
+      },
+      "category": {
+        "id": 5,
+        "name": "General Skills"
+      },
+      "tags": [
+        {
+          "id": 5,
+          "name": "hashing"
+        },
+        {
+          "id": 6,
+          "name": "password_cracking"
+        }
+      ],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 541,
+      "positive_rating_count": 482,
+      "users_solved": 32328,
+      "users_solved_during_event": 2859,
+      "event_points": 85,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 247,
+      "name": "PW Crack 3",
+      "author": "LT 'syreal' Jones",
+      "difficulty": 2,
+      "event": {
+        "id": 69,
+        "name": "Beginner picoMini 2022"
+      },
+      "category": {
+        "id": 5,
+        "name": "General Skills"
+      },
+      "tags": [
+        {
+          "id": 5,
+          "name": "hashing"
+        },
+        {
+          "id": 6,
+          "name": "password_cracking"
+        }
+      ],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 533,
+      "positive_rating_count": 387,
+      "users_solved": 38525,
+      "users_solved_during_event": 3315,
+      "event_points": 75,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 82,
+      "name": "1_wanna_b3_a_r0ck5tar",
+      "author": "Alex Bushkin",
+      "difficulty": 2,
+      "event": {
+        "id": 1,
+        "name": "picoCTF 2019"
+      },
+      "category": {
+        "id": 5,
+        "name": "General Skills"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 1103,
+      "positive_rating_count": 232,
+      "users_solved": 17787,
+      "users_solved_during_event": 0,
+      "event_points": 350,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "The Rockstar language has changed since this problem was released! Use this Wayback Machine URL to use an older version of Rockstar, [here](https://web.archive.org/web/20190522020843/https://codewithrockstar.com/online).",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 49,
+      "name": "flag_shop",
+      "author": "Danny",
+      "difficulty": 2,
+      "event": {
+        "id": 1,
+        "name": "picoCTF 2019"
+      },
+      "category": {
+        "id": 5,
+        "name": "General Skills"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 1109,
+      "positive_rating_count": 1063,
+      "users_solved": 28468,
+      "users_solved_during_event": 0,
+      "event_points": 300,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 48,
+      "name": "plumbing",
+      "author": "Alex Fulton/Danny Tunitis",
+      "difficulty": 2,
+      "event": {
+        "id": 1,
+        "name": "picoCTF 2019"
+      },
+      "category": {
+        "id": 5,
+        "name": "General Skills"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 626,
+      "positive_rating_count": 603,
+      "users_solved": 41692,
+      "users_solved_during_event": 0,
+      "event_points": 200,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 35,
+      "name": "Based",
+      "author": "Alex Fulton/Daniel Tunitis",
+      "difficulty": 2,
+      "event": {
+        "id": 1,
+        "name": "picoCTF 2019"
+      },
+      "category": {
+        "id": 5,
+        "name": "General Skills"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 672,
+      "positive_rating_count": 578,
+      "users_solved": 35958,
+      "users_solved_during_event": 0,
+      "event_points": 200,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 15,
+      "name": "mus1c",
+      "author": "Danny",
+      "difficulty": 2,
+      "event": {
+        "id": 1,
+        "name": "picoCTF 2019"
+      },
+      "category": {
+        "id": 5,
+        "name": "General Skills"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 1297,
+      "positive_rating_count": 402,
+      "users_solved": 29334,
+      "users_solved_during_event": 0,
+      "event_points": 300,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    }
+  ]
+}

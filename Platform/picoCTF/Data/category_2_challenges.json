@@ -1,0 +1,1903 @@
+{
+  "count": 62,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "id": 418,
+      "name": "interencdec",
+      "author": "NGIRIMANA Schadrack",
+      "difficulty": 1,
+      "event": {
+        "id": 73,
+        "name": "picoCTF 2024"
+      },
+      "category": {
+        "id": 2,
+        "name": "Cryptography"
+      },
+      "tags": [
+        {
+          "id": 49,
+          "name": "base64"
+        },
+        {
+          "id": 63,
+          "name": "browser_webshell_solvable"
+        },
+        {
+          "id": 68,
+          "name": "caesar"
+        }
+      ],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 374,
+      "positive_rating_count": 326,
+      "users_solved": 24912,
+      "users_solved_during_event": 5049,
+      "event_points": 50,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 144,
+      "name": "Mod 26",
+      "author": "Pandu",
+      "difficulty": 1,
+      "event": {
+        "id": 34,
+        "name": "picoCTF 2021"
+      },
+      "category": {
+        "id": 2,
+        "name": "Cryptography"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 4106,
+      "positive_rating_count": 3806,
+      "users_solved": 242797,
+      "users_solved_during_event": 6357,
+      "event_points": 10,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 68,
+      "name": "The Numbers",
+      "author": "Danny",
+      "difficulty": 1,
+      "event": {
+        "id": 1,
+        "name": "picoCTF 2019"
+      },
+      "category": {
+        "id": 2,
+        "name": "Cryptography"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 1710,
+      "positive_rating_count": 1113,
+      "users_solved": 81715,
+      "users_solved_during_event": 0,
+      "event_points": 50,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 62,
+      "name": "13",
+      "author": "Alex Fulton/Daniel Tunitis",
+      "difficulty": 1,
+      "event": {
+        "id": 1,
+        "name": "picoCTF 2019"
+      },
+      "category": {
+        "id": 2,
+        "name": "Cryptography"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 646,
+      "positive_rating_count": 563,
+      "users_solved": 69265,
+      "users_solved_during_event": 0,
+      "event_points": 100,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 422,
+      "name": "rsa_oracle",
+      "author": "Geoffrey Njogu",
+      "difficulty": 2,
+      "event": {
+        "id": 73,
+        "name": "picoCTF 2024"
+      },
+      "category": {
+        "id": 2,
+        "name": "Cryptography"
+      },
+      "tags": [
+        {
+          "id": 63,
+          "name": "browser_webshell_solvable"
+        }
+      ],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 94,
+      "positive_rating_count": 89,
+      "users_solved": 1410,
+      "users_solved_during_event": 498,
+      "event_points": 300,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 412,
+      "name": "Custom encryption",
+      "author": "NGIRIMANA Schadrack",
+      "difficulty": 2,
+      "event": {
+        "id": 73,
+        "name": "picoCTF 2024"
+      },
+      "category": {
+        "id": 2,
+        "name": "Cryptography"
+      },
+      "tags": [
+        {
+          "id": 66,
+          "name": "ASCII_encoding"
+        },
+        {
+          "id": 67,
+          "name": "XOR"
+        },
+        {
+          "id": 63,
+          "name": "browser_webshell_solvable"
+        }
+      ],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 174,
+      "positive_rating_count": 152,
+      "users_solved": 4553,
+      "users_solved_during_event": 2080,
+      "event_points": 100,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 407,
+      "name": "C3",
+      "author": "Matt Superdock",
+      "difficulty": 2,
+      "event": {
+        "id": 73,
+        "name": "picoCTF 2024"
+      },
+      "category": {
+        "id": 2,
+        "name": "Cryptography"
+      },
+      "tags": [
+        {
+          "id": 63,
+          "name": "browser_webshell_solvable"
+        }
+      ],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 267,
+      "positive_rating_count": 84,
+      "users_solved": 2739,
+      "users_solved_during_event": 1177,
+      "event_points": 200,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 373,
+      "name": "rotation",
+      "author": "Loic Shema",
+      "difficulty": 2,
+      "event": {
+        "id": 72,
+        "name": "picoCTF 2023"
+      },
+      "category": {
+        "id": 2,
+        "name": "Cryptography"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 217,
+      "positive_rating_count": 195,
+      "users_solved": 18189,
+      "users_solved_during_event": 5497,
+      "event_points": 100,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 367,
+      "name": "ReadMyCert",
+      "author": "Sunday Jacob Nwanyim",
+      "difficulty": 2,
+      "event": {
+        "id": 72,
+        "name": "picoCTF 2023"
+      },
+      "category": {
+        "id": 2,
+        "name": "Cryptography"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 234,
+      "positive_rating_count": 201,
+      "users_solved": 15496,
+      "users_solved_during_event": 5550,
+      "event_points": 100,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 351,
+      "name": "HideToSee",
+      "author": "Sunday Jacob Nwanyim",
+      "difficulty": 2,
+      "event": {
+        "id": 72,
+        "name": "picoCTF 2023"
+      },
+      "category": {
+        "id": 2,
+        "name": "Cryptography"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 432,
+      "positive_rating_count": 164,
+      "users_solved": 10133,
+      "users_solved_during_event": 2597,
+      "event_points": 100,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 316,
+      "name": "Vigenere",
+      "author": "Mubarak Mikail",
+      "difficulty": 2,
+      "event": {
+        "id": 70,
+        "name": "picoCTF 2022"
+      },
+      "category": {
+        "id": 2,
+        "name": "Cryptography"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 225,
+      "positive_rating_count": 202,
+      "users_solved": 23859,
+      "users_solved_during_event": 4499,
+      "event_points": 100,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 312,
+      "name": "transposition-trial",
+      "author": "Will Hong",
+      "difficulty": 2,
+      "event": {
+        "id": 70,
+        "name": "picoCTF 2022"
+      },
+      "category": {
+        "id": 2,
+        "name": "Cryptography"
+      },
+      "tags": [
+        {
+          "id": 38,
+          "name": "cryptography"
+        }
+      ],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 152,
+      "positive_rating_count": 127,
+      "users_solved": 11170,
+      "users_solved_during_event": 3158,
+      "event_points": 100,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 309,
+      "name": "substitution2",
+      "author": "Will Hong",
+      "difficulty": 2,
+      "event": {
+        "id": 70,
+        "name": "picoCTF 2022"
+      },
+      "category": {
+        "id": 2,
+        "name": "Cryptography"
+      },
+      "tags": [
+        {
+          "id": 36,
+          "name": "Substitution"
+        }
+      ],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 145,
+      "positive_rating_count": 126,
+      "users_solved": 13691,
+      "users_solved_during_event": 3382,
+      "event_points": 100,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 308,
+      "name": "substitution1",
+      "author": "Will Hong",
+      "difficulty": 2,
+      "event": {
+        "id": 70,
+        "name": "picoCTF 2022"
+      },
+      "category": {
+        "id": 2,
+        "name": "Cryptography"
+      },
+      "tags": [
+        {
+          "id": 37,
+          "name": "Substitution_cipher"
+        }
+      ],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 431,
+      "positive_rating_count": 194,
+      "users_solved": 13561,
+      "users_solved_during_event": 3436,
+      "event_points": 100,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 307,
+      "name": "substitution0",
+      "author": "Will Hong",
+      "difficulty": 2,
+      "event": {
+        "id": 70,
+        "name": "picoCTF 2022"
+      },
+      "category": {
+        "id": 2,
+        "name": "Cryptography"
+      },
+      "tags": [
+        {
+          "id": 36,
+          "name": "Substitution"
+        }
+      ],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 218,
+      "positive_rating_count": 196,
+      "users_solved": 19872,
+      "users_solved_during_event": 4424,
+      "event_points": 100,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 289,
+      "name": "rail-fence",
+      "author": "Will Hong",
+      "difficulty": 2,
+      "event": {
+        "id": 70,
+        "name": "picoCTF 2022"
+      },
+      "category": {
+        "id": 2,
+        "name": "Cryptography"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 140,
+      "positive_rating_count": 117,
+      "users_solved": 14787,
+      "users_solved_during_event": 4062,
+      "event_points": 100,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 280,
+      "name": "morse-code",
+      "author": "Will Hong",
+      "difficulty": 2,
+      "event": {
+        "id": 70,
+        "name": "picoCTF 2022"
+      },
+      "category": {
+        "id": 2,
+        "name": "Cryptography"
+      },
+      "tags": [
+        {
+          "id": 22,
+          "name": "morse_code"
+        }
+      ],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 207,
+      "positive_rating_count": 149,
+      "users_solved": 16629,
+      "users_solved_during_event": 4174,
+      "event_points": 100,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 261,
+      "name": "credstuff",
+      "author": "Will Hong / LT 'syreal' Jones",
+      "difficulty": 2,
+      "event": {
+        "id": 70,
+        "name": "picoCTF 2022"
+      },
+      "category": {
+        "id": 2,
+        "name": "Cryptography"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 238,
+      "positive_rating_count": 180,
+      "users_solved": 16718,
+      "users_solved_during_event": 4290,
+      "event_points": 100,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 254,
+      "name": "basic-mod2",
+      "author": "Will Hong",
+      "difficulty": 2,
+      "event": {
+        "id": 70,
+        "name": "picoCTF 2022"
+      },
+      "category": {
+        "id": 2,
+        "name": "Cryptography"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 267,
+      "positive_rating_count": 201,
+      "users_solved": 14343,
+      "users_solved_during_event": 4167,
+      "event_points": 100,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 253,
+      "name": "basic-mod1",
+      "author": "Will Hong",
+      "difficulty": 2,
+      "event": {
+        "id": 70,
+        "name": "picoCTF 2022"
+      },
+      "category": {
+        "id": 2,
+        "name": "Cryptography"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 459,
+      "positive_rating_count": 347,
+      "users_solved": 21009,
+      "users_solved_during_event": 5515,
+      "event_points": 100,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 210,
+      "name": "spelling-quiz",
+      "author": "BrownieInMotion",
+      "difficulty": 2,
+      "event": {
+        "id": 67,
+        "name": "picoMini by redpwn"
+      },
+      "category": {
+        "id": 2,
+        "name": "Cryptography"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 94,
+      "positive_rating_count": 80,
+      "users_solved": 5477,
+      "users_solved_during_event": 84,
+      "event_points": 100,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 188,
+      "name": "Mini RSA",
+      "author": "Sara",
+      "difficulty": 2,
+      "event": {
+        "id": 34,
+        "name": "picoCTF 2021"
+      },
+      "category": {
+        "id": 2,
+        "name": "Cryptography"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 163,
+      "positive_rating_count": 139,
+      "users_solved": 6642,
+      "users_solved_during_event": 371,
+      "event_points": 70,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 162,
+      "name": "Mind your Ps and Qs",
+      "author": "Sara",
+      "difficulty": 2,
+      "event": {
+        "id": 34,
+        "name": "picoCTF 2021"
+      },
+      "category": {
+        "id": 2,
+        "name": "Cryptography"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 752,
+      "positive_rating_count": 637,
+      "users_solved": 43694,
+      "users_solved_during_event": 1314,
+      "event_points": 20,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 159,
+      "name": "Dachshund Attacks",
+      "author": "Sara",
+      "difficulty": 2,
+      "event": {
+        "id": 34,
+        "name": "picoCTF 2021"
+      },
+      "category": {
+        "id": 2,
+        "name": "Cryptography"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 160,
+      "positive_rating_count": 139,
+      "users_solved": 8252,
+      "users_solved_during_event": 581,
+      "event_points": 80,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 158,
+      "name": "New Caesar",
+      "author": "madStacks",
+      "difficulty": 2,
+      "event": {
+        "id": 34,
+        "name": "picoCTF 2021"
+      },
+      "category": {
+        "id": 2,
+        "name": "Cryptography"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 307,
+      "positive_rating_count": 205,
+      "users_solved": 9692,
+      "users_solved_during_event": 578,
+      "event_points": 60,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 154,
+      "name": "No Padding, No Problem",
+      "author": "Sara",
+      "difficulty": 2,
+      "event": {
+        "id": 34,
+        "name": "picoCTF 2021"
+      },
+      "category": {
+        "id": 2,
+        "name": "Cryptography"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 104,
+      "positive_rating_count": 93,
+      "users_solved": 4193,
+      "users_solved_during_event": 323,
+      "event_points": 90,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 125,
+      "name": "Easy Peasy",
+      "author": "madStacks",
+      "difficulty": 2,
+      "event": {
+        "id": 34,
+        "name": "picoCTF 2021"
+      },
+      "category": {
+        "id": 2,
+        "name": "Cryptography"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 438,
+      "positive_rating_count": 259,
+      "users_solved": 10918,
+      "users_solved_during_event": 420,
+      "event_points": 40,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 100,
+      "name": "Pixelated",
+      "author": "Sara",
+      "difficulty": 2,
+      "event": {
+        "id": 34,
+        "name": "picoCTF 2021"
+      },
+      "category": {
+        "id": 2,
+        "name": "Cryptography"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 166,
+      "positive_rating_count": 142,
+      "users_solved": 7994,
+      "users_solved_during_event": 585,
+      "event_points": 200,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 64,
+      "name": "caesar",
+      "author": "Sanjay C/Daniel Tunitis",
+      "difficulty": 2,
+      "event": {
+        "id": 1,
+        "name": "picoCTF 2019"
+      },
+      "category": {
+        "id": 2,
+        "name": "Cryptography"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 552,
+      "positive_rating_count": 357,
+      "users_solved": 48005,
+      "users_solved_during_event": 0,
+      "event_points": 100,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 43,
+      "name": "Easy1",
+      "author": "Alex Fulton/Danny",
+      "difficulty": 2,
+      "event": {
+        "id": 1,
+        "name": "picoCTF 2019"
+      },
+      "category": {
+        "id": 2,
+        "name": "Cryptography"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 748,
+      "positive_rating_count": 487,
+      "users_solved": 39453,
+      "users_solved_during_event": 0,
+      "event_points": 100,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 40,
+      "name": "Mr-Worldwide",
+      "author": "Danny",
+      "difficulty": 2,
+      "event": {
+        "id": 1,
+        "name": "picoCTF 2019"
+      },
+      "category": {
+        "id": 2,
+        "name": "Cryptography"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 356,
+      "positive_rating_count": 119,
+      "users_solved": 13426,
+      "users_solved_during_event": 0,
+      "event_points": 200,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 38,
+      "name": "waves over lambda",
+      "author": "invisibility/danny",
+      "difficulty": 2,
+      "event": {
+        "id": 1,
+        "name": "picoCTF 2019"
+      },
+      "category": {
+        "id": 2,
+        "name": "Cryptography"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 134,
+      "positive_rating_count": 55,
+      "users_solved": 4460,
+      "users_solved_during_event": 0,
+      "event_points": 300,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 31,
+      "name": "Flags",
+      "author": "Danny",
+      "difficulty": 2,
+      "event": {
+        "id": 1,
+        "name": "picoCTF 2019"
+      },
+      "category": {
+        "id": 2,
+        "name": "Cryptography"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 343,
+      "positive_rating_count": 198,
+      "users_solved": 20371,
+      "users_solved_during_event": 0,
+      "event_points": 200,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 21,
+      "name": "Tapping",
+      "author": "Danny",
+      "difficulty": 2,
+      "event": {
+        "id": 1,
+        "name": "picoCTF 2019"
+      },
+      "category": {
+        "id": 2,
+        "name": "Cryptography"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 232,
+      "positive_rating_count": 148,
+      "users_solved": 17918,
+      "users_solved_during_event": 0,
+      "event_points": 200,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 6,
+      "name": "john_pollard",
+      "author": "Samuel S",
+      "difficulty": 2,
+      "event": {
+        "id": 1,
+        "name": "picoCTF 2019"
+      },
+      "category": {
+        "id": 2,
+        "name": "Cryptography"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 79,
+      "positive_rating_count": 46,
+      "users_solved": 5338,
+      "users_solved_during_event": 0,
+      "event_points": 500,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 3,
+      "name": "la cifra de",
+      "author": "Alex Fulton/Daniel Tunitis",
+      "difficulty": 2,
+      "event": {
+        "id": 1,
+        "name": "picoCTF 2019"
+      },
+      "category": {
+        "id": 2,
+        "name": "Cryptography"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 229,
+      "positive_rating_count": 190,
+      "users_solved": 13107,
+      "users_solved_during_event": 0,
+      "event_points": 200,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 417,
+      "name": "flag_printer",
+      "author": "ehhthing",
+      "difficulty": 3,
+      "event": {
+        "id": 73,
+        "name": "picoCTF 2024"
+      },
+      "category": {
+        "id": 2,
+        "name": "Cryptography"
+      },
+      "tags": [
+        {
+          "id": 63,
+          "name": "browser_webshell_solvable"
+        }
+      ],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 27,
+      "positive_rating_count": 9,
+      "users_solved": 158,
+      "users_solved_during_event": 77,
+      "event_points": 500,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 379,
+      "name": "SRA",
+      "author": "f0xtr0t",
+      "difficulty": 3,
+      "event": {
+        "id": 72,
+        "name": "picoCTF 2023"
+      },
+      "category": {
+        "id": 2,
+        "name": "Cryptography"
+      },
+      "tags": [
+        {
+          "id": 26,
+          "name": "rsa"
+        }
+      ],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 65,
+      "positive_rating_count": 58,
+      "users_solved": 689,
+      "users_solved_during_event": 341,
+      "event_points": 400,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 366,
+      "name": "PowerAnalysis: Warmup",
+      "author": "Anish Singhani",
+      "difficulty": 3,
+      "event": {
+        "id": 72,
+        "name": "picoCTF 2023"
+      },
+      "category": {
+        "id": 2,
+        "name": "Cryptography"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 79,
+      "positive_rating_count": 70,
+      "users_solved": 615,
+      "users_solved_during_event": 344,
+      "event_points": 200,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 365,
+      "name": "PowerAnalysis: Part 2",
+      "author": "Anish Singhani",
+      "difficulty": 3,
+      "event": {
+        "id": 72,
+        "name": "picoCTF 2023"
+      },
+      "category": {
+        "id": 2,
+        "name": "Cryptography"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 20,
+      "positive_rating_count": 17,
+      "users_solved": 285,
+      "users_solved_during_event": 154,
+      "event_points": 500,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 364,
+      "name": "PowerAnalysis: Part 1",
+      "author": "Anish Singhani",
+      "difficulty": 3,
+      "event": {
+        "id": 72,
+        "name": "picoCTF 2023"
+      },
+      "category": {
+        "id": 2,
+        "name": "Cryptography"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 28,
+      "positive_rating_count": 27,
+      "users_solved": 273,
+      "users_solved_during_event": 149,
+      "event_points": 400,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 315,
+      "name": "Very Smooth",
+      "author": "Joshua Inscoe",
+      "difficulty": 3,
+      "event": {
+        "id": 70,
+        "name": "picoCTF 2022"
+      },
+      "category": {
+        "id": 2,
+        "name": "Cryptography"
+      },
+      "tags": [
+        {
+          "id": 24,
+          "name": "backdoor"
+        },
+        {
+          "id": 26,
+          "name": "rsa"
+        }
+      ],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 57,
+      "positive_rating_count": 51,
+      "users_solved": 1392,
+      "users_solved_during_event": 656,
+      "event_points": 300,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 310,
+      "name": "Sum-O-Primes",
+      "author": "Joshua Inscoe",
+      "difficulty": 3,
+      "event": {
+        "id": 70,
+        "name": "picoCTF 2022"
+      },
+      "category": {
+        "id": 2,
+        "name": "Cryptography"
+      },
+      "tags": [
+        {
+          "id": 26,
+          "name": "rsa"
+        }
+      ],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 86,
+      "positive_rating_count": 80,
+      "users_solved": 1989,
+      "users_solved_during_event": 913,
+      "event_points": 400,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 297,
+      "name": "Sequences",
+      "author": "Anish Singhani",
+      "difficulty": 3,
+      "event": {
+        "id": 70,
+        "name": "picoCTF 2022"
+      },
+      "category": {
+        "id": 2,
+        "name": "Cryptography"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 57,
+      "positive_rating_count": 44,
+      "users_solved": 1199,
+      "users_solved_during_event": 579,
+      "event_points": 400,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 283,
+      "name": "NSA Backdoor",
+      "author": "Joshua Inscoe",
+      "difficulty": 3,
+      "event": {
+        "id": 70,
+        "name": "picoCTF 2022"
+      },
+      "category": {
+        "id": 2,
+        "name": "Cryptography"
+      },
+      "tags": [
+        {
+          "id": 24,
+          "name": "backdoor"
+        },
+        {
+          "id": 25,
+          "name": "diffie_hellman"
+        },
+        {
+          "id": 26,
+          "name": "rsa"
+        }
+      ],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 51,
+      "positive_rating_count": 43,
+      "users_solved": 620,
+      "users_solved_during_event": 351,
+      "event_points": 500,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 212,
+      "name": "college-rowing-team",
+      "author": "Boolean",
+      "difficulty": 3,
+      "event": {
+        "id": 67,
+        "name": "picoMini by redpwn"
+      },
+      "category": {
+        "id": 2,
+        "name": "Cryptography"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 32,
+      "positive_rating_count": 30,
+      "users_solved": 1431,
+      "users_solved_during_event": 51,
+      "event_points": 250,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 211,
+      "name": "corrupt-key-2",
+      "author": "Tux",
+      "difficulty": 3,
+      "event": {
+        "id": 67,
+        "name": "picoMini by redpwn"
+      },
+      "category": {
+        "id": 2,
+        "name": "Cryptography"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 8,
+      "positive_rating_count": 8,
+      "users_solved": 38,
+      "users_solved_during_event": 1,
+      "event_points": 500,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 209,
+      "name": "triple-secure",
+      "author": "Boolean",
+      "difficulty": 3,
+      "event": {
+        "id": 67,
+        "name": "picoMini by redpwn"
+      },
+      "category": {
+        "id": 2,
+        "name": "Cryptography"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 52,
+      "positive_rating_count": 50,
+      "users_solved": 1846,
+      "users_solved_during_event": 54,
+      "event_points": 150,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 208,
+      "name": "XtraORdinary",
+      "author": "Boolean",
+      "difficulty": 3,
+      "event": {
+        "id": 67,
+        "name": "picoMini by redpwn"
+      },
+      "category": {
+        "id": 2,
+        "name": "Cryptography"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 62,
+      "positive_rating_count": 54,
+      "users_solved": 1559,
+      "users_solved_during_event": 43,
+      "event_points": 150,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 207,
+      "name": "corrupt-key-1",
+      "author": "Tux",
+      "difficulty": 3,
+      "event": {
+        "id": 67,
+        "name": "picoMini by redpwn"
+      },
+      "category": {
+        "id": 2,
+        "name": "Cryptography"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 12,
+      "positive_rating_count": 8,
+      "users_solved": 210,
+      "users_solved_during_event": 3,
+      "event_points": 350,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 148,
+      "name": "New Vignere",
+      "author": "madStacks",
+      "difficulty": 3,
+      "event": {
+        "id": 34,
+        "name": "picoCTF 2021"
+      },
+      "category": {
+        "id": 2,
+        "name": "Cryptography"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 54,
+      "positive_rating_count": 48,
+      "users_solved": 1085,
+      "users_solved_during_event": 255,
+      "event_points": 300,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 140,
+      "name": "Double DES",
+      "author": "madStacks",
+      "difficulty": 3,
+      "event": {
+        "id": 34,
+        "name": "picoCTF 2021"
+      },
+      "category": {
+        "id": 2,
+        "name": "Cryptography"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 57,
+      "positive_rating_count": 42,
+      "users_solved": 1519,
+      "users_solved_during_event": 213,
+      "event_points": 120,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 136,
+      "name": "Clouds",
+      "author": "madStacks",
+      "difficulty": 3,
+      "event": {
+        "id": 34,
+        "name": "picoCTF 2021"
+      },
+      "category": {
+        "id": 2,
+        "name": "Cryptography"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 12,
+      "positive_rating_count": 11,
+      "users_solved": 71,
+      "users_solved_during_event": 16,
+      "event_points": 500,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 127,
+      "name": "Compress and Attack",
+      "author": "Jake Beley",
+      "difficulty": 3,
+      "event": {
+        "id": 34,
+        "name": "picoCTF 2021"
+      },
+      "category": {
+        "id": 2,
+        "name": "Cryptography"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 70,
+      "positive_rating_count": 66,
+      "users_solved": 2095,
+      "users_solved_during_event": 163,
+      "event_points": 130,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 123,
+      "name": "It's Not My Fault 1",
+      "author": "rkm0959",
+      "difficulty": 3,
+      "event": {
+        "id": 34,
+        "name": "picoCTF 2021"
+      },
+      "category": {
+        "id": 2,
+        "name": "Cryptography"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 35,
+      "positive_rating_count": 33,
+      "users_solved": 1100,
+      "users_solved_during_event": 82,
+      "event_points": 100,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 114,
+      "name": "Play Nice",
+      "author": "madStacks",
+      "difficulty": 3,
+      "event": {
+        "id": 34,
+        "name": "picoCTF 2021"
+      },
+      "category": {
+        "id": 2,
+        "name": "Cryptography"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 82,
+      "positive_rating_count": 30,
+      "users_solved": 2715,
+      "users_solved_during_event": 410,
+      "event_points": 110,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 107,
+      "name": "Scrambled: RSA",
+      "author": "Sara",
+      "difficulty": 3,
+      "event": {
+        "id": 34,
+        "name": "picoCTF 2021"
+      },
+      "category": {
+        "id": 2,
+        "name": "Cryptography"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 46,
+      "positive_rating_count": 39,
+      "users_solved": 917,
+      "users_solved_during_event": 99,
+      "event_points": 140,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 78,
+      "name": "b00tl3gRSA3",
+      "author": "invisibility",
+      "difficulty": 3,
+      "event": {
+        "id": 1,
+        "name": "picoCTF 2019"
+      },
+      "category": {
+        "id": 2,
+        "name": "Cryptography"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 34,
+      "positive_rating_count": 33,
+      "users_solved": 1174,
+      "users_solved_during_event": 0,
+      "event_points": 450,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 76,
+      "name": "AES-ABC",
+      "author": "waituckw",
+      "difficulty": 3,
+      "event": {
+        "id": 1,
+        "name": "picoCTF 2019"
+      },
+      "category": {
+        "id": 2,
+        "name": "Cryptography"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 30,
+      "positive_rating_count": 22,
+      "users_solved": 1742,
+      "users_solved_during_event": 0,
+      "event_points": 400,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 73,
+      "name": "miniRSA",
+      "author": "speeeday/Danny",
+      "difficulty": 3,
+      "event": {
+        "id": 1,
+        "name": "picoCTF 2019"
+      },
+      "category": {
+        "id": 2,
+        "name": "Cryptography"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 59,
+      "positive_rating_count": 51,
+      "users_solved": 4374,
+      "users_solved_during_event": 0,
+      "event_points": 300,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 61,
+      "name": "rsa-pop-quiz",
+      "author": "wparks/nmontierth",
+      "difficulty": 3,
+      "event": {
+        "id": 1,
+        "name": "picoCTF 2019"
+      },
+      "category": {
+        "id": 2,
+        "name": "Cryptography"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 211,
+      "positive_rating_count": 109,
+      "users_solved": 3350,
+      "users_solved_during_event": 0,
+      "event_points": 200,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 2,
+      "name": "b00tl3gRSA2",
+      "author": "invisibility",
+      "difficulty": 3,
+      "event": {
+        "id": 1,
+        "name": "picoCTF 2019"
+      },
+      "category": {
+        "id": 2,
+        "name": "Cryptography"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 43,
+      "positive_rating_count": 41,
+      "users_solved": 2684,
+      "users_solved_during_event": 0,
+      "event_points": 400,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    }
+  ]
+}

@@ -1,0 +1,3482 @@
+[
+  {
+    "id": 104,
+    "name": "Transformation",
+    "author": "madStacks",
+    "difficulty": 1,
+    "event": {
+      "id": 34,
+      "name": "picoCTF 2021"
+    },
+    "category": {
+      "id": 3,
+      "name": "Reverse Engineering"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 2120,
+    "positive_rating_count": 1366,
+    "users_solved": 59531,
+    "users_solved_during_event": 1163,
+    "event_points": 20,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 463,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "I wonder what this really is... <a href='//mercury.picoctf.net/static/dd6004f51362ff76f98cb8c699510f23/enc'>enc</a> <code>''.join([chr((ord(flag[i]) << 8) + ord(flag[i + 1])) for i in range(0, len(flag), 2)])</code>",
+      "hints": [
+        "You may find some decoders online"
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 7,
+    "name": "vault-door-training",
+    "author": "Mark E. Haase",
+    "difficulty": 1,
+    "event": {
+      "id": 1,
+      "name": "picoCTF 2019"
+    },
+    "category": {
+      "id": 3,
+      "name": "Reverse Engineering"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 970,
+    "positive_rating_count": 721,
+    "users_solved": 62819,
+    "users_solved_during_event": 0,
+    "event_points": 50,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 19,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "Your mission is to enter Dr. Evil's laboratory and retrieve the blueprints for his Doomsday Project. The laboratory is protected by a series of locked vault doors. Each door is controlled by a computer and requires a password to open. Unfortunately, our undercover agents have not been able to obtain the secret passwords for the vault doors, but one of our junior agents obtained the source code for each vault's computer! You will need to read the source code for each level to figure out what the password is for that vault door. As a warmup, we have created a replica vault in our training facility. The source code for the training vault is here: <a href='//jupiter.challenges.picoctf.org/static/a4a1ca9c54d8fac9404f9cbc50d9751a/VaultDoorTraining.java'>VaultDoorTraining.java</a>",
+      "hints": [
+        "The password is revealed in the program's source code."
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 431,
+    "name": "WinAntiDbg0x300",
+    "author": "Nandan Desai",
+    "difficulty": 2,
+    "event": {
+      "id": 73,
+      "name": "picoCTF 2024"
+    },
+    "category": {
+      "id": 3,
+      "name": "Reverse Engineering"
+    },
+    "tags": [
+      {
+        "id": 41,
+        "name": "windows"
+      }
+    ],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 50,
+    "positive_rating_count": 39,
+    "users_solved": 550,
+    "users_solved_during_event": 298,
+    "event_points": 400,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 296058,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "<p>This challenge is a little bit invasive. It will try to fight your debugger. With that in mind, debug the binary and get the flag!</p>\n<p>This challenge executable is a GUI application and it requires admin privileges. And remember, the flag might get corrupted if you mess up the process's state.</p>\n<p>Challenge can be downloaded <a href='https://artifacts.picoctf.net/c_titan/122/WinAntiDbg0x300.zip' download>here</a>. Unzip\nthe archive with the password <code>picoctf</code></p>\n<p>If you get &quot;VCRUNTIME140D.dll&quot; and &quot;ucrtbased.dll&quot; missing error, then that\nmeans the Universal C Runtime library and Visual C++ Debug library are not\ninstalled on your Windows machine.</p>\n<p>The quickest way to fix this is:</p>\n<ul>\n<li>\n<p>Download Visual Studio Community installer from\nhttps://visualstudio.microsoft.com/vs/community/</p>\n</li>\n<li>\n<p>After the installer starts, first select 'Desktop development with C++' and\nthen, in the right side column, select 'MSVC v143 - VS 2022 C++ x64/x86 build\ntools' and 'Windows 11 SDK' packages.</p>\n</li>\n</ul>\n<p>This will take ~30 mins to install any missing DLLs.</p>\n",
+      "hints": [
+        "<p>There is an infinite loop to constantly check for the debugger.</p>",
+        "<p>Get past that infinite loop. Maybe 'Patch' the binary to jump to the appropriate location?</p>",
+        "<p>If you've done everything correctly, the flag should pop-up on your screen after 5 seconds of launching the program. The flag will also be printed to the Debug output to make it easy for you to copy the flag to the clipboard. See 'DebugView' program in Sysinternals Suite.</p>"
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 430,
+    "name": "WinAntiDbg0x200",
+    "author": "Nandan Desai",
+    "difficulty": 2,
+    "event": {
+      "id": 73,
+      "name": "picoCTF 2024"
+    },
+    "category": {
+      "id": 3,
+      "name": "Reverse Engineering"
+    },
+    "tags": [
+      {
+        "id": 41,
+        "name": "windows"
+      }
+    ],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 57,
+    "positive_rating_count": 48,
+    "users_solved": 1193,
+    "users_solved_during_event": 601,
+    "event_points": 300,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 296051,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "<p>If you have solved WinAntiDbg0x100, you'll discover something new in this one. Debug the executable and find the flag!</p>\n<p>This challenge executable is a Windows console application, and you can start by running it using Command Prompt on Windows.</p>\n<p>This executable requires admin privileges. You might want to start Command Prompt or your debugger using the 'Run as administrator' option.</p>\n<p>Challenge can be downloaded <a href='https://artifacts.picoctf.net/c_titan/57/WinAntiDbg0x200.zip' download>here</a>. Unzip\nthe archive with the password <code>picoctf</code></p>\n",
+      "hints": [
+        "<p>Hints will be displayed to the Debug console. Good luck!</p>"
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 429,
+    "name": "WinAntiDbg0x100",
+    "author": "Nandan Desai",
+    "difficulty": 2,
+    "event": {
+      "id": 73,
+      "name": "picoCTF 2024"
+    },
+    "category": {
+      "id": 3,
+      "name": "Reverse Engineering"
+    },
+    "tags": [
+      {
+        "id": 41,
+        "name": "windows"
+      }
+    ],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 79,
+    "positive_rating_count": 76,
+    "users_solved": 1602,
+    "users_solved_during_event": 752,
+    "event_points": 200,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 296044,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "<p>This challenge will introduce you to 'Anti-Debugging.' Malware developers don't like it when you attempt to debug their executable files because debugging these files reveals many of their secrets! That's why, they include a lot of code logic specifically designed to interfere with your debugging process.</p>\n<p>Now that you've understood the context, go ahead and debug this Windows executable!</p>\n<p>This challenge binary file is a Windows console application and you can start with running it using <code>cmd</code> on Windows.</p>\n<p>Challenge can be downloaded <a href='https://artifacts.picoctf.net/c_titan/54/WinAntiDbg0x100.zip' download>here</a>. Unzip\nthe archive with the password <code>picoctf</code></p>\n",
+      "hints": [
+        "<p>Hints will be displayed to the Debug console. Good luck!</p>"
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 428,
+    "name": "weirdSnake",
+    "author": "Junias Bonou",
+    "difficulty": 2,
+    "event": {
+      "id": 73,
+      "name": "picoCTF 2024"
+    },
+    "category": {
+      "id": 3,
+      "name": "Reverse Engineering"
+    },
+    "tags": [
+      {
+        "id": 63,
+        "name": "browser_webshell_solvable"
+      },
+      {
+        "id": 1,
+        "name": "Python"
+      }
+    ],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 93,
+    "positive_rating_count": 63,
+    "users_solved": 1538,
+    "users_solved_during_event": 655,
+    "event_points": 300,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 296040,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "<p>I have a friend that enjoys coding and he hasn't stopped talking about a snake recently</p>\n<p>He left this <a href='https://artifacts.picoctf.net/c_titan/29/snake' download>file</a> on my computer and dares me to uncover a secret phrase from it. Can you assist?</p>\n",
+      "hints": [
+        "<p>Download and try to reverse the python bytecode.</p>",
+        "<p>https://docs.python.org/3/library/dis.html</p>"
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 421,
+    "name": "packer",
+    "author": "Mubarak Mikail",
+    "difficulty": 2,
+    "event": {
+      "id": 73,
+      "name": "picoCTF 2024"
+    },
+    "category": {
+      "id": 3,
+      "name": "Reverse Engineering"
+    },
+    "tags": [
+      {
+        "id": 63,
+        "name": "browser_webshell_solvable"
+      }
+    ],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 151,
+    "positive_rating_count": 130,
+    "users_solved": 5391,
+    "users_solved_during_event": 1950,
+    "event_points": 100,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 296016,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "<p>Reverse this linux executable?</p>\n<p><a href='https://artifacts.picoctf.net/c_titan/101/out' download>binary</a></p>\n",
+      "hints": [
+        "<p>What can we do to reduce the size of a binary after compiling it.</p>"
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 416,
+    "name": "FactCheck",
+    "author": "Junias Bonou",
+    "difficulty": 2,
+    "event": {
+      "id": 73,
+      "name": "picoCTF 2024"
+    },
+    "category": {
+      "id": 3,
+      "name": "Reverse Engineering"
+    },
+    "tags": [
+      {
+        "id": 63,
+        "name": "browser_webshell_solvable"
+      }
+    ],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 86,
+    "positive_rating_count": 59,
+    "users_solved": 1935,
+    "users_solved_during_event": 1048,
+    "event_points": 200,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "This challenge has been updated to fix a bug affecting flag checking for some players. Flags have changed, but this does not affect the solve method. Please re-download the file and try again.",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 295996,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "<p>This binary is putting together some important piece of information... Can you uncover that information?</p>\n<p>Examine this <a href='https://artifacts.picoctf.net/c_titan/192/bin' download>file</a>. Do you understand its inner workings?</p>\n",
+      "hints": [],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 409,
+    "name": "Classic Crackme 0x100",
+    "author": "Nandan Desai",
+    "difficulty": 2,
+    "event": {
+      "id": 73,
+      "name": "picoCTF 2024"
+    },
+    "category": {
+      "id": 3,
+      "name": "Reverse Engineering"
+    },
+    "tags": [
+      {
+        "id": 63,
+        "name": "browser_webshell_solvable"
+      }
+    ],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 73,
+    "positive_rating_count": 65,
+    "users_solved": 1524,
+    "users_solved_during_event": 732,
+    "event_points": 300,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "Binaries downloaded prior to March 13th, 2024 may not match the intended solution. Please redownload the updated binary if needed.",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 295666,
+      "status": "NOT_RUNNING",
+      "expires_in": null,
+      "description": "<p>A classic Crackme. Find the password, get the flag!</p>\n<p>Binary can be downloaded <a href='https://artifacts.picoctf.net/c_titan/82/crackme100' download>here</a>.</p>\n<p>Crack the Binary file locally and recover the password. Use the same password on the server to get the flag!</p>",
+      "hints": [
+        "<p>Let the machine figure out the symbols!</p>"
+      ],
+      "on_demand": true,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 402,
+    "name": "Picker III",
+    "author": "LT 'syreal' Jones",
+    "difficulty": 2,
+    "event": null,
+    "category": {
+      "id": 3,
+      "name": "Reverse Engineering"
+    },
+    "tags": [
+      {
+        "id": 1,
+        "name": "Python"
+      }
+    ],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 138,
+    "positive_rating_count": 135,
+    "users_solved": 3704,
+    "users_solved_during_event": null,
+    "event_points": 100,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 295222,
+      "status": "NOT_RUNNING",
+      "expires_in": null,
+      "description": "<p>Can you figure out how this program works to get the flag?</p>",
+      "hints": [
+        "<p>Is there any way to modify the function table?</p>"
+      ],
+      "on_demand": true,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 401,
+    "name": "Picker II",
+    "author": "LT 'syreal' Jones",
+    "difficulty": 2,
+    "event": null,
+    "category": {
+      "id": 3,
+      "name": "Reverse Engineering"
+    },
+    "tags": [
+      {
+        "id": 1,
+        "name": "Python"
+      }
+    ],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 138,
+    "positive_rating_count": 133,
+    "users_solved": 4904,
+    "users_solved_during_event": null,
+    "event_points": 100,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 295219,
+      "status": "NOT_RUNNING",
+      "expires_in": null,
+      "description": "<p>Can you figure out how this program works to get the flag?</p>",
+      "hints": [
+        "<p>Can you do what <code>win</code> does with your input to the program?</p>"
+      ],
+      "on_demand": true,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 400,
+    "name": "Picker I",
+    "author": "LT 'syreal' Jones",
+    "difficulty": 2,
+    "event": null,
+    "category": {
+      "id": 3,
+      "name": "Reverse Engineering"
+    },
+    "tags": [
+      {
+        "id": 1,
+        "name": "Python"
+      }
+    ],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 151,
+    "positive_rating_count": 137,
+    "users_solved": 7290,
+    "users_solved_during_event": null,
+    "event_points": 100,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 295216,
+      "status": "NOT_RUNNING",
+      "expires_in": null,
+      "description": "<p>This service can provide you with a random number, but can it do anything else?</p>",
+      "hints": [
+        "<p>Can you point the program to a function that does something useful for you?</p>"
+      ],
+      "on_demand": true,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 398,
+    "name": "GDB baby step 4",
+    "author": "LT 'syreal' Jones",
+    "difficulty": 2,
+    "event": null,
+    "category": {
+      "id": 3,
+      "name": "Reverse Engineering"
+    },
+    "tags": [
+      {
+        "id": 62,
+        "name": "x86_64"
+      }
+    ],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 62,
+    "positive_rating_count": 57,
+    "users_solved": 3778,
+    "users_solved_during_event": null,
+    "event_points": 100,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 295212,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "<p><code>main</code> calls a function that multiplies <code>eax</code> by a constant. The flag for this\nchallenge is that constant in decimal base. If the constant you find is 0x1000,\nthe flag will be <code>picoCTF{4096}</code>.</p>\n<p>Debug <a href='https://artifacts.picoctf.net/c/532/debugger0_d' download>this</a>.</p>",
+      "hints": [
+        "<p>A function can be referenced by either its name or its starting address in\ngdb.</p>"
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 397,
+    "name": "GDB baby step 3",
+    "author": "LT 'syreal' Jones",
+    "difficulty": 2,
+    "event": null,
+    "category": {
+      "id": 3,
+      "name": "Reverse Engineering"
+    },
+    "tags": [
+      {
+        "id": 62,
+        "name": "x86_64"
+      }
+    ],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 114,
+    "positive_rating_count": 59,
+    "users_solved": 3721,
+    "users_solved_during_event": null,
+    "event_points": 100,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 295211,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "<p>Now for something a little different. <code>0x2262c96b</code> is loaded into memory in the\n<code>main</code> function. Examine byte-wise the memory that the constant is loaded in by\nusing the GDB command <code>x/4xb addr</code>. The flag is the four bytes as they are\nstored in memory. If you find the bytes <code>0x11  0x22  0x33  0x44</code> in the memory\nlocation, your flag would be: <code>picoCTF{0x11223344}</code>.</p>\n<p>Debug <a href='https://artifacts.picoctf.net/c/531/debugger0_c' download>this</a>.</p>",
+      "hints": [
+        "<p>You'll need to breakpoint the instruction after the memory load.</p>",
+        "<p>Use the gdb command <code>x/4xb addr</code> with the memory location as the address\n<code>addr</code> to examine. <a href=\"https://ftp.gnu.org/old-gnu/Manuals/gdb/html_node/gdb_55.html\">GDB manual page</a>.</p>",
+        "<p>Any registers in <code>addr</code> should be prepended with <code>$</code> like <code>$rbp</code>.</p>",
+        "<p>Don't use square brackets for <code>addr</code></p>",
+        "<p>What is <a href=\"https://en.wikipedia.org/wiki/Endianness\">endianness</a>?</p>"
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 396,
+    "name": "GDB baby step 2",
+    "author": "LT 'syreal' Jones",
+    "difficulty": 2,
+    "event": null,
+    "category": {
+      "id": 3,
+      "name": "Reverse Engineering"
+    },
+    "tags": [
+      {
+        "id": 62,
+        "name": "x86_64"
+      }
+    ],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 89,
+    "positive_rating_count": 86,
+    "users_solved": 4848,
+    "users_solved_during_event": null,
+    "event_points": 100,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 295210,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "<p>Can you figure out what is in the <code>eax</code> register at the end of the <code>main</code>\nfunction? Put your answer in the picoCTF flag format: <code>picoCTF{n}</code> where <code>n</code> is\nthe contents of the <code>eax</code> register in the decimal number base. If the answer\nwas <code>0x11</code> your flag would be <code>picoCTF{17}</code>.</p>\n<p>Debug <a href='https://artifacts.picoctf.net/c/520/debugger0_b' download>this</a>.</p>",
+      "hints": [
+        "<p>You could calculate <code>eax</code> yourself, or you could set a breakpoint for after\nthe calculcation and inspect <code>eax</code> to let the program do the heavy-lifting for\nyou.</p>"
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 395,
+    "name": "GDB baby step 1",
+    "author": "LT 'syreal' Jones",
+    "difficulty": 2,
+    "event": null,
+    "category": {
+      "id": 3,
+      "name": "Reverse Engineering"
+    },
+    "tags": [
+      {
+        "id": 62,
+        "name": "x86_64"
+      }
+    ],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 87,
+    "positive_rating_count": 78,
+    "users_solved": 5769,
+    "users_solved_during_event": null,
+    "event_points": 100,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 295209,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "<p>Can you figure out what is in the <code>eax</code> register at the end of the <code>main</code>\nfunction? Put your answer in the picoCTF flag format: <code>picoCTF{n}</code> where <code>n</code> is\nthe contents of the <code>eax</code> register in the decimal number base. If the answer\nwas <code>0x11</code> your flag would be <code>picoCTF{17}</code>.</p>\n<p>Disassemble <a href='https://artifacts.picoctf.net/c/512/debugger0_a' download>this</a>.</p>",
+      "hints": [
+        "<p>gdb is a very good debugger to use for this problem and many others!</p>",
+        "<p><code>main</code> is actually a recognized symbol that can be used with gdb commands.</p>"
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 394,
+    "name": "Bit-O-Asm-4",
+    "author": "LT 'syreal' Jones",
+    "difficulty": 2,
+    "event": null,
+    "category": {
+      "id": 3,
+      "name": "Reverse Engineering"
+    },
+    "tags": [
+      {
+        "id": 62,
+        "name": "x86_64"
+      }
+    ],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 73,
+    "positive_rating_count": 69,
+    "users_solved": 4801,
+    "users_solved_during_event": null,
+    "event_points": 100,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 295208,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "<p>Can you figure out what is in the <code>eax</code> register? Put your answer in the\npicoCTF flag format: <code>picoCTF{n}</code> where <code>n</code> is the contents of the <code>eax</code>\nregister in the decimal number base. If the answer was <code>0x11</code> your flag would\nbe <code>picoCTF{17}</code>.</p>\n<p>Download the assembly dump <a href='https://artifacts.picoctf.net/c/511/disassembler-dump0_d.txt' download>here</a>.</p>",
+      "hints": [
+        "<p>Don't tell anyone I told you this, but you can solve this problem without\nunderstanding the compare/jump relationship.</p>",
+        "<p>Of course, if you're really good, you'll only need one attempt to solve this\nproblem.</p>"
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 393,
+    "name": "Bit-O-Asm-3",
+    "author": "LT 'syreal' Jones",
+    "difficulty": 2,
+    "event": null,
+    "category": {
+      "id": 3,
+      "name": "Reverse Engineering"
+    },
+    "tags": [
+      {
+        "id": 62,
+        "name": "x86_64"
+      }
+    ],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 86,
+    "positive_rating_count": 82,
+    "users_solved": 5165,
+    "users_solved_during_event": null,
+    "event_points": 100,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 295207,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "<p>Can you figure out what is in the <code>eax</code> register? Put your answer in the\npicoCTF flag format: <code>picoCTF{n}</code> where <code>n</code> is the contents of the <code>eax</code>\nregister in the decimal number base. If the answer was <code>0x11</code> your flag would\nbe <code>picoCTF{17}</code>.</p>\n<p>Download the assembly dump <a href='https://artifacts.picoctf.net/c/530/disassembler-dump0_c.txt' download>here</a>.</p>",
+      "hints": [
+        "<p>Not everything in this disassembly listing is optimal.</p>"
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 392,
+    "name": "Bit-O-Asm-2",
+    "author": "LT 'syreal' Jones",
+    "difficulty": 2,
+    "event": null,
+    "category": {
+      "id": 3,
+      "name": "Reverse Engineering"
+    },
+    "tags": [
+      {
+        "id": 62,
+        "name": "x86_64"
+      }
+    ],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 70,
+    "positive_rating_count": 61,
+    "users_solved": 5826,
+    "users_solved_during_event": null,
+    "event_points": 100,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 295206,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "<p>Can you figure out what is in the <code>eax</code> register? Put your answer in the\npicoCTF flag format: <code>picoCTF{n}</code> where <code>n</code> is the contents of the <code>eax</code>\nregister in the decimal number base. If the answer was <code>0x11</code> your flag would\nbe <code>picoCTF{17}</code>.</p>\n<p>Download the assembly dump <a href='https://artifacts.picoctf.net/c/510/disassembler-dump0_b.txt' download>here</a>.</p>",
+      "hints": [
+        "<p><code>PTR</code>'s or 'pointers', reference a location in memory where values can be stored.</p>"
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 391,
+    "name": "Bit-O-Asm-1",
+    "author": "LT 'syreal' Jones",
+    "difficulty": 2,
+    "event": null,
+    "category": {
+      "id": 3,
+      "name": "Reverse Engineering"
+    },
+    "tags": [
+      {
+        "id": 62,
+        "name": "x86_64"
+      }
+    ],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 76,
+    "positive_rating_count": 68,
+    "users_solved": 6855,
+    "users_solved_during_event": null,
+    "event_points": 100,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 295205,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "<p>Can you figure out what is in the <code>eax</code> register? Put your answer in the\npicoCTF flag format: <code>picoCTF{n}</code> where <code>n</code> is the contents of the <code>eax</code>\nregister in the decimal number base. If the answer was <code>0x11</code> your flag would\nbe <code>picoCTF{17}</code>.</p>\n<p>Download the assembly dump <a href='https://artifacts.picoctf.net/c/509/disassembler-dump0_a.txt' download>here</a>.</p>",
+      "hints": [
+        "<p>As with most assembly, there is a lot of noise in the instruction dump. Find\nthe one line that pertains to this question and don't second guess yourself!</p>"
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 389,
+    "name": "ASCII FTW",
+    "author": "Abhishek Agarwal",
+    "difficulty": 2,
+    "event": null,
+    "category": {
+      "id": 3,
+      "name": "Reverse Engineering"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 94,
+    "positive_rating_count": 82,
+    "users_solved": 4842,
+    "users_solved_during_event": null,
+    "event_points": 100,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 295202,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "<p>This program has constructed the flag using hex ascii values. Identify the flag text by disassembling the program.</p>\n<p>You can download the file from <a href='https://artifacts.picoctf.net/c/507/asciiftw' download>here</a>.</p>",
+      "hints": [
+        "<p>The combined range of hex-ascii for English alphabets and numerical digits is from 30 to 7A.</p>",
+        "<p>Online hex-ascii converters can be helpful.</p>"
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 385,
+    "name": "Virtual Machine 0",
+    "author": "LT 'syreal' Jones",
+    "difficulty": 2,
+    "event": {
+      "id": 72,
+      "name": "picoCTF 2023"
+    },
+    "category": {
+      "id": 3,
+      "name": "Reverse Engineering"
+    },
+    "tags": [
+      {
+        "id": 58,
+        "name": "Analog"
+      }
+    ],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 199,
+    "positive_rating_count": 56,
+    "users_solved": 1904,
+    "users_solved_during_event": 690,
+    "event_points": 100,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 295179,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "<p>Can you crack this black box?</p>\n<p>We grabbed this design doc from enemy servers:\n<a href='https://artifacts.picoctf.net/c/360/Virtual-Machine-0.zip' download>Download</a>. We know that the rotation\nof the red axle is input and the rotation of the blue axle is output. The\nfollowing input gives the flag as output: <a href='https://artifacts.picoctf.net/c/360/input.txt' download>Download</a>.</p>",
+      "hints": [
+        "<p>Rotating the axle that number of times is obviously not feasible. Can you\nmodel the mathematical relationship between red and blue?</p>"
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 381,
+    "name": "timer",
+    "author": "Loic Shema",
+    "difficulty": 2,
+    "event": {
+      "id": 72,
+      "name": "picoCTF 2023"
+    },
+    "category": {
+      "id": 3,
+      "name": "Reverse Engineering"
+    },
+    "tags": [
+      {
+        "id": 54,
+        "name": "android"
+      }
+    ],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 135,
+    "positive_rating_count": 84,
+    "users_solved": 7127,
+    "users_solved_during_event": 3321,
+    "event_points": 100,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 295157,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "<p>You will find the flag after analysing this apk</p>\n<p>Download <a href='https://artifacts.picoctf.net/c/449/timer.apk' download>here</a>.</p>",
+      "hints": [
+        "<p>Decompile</p>",
+        "<p>mobsf or jadx</p>"
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 375,
+    "name": "Safe Opener 2",
+    "author": "Mubarak Mikail",
+    "difficulty": 2,
+    "event": {
+      "id": 72,
+      "name": "picoCTF 2023"
+    },
+    "category": {
+      "id": 3,
+      "name": "Reverse Engineering"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 143,
+    "positive_rating_count": 101,
+    "users_solved": 11828,
+    "users_solved_during_event": 4532,
+    "event_points": 100,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 295118,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "<p>What can you do with this file?</p>\n<p>I forgot the key to my safe but this <a href='https://artifacts.picoctf.net/c/287/SafeOpener.class' download>file</a> is supposed to help me with retrieving the lost key. Can you help me unlock my safe?</p>",
+      "hints": [
+        "<p>Download and try to decompile the file.</p>"
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 372,
+    "name": "Reverse",
+    "author": "Mubarak Mikail",
+    "difficulty": 2,
+    "event": {
+      "id": 72,
+      "name": "picoCTF 2023"
+    },
+    "category": {
+      "id": 3,
+      "name": "Reverse Engineering"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 182,
+    "positive_rating_count": 139,
+    "users_solved": 13254,
+    "users_solved_during_event": 4876,
+    "event_points": 100,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 295106,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "<p>Try reversing this file? Can ya?</p>\n<p>I forgot the password to this <a href='https://artifacts.picoctf.net/c/276/ret' download>file</a>. Please find it for me?</p>",
+      "hints": [],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 370,
+    "name": "Ready Gladiator 2",
+    "author": "LT 'syreal' Jones",
+    "difficulty": 2,
+    "event": {
+      "id": 72,
+      "name": "picoCTF 2023"
+    },
+    "category": {
+      "id": 3,
+      "name": "Reverse Engineering"
+    },
+    "tags": [
+      {
+        "id": 48,
+        "name": "CoreWars"
+      }
+    ],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 52,
+    "positive_rating_count": 36,
+    "users_solved": 1638,
+    "users_solved_during_event": 881,
+    "event_points": 400,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 295086,
+      "status": "NOT_RUNNING",
+      "expires_in": null,
+      "description": "<p>Can you make a CoreWars warrior that wins every single round?</p>",
+      "hints": [
+        "<p>If your warrior is close, try again, it may work on subsequent tries... why\nis that?</p>"
+      ],
+      "on_demand": true,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 369,
+    "name": "Ready Gladiator 1",
+    "author": "LT 'syreal' Jones",
+    "difficulty": 2,
+    "event": {
+      "id": 72,
+      "name": "picoCTF 2023"
+    },
+    "category": {
+      "id": 3,
+      "name": "Reverse Engineering"
+    },
+    "tags": [
+      {
+        "id": 48,
+        "name": "CoreWars"
+      }
+    ],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 71,
+    "positive_rating_count": 58,
+    "users_solved": 2817,
+    "users_solved_during_event": 1504,
+    "event_points": 200,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 295084,
+      "status": "NOT_RUNNING",
+      "expires_in": null,
+      "description": "<p>Can you make a CoreWars warrior that wins?</p>",
+      "hints": [
+        "<p>You may be able to find a viable warrior in beginner docs</p>"
+      ],
+      "on_demand": true,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 368,
+    "name": "Ready Gladiator 0",
+    "author": "LT 'syreal' Jones",
+    "difficulty": 2,
+    "event": {
+      "id": 72,
+      "name": "picoCTF 2023"
+    },
+    "category": {
+      "id": 3,
+      "name": "Reverse Engineering"
+    },
+    "tags": [
+      {
+        "id": 48,
+        "name": "CoreWars"
+      }
+    ],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 170,
+    "positive_rating_count": 87,
+    "users_solved": 6550,
+    "users_solved_during_event": 2647,
+    "event_points": 100,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 295073,
+      "status": "NOT_RUNNING",
+      "expires_in": null,
+      "description": "<p>Can you make a CoreWars warrior that always loses, no ties?</p>",
+      "hints": [
+        "<p>CoreWars is a well-established game with a lot of docs and strategy</p>",
+        "<p>Experiment with input to the CoreWars handler or create a self-defeating bot</p>"
+      ],
+      "on_demand": true,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 314,
+    "name": "unpackme.py",
+    "author": "LT 'syreal' Jones",
+    "difficulty": 2,
+    "event": {
+      "id": 70,
+      "name": "picoCTF 2022"
+    },
+    "category": {
+      "id": 3,
+      "name": "Reverse Engineering"
+    },
+    "tags": [
+      {
+        "id": 40,
+        "name": "packing"
+      }
+    ],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 214,
+    "positive_rating_count": 190,
+    "users_solved": 13901,
+    "users_solved_during_event": 3305,
+    "event_points": 100,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 294904,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "<p>Can you get the flag?</p>\n<p>Reverse engineer this <a href='https://artifacts.picoctf.net/c/49/unpackme.flag.py' download>Python program</a>.</p>",
+      "hints": [],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 313,
+    "name": "unpackme",
+    "author": "LT 'syreal' Jones",
+    "difficulty": 2,
+    "event": {
+      "id": 70,
+      "name": "picoCTF 2022"
+    },
+    "category": {
+      "id": 3,
+      "name": "Reverse Engineering"
+    },
+    "tags": [
+      {
+        "id": 7,
+        "name": "binary"
+      },
+      {
+        "id": 39,
+        "name": "packed"
+      }
+    ],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 103,
+    "positive_rating_count": 97,
+    "users_solved": 4928,
+    "users_solved_during_event": 1528,
+    "event_points": 300,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 294902,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "<p>Can you get the flag?</p>\n<p>Reverse engineer this <a href='https://artifacts.picoctf.net/c/203/unpackme-upx' download>binary</a>.</p>",
+      "hints": [
+        "<p>What is UPX?</p>"
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 294,
+    "name": "Safe Opener",
+    "author": "Mubarak Mikail",
+    "difficulty": 2,
+    "event": {
+      "id": 70,
+      "name": "picoCTF 2022"
+    },
+    "category": {
+      "id": 3,
+      "name": "Reverse Engineering"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 210,
+    "positive_rating_count": 194,
+    "users_solved": 17715,
+    "users_solved_during_event": 4182,
+    "event_points": 100,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 294853,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "<p>Can you open this safe?</p>\n<p>I forgot the key to my safe but this <a href='https://artifacts.picoctf.net/c/83/SafeOpener.java' download>program</a>\nis supposed to help me with retrieving the lost key. Can you help me unlock my\nsafe?</p>\n<p>Put the password you recover into the picoCTF flag format like:</p>\n<p><code>picoCTF{password}</code></p>",
+      "hints": [],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 287,
+    "name": "patchme.py",
+    "author": "LT 'syreal' Jones",
+    "difficulty": 2,
+    "event": {
+      "id": 70,
+      "name": "picoCTF 2022"
+    },
+    "category": {
+      "id": 3,
+      "name": "Reverse Engineering"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 214,
+    "positive_rating_count": 181,
+    "users_solved": 17196,
+    "users_solved_during_event": 4268,
+    "event_points": 100,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 294835,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "<p>Can you get the flag?</p>\n<p>Run this <a href='https://artifacts.picoctf.net/c/200/patchme.flag.py' download>Python program</a> in the same directory\nas this <a href='https://artifacts.picoctf.net/c/200/flag.txt.enc' download>encrypted flag</a>.</p>",
+      "hints": [],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 273,
+    "name": "GDB Test Drive",
+    "author": "LT 'syreal' Jones",
+    "difficulty": 2,
+    "event": {
+      "id": 70,
+      "name": "picoCTF 2022"
+    },
+    "category": {
+      "id": 3,
+      "name": "Reverse Engineering"
+    },
+    "tags": [
+      {
+        "id": 7,
+        "name": "binary"
+      },
+      {
+        "id": 18,
+        "name": "gdb"
+      }
+    ],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 229,
+    "positive_rating_count": 202,
+    "users_solved": 14444,
+    "users_solved_during_event": 4142,
+    "event_points": 100,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 294801,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "<p>Can you get the flag?</p>\n<p>Download this <a href='https://artifacts.picoctf.net/c/85/gdbme' download>binary</a>.</p>\n<p>Here's the test drive instructions:</p>\n<ul>\n<li><code>$ chmod +x gdbme</code></li>\n<li><code>$ gdb gdbme</code></li>\n<li><code>(gdb) layout asm</code></li>\n<li><code>(gdb) break *(main+99)</code></li>\n<li><code>(gdb) run</code></li>\n<li><code>(gdb) jump *(main+104)</code></li>\n</ul>",
+      "hints": [],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 271,
+    "name": "Fresh Java",
+    "author": "LT 'syreal' Jones",
+    "difficulty": 2,
+    "event": {
+      "id": 70,
+      "name": "picoCTF 2022"
+    },
+    "category": {
+      "id": 3,
+      "name": "Reverse Engineering"
+    },
+    "tags": [
+      {
+        "id": 15,
+        "name": "Java"
+      }
+    ],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 114,
+    "positive_rating_count": 88,
+    "users_solved": 9118,
+    "users_solved_during_event": 3170,
+    "event_points": 200,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 294793,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "<p>Can you get the flag?</p>\n<p>Reverse engineer this <a href='https://artifacts.picoctf.net/c/198/KeygenMe.class' download>Java program</a>.</p>",
+      "hints": [
+        "<p>Use a decompiler for Java!</p>"
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 267,
+    "name": "file-run2",
+    "author": "Will Hong",
+    "difficulty": 2,
+    "event": {
+      "id": 70,
+      "name": "picoCTF 2022"
+    },
+    "category": {
+      "id": 3,
+      "name": "Reverse Engineering"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 213,
+    "positive_rating_count": 161,
+    "users_solved": 20272,
+    "users_solved_during_event": 5023,
+    "event_points": 100,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 294781,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "<p>Another program, but this time, it seems to want some input. What happens if\nyou try to run it on the command line with input &quot;Hello!&quot;?</p>\n<p>Download the program <a href='https://artifacts.picoctf.net/c/156/run' download>here</a>.</p>",
+      "hints": [
+        "<p>Try running it and add the phrase &quot;Hello!&quot; with a space in front\n(i.e. &quot;./run Hello!&quot;)</p>"
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 266,
+    "name": "file-run1",
+    "author": "Will Hong",
+    "difficulty": 2,
+    "event": {
+      "id": 70,
+      "name": "picoCTF 2022"
+    },
+    "category": {
+      "id": 3,
+      "name": "Reverse Engineering"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 297,
+    "positive_rating_count": 198,
+    "users_solved": 23625,
+    "users_solved_during_event": 5220,
+    "event_points": 100,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 294780,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "<p>A program has been provided to you, what happens if you try to run it on the\ncommand line?</p>\n<p>Download the program <a href='https://artifacts.picoctf.net/c/219/run' download>here</a>.</p>",
+      "hints": [
+        "<p>To run the program at all, you must make it executable (i.e. <code>$ chmod +x run</code>)</p>",
+        "<p>Try running it by adding a '.' in front of the path to the file (i.e. <code>$ ./run</code>)</p>"
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 256,
+    "name": "bloat.py",
+    "author": "LT 'syreal' Jones",
+    "difficulty": 2,
+    "event": {
+      "id": 70,
+      "name": "picoCTF 2022"
+    },
+    "category": {
+      "id": 3,
+      "name": "Reverse Engineering"
+    },
+    "tags": [
+      {
+        "id": 8,
+        "name": "obfuscation"
+      }
+    ],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 195,
+    "positive_rating_count": 173,
+    "users_solved": 10384,
+    "users_solved_during_event": 3179,
+    "event_points": 200,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 294756,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "<p>Can you get the flag?</p>\n<p>Run this <a href='https://artifacts.picoctf.net/c/105/bloat.flag.py' download>Python program</a> in the same directory\nas this <a href='https://artifacts.picoctf.net/c/105/flag.txt.enc' download>encrypted flag</a>.</p>",
+      "hints": [],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 255,
+    "name": "Bbbbloat",
+    "author": "LT 'syreal' Jones",
+    "difficulty": 2,
+    "event": {
+      "id": 70,
+      "name": "picoCTF 2022"
+    },
+    "category": {
+      "id": 3,
+      "name": "Reverse Engineering"
+    },
+    "tags": [
+      {
+        "id": 7,
+        "name": "binary"
+      },
+      {
+        "id": 8,
+        "name": "obfuscation"
+      }
+    ],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 158,
+    "positive_rating_count": 144,
+    "users_solved": 6668,
+    "users_solved_during_event": 1827,
+    "event_points": 300,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 294754,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "<p>Can you get the flag?</p>\n<p>Reverse engineer this <a href='https://artifacts.picoctf.net/c/46/bbbbloat' download>binary</a>.</p>",
+      "hints": [],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 175,
+    "name": "crackme-py",
+    "author": "syreal",
+    "difficulty": 2,
+    "event": {
+      "id": 34,
+      "name": "picoCTF 2021"
+    },
+    "category": {
+      "id": 3,
+      "name": "Reverse Engineering"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 744,
+    "positive_rating_count": 538,
+    "users_solved": 40584,
+    "users_solved_during_event": 2405,
+    "event_points": 30,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 959,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "<a href='//mercury.picoctf.net/static/2ff6c888060f14af5db1232e319547c9/crackme.py'>crackme.py</a>",
+      "hints": [],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 160,
+    "name": "ARMssembly 0",
+    "author": "Dylan McGuire",
+    "difficulty": 2,
+    "event": {
+      "id": 34,
+      "name": "picoCTF 2021"
+    },
+    "category": {
+      "id": 3,
+      "name": "Reverse Engineering"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 263,
+    "positive_rating_count": 169,
+    "users_solved": 9541,
+    "users_solved_during_event": 433,
+    "event_points": 40,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 852,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "What integer does this program print with arguments <code>1765227561</code> and <code>1830628817</code>? File: <a href='//mercury.picoctf.net/static/37069d9462289016ea1869ef4c993912/chall.S'>chall.S</a> Flag format: picoCTF{XXXXXXXX} -> (hex, lowercase, no 0x, and 32 bits. ex. 5614267 would be picoCTF{0055aabb})",
+      "hints": [
+        "Simple compare"
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 134,
+    "name": "Shop",
+    "author": "thelshell",
+    "difficulty": 2,
+    "event": {
+      "id": 34,
+      "name": "picoCTF 2021"
+    },
+    "category": {
+      "id": 3,
+      "name": "Reverse Engineering"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 383,
+    "positive_rating_count": 341,
+    "users_solved": 15972,
+    "users_solved_during_event": 965,
+    "event_points": 50,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 1109,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "Best Stuff - Cheap Stuff, Buy Buy Buy... Store Instance: <a href='//mercury.picoctf.net/static/db20ea321ce780e69e29fd4b60e60fe0/source'>source</a>. The shop is open for business at <code>nc mercury.picoctf.net 3952</code>.",
+      "hints": [
+        "Always check edge cases when programming"
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 121,
+    "name": "keygenme-py",
+    "author": "syreal",
+    "difficulty": 2,
+    "event": {
+      "id": 34,
+      "name": "picoCTF 2021"
+    },
+    "category": {
+      "id": 3,
+      "name": "Reverse Engineering"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 1061,
+    "positive_rating_count": 1005,
+    "users_solved": 29823,
+    "users_solved_during_event": 1249,
+    "event_points": 30,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 580,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "<a href='//mercury.picoctf.net/static/9cc50abd5b012891d5a1132e05f15a07/keygenme-trial.py'>keygenme-trial.py</a>",
+      "hints": [],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 116,
+    "name": "speeds and feeds",
+    "author": "Ryan Ramseyer",
+    "difficulty": 2,
+    "event": {
+      "id": 34,
+      "name": "picoCTF 2021"
+    },
+    "category": {
+      "id": 3,
+      "name": "Reverse Engineering"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 570,
+    "positive_rating_count": 500,
+    "users_solved": 17096,
+    "users_solved_during_event": 1186,
+    "event_points": 50,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 1211,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "There is something on my shop network running at <code>nc mercury.picoctf.net 53740</code>, but I can't tell what it is. Can you?",
+      "hints": [
+        "What language does a CNC machine use?"
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 111,
+    "name": "ARMssembly 1",
+    "author": "Pranay Garg",
+    "difficulty": 2,
+    "event": {
+      "id": 34,
+      "name": "picoCTF 2021"
+    },
+    "category": {
+      "id": 3,
+      "name": "Reverse Engineering"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 149,
+    "positive_rating_count": 103,
+    "users_solved": 4102,
+    "users_solved_during_event": 336,
+    "event_points": 70,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 1100,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "For what argument does this program print `win` with variables <code>58</code>, <code>2</code> and <code>3</code>? File: <a href='//mercury.picoctf.net/static/1c8d50e39cf00d144e6a72119f68c16c/chall_1.S'>chall_1.S</a> Flag format: picoCTF{XXXXXXXX} -> (hex, lowercase, no 0x, and 32 bits. ex. 5614267 would be picoCTF{0055aabb})",
+      "hints": [
+        "Shifts"
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 77,
+    "name": "vault-door-5",
+    "author": "Mark E. Haase",
+    "difficulty": 2,
+    "event": {
+      "id": 1,
+      "name": "picoCTF 2019"
+    },
+    "category": {
+      "id": 3,
+      "name": "Reverse Engineering"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 97,
+    "positive_rating_count": 94,
+    "users_solved": 6107,
+    "users_solved_during_event": 0,
+    "event_points": 300,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 183,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "In the last challenge, you mastered octal (base 8), decimal (base 10), and hexadecimal (base 16) numbers, but this vault door uses a different change of base as well as URL encoding! The source code for this vault is here: <a href='//jupiter.challenges.picoctf.org/static/9505cca05dc00fecead41106370ee619/VaultDoor5.java'>VaultDoor5.java</a>",
+      "hints": [
+        "You may find an encoder/decoder tool helpful, such as https://encoding.tools/",
+        "Read the wikipedia articles on URL encoding and base 64 encoding to understand how they work and what the results look like."
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 71,
+    "name": "vault-door-4",
+    "author": "Mark E. Haase",
+    "difficulty": 2,
+    "event": {
+      "id": 1,
+      "name": "picoCTF 2019"
+    },
+    "category": {
+      "id": 3,
+      "name": "Reverse Engineering"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 109,
+    "positive_rating_count": 96,
+    "users_solved": 8146,
+    "users_solved_during_event": 0,
+    "event_points": 250,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 171,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "This vault uses ASCII encoding for the password. The source code for this vault is here: <a href='//jupiter.challenges.picoctf.org/static/c695ee23309d453a3ef369c34cc1bccb/VaultDoor4.java'>VaultDoor4.java</a>",
+      "hints": [
+        "Use a search engine to find an \"ASCII table\".",
+        "You will also need to know the difference between octal, decimal, and hexadecimal numbers."
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 60,
+    "name": "vault-door-3",
+    "author": "Mark E. Haase",
+    "difficulty": 2,
+    "event": {
+      "id": 1,
+      "name": "picoCTF 2019"
+    },
+    "category": {
+      "id": 3,
+      "name": "Reverse Engineering"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 187,
+    "positive_rating_count": 155,
+    "users_solved": 9645,
+    "users_solved_during_event": 0,
+    "event_points": 200,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 145,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "This vault uses for-loops and byte arrays. The source code for this vault is here: <a href='//jupiter.challenges.picoctf.org/static/a648ca6dd275b9454c5d0de6d0f6efd3/VaultDoor3.java'>VaultDoor3.java</a>",
+      "hints": [
+        "Make a table that contains each value of the loop variables and the corresponding buffer index that it writes to."
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 45,
+    "name": "vault-door-6",
+    "author": "Mark E. Haase",
+    "difficulty": 2,
+    "event": {
+      "id": 1,
+      "name": "picoCTF 2019"
+    },
+    "category": {
+      "id": 3,
+      "name": "Reverse Engineering"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 92,
+    "positive_rating_count": 85,
+    "users_solved": 4668,
+    "users_solved_during_event": 0,
+    "event_points": 350,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 110,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "This vault uses an XOR encryption scheme. The source code for this vault is here: <a href='//jupiter.challenges.picoctf.org/static/cdb33ffba609e2521797aac66320ec65/VaultDoor6.java'>VaultDoor6.java</a>",
+      "hints": [
+        "If X ^ Y = Z, then Z ^ Y = X. Write a program that decrypts the flag based on this fact."
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 20,
+    "name": "asm1",
+    "author": "Sanjay C",
+    "difficulty": 2,
+    "event": {
+      "id": 1,
+      "name": "picoCTF 2019"
+    },
+    "category": {
+      "id": 3,
+      "name": "Reverse Engineering"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 178,
+    "positive_rating_count": 121,
+    "users_solved": 5920,
+    "users_solved_during_event": 0,
+    "event_points": 200,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 52,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "What does asm1(0x2e0) return? Submit the flag as a hexadecimal value (starting with '0x'). NOTE: Your submission for this question will NOT be in the normal flag format. <a href='//jupiter.challenges.picoctf.org/static/f1c2358ff7d1e9386e41552c549cf2f6/test.S'>Source</a>",
+      "hints": [
+        "assembly <a href=\"https://www.tutorialspoint.com/assembly_programming/assembly_conditions.htm\">conditions</a>"
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 12,
+    "name": "vault-door-1",
+    "author": "Mark E. Haase",
+    "difficulty": 2,
+    "event": {
+      "id": 1,
+      "name": "picoCTF 2019"
+    },
+    "category": {
+      "id": 3,
+      "name": "Reverse Engineering"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 564,
+    "positive_rating_count": 350,
+    "users_solved": 30215,
+    "users_solved_during_event": 0,
+    "event_points": 100,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 32,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "This vault uses some complicated arrays! I hope you can make sense of it, special agent. The source code for this vault is here: <a href='//jupiter.challenges.picoctf.org/static/ff2585f7afd21b81f69d2fbe37c081ae/VaultDoor1.java'>VaultDoor1.java</a>",
+      "hints": [
+        "Look up the charAt() method online."
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 386,
+    "name": "Virtual Machine 1",
+    "author": "LT 'syreal' Jones",
+    "difficulty": 3,
+    "event": {
+      "id": 72,
+      "name": "picoCTF 2023"
+    },
+    "category": {
+      "id": 3,
+      "name": "Reverse Engineering"
+    },
+    "tags": [
+      {
+        "id": 58,
+        "name": "Analog"
+      }
+    ],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 53,
+    "positive_rating_count": 16,
+    "users_solved": 379,
+    "users_solved_during_event": 271,
+    "event_points": 300,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 295187,
+      "status": "NOT_RUNNING",
+      "expires_in": null,
+      "description": "<p>The enemy has upgraded their mechanical analog computer. Start an instance to\nbegin.</p>",
+      "hints": [
+        "<p>The supporting structure for the machine has been removed from the given\ndesign doc.</p>",
+        "<p>Some gears are meshed strangely, such as tooth overlapping tooth. Consider\nsuch gears as meshed correctly.</p>",
+        "<p>Learn enough about gear ratios to abstract details from the design doc.</p>"
+      ],
+      "on_demand": true,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 361,
+    "name": "No way out",
+    "author": "Kris",
+    "difficulty": 3,
+    "event": {
+      "id": 72,
+      "name": "picoCTF 2023"
+    },
+    "category": {
+      "id": 3,
+      "name": "Reverse Engineering"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 92,
+    "positive_rating_count": 74,
+    "users_solved": 1410,
+    "users_solved_during_event": 636,
+    "event_points": 200,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 295710,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "<p>Put this flag in standard picoCTF format before submitting. If the flag was\n<code>h1_1m_7h3_f14g</code> submit <code>picoCTF{h1_1m_7h3_f14g}</code> to the platform.</p>\n<p><a href='https://artifacts.picoctf.net/c/285/win.zip' download>Windows game</a>, <a href='https://artifacts.picoctf.net/c/285/mac.app.zip' download>Mac game</a>\nUse password <code>picoctf</code> to unzip archives.</p>",
+      "hints": [],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 318,
+    "name": "Wizardlike",
+    "author": "LT 'syreal' Jones",
+    "difficulty": 3,
+    "event": {
+      "id": 70,
+      "name": "picoCTF 2022"
+    },
+    "category": {
+      "id": 3,
+      "name": "Reverse Engineering"
+    },
+    "tags": [
+      {
+        "id": 7,
+        "name": "binary"
+      },
+      {
+        "id": 42,
+        "name": "game"
+      }
+    ],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 139,
+    "positive_rating_count": 91,
+    "users_solved": 1253,
+    "users_solved_during_event": 573,
+    "event_points": 500,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 294918,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "<p>Do you seek your destiny in these deplorable dungeons? If so, you may want to\nlook elsewhere. Many have gone before you and honestly, they've cleared out the\nplace of all monsters, ne'erdowells, bandits and every other sort of evil foe.\nThe dungeons themselves have seen better days too. There's a lot of missing\nfloors and key passages blocked off. You'd have to be a real wizard to make\nany progress in this sorry excuse for a dungeon!</p>\n<p>Download the <a href='https://artifacts.picoctf.net/c/207/game' download>game</a>.</p>\n<p>'<code>w</code>', '<code>a</code>', '<code>s</code>', '<code>d</code>' moves your character and '<code>Q</code>' quits. You'll need to\nimprovise some wizardly abilities to find the flag in this dungeon crawl.\n'<code>.</code>' is floor, '<code>#</code>' are walls, '<code>&lt;</code>' are stairs up to previous level, and\n'<code>&gt;</code>' are stairs down to next level.</p>",
+      "hints": [
+        "<p>Different tools are better at different things. Ghidra is awesome at static\nanalysis, but radare2 is amazing at debugging.</p>",
+        "<p>With the right focus and preparation, you can teleport to anywhere on the\nmap.</p>"
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 276,
+    "name": "Keygenme",
+    "author": "LT 'syreal' Jones",
+    "difficulty": 3,
+    "event": {
+      "id": 70,
+      "name": "picoCTF 2022"
+    },
+    "category": {
+      "id": 3,
+      "name": "Reverse Engineering"
+    },
+    "tags": [
+      {
+        "id": 7,
+        "name": "binary"
+      },
+      {
+        "id": 20,
+        "name": "keygen"
+      }
+    ],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 92,
+    "positive_rating_count": 79,
+    "users_solved": 2024,
+    "users_solved_during_event": 882,
+    "event_points": 400,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 294808,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "<p>Can you get the flag?</p>\n<p>Reverse engineer this <a href='https://artifacts.picoctf.net/c/51/keygenme' download>binary</a>.</p>",
+      "hints": [],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 222,
+    "name": "not crypto",
+    "author": "asphyxia",
+    "difficulty": 3,
+    "event": {
+      "id": 67,
+      "name": "picoMini by redpwn"
+    },
+    "category": {
+      "id": 3,
+      "name": "Reverse Engineering"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 41,
+    "positive_rating_count": 35,
+    "users_solved": 1527,
+    "users_solved_during_event": 44,
+    "event_points": 150,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 1278,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "<p>there's crypto in here but the challenge is not crypto... 🤔</p>",
+      "hints": [],
+      "on_demand": false,
+      "endpoints": [
+        {
+          "endpoint": "<a href=\"https://artifacts.picoctf.net/picoMini+by+redpwn/Reverse+Engineering/not-crypto/not-crypto\">not-crypto</a>",
+          "label": "Download not-crypto"
+        }
+      ]
+    }
+  },
+  {
+    "id": 221,
+    "name": "MATRIX",
+    "author": "asphyxia",
+    "difficulty": 3,
+    "event": {
+      "id": 67,
+      "name": "picoMini by redpwn"
+    },
+    "category": {
+      "id": 3,
+      "name": "Reverse Engineering"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 41,
+    "positive_rating_count": 39,
+    "users_solved": 162,
+    "users_solved_during_event": 5,
+    "event_points": 500,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 1277,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "<p>Enter the M A T R I X</p>\n<p><code>nc mars.picoctf.net 31259</code></p>",
+      "hints": [],
+      "on_demand": false,
+      "endpoints": [
+        {
+          "endpoint": "<a href=\"https://artifacts.picoctf.net/picoMini+by+redpwn/Reverse+Engineering/matrix/matrix\">matrix</a>",
+          "label": "Download matrix"
+        }
+      ]
+    }
+  },
+  {
+    "id": 220,
+    "name": "breadth",
+    "author": "asphyxia",
+    "difficulty": 3,
+    "event": {
+      "id": 67,
+      "name": "picoMini by redpwn"
+    },
+    "category": {
+      "id": 3,
+      "name": "Reverse Engineering"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 25,
+    "positive_rating_count": 20,
+    "users_solved": 680,
+    "users_solved_during_event": 35,
+    "event_points": 200,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 1276,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "<p>Surely this is what people mean when they say \"horizontal scaling,\" right?</p>\n<p><strong>TOP SECRET INFO:</strong></p>\n<p>Our operatives managed to exfiltrate an in-development version of this\nchallenge, where the function with the real flag had a mistake in it. Can\nyou help us get the flag?</p>",
+      "hints": [],
+      "on_demand": false,
+      "endpoints": [
+        {
+          "endpoint": "<a href=\"https://artifacts.picoctf.net/picoMini+by+redpwn/Reverse+Engineering/breadth/breadth.v2\">breadth.v2</a>",
+          "label": "Download breadth.v2"
+        },
+        {
+          "endpoint": "<a href=\"https://artifacts.picoctf.net/picoMini+by+redpwn/Reverse+Engineering/breadth/breadth.v1\">breadth.v1</a>",
+          "label": "Download breadth.v1"
+        }
+      ]
+    }
+  },
+  {
+    "id": 219,
+    "name": "riscy business",
+    "author": "asphyxia",
+    "difficulty": 3,
+    "event": {
+      "id": 67,
+      "name": "picoMini by redpwn"
+    },
+    "category": {
+      "id": 3,
+      "name": "Reverse Engineering"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 16,
+    "positive_rating_count": 15,
+    "users_solved": 181,
+    "users_solved_during_event": 9,
+    "event_points": 350,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 1275,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "<p>Try not to take too many riscs when finding the flag.</p>",
+      "hints": [],
+      "on_demand": false,
+      "endpoints": [
+        {
+          "endpoint": "<a href=\"https://artifacts.picoctf.net/picoMini+by+redpwn/Reverse+Engineering/riscy/riscy\">riscy</a>",
+          "label": "Download riscy"
+        }
+      ]
+    }
+  },
+  {
+    "id": 183,
+    "name": "ARMssembly 4",
+    "author": "Dylan McGuire",
+    "difficulty": 3,
+    "event": {
+      "id": 34,
+      "name": "picoCTF 2021"
+    },
+    "category": {
+      "id": 3,
+      "name": "Reverse Engineering"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 29,
+    "positive_rating_count": 22,
+    "users_solved": 1262,
+    "users_solved_during_event": 277,
+    "event_points": 170,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 1013,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "What integer does this program print with argument <code>3964545182</code>? File: <a href='//mercury.picoctf.net/static/140885fffcd9e3a3264725ed3e568790/chall_4.S'>chall_4.S</a> Flag format: picoCTF{XXXXXXXX} -> (hex, lowercase, no 0x, and 32 bits. ex. 5614267 would be picoCTF{0055aabb})",
+      "hints": [
+        "Switching things up"
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 171,
+    "name": "gogo",
+    "author": "thelshell",
+    "difficulty": 3,
+    "event": {
+      "id": 34,
+      "name": "picoCTF 2021"
+    },
+    "category": {
+      "id": 3,
+      "name": "Reverse Engineering"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 80,
+    "positive_rating_count": 57,
+    "users_solved": 1718,
+    "users_solved_during_event": 200,
+    "event_points": 110,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 930,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "Hmmm this is a weird file... <a href='//mercury.picoctf.net/static/bb59985bd558e5f4d8e776e0fd4def46/enter_password'>enter_password</a>. There is a instance of the service running at <code>mercury.picoctf.net:6516</code>.",
+      "hints": [
+        "use go tool objdump or ghidra"
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 165,
+    "name": "Hurry up! Wait!",
+    "author": "syreal",
+    "difficulty": 3,
+    "event": {
+      "id": 34,
+      "name": "picoCTF 2021"
+    },
+    "category": {
+      "id": 3,
+      "name": "Reverse Engineering"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 135,
+    "positive_rating_count": 92,
+    "users_solved": 2811,
+    "users_solved_during_event": 245,
+    "event_points": 100,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 1094,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "<a href='//mercury.picoctf.net/static/990a2760dfc64c33d04f0ee04803d69d/svchost.exe'>svchost.exe</a>",
+      "hints": [],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 151,
+    "name": "Rolling My Own",
+    "author": "Luke Rindels",
+    "difficulty": 3,
+    "event": {
+      "id": 34,
+      "name": "picoCTF 2021"
+    },
+    "category": {
+      "id": 3,
+      "name": "Reverse Engineering"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 39,
+    "positive_rating_count": 36,
+    "users_solved": 484,
+    "users_solved_during_event": 82,
+    "event_points": 300,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 792,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "I don't trust password checkers made by other people, so I wrote my own. It doesn't even need to store the password! If you can crack it I'll give you a flag. <a href='//mercury.picoctf.net/static/c4951a16150471875346d4a3cfddc703/remote'>remote</a> <code>nc mercury.picoctf.net 47110</code>",
+      "hints": [
+        "It's based on <a href=\"https://link.springer.com/article/10.1007%2Fs11416-006-0011-3\">this paper</a>",
+        "Here's the start of the password: <code>D1v1</code>"
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 150,
+    "name": "ARMssembly 2",
+    "author": "Dylan McGuire",
+    "difficulty": 3,
+    "event": {
+      "id": 34,
+      "name": "picoCTF 2021"
+    },
+    "category": {
+      "id": 3,
+      "name": "Reverse Engineering"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 63,
+    "positive_rating_count": 50,
+    "users_solved": 3061,
+    "users_solved_during_event": 334,
+    "event_points": 90,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 785,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "What integer does this program print with argument <code>3297082261</code>? File: <a href='//mercury.picoctf.net/static/397a4b46a393eda0777f925f1a866f90/chall_2.S'>chall_2.S</a> Flag format: picoCTF{XXXXXXXX} -> (hex, lowercase, no 0x, and 32 bits. ex. 5614267 would be picoCTF{0055aabb})",
+      "hints": [
+        "Loops"
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 149,
+    "name": "Checkpass",
+    "author": "Jay Bosamiya",
+    "difficulty": 3,
+    "event": {
+      "id": 34,
+      "name": "picoCTF 2021"
+    },
+    "category": {
+      "id": 3,
+      "name": "Reverse Engineering"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 17,
+    "positive_rating_count": 13,
+    "users_solved": 211,
+    "users_solved_during_event": 71,
+    "event_points": 375,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 779,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "What is the password? File: <a href='//mercury.picoctf.net/static/beef707896b55295ef881fec2ae3490b/checkpass'>checkpass</a> Flag format: picoCTF{...}",
+      "hints": [
+        "How is the password being checked?"
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 122,
+    "name": "Easy as GDB",
+    "author": "McKade",
+    "difficulty": 3,
+    "event": {
+      "id": 34,
+      "name": "picoCTF 2021"
+    },
+    "category": {
+      "id": 3,
+      "name": "Reverse Engineering"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 54,
+    "positive_rating_count": 51,
+    "users_solved": 843,
+    "users_solved_during_event": 142,
+    "event_points": 160,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 585,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "The flag has got to be checked somewhere... File: <a href='//mercury.picoctf.net/static/1f68f24b0cd36652f28fac2d8bd96de0/brute'>brute</a>",
+      "hints": [
+        "<a src=\"https://sourceware.org/gdb/onlinedocs/gdb/Basic-Python.html#Basic-Python\">https://sourceware.org/gdb/onlinedocs/gdb/Basic-Python.html#Basic-Python</a>",
+        "With GDB Python, I can guess wrong flags faster than ever before!"
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 119,
+    "name": "Powershelly",
+    "author": "Sara",
+    "difficulty": 3,
+    "event": {
+      "id": 34,
+      "name": "picoCTF 2021"
+    },
+    "category": {
+      "id": 3,
+      "name": "Reverse Engineering"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 49,
+    "positive_rating_count": 19,
+    "users_solved": 748,
+    "users_solved_during_event": 100,
+    "event_points": 180,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 565,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "It's not a bad idea to learn to read Powershell. We give you the output, but do you think you can find the input? <a href='//mercury.picoctf.net/static/e675715b02ce84237e547c7c157f4bef/rev_PS.ps1'>rev_PS.ps1</a> <a href='//mercury.picoctf.net/static/e675715b02ce84237e547c7c157f4bef/output.txt'>output.txt</a>",
+      "hints": [
+        "We tend to move only forward, but it may be a good idea to begin solving it backwards.",
+        "The flag is in standard format, I promise."
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 106,
+    "name": "ARMssembly 3",
+    "author": "Dylan McGuire",
+    "difficulty": 3,
+    "event": {
+      "id": 34,
+      "name": "picoCTF 2021"
+    },
+    "category": {
+      "id": 3,
+      "name": "Reverse Engineering"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 36,
+    "positive_rating_count": 32,
+    "users_solved": 1706,
+    "users_solved_during_event": 303,
+    "event_points": 130,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 472,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "What integer does this program print with argument <code>2541039191</code>? File: <a href='//mercury.picoctf.net/static/effe05ee6c770253b084148e9a10b810/chall_3.S'>chall_3.S</a> Flag format: picoCTF{XXXXXXXX} -> (hex, lowercase, no 0x, and 32 bits. ex. 5614267 would be picoCTF{0055aabb})",
+      "hints": [
+        "beep boop beep boop..."
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 102,
+    "name": "Let's get dynamic",
+    "author": "Ryan Ramseyer",
+    "difficulty": 3,
+    "event": {
+      "id": 34,
+      "name": "picoCTF 2021"
+    },
+    "category": {
+      "id": 3,
+      "name": "Reverse Engineering"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 54,
+    "positive_rating_count": 37,
+    "users_solved": 1257,
+    "users_solved_during_event": 230,
+    "event_points": 150,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 448,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "Can you tell what this file is reading? <a href='//mercury.picoctf.net/static/4b062ca73355f923a41be8d673206a78/chall.S'>chall.S</a>",
+      "hints": [
+        "Running this in a debugger would be helpful"
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 92,
+    "name": "OTP Implementation",
+    "author": "madStacks",
+    "difficulty": 3,
+    "event": {
+      "id": 3,
+      "name": "picoCTF 2020 Mini-Competition"
+    },
+    "category": {
+      "id": 3,
+      "name": "Reverse Engineering"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 82,
+    "positive_rating_count": 79,
+    "users_solved": 799,
+    "users_solved_during_event": 163,
+    "event_points": 1,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 239,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "Yay reversing! Relevant files: <a href='//jupiter.challenges.picoctf.org/static/4b65a8a2bab35576c350a427c7cf953e/otp'>otp</a> <a href='//jupiter.challenges.picoctf.org/static/4b65a8a2bab35576c350a427c7cf953e/flag.txt'>flag.txt</a>",
+      "hints": [
+        "<a src=\"https://sourceware.org/gdb/onlinedocs/gdb/Python-API.html\">https://sourceware.org/gdb/onlinedocs/gdb/Python-API.html</a>",
+        "I think GDB Python is very useful, you can solve this problem without it, but can you solve future problems (hint hint)?",
+        "Also test your skills by solving this with ANGR!"
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 79,
+    "name": "reverse_cipher",
+    "author": "Danny Tunitis",
+    "difficulty": 3,
+    "event": {
+      "id": 1,
+      "name": "picoCTF 2019"
+    },
+    "category": {
+      "id": 3,
+      "name": "Reverse Engineering"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 42,
+    "positive_rating_count": 38,
+    "users_solved": 1832,
+    "users_solved_during_event": 0,
+    "event_points": 300,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 190,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "We have recovered a <a href='//jupiter.challenges.picoctf.org/static/31c9b832d036a10daeef52d8b4290ef0/rev'>binary</a> and a <a href='//jupiter.challenges.picoctf.org/static/31c9b832d036a10daeef52d8b4290ef0/rev_this'>text file</a>. Can you reverse the flag.",
+      "hints": [
+        "objdump and Gihdra are some tools that could assist with this"
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 72,
+    "name": "asm3",
+    "author": "Sanjay C",
+    "difficulty": 3,
+    "event": {
+      "id": 1,
+      "name": "picoCTF 2019"
+    },
+    "category": {
+      "id": 3,
+      "name": "Reverse Engineering"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 42,
+    "positive_rating_count": 24,
+    "users_solved": 1568,
+    "users_solved_during_event": 0,
+    "event_points": 300,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 174,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "What does asm3(0xd73346ed,0xd48672ae,0xd3c8b139) return? Submit the flag as a hexadecimal value (starting with '0x'). NOTE: Your submission for this question will NOT be in the normal flag format. <a href='//jupiter.challenges.picoctf.org/static/17c5620fcffa388fe518d31cb4dd99a0/test.S'>Source</a>",
+      "hints": [
+        "more(?) <a href=\"https://wiki.skullsecurity.org/index.php?title=Registers\">registers</a>"
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 65,
+    "name": "vault-door-7",
+    "author": "Mark E. Haase",
+    "difficulty": 3,
+    "event": {
+      "id": 1,
+      "name": "picoCTF 2019"
+    },
+    "category": {
+      "id": 3,
+      "name": "Reverse Engineering"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 80,
+    "positive_rating_count": 75,
+    "users_solved": 3546,
+    "users_solved_during_event": 0,
+    "event_points": 400,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 156,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "This vault uses bit shifts to convert a password string into an array of integers. Hurry, agent, we are running out of time to stop Dr. Evil's nefarious plans! The source code for this vault is here: <a href='//jupiter.challenges.picoctf.org/static/89b8065d19ee9830ae548d27a40ca757/VaultDoor7.java'>VaultDoor7.java</a>",
+      "hints": [
+        "Use a decimal/hexadecimal converter such as this one: https://www.mathsisfun.com/binary-decimal-hexadecimal-converter.html",
+        "You will also need to consult an ASCII table such as this one: https://www.asciitable.com/"
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 63,
+    "name": "droids2",
+    "author": "Jason",
+    "difficulty": 3,
+    "event": {
+      "id": 1,
+      "name": "picoCTF 2019"
+    },
+    "category": {
+      "id": 3,
+      "name": "Reverse Engineering"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 28,
+    "positive_rating_count": 28,
+    "users_solved": 1786,
+    "users_solved_during_event": 0,
+    "event_points": 400,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 151,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "Find the pass, get the flag. Check out this <a href='//jupiter.challenges.picoctf.org/static/b7d30de6eaaf83e685aea7c10c5bdea8/two.apk'>file</a>.",
+      "hints": [
+        "Try using apktool and an emulator",
+        "https://ibotpeaches.github.io/Apktool/",
+        "https://developer.android.com/studio"
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 57,
+    "name": "B1ll_Gat35",
+    "author": "Alex Bushkin",
+    "difficulty": 3,
+    "event": {
+      "id": 1,
+      "name": "picoCTF 2019"
+    },
+    "category": {
+      "id": 3,
+      "name": "Reverse Engineering"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 17,
+    "positive_rating_count": 9,
+    "users_solved": 1013,
+    "users_solved_during_event": 0,
+    "event_points": 400,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": true,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "detail": "This challenge is currently under maintenance."
+    }
+  },
+  {
+    "id": 39,
+    "name": "Need For Speed",
+    "author": "Alexander Bushkin",
+    "difficulty": 3,
+    "event": {
+      "id": 1,
+      "name": "picoCTF 2019"
+    },
+    "category": {
+      "id": 3,
+      "name": "Reverse Engineering"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 42,
+    "positive_rating_count": 39,
+    "users_solved": 1198,
+    "users_solved_during_event": 0,
+    "event_points": 400,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 98,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "The name of the game is <a href=\"https://www.youtube.com/watch?v=8piqd2BWeGI\">speed</a>. Are you quick enough to solve this problem and keep it above 50 mph? <a href='//jupiter.challenges.picoctf.org/static/cd51b2c95be9f3626db6fe6665afb5a3/need-for-speed'>need-for-speed</a>.",
+      "hints": [
+        "What is the final key?"
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 24,
+    "name": "Forky",
+    "author": "Samuel",
+    "difficulty": 3,
+    "event": {
+      "id": 1,
+      "name": "picoCTF 2019"
+    },
+    "category": {
+      "id": 3,
+      "name": "Reverse Engineering"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 49,
+    "positive_rating_count": 30,
+    "users_solved": 2709,
+    "users_solved_during_event": 0,
+    "event_points": 500,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 58,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "In <a href='//jupiter.challenges.picoctf.org/static/7bd9504475583513cd7a9f72ee79b106/vuln'>this program</a>, identify the last integer value that is passed as parameter to the function doNothing().",
+      "hints": [
+        "What happens when you fork? The flag is picoCTF{IntegerYouFound}. For example, if you found that the last integer passed was 1234, the flag would be picoCTF{1234}"
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 23,
+    "name": "droids3",
+    "author": "Jason",
+    "difficulty": 3,
+    "event": {
+      "id": 1,
+      "name": "picoCTF 2019"
+    },
+    "category": {
+      "id": 3,
+      "name": "Reverse Engineering"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 19,
+    "positive_rating_count": 18,
+    "users_solved": 1844,
+    "users_solved_during_event": 0,
+    "event_points": 450,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 57,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "Find the pass, get the flag. Check out this <a href='//jupiter.challenges.picoctf.org/static/06318765139795831859f843dd56ce60/three.apk'>file</a>.",
+      "hints": [
+        "Try using apktool and an emulator",
+        "https://ibotpeaches.github.io/Apktool/",
+        "https://developer.android.com/studio"
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 17,
+    "name": "droids4",
+    "author": "Jason",
+    "difficulty": 3,
+    "event": {
+      "id": 1,
+      "name": "picoCTF 2019"
+    },
+    "category": {
+      "id": 3,
+      "name": "Reverse Engineering"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 33,
+    "positive_rating_count": 29,
+    "users_solved": 2191,
+    "users_solved_during_event": 0,
+    "event_points": 500,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 43,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "Reverse the pass, patch the file, get the flag. Check out this <a href='//jupiter.challenges.picoctf.org/static/926d4bfd7030b13dbc98ca26e608c740/four.apk'>file</a>.",
+      "hints": [],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 16,
+    "name": "asm2",
+    "author": "Sanjay C",
+    "difficulty": 3,
+    "event": {
+      "id": 1,
+      "name": "picoCTF 2019"
+    },
+    "category": {
+      "id": 3,
+      "name": "Reverse Engineering"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 88,
+    "positive_rating_count": 74,
+    "users_solved": 3032,
+    "users_solved_during_event": 0,
+    "event_points": 250,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 40,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "What does asm2(0xb,0x2e) return? Submit the flag as a hexadecimal value (starting with '0x'). NOTE: Your submission for this question will NOT be in the normal flag format. <a href='//jupiter.challenges.picoctf.org/static/717467c8c8b4332ea5873ad8fe7b2dad/test.S'>Source</a>",
+      "hints": [
+        "assembly <a href=\"https://www.tutorialspoint.com/assembly_programming/assembly_conditions.htm\">conditions</a>"
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 14,
+    "name": "droids1",
+    "author": "Jason",
+    "difficulty": 3,
+    "event": {
+      "id": 1,
+      "name": "picoCTF 2019"
+    },
+    "category": {
+      "id": 3,
+      "name": "Reverse Engineering"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 27,
+    "positive_rating_count": 26,
+    "users_solved": 1949,
+    "users_solved_during_event": 0,
+    "event_points": 350,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 36,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "Find the pass, get the flag. Check out this <a href='//jupiter.challenges.picoctf.org/static/b12c6d058c7f52eb1fd2015cfd291716/one.apk'>file</a>.",
+      "hints": [
+        "Try using apktool and an emulator",
+        "https://ibotpeaches.github.io/Apktool/",
+        "https://developer.android.com/studio"
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 11,
+    "name": "droids0",
+    "author": "Jason",
+    "difficulty": 3,
+    "event": {
+      "id": 1,
+      "name": "picoCTF 2019"
+    },
+    "category": {
+      "id": 3,
+      "name": "Reverse Engineering"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 32,
+    "positive_rating_count": 29,
+    "users_solved": 2375,
+    "users_solved_during_event": 0,
+    "event_points": 300,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 29,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "Where do droid logs go. Check out this <a href='//jupiter.challenges.picoctf.org/static/02bcd73e630f50ef0b12bcdad9d84e0d/zero.apk'>file</a>.",
+      "hints": [
+        "Try using an emulator or device",
+        "https://developer.android.com/studio"
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 10,
+    "name": "vault-door-8",
+    "author": "Mark E. Haase",
+    "difficulty": 3,
+    "event": {
+      "id": 1,
+      "name": "picoCTF 2019"
+    },
+    "category": {
+      "id": 3,
+      "name": "Reverse Engineering"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 92,
+    "positive_rating_count": 87,
+    "users_solved": 2585,
+    "users_solved_during_event": 0,
+    "event_points": 450,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 27,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "Apparently Dr. Evil's minions knew that our agency was making copies of their source code, because they intentionally sabotaged this source code in order to make it harder for our agents to analyze and crack into! The result is a quite mess, but I trust that my best special agent will find a way to solve it. The source code for this vault is here: <a href='//jupiter.challenges.picoctf.org/static/87f4f8ce117f80ab7b809f161661ce6a/VaultDoor8.java'>VaultDoor8.java</a>",
+      "hints": [
+        "Clean up the source code so that you can read it and understand what is going on.",
+        "Draw a diagram to illustrate which bits are being switched in the scramble() method, then figure out a sequence of bit switches to undo it. You should be able to reuse the switchBits() method as is."
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  },
+  {
+    "id": 5,
+    "name": "asm4",
+    "author": "Sanjay C",
+    "difficulty": 3,
+    "event": {
+      "id": 1,
+      "name": "picoCTF 2019"
+    },
+    "category": {
+      "id": 3,
+      "name": "Reverse Engineering"
+    },
+    "tags": [],
+    "sponsor": null,
+    "include_in_gym": true,
+    "rating_count": 27,
+    "positive_rating_count": 25,
+    "users_solved": 770,
+    "users_solved_during_event": 0,
+    "event_points": 400,
+    "solved_by_user": false,
+    "solved_by_team": false,
+    "under_maintenance": false,
+    "bookmarked": false,
+    "errata": "",
+    "active_assignments": [],
+    "retired": false,
+    "instance": {
+      "id": 14,
+      "status": "RUNNING",
+      "expires_in": null,
+      "description": "What will asm4(\"picoCTF_724a2\") return? Submit the flag as a hexadecimal value (starting with '0x'). NOTE: Your submission for this question will NOT be in the normal flag format. <a href='//jupiter.challenges.picoctf.org/static/14acd1667eb7ce6f16355b2256c945b7/test.S'>Source</a>",
+      "hints": [
+        "Treat the Array argument as a pointer"
+      ],
+      "on_demand": false,
+      "endpoints": []
+    }
+  }
+]

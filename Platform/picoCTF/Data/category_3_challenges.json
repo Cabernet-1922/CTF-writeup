@@ -1,0 +1,2562 @@
+{
+  "count": 83,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "id": 104,
+      "name": "Transformation",
+      "author": "madStacks",
+      "difficulty": 1,
+      "event": {
+        "id": 34,
+        "name": "picoCTF 2021"
+      },
+      "category": {
+        "id": 3,
+        "name": "Reverse Engineering"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 2120,
+      "positive_rating_count": 1366,
+      "users_solved": 59531,
+      "users_solved_during_event": 1163,
+      "event_points": 20,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 7,
+      "name": "vault-door-training",
+      "author": "Mark E. Haase",
+      "difficulty": 1,
+      "event": {
+        "id": 1,
+        "name": "picoCTF 2019"
+      },
+      "category": {
+        "id": 3,
+        "name": "Reverse Engineering"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 970,
+      "positive_rating_count": 721,
+      "users_solved": 62819,
+      "users_solved_during_event": 0,
+      "event_points": 50,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 431,
+      "name": "WinAntiDbg0x300",
+      "author": "Nandan Desai",
+      "difficulty": 2,
+      "event": {
+        "id": 73,
+        "name": "picoCTF 2024"
+      },
+      "category": {
+        "id": 3,
+        "name": "Reverse Engineering"
+      },
+      "tags": [
+        {
+          "id": 41,
+          "name": "windows"
+        }
+      ],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 50,
+      "positive_rating_count": 39,
+      "users_solved": 550,
+      "users_solved_during_event": 298,
+      "event_points": 400,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 430,
+      "name": "WinAntiDbg0x200",
+      "author": "Nandan Desai",
+      "difficulty": 2,
+      "event": {
+        "id": 73,
+        "name": "picoCTF 2024"
+      },
+      "category": {
+        "id": 3,
+        "name": "Reverse Engineering"
+      },
+      "tags": [
+        {
+          "id": 41,
+          "name": "windows"
+        }
+      ],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 57,
+      "positive_rating_count": 48,
+      "users_solved": 1193,
+      "users_solved_during_event": 601,
+      "event_points": 300,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 429,
+      "name": "WinAntiDbg0x100",
+      "author": "Nandan Desai",
+      "difficulty": 2,
+      "event": {
+        "id": 73,
+        "name": "picoCTF 2024"
+      },
+      "category": {
+        "id": 3,
+        "name": "Reverse Engineering"
+      },
+      "tags": [
+        {
+          "id": 41,
+          "name": "windows"
+        }
+      ],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 79,
+      "positive_rating_count": 76,
+      "users_solved": 1602,
+      "users_solved_during_event": 752,
+      "event_points": 200,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 428,
+      "name": "weirdSnake",
+      "author": "Junias Bonou",
+      "difficulty": 2,
+      "event": {
+        "id": 73,
+        "name": "picoCTF 2024"
+      },
+      "category": {
+        "id": 3,
+        "name": "Reverse Engineering"
+      },
+      "tags": [
+        {
+          "id": 63,
+          "name": "browser_webshell_solvable"
+        },
+        {
+          "id": 1,
+          "name": "Python"
+        }
+      ],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 93,
+      "positive_rating_count": 63,
+      "users_solved": 1538,
+      "users_solved_during_event": 655,
+      "event_points": 300,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 421,
+      "name": "packer",
+      "author": "Mubarak Mikail",
+      "difficulty": 2,
+      "event": {
+        "id": 73,
+        "name": "picoCTF 2024"
+      },
+      "category": {
+        "id": 3,
+        "name": "Reverse Engineering"
+      },
+      "tags": [
+        {
+          "id": 63,
+          "name": "browser_webshell_solvable"
+        }
+      ],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 151,
+      "positive_rating_count": 130,
+      "users_solved": 5391,
+      "users_solved_during_event": 1950,
+      "event_points": 100,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 416,
+      "name": "FactCheck",
+      "author": "Junias Bonou",
+      "difficulty": 2,
+      "event": {
+        "id": 73,
+        "name": "picoCTF 2024"
+      },
+      "category": {
+        "id": 3,
+        "name": "Reverse Engineering"
+      },
+      "tags": [
+        {
+          "id": 63,
+          "name": "browser_webshell_solvable"
+        }
+      ],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 86,
+      "positive_rating_count": 59,
+      "users_solved": 1935,
+      "users_solved_during_event": 1048,
+      "event_points": 200,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "This challenge has been updated to fix a bug affecting flag checking for some players. Flags have changed, but this does not affect the solve method. Please re-download the file and try again.",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 409,
+      "name": "Classic Crackme 0x100",
+      "author": "Nandan Desai",
+      "difficulty": 2,
+      "event": {
+        "id": 73,
+        "name": "picoCTF 2024"
+      },
+      "category": {
+        "id": 3,
+        "name": "Reverse Engineering"
+      },
+      "tags": [
+        {
+          "id": 63,
+          "name": "browser_webshell_solvable"
+        }
+      ],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 73,
+      "positive_rating_count": 65,
+      "users_solved": 1524,
+      "users_solved_during_event": 732,
+      "event_points": 300,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "Binaries downloaded prior to March 13th, 2024 may not match the intended solution. Please redownload the updated binary if needed.",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 402,
+      "name": "Picker III",
+      "author": "LT 'syreal' Jones",
+      "difficulty": 2,
+      "event": null,
+      "category": {
+        "id": 3,
+        "name": "Reverse Engineering"
+      },
+      "tags": [
+        {
+          "id": 1,
+          "name": "Python"
+        }
+      ],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 138,
+      "positive_rating_count": 135,
+      "users_solved": 3704,
+      "users_solved_during_event": null,
+      "event_points": 100,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 401,
+      "name": "Picker II",
+      "author": "LT 'syreal' Jones",
+      "difficulty": 2,
+      "event": null,
+      "category": {
+        "id": 3,
+        "name": "Reverse Engineering"
+      },
+      "tags": [
+        {
+          "id": 1,
+          "name": "Python"
+        }
+      ],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 138,
+      "positive_rating_count": 133,
+      "users_solved": 4904,
+      "users_solved_during_event": null,
+      "event_points": 100,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 400,
+      "name": "Picker I",
+      "author": "LT 'syreal' Jones",
+      "difficulty": 2,
+      "event": null,
+      "category": {
+        "id": 3,
+        "name": "Reverse Engineering"
+      },
+      "tags": [
+        {
+          "id": 1,
+          "name": "Python"
+        }
+      ],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 151,
+      "positive_rating_count": 137,
+      "users_solved": 7290,
+      "users_solved_during_event": null,
+      "event_points": 100,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 398,
+      "name": "GDB baby step 4",
+      "author": "LT 'syreal' Jones",
+      "difficulty": 2,
+      "event": null,
+      "category": {
+        "id": 3,
+        "name": "Reverse Engineering"
+      },
+      "tags": [
+        {
+          "id": 62,
+          "name": "x86_64"
+        }
+      ],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 62,
+      "positive_rating_count": 57,
+      "users_solved": 3778,
+      "users_solved_during_event": null,
+      "event_points": 100,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 397,
+      "name": "GDB baby step 3",
+      "author": "LT 'syreal' Jones",
+      "difficulty": 2,
+      "event": null,
+      "category": {
+        "id": 3,
+        "name": "Reverse Engineering"
+      },
+      "tags": [
+        {
+          "id": 62,
+          "name": "x86_64"
+        }
+      ],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 114,
+      "positive_rating_count": 59,
+      "users_solved": 3721,
+      "users_solved_during_event": null,
+      "event_points": 100,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 396,
+      "name": "GDB baby step 2",
+      "author": "LT 'syreal' Jones",
+      "difficulty": 2,
+      "event": null,
+      "category": {
+        "id": 3,
+        "name": "Reverse Engineering"
+      },
+      "tags": [
+        {
+          "id": 62,
+          "name": "x86_64"
+        }
+      ],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 89,
+      "positive_rating_count": 86,
+      "users_solved": 4848,
+      "users_solved_during_event": null,
+      "event_points": 100,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 395,
+      "name": "GDB baby step 1",
+      "author": "LT 'syreal' Jones",
+      "difficulty": 2,
+      "event": null,
+      "category": {
+        "id": 3,
+        "name": "Reverse Engineering"
+      },
+      "tags": [
+        {
+          "id": 62,
+          "name": "x86_64"
+        }
+      ],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 87,
+      "positive_rating_count": 78,
+      "users_solved": 5769,
+      "users_solved_during_event": null,
+      "event_points": 100,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 394,
+      "name": "Bit-O-Asm-4",
+      "author": "LT 'syreal' Jones",
+      "difficulty": 2,
+      "event": null,
+      "category": {
+        "id": 3,
+        "name": "Reverse Engineering"
+      },
+      "tags": [
+        {
+          "id": 62,
+          "name": "x86_64"
+        }
+      ],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 73,
+      "positive_rating_count": 69,
+      "users_solved": 4801,
+      "users_solved_during_event": null,
+      "event_points": 100,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 393,
+      "name": "Bit-O-Asm-3",
+      "author": "LT 'syreal' Jones",
+      "difficulty": 2,
+      "event": null,
+      "category": {
+        "id": 3,
+        "name": "Reverse Engineering"
+      },
+      "tags": [
+        {
+          "id": 62,
+          "name": "x86_64"
+        }
+      ],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 86,
+      "positive_rating_count": 82,
+      "users_solved": 5165,
+      "users_solved_during_event": null,
+      "event_points": 100,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 392,
+      "name": "Bit-O-Asm-2",
+      "author": "LT 'syreal' Jones",
+      "difficulty": 2,
+      "event": null,
+      "category": {
+        "id": 3,
+        "name": "Reverse Engineering"
+      },
+      "tags": [
+        {
+          "id": 62,
+          "name": "x86_64"
+        }
+      ],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 70,
+      "positive_rating_count": 61,
+      "users_solved": 5826,
+      "users_solved_during_event": null,
+      "event_points": 100,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 391,
+      "name": "Bit-O-Asm-1",
+      "author": "LT 'syreal' Jones",
+      "difficulty": 2,
+      "event": null,
+      "category": {
+        "id": 3,
+        "name": "Reverse Engineering"
+      },
+      "tags": [
+        {
+          "id": 62,
+          "name": "x86_64"
+        }
+      ],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 76,
+      "positive_rating_count": 68,
+      "users_solved": 6855,
+      "users_solved_during_event": null,
+      "event_points": 100,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 389,
+      "name": "ASCII FTW",
+      "author": "Abhishek Agarwal",
+      "difficulty": 2,
+      "event": null,
+      "category": {
+        "id": 3,
+        "name": "Reverse Engineering"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 94,
+      "positive_rating_count": 82,
+      "users_solved": 4842,
+      "users_solved_during_event": null,
+      "event_points": 100,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 385,
+      "name": "Virtual Machine 0",
+      "author": "LT 'syreal' Jones",
+      "difficulty": 2,
+      "event": {
+        "id": 72,
+        "name": "picoCTF 2023"
+      },
+      "category": {
+        "id": 3,
+        "name": "Reverse Engineering"
+      },
+      "tags": [
+        {
+          "id": 58,
+          "name": "Analog"
+        }
+      ],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 199,
+      "positive_rating_count": 56,
+      "users_solved": 1904,
+      "users_solved_during_event": 690,
+      "event_points": 100,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 381,
+      "name": "timer",
+      "author": "Loic Shema",
+      "difficulty": 2,
+      "event": {
+        "id": 72,
+        "name": "picoCTF 2023"
+      },
+      "category": {
+        "id": 3,
+        "name": "Reverse Engineering"
+      },
+      "tags": [
+        {
+          "id": 54,
+          "name": "android"
+        }
+      ],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 135,
+      "positive_rating_count": 84,
+      "users_solved": 7127,
+      "users_solved_during_event": 3321,
+      "event_points": 100,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 375,
+      "name": "Safe Opener 2",
+      "author": "Mubarak Mikail",
+      "difficulty": 2,
+      "event": {
+        "id": 72,
+        "name": "picoCTF 2023"
+      },
+      "category": {
+        "id": 3,
+        "name": "Reverse Engineering"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 143,
+      "positive_rating_count": 101,
+      "users_solved": 11828,
+      "users_solved_during_event": 4532,
+      "event_points": 100,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 372,
+      "name": "Reverse",
+      "author": "Mubarak Mikail",
+      "difficulty": 2,
+      "event": {
+        "id": 72,
+        "name": "picoCTF 2023"
+      },
+      "category": {
+        "id": 3,
+        "name": "Reverse Engineering"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 182,
+      "positive_rating_count": 139,
+      "users_solved": 13254,
+      "users_solved_during_event": 4876,
+      "event_points": 100,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 370,
+      "name": "Ready Gladiator 2",
+      "author": "LT 'syreal' Jones",
+      "difficulty": 2,
+      "event": {
+        "id": 72,
+        "name": "picoCTF 2023"
+      },
+      "category": {
+        "id": 3,
+        "name": "Reverse Engineering"
+      },
+      "tags": [
+        {
+          "id": 48,
+          "name": "CoreWars"
+        }
+      ],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 52,
+      "positive_rating_count": 36,
+      "users_solved": 1638,
+      "users_solved_during_event": 881,
+      "event_points": 400,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 369,
+      "name": "Ready Gladiator 1",
+      "author": "LT 'syreal' Jones",
+      "difficulty": 2,
+      "event": {
+        "id": 72,
+        "name": "picoCTF 2023"
+      },
+      "category": {
+        "id": 3,
+        "name": "Reverse Engineering"
+      },
+      "tags": [
+        {
+          "id": 48,
+          "name": "CoreWars"
+        }
+      ],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 71,
+      "positive_rating_count": 58,
+      "users_solved": 2817,
+      "users_solved_during_event": 1504,
+      "event_points": 200,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 368,
+      "name": "Ready Gladiator 0",
+      "author": "LT 'syreal' Jones",
+      "difficulty": 2,
+      "event": {
+        "id": 72,
+        "name": "picoCTF 2023"
+      },
+      "category": {
+        "id": 3,
+        "name": "Reverse Engineering"
+      },
+      "tags": [
+        {
+          "id": 48,
+          "name": "CoreWars"
+        }
+      ],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 170,
+      "positive_rating_count": 87,
+      "users_solved": 6550,
+      "users_solved_during_event": 2647,
+      "event_points": 100,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 314,
+      "name": "unpackme.py",
+      "author": "LT 'syreal' Jones",
+      "difficulty": 2,
+      "event": {
+        "id": 70,
+        "name": "picoCTF 2022"
+      },
+      "category": {
+        "id": 3,
+        "name": "Reverse Engineering"
+      },
+      "tags": [
+        {
+          "id": 40,
+          "name": "packing"
+        }
+      ],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 214,
+      "positive_rating_count": 190,
+      "users_solved": 13901,
+      "users_solved_during_event": 3305,
+      "event_points": 100,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 313,
+      "name": "unpackme",
+      "author": "LT 'syreal' Jones",
+      "difficulty": 2,
+      "event": {
+        "id": 70,
+        "name": "picoCTF 2022"
+      },
+      "category": {
+        "id": 3,
+        "name": "Reverse Engineering"
+      },
+      "tags": [
+        {
+          "id": 7,
+          "name": "binary"
+        },
+        {
+          "id": 39,
+          "name": "packed"
+        }
+      ],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 103,
+      "positive_rating_count": 97,
+      "users_solved": 4928,
+      "users_solved_during_event": 1528,
+      "event_points": 300,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 294,
+      "name": "Safe Opener",
+      "author": "Mubarak Mikail",
+      "difficulty": 2,
+      "event": {
+        "id": 70,
+        "name": "picoCTF 2022"
+      },
+      "category": {
+        "id": 3,
+        "name": "Reverse Engineering"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 210,
+      "positive_rating_count": 194,
+      "users_solved": 17715,
+      "users_solved_during_event": 4182,
+      "event_points": 100,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 287,
+      "name": "patchme.py",
+      "author": "LT 'syreal' Jones",
+      "difficulty": 2,
+      "event": {
+        "id": 70,
+        "name": "picoCTF 2022"
+      },
+      "category": {
+        "id": 3,
+        "name": "Reverse Engineering"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 214,
+      "positive_rating_count": 181,
+      "users_solved": 17196,
+      "users_solved_during_event": 4268,
+      "event_points": 100,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 273,
+      "name": "GDB Test Drive",
+      "author": "LT 'syreal' Jones",
+      "difficulty": 2,
+      "event": {
+        "id": 70,
+        "name": "picoCTF 2022"
+      },
+      "category": {
+        "id": 3,
+        "name": "Reverse Engineering"
+      },
+      "tags": [
+        {
+          "id": 7,
+          "name": "binary"
+        },
+        {
+          "id": 18,
+          "name": "gdb"
+        }
+      ],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 229,
+      "positive_rating_count": 202,
+      "users_solved": 14444,
+      "users_solved_during_event": 4142,
+      "event_points": 100,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 271,
+      "name": "Fresh Java",
+      "author": "LT 'syreal' Jones",
+      "difficulty": 2,
+      "event": {
+        "id": 70,
+        "name": "picoCTF 2022"
+      },
+      "category": {
+        "id": 3,
+        "name": "Reverse Engineering"
+      },
+      "tags": [
+        {
+          "id": 15,
+          "name": "Java"
+        }
+      ],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 114,
+      "positive_rating_count": 88,
+      "users_solved": 9118,
+      "users_solved_during_event": 3170,
+      "event_points": 200,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 267,
+      "name": "file-run2",
+      "author": "Will Hong",
+      "difficulty": 2,
+      "event": {
+        "id": 70,
+        "name": "picoCTF 2022"
+      },
+      "category": {
+        "id": 3,
+        "name": "Reverse Engineering"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 213,
+      "positive_rating_count": 161,
+      "users_solved": 20272,
+      "users_solved_during_event": 5023,
+      "event_points": 100,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 266,
+      "name": "file-run1",
+      "author": "Will Hong",
+      "difficulty": 2,
+      "event": {
+        "id": 70,
+        "name": "picoCTF 2022"
+      },
+      "category": {
+        "id": 3,
+        "name": "Reverse Engineering"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 297,
+      "positive_rating_count": 198,
+      "users_solved": 23624,
+      "users_solved_during_event": 5220,
+      "event_points": 100,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 256,
+      "name": "bloat.py",
+      "author": "LT 'syreal' Jones",
+      "difficulty": 2,
+      "event": {
+        "id": 70,
+        "name": "picoCTF 2022"
+      },
+      "category": {
+        "id": 3,
+        "name": "Reverse Engineering"
+      },
+      "tags": [
+        {
+          "id": 8,
+          "name": "obfuscation"
+        }
+      ],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 195,
+      "positive_rating_count": 173,
+      "users_solved": 10384,
+      "users_solved_during_event": 3179,
+      "event_points": 200,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 255,
+      "name": "Bbbbloat",
+      "author": "LT 'syreal' Jones",
+      "difficulty": 2,
+      "event": {
+        "id": 70,
+        "name": "picoCTF 2022"
+      },
+      "category": {
+        "id": 3,
+        "name": "Reverse Engineering"
+      },
+      "tags": [
+        {
+          "id": 7,
+          "name": "binary"
+        },
+        {
+          "id": 8,
+          "name": "obfuscation"
+        }
+      ],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 158,
+      "positive_rating_count": 144,
+      "users_solved": 6668,
+      "users_solved_during_event": 1827,
+      "event_points": 300,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 175,
+      "name": "crackme-py",
+      "author": "syreal",
+      "difficulty": 2,
+      "event": {
+        "id": 34,
+        "name": "picoCTF 2021"
+      },
+      "category": {
+        "id": 3,
+        "name": "Reverse Engineering"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 744,
+      "positive_rating_count": 538,
+      "users_solved": 40584,
+      "users_solved_during_event": 2405,
+      "event_points": 30,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 160,
+      "name": "ARMssembly 0",
+      "author": "Dylan McGuire",
+      "difficulty": 2,
+      "event": {
+        "id": 34,
+        "name": "picoCTF 2021"
+      },
+      "category": {
+        "id": 3,
+        "name": "Reverse Engineering"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 263,
+      "positive_rating_count": 169,
+      "users_solved": 9541,
+      "users_solved_during_event": 433,
+      "event_points": 40,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 134,
+      "name": "Shop",
+      "author": "thelshell",
+      "difficulty": 2,
+      "event": {
+        "id": 34,
+        "name": "picoCTF 2021"
+      },
+      "category": {
+        "id": 3,
+        "name": "Reverse Engineering"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 383,
+      "positive_rating_count": 341,
+      "users_solved": 15972,
+      "users_solved_during_event": 965,
+      "event_points": 50,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 121,
+      "name": "keygenme-py",
+      "author": "syreal",
+      "difficulty": 2,
+      "event": {
+        "id": 34,
+        "name": "picoCTF 2021"
+      },
+      "category": {
+        "id": 3,
+        "name": "Reverse Engineering"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 1061,
+      "positive_rating_count": 1005,
+      "users_solved": 29823,
+      "users_solved_during_event": 1249,
+      "event_points": 30,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 116,
+      "name": "speeds and feeds",
+      "author": "Ryan Ramseyer",
+      "difficulty": 2,
+      "event": {
+        "id": 34,
+        "name": "picoCTF 2021"
+      },
+      "category": {
+        "id": 3,
+        "name": "Reverse Engineering"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 570,
+      "positive_rating_count": 500,
+      "users_solved": 17096,
+      "users_solved_during_event": 1186,
+      "event_points": 50,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 111,
+      "name": "ARMssembly 1",
+      "author": "Pranay Garg",
+      "difficulty": 2,
+      "event": {
+        "id": 34,
+        "name": "picoCTF 2021"
+      },
+      "category": {
+        "id": 3,
+        "name": "Reverse Engineering"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 149,
+      "positive_rating_count": 103,
+      "users_solved": 4102,
+      "users_solved_during_event": 336,
+      "event_points": 70,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 77,
+      "name": "vault-door-5",
+      "author": "Mark E. Haase",
+      "difficulty": 2,
+      "event": {
+        "id": 1,
+        "name": "picoCTF 2019"
+      },
+      "category": {
+        "id": 3,
+        "name": "Reverse Engineering"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 97,
+      "positive_rating_count": 94,
+      "users_solved": 6107,
+      "users_solved_during_event": 0,
+      "event_points": 300,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 71,
+      "name": "vault-door-4",
+      "author": "Mark E. Haase",
+      "difficulty": 2,
+      "event": {
+        "id": 1,
+        "name": "picoCTF 2019"
+      },
+      "category": {
+        "id": 3,
+        "name": "Reverse Engineering"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 109,
+      "positive_rating_count": 96,
+      "users_solved": 8146,
+      "users_solved_during_event": 0,
+      "event_points": 250,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 60,
+      "name": "vault-door-3",
+      "author": "Mark E. Haase",
+      "difficulty": 2,
+      "event": {
+        "id": 1,
+        "name": "picoCTF 2019"
+      },
+      "category": {
+        "id": 3,
+        "name": "Reverse Engineering"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 187,
+      "positive_rating_count": 155,
+      "users_solved": 9645,
+      "users_solved_during_event": 0,
+      "event_points": 200,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 45,
+      "name": "vault-door-6",
+      "author": "Mark E. Haase",
+      "difficulty": 2,
+      "event": {
+        "id": 1,
+        "name": "picoCTF 2019"
+      },
+      "category": {
+        "id": 3,
+        "name": "Reverse Engineering"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 92,
+      "positive_rating_count": 85,
+      "users_solved": 4668,
+      "users_solved_during_event": 0,
+      "event_points": 350,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 20,
+      "name": "asm1",
+      "author": "Sanjay C",
+      "difficulty": 2,
+      "event": {
+        "id": 1,
+        "name": "picoCTF 2019"
+      },
+      "category": {
+        "id": 3,
+        "name": "Reverse Engineering"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 178,
+      "positive_rating_count": 121,
+      "users_solved": 5920,
+      "users_solved_during_event": 0,
+      "event_points": 200,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 12,
+      "name": "vault-door-1",
+      "author": "Mark E. Haase",
+      "difficulty": 2,
+      "event": {
+        "id": 1,
+        "name": "picoCTF 2019"
+      },
+      "category": {
+        "id": 3,
+        "name": "Reverse Engineering"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 564,
+      "positive_rating_count": 350,
+      "users_solved": 30215,
+      "users_solved_during_event": 0,
+      "event_points": 100,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 386,
+      "name": "Virtual Machine 1",
+      "author": "LT 'syreal' Jones",
+      "difficulty": 3,
+      "event": {
+        "id": 72,
+        "name": "picoCTF 2023"
+      },
+      "category": {
+        "id": 3,
+        "name": "Reverse Engineering"
+      },
+      "tags": [
+        {
+          "id": 58,
+          "name": "Analog"
+        }
+      ],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 53,
+      "positive_rating_count": 16,
+      "users_solved": 379,
+      "users_solved_during_event": 271,
+      "event_points": 300,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 361,
+      "name": "No way out",
+      "author": "Kris",
+      "difficulty": 3,
+      "event": {
+        "id": 72,
+        "name": "picoCTF 2023"
+      },
+      "category": {
+        "id": 3,
+        "name": "Reverse Engineering"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 92,
+      "positive_rating_count": 74,
+      "users_solved": 1410,
+      "users_solved_during_event": 636,
+      "event_points": 200,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 318,
+      "name": "Wizardlike",
+      "author": "LT 'syreal' Jones",
+      "difficulty": 3,
+      "event": {
+        "id": 70,
+        "name": "picoCTF 2022"
+      },
+      "category": {
+        "id": 3,
+        "name": "Reverse Engineering"
+      },
+      "tags": [
+        {
+          "id": 7,
+          "name": "binary"
+        },
+        {
+          "id": 42,
+          "name": "game"
+        }
+      ],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 139,
+      "positive_rating_count": 91,
+      "users_solved": 1253,
+      "users_solved_during_event": 573,
+      "event_points": 500,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 276,
+      "name": "Keygenme",
+      "author": "LT 'syreal' Jones",
+      "difficulty": 3,
+      "event": {
+        "id": 70,
+        "name": "picoCTF 2022"
+      },
+      "category": {
+        "id": 3,
+        "name": "Reverse Engineering"
+      },
+      "tags": [
+        {
+          "id": 7,
+          "name": "binary"
+        },
+        {
+          "id": 20,
+          "name": "keygen"
+        }
+      ],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 92,
+      "positive_rating_count": 79,
+      "users_solved": 2024,
+      "users_solved_during_event": 882,
+      "event_points": 400,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 222,
+      "name": "not crypto",
+      "author": "asphyxia",
+      "difficulty": 3,
+      "event": {
+        "id": 67,
+        "name": "picoMini by redpwn"
+      },
+      "category": {
+        "id": 3,
+        "name": "Reverse Engineering"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 41,
+      "positive_rating_count": 35,
+      "users_solved": 1527,
+      "users_solved_during_event": 44,
+      "event_points": 150,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 221,
+      "name": "MATRIX",
+      "author": "asphyxia",
+      "difficulty": 3,
+      "event": {
+        "id": 67,
+        "name": "picoMini by redpwn"
+      },
+      "category": {
+        "id": 3,
+        "name": "Reverse Engineering"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 41,
+      "positive_rating_count": 39,
+      "users_solved": 162,
+      "users_solved_during_event": 5,
+      "event_points": 500,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 220,
+      "name": "breadth",
+      "author": "asphyxia",
+      "difficulty": 3,
+      "event": {
+        "id": 67,
+        "name": "picoMini by redpwn"
+      },
+      "category": {
+        "id": 3,
+        "name": "Reverse Engineering"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 25,
+      "positive_rating_count": 20,
+      "users_solved": 680,
+      "users_solved_during_event": 35,
+      "event_points": 200,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 219,
+      "name": "riscy business",
+      "author": "asphyxia",
+      "difficulty": 3,
+      "event": {
+        "id": 67,
+        "name": "picoMini by redpwn"
+      },
+      "category": {
+        "id": 3,
+        "name": "Reverse Engineering"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 16,
+      "positive_rating_count": 15,
+      "users_solved": 181,
+      "users_solved_during_event": 9,
+      "event_points": 350,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 183,
+      "name": "ARMssembly 4",
+      "author": "Dylan McGuire",
+      "difficulty": 3,
+      "event": {
+        "id": 34,
+        "name": "picoCTF 2021"
+      },
+      "category": {
+        "id": 3,
+        "name": "Reverse Engineering"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 29,
+      "positive_rating_count": 22,
+      "users_solved": 1262,
+      "users_solved_during_event": 277,
+      "event_points": 170,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 171,
+      "name": "gogo",
+      "author": "thelshell",
+      "difficulty": 3,
+      "event": {
+        "id": 34,
+        "name": "picoCTF 2021"
+      },
+      "category": {
+        "id": 3,
+        "name": "Reverse Engineering"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 80,
+      "positive_rating_count": 57,
+      "users_solved": 1718,
+      "users_solved_during_event": 200,
+      "event_points": 110,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 165,
+      "name": "Hurry up! Wait!",
+      "author": "syreal",
+      "difficulty": 3,
+      "event": {
+        "id": 34,
+        "name": "picoCTF 2021"
+      },
+      "category": {
+        "id": 3,
+        "name": "Reverse Engineering"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 135,
+      "positive_rating_count": 92,
+      "users_solved": 2811,
+      "users_solved_during_event": 245,
+      "event_points": 100,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 151,
+      "name": "Rolling My Own",
+      "author": "Luke Rindels",
+      "difficulty": 3,
+      "event": {
+        "id": 34,
+        "name": "picoCTF 2021"
+      },
+      "category": {
+        "id": 3,
+        "name": "Reverse Engineering"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 39,
+      "positive_rating_count": 36,
+      "users_solved": 484,
+      "users_solved_during_event": 82,
+      "event_points": 300,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 150,
+      "name": "ARMssembly 2",
+      "author": "Dylan McGuire",
+      "difficulty": 3,
+      "event": {
+        "id": 34,
+        "name": "picoCTF 2021"
+      },
+      "category": {
+        "id": 3,
+        "name": "Reverse Engineering"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 63,
+      "positive_rating_count": 50,
+      "users_solved": 3061,
+      "users_solved_during_event": 334,
+      "event_points": 90,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 149,
+      "name": "Checkpass",
+      "author": "Jay Bosamiya",
+      "difficulty": 3,
+      "event": {
+        "id": 34,
+        "name": "picoCTF 2021"
+      },
+      "category": {
+        "id": 3,
+        "name": "Reverse Engineering"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 17,
+      "positive_rating_count": 13,
+      "users_solved": 211,
+      "users_solved_during_event": 71,
+      "event_points": 375,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 122,
+      "name": "Easy as GDB",
+      "author": "McKade",
+      "difficulty": 3,
+      "event": {
+        "id": 34,
+        "name": "picoCTF 2021"
+      },
+      "category": {
+        "id": 3,
+        "name": "Reverse Engineering"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 54,
+      "positive_rating_count": 51,
+      "users_solved": 843,
+      "users_solved_during_event": 142,
+      "event_points": 160,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 119,
+      "name": "Powershelly",
+      "author": "Sara",
+      "difficulty": 3,
+      "event": {
+        "id": 34,
+        "name": "picoCTF 2021"
+      },
+      "category": {
+        "id": 3,
+        "name": "Reverse Engineering"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 49,
+      "positive_rating_count": 19,
+      "users_solved": 748,
+      "users_solved_during_event": 100,
+      "event_points": 180,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 106,
+      "name": "ARMssembly 3",
+      "author": "Dylan McGuire",
+      "difficulty": 3,
+      "event": {
+        "id": 34,
+        "name": "picoCTF 2021"
+      },
+      "category": {
+        "id": 3,
+        "name": "Reverse Engineering"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 36,
+      "positive_rating_count": 32,
+      "users_solved": 1706,
+      "users_solved_during_event": 303,
+      "event_points": 130,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 102,
+      "name": "Let's get dynamic",
+      "author": "Ryan Ramseyer",
+      "difficulty": 3,
+      "event": {
+        "id": 34,
+        "name": "picoCTF 2021"
+      },
+      "category": {
+        "id": 3,
+        "name": "Reverse Engineering"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 54,
+      "positive_rating_count": 37,
+      "users_solved": 1257,
+      "users_solved_during_event": 230,
+      "event_points": 150,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 92,
+      "name": "OTP Implementation",
+      "author": "madStacks",
+      "difficulty": 3,
+      "event": {
+        "id": 3,
+        "name": "picoCTF 2020 Mini-Competition"
+      },
+      "category": {
+        "id": 3,
+        "name": "Reverse Engineering"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 82,
+      "positive_rating_count": 79,
+      "users_solved": 799,
+      "users_solved_during_event": 163,
+      "event_points": 1,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 79,
+      "name": "reverse_cipher",
+      "author": "Danny Tunitis",
+      "difficulty": 3,
+      "event": {
+        "id": 1,
+        "name": "picoCTF 2019"
+      },
+      "category": {
+        "id": 3,
+        "name": "Reverse Engineering"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 42,
+      "positive_rating_count": 38,
+      "users_solved": 1832,
+      "users_solved_during_event": 0,
+      "event_points": 300,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 72,
+      "name": "asm3",
+      "author": "Sanjay C",
+      "difficulty": 3,
+      "event": {
+        "id": 1,
+        "name": "picoCTF 2019"
+      },
+      "category": {
+        "id": 3,
+        "name": "Reverse Engineering"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 42,
+      "positive_rating_count": 24,
+      "users_solved": 1568,
+      "users_solved_during_event": 0,
+      "event_points": 300,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 65,
+      "name": "vault-door-7",
+      "author": "Mark E. Haase",
+      "difficulty": 3,
+      "event": {
+        "id": 1,
+        "name": "picoCTF 2019"
+      },
+      "category": {
+        "id": 3,
+        "name": "Reverse Engineering"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 80,
+      "positive_rating_count": 75,
+      "users_solved": 3546,
+      "users_solved_during_event": 0,
+      "event_points": 400,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 63,
+      "name": "droids2",
+      "author": "Jason",
+      "difficulty": 3,
+      "event": {
+        "id": 1,
+        "name": "picoCTF 2019"
+      },
+      "category": {
+        "id": 3,
+        "name": "Reverse Engineering"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 28,
+      "positive_rating_count": 28,
+      "users_solved": 1786,
+      "users_solved_during_event": 0,
+      "event_points": 400,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 57,
+      "name": "B1ll_Gat35",
+      "author": "Alex Bushkin",
+      "difficulty": 3,
+      "event": {
+        "id": 1,
+        "name": "picoCTF 2019"
+      },
+      "category": {
+        "id": 3,
+        "name": "Reverse Engineering"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 17,
+      "positive_rating_count": 9,
+      "users_solved": 1013,
+      "users_solved_during_event": 0,
+      "event_points": 400,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": true,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 39,
+      "name": "Need For Speed",
+      "author": "Alexander Bushkin",
+      "difficulty": 3,
+      "event": {
+        "id": 1,
+        "name": "picoCTF 2019"
+      },
+      "category": {
+        "id": 3,
+        "name": "Reverse Engineering"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 42,
+      "positive_rating_count": 39,
+      "users_solved": 1198,
+      "users_solved_during_event": 0,
+      "event_points": 400,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 24,
+      "name": "Forky",
+      "author": "Samuel",
+      "difficulty": 3,
+      "event": {
+        "id": 1,
+        "name": "picoCTF 2019"
+      },
+      "category": {
+        "id": 3,
+        "name": "Reverse Engineering"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 49,
+      "positive_rating_count": 30,
+      "users_solved": 2709,
+      "users_solved_during_event": 0,
+      "event_points": 500,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 23,
+      "name": "droids3",
+      "author": "Jason",
+      "difficulty": 3,
+      "event": {
+        "id": 1,
+        "name": "picoCTF 2019"
+      },
+      "category": {
+        "id": 3,
+        "name": "Reverse Engineering"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 19,
+      "positive_rating_count": 18,
+      "users_solved": 1844,
+      "users_solved_during_event": 0,
+      "event_points": 450,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 17,
+      "name": "droids4",
+      "author": "Jason",
+      "difficulty": 3,
+      "event": {
+        "id": 1,
+        "name": "picoCTF 2019"
+      },
+      "category": {
+        "id": 3,
+        "name": "Reverse Engineering"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 33,
+      "positive_rating_count": 29,
+      "users_solved": 2191,
+      "users_solved_during_event": 0,
+      "event_points": 500,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 16,
+      "name": "asm2",
+      "author": "Sanjay C",
+      "difficulty": 3,
+      "event": {
+        "id": 1,
+        "name": "picoCTF 2019"
+      },
+      "category": {
+        "id": 3,
+        "name": "Reverse Engineering"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 88,
+      "positive_rating_count": 74,
+      "users_solved": 3032,
+      "users_solved_during_event": 0,
+      "event_points": 250,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 14,
+      "name": "droids1",
+      "author": "Jason",
+      "difficulty": 3,
+      "event": {
+        "id": 1,
+        "name": "picoCTF 2019"
+      },
+      "category": {
+        "id": 3,
+        "name": "Reverse Engineering"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 27,
+      "positive_rating_count": 26,
+      "users_solved": 1949,
+      "users_solved_during_event": 0,
+      "event_points": 350,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 11,
+      "name": "droids0",
+      "author": "Jason",
+      "difficulty": 3,
+      "event": {
+        "id": 1,
+        "name": "picoCTF 2019"
+      },
+      "category": {
+        "id": 3,
+        "name": "Reverse Engineering"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 32,
+      "positive_rating_count": 29,
+      "users_solved": 2375,
+      "users_solved_during_event": 0,
+      "event_points": 300,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 10,
+      "name": "vault-door-8",
+      "author": "Mark E. Haase",
+      "difficulty": 3,
+      "event": {
+        "id": 1,
+        "name": "picoCTF 2019"
+      },
+      "category": {
+        "id": 3,
+        "name": "Reverse Engineering"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 92,
+      "positive_rating_count": 87,
+      "users_solved": 2585,
+      "users_solved_during_event": 0,
+      "event_points": 450,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 5,
+      "name": "asm4",
+      "author": "Sanjay C",
+      "difficulty": 3,
+      "event": {
+        "id": 1,
+        "name": "picoCTF 2019"
+      },
+      "category": {
+        "id": 3,
+        "name": "Reverse Engineering"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 27,
+      "positive_rating_count": 25,
+      "users_solved": 770,
+      "users_solved_during_event": 0,
+      "event_points": 400,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    }
+  ]
+}

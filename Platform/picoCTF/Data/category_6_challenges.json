@@ -1,0 +1,1799 @@
+{
+  "count": 55,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "id": 438,
+      "name": "heap 0",
+      "author": "Abrxs, pr1or1tyQ",
+      "difficulty": 1,
+      "event": {
+        "id": 73,
+        "name": "picoCTF 2024"
+      },
+      "category": {
+        "id": 6,
+        "name": "Binary Exploitation"
+      },
+      "tags": [
+        {
+          "id": 63,
+          "name": "browser_webshell_solvable"
+        },
+        {
+          "id": 74,
+          "name": "heap"
+        }
+      ],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 334,
+      "positive_rating_count": 305,
+      "users_solved": 18609,
+      "users_solved_during_event": 3290,
+      "event_points": 50,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 433,
+      "name": "format string 0",
+      "author": "Cheng Zhang",
+      "difficulty": 1,
+      "event": {
+        "id": 73,
+        "name": "picoCTF 2024"
+      },
+      "category": {
+        "id": 6,
+        "name": "Binary Exploitation"
+      },
+      "tags": [
+        {
+          "id": 63,
+          "name": "browser_webshell_solvable"
+        },
+        {
+          "id": 14,
+          "name": "format_string"
+        }
+      ],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 432,
+      "positive_rating_count": 227,
+      "users_solved": 17324,
+      "users_solved_during_event": 3978,
+      "event_points": 50,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 449,
+      "name": "format string 3",
+      "author": "SkrubLawd",
+      "difficulty": 2,
+      "event": {
+        "id": 73,
+        "name": "picoCTF 2024"
+      },
+      "category": {
+        "id": 6,
+        "name": "Binary Exploitation"
+      },
+      "tags": [
+        {
+          "id": 63,
+          "name": "browser_webshell_solvable"
+        },
+        {
+          "id": 14,
+          "name": "format_string"
+        }
+      ],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 45,
+      "positive_rating_count": 43,
+      "users_solved": 887,
+      "users_solved_during_event": 384,
+      "event_points": 300,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 448,
+      "name": "format string 2",
+      "author": "SkrubLawd",
+      "difficulty": 2,
+      "event": {
+        "id": 73,
+        "name": "picoCTF 2024"
+      },
+      "category": {
+        "id": 6,
+        "name": "Binary Exploitation"
+      },
+      "tags": [
+        {
+          "id": 63,
+          "name": "browser_webshell_solvable"
+        },
+        {
+          "id": 14,
+          "name": "format_string"
+        }
+      ],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 62,
+      "positive_rating_count": 56,
+      "users_solved": 1505,
+      "users_solved_during_event": 509,
+      "event_points": 200,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 440,
+      "name": "heap 3",
+      "author": "Abrxs",
+      "difficulty": 2,
+      "event": {
+        "id": 73,
+        "name": "picoCTF 2024"
+      },
+      "category": {
+        "id": 6,
+        "name": "Binary Exploitation"
+      },
+      "tags": [
+        {
+          "id": 63,
+          "name": "browser_webshell_solvable"
+        },
+        {
+          "id": 74,
+          "name": "heap"
+        }
+      ],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 72,
+      "positive_rating_count": 71,
+      "users_solved": 2303,
+      "users_solved_during_event": 920,
+      "event_points": 200,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 439,
+      "name": "heap 1",
+      "author": "Abrxs, pr1or1tyQ",
+      "difficulty": 2,
+      "event": {
+        "id": 73,
+        "name": "picoCTF 2024"
+      },
+      "category": {
+        "id": 6,
+        "name": "Binary Exploitation"
+      },
+      "tags": [
+        {
+          "id": 63,
+          "name": "browser_webshell_solvable"
+        },
+        {
+          "id": 74,
+          "name": "heap"
+        }
+      ],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 204,
+      "positive_rating_count": 195,
+      "users_solved": 7126,
+      "users_solved_during_event": 2094,
+      "event_points": 100,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 435,
+      "name": "heap 2",
+      "author": "Abrxs, pr1or1tyQ",
+      "difficulty": 2,
+      "event": {
+        "id": 73,
+        "name": "picoCTF 2024"
+      },
+      "category": {
+        "id": 6,
+        "name": "Binary Exploitation"
+      },
+      "tags": [
+        {
+          "id": 63,
+          "name": "browser_webshell_solvable"
+        },
+        {
+          "id": 74,
+          "name": "heap"
+        }
+      ],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 85,
+      "positive_rating_count": 76,
+      "users_solved": 2538,
+      "users_solved_during_event": 898,
+      "event_points": 200,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 434,
+      "name": "format string 1",
+      "author": "syreal",
+      "difficulty": 2,
+      "event": {
+        "id": 73,
+        "name": "picoCTF 2024"
+      },
+      "category": {
+        "id": 6,
+        "name": "Binary Exploitation"
+      },
+      "tags": [
+        {
+          "id": 63,
+          "name": "browser_webshell_solvable"
+        },
+        {
+          "id": 14,
+          "name": "format_string"
+        }
+      ],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 174,
+      "positive_rating_count": 86,
+      "users_solved": 3509,
+      "users_solved_during_event": 1135,
+      "event_points": 100,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 403,
+      "name": "Picker IV",
+      "author": "LT 'syreal' Jones",
+      "difficulty": 2,
+      "event": null,
+      "category": {
+        "id": 6,
+        "name": "Binary Exploitation"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 68,
+      "positive_rating_count": 62,
+      "users_solved": 3253,
+      "users_solved_during_event": null,
+      "event_points": 100,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 399,
+      "name": "Local Target",
+      "author": "OverTheWire.org / LT 'syreal' Jones",
+      "difficulty": 2,
+      "event": null,
+      "category": {
+        "id": 6,
+        "name": "Binary Exploitation"
+      },
+      "tags": [
+        {
+          "id": 9,
+          "name": "gets"
+        }
+      ],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 64,
+      "positive_rating_count": 59,
+      "users_solved": 3221,
+      "users_solved_during_event": null,
+      "event_points": 100,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 387,
+      "name": "VNE",
+      "author": "Junias Bonou",
+      "difficulty": 2,
+      "event": {
+        "id": 72,
+        "name": "picoCTF 2023"
+      },
+      "category": {
+        "id": 6,
+        "name": "Binary Exploitation"
+      },
+      "tags": [
+        {
+          "id": 51,
+          "name": "bash"
+        },
+        {
+          "id": 59,
+          "name": "env"
+        },
+        {
+          "id": 60,
+          "name": "injection"
+        }
+      ],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 107,
+      "positive_rating_count": 100,
+      "users_solved": 2424,
+      "users_solved_during_event": 1093,
+      "event_points": 200,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 382,
+      "name": "two-sum",
+      "author": "Mubarak Mikail",
+      "difficulty": 2,
+      "event": {
+        "id": 72,
+        "name": "picoCTF 2023"
+      },
+      "category": {
+        "id": 6,
+        "name": "Binary Exploitation"
+      },
+      "tags": [
+        {
+          "id": 55,
+          "name": "C"
+        },
+        {
+          "id": 56,
+          "name": "make"
+        }
+      ],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 149,
+      "positive_rating_count": 132,
+      "users_solved": 7274,
+      "users_solved_during_event": 2712,
+      "event_points": 100,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 352,
+      "name": "hijacking",
+      "author": "Theoneste Byagutangaza",
+      "difficulty": 2,
+      "event": {
+        "id": 72,
+        "name": "picoCTF 2023"
+      },
+      "category": {
+        "id": 6,
+        "name": "Binary Exploitation"
+      },
+      "tags": [
+        {
+          "id": 45,
+          "name": "privilege_escalation"
+        }
+      ],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 111,
+      "positive_rating_count": 75,
+      "users_solved": 2291,
+      "users_solved_during_event": 1022,
+      "event_points": 200,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 345,
+      "name": "babygame01",
+      "author": "Palash Oswal",
+      "difficulty": 2,
+      "event": {
+        "id": 72,
+        "name": "picoCTF 2023"
+      },
+      "category": {
+        "id": 6,
+        "name": "Binary Exploitation"
+      },
+      "tags": [
+        {
+          "id": 42,
+          "name": "game"
+        }
+      ],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 220,
+      "positive_rating_count": 128,
+      "users_solved": 3892,
+      "users_solved_during_event": 1121,
+      "event_points": 100,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 319,
+      "name": "x-sixty-what",
+      "author": "Sanjay C / LT 'syreal' Jones",
+      "difficulty": 2,
+      "event": {
+        "id": 70,
+        "name": "picoCTF 2022"
+      },
+      "category": {
+        "id": 6,
+        "name": "Binary Exploitation"
+      },
+      "tags": [
+        {
+          "id": 43,
+          "name": "x64"
+        }
+      ],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 96,
+      "positive_rating_count": 78,
+      "users_solved": 3188,
+      "users_solved_during_event": 1093,
+      "event_points": 200,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "Reminder: local exploits may not always work the same way remotely due to differences between machines.",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 293,
+      "name": "RPS",
+      "author": "Will Hong",
+      "difficulty": 2,
+      "event": {
+        "id": 70,
+        "name": "picoCTF 2022"
+      },
+      "category": {
+        "id": 6,
+        "name": "Binary Exploitation"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 277,
+      "positive_rating_count": 265,
+      "users_solved": 7932,
+      "users_solved_during_event": 2523,
+      "event_points": 200,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 269,
+      "name": "flag leak",
+      "author": "Neel Bhavsar",
+      "difficulty": 2,
+      "event": {
+        "id": 70,
+        "name": "picoCTF 2022"
+      },
+      "category": {
+        "id": 6,
+        "name": "Binary Exploitation"
+      },
+      "tags": [
+        {
+          "id": 14,
+          "name": "format_string"
+        }
+      ],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 80,
+      "positive_rating_count": 61,
+      "users_solved": 3163,
+      "users_solved_during_event": 974,
+      "event_points": 300,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 262,
+      "name": "CVE-XXXX-XXXX",
+      "author": "Mubarak Mikail",
+      "difficulty": 2,
+      "event": {
+        "id": 70,
+        "name": "picoCTF 2022"
+      },
+      "category": {
+        "id": 6,
+        "name": "Binary Exploitation"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 304,
+      "positive_rating_count": 166,
+      "users_solved": 18793,
+      "users_solved_during_event": 4766,
+      "event_points": 100,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 259,
+      "name": "buffer overflow 2",
+      "author": "Sanjay C / Palash Oswal",
+      "difficulty": 2,
+      "event": {
+        "id": 70,
+        "name": "picoCTF 2022"
+      },
+      "category": {
+        "id": 6,
+        "name": "Binary Exploitation"
+      },
+      "tags": [
+        {
+          "id": 10,
+          "name": "arguments_on_the_stack"
+        },
+        {
+          "id": 9,
+          "name": "gets"
+        }
+      ],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 148,
+      "positive_rating_count": 144,
+      "users_solved": 4270,
+      "users_solved_during_event": 1217,
+      "event_points": 300,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 258,
+      "name": "buffer overflow 1",
+      "author": "Sanjay C / Palash Oswal",
+      "difficulty": 2,
+      "event": {
+        "id": 70,
+        "name": "picoCTF 2022"
+      },
+      "category": {
+        "id": 6,
+        "name": "Binary Exploitation"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 223,
+      "positive_rating_count": 196,
+      "users_solved": 8158,
+      "users_solved_during_event": 1699,
+      "event_points": 200,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 257,
+      "name": "buffer overflow 0",
+      "author": "Alex Fulton / Palash Oswal",
+      "difficulty": 2,
+      "event": {
+        "id": 70,
+        "name": "picoCTF 2022"
+      },
+      "category": {
+        "id": 6,
+        "name": "Binary Exploitation"
+      },
+      "tags": [
+        {
+          "id": 9,
+          "name": "gets"
+        }
+      ],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 318,
+      "positive_rating_count": 281,
+      "users_solved": 21154,
+      "users_solved_during_event": 4149,
+      "event_points": 100,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 252,
+      "name": "basic-file-exploit",
+      "author": "Will Hong",
+      "difficulty": 2,
+      "event": {
+        "id": 70,
+        "name": "picoCTF 2022"
+      },
+      "category": {
+        "id": 6,
+        "name": "Binary Exploitation"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 389,
+      "positive_rating_count": 324,
+      "users_solved": 19467,
+      "users_solved_during_event": 4672,
+      "event_points": 100,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 216,
+      "name": "clutter-overflow",
+      "author": "notdeghost",
+      "difficulty": 2,
+      "event": {
+        "id": 67,
+        "name": "picoMini by redpwn"
+      },
+      "category": {
+        "id": 6,
+        "name": "Binary Exploitation"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 122,
+      "positive_rating_count": 110,
+      "users_solved": 3897,
+      "users_solved_during_event": 108,
+      "event_points": 150,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 105,
+      "name": "Stonks",
+      "author": "madStacks",
+      "difficulty": 2,
+      "event": {
+        "id": 34,
+        "name": "picoCTF 2021"
+      },
+      "category": {
+        "id": 6,
+        "name": "Binary Exploitation"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 1052,
+      "positive_rating_count": 738,
+      "users_solved": 31518,
+      "users_solved_during_event": 508,
+      "event_points": 20,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 446,
+      "name": "babygame03",
+      "author": "Palash Oswal",
+      "difficulty": 3,
+      "event": {
+        "id": 73,
+        "name": "picoCTF 2024"
+      },
+      "category": {
+        "id": 6,
+        "name": "Binary Exploitation"
+      },
+      "tags": [
+        {
+          "id": 42,
+          "name": "game"
+        }
+      ],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 37,
+      "positive_rating_count": 33,
+      "users_solved": 320,
+      "users_solved_during_event": 217,
+      "event_points": 400,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 441,
+      "name": "high frequency troubles",
+      "author": "pepsipu",
+      "difficulty": 3,
+      "event": {
+        "id": 73,
+        "name": "picoCTF 2024"
+      },
+      "category": {
+        "id": 6,
+        "name": "Binary Exploitation"
+      },
+      "tags": [
+        {
+          "id": 74,
+          "name": "heap"
+        }
+      ],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 14,
+      "positive_rating_count": 13,
+      "users_solved": 76,
+      "users_solved_during_event": 31,
+      "event_points": 500,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 380,
+      "name": "tic-tac",
+      "author": "Junias Bonou",
+      "difficulty": 3,
+      "event": {
+        "id": 72,
+        "name": "picoCTF 2023"
+      },
+      "category": {
+        "id": 6,
+        "name": "Binary Exploitation"
+      },
+      "tags": [
+        {
+          "id": 51,
+          "name": "bash"
+        },
+        {
+          "id": 44,
+          "name": "linux"
+        },
+        {
+          "id": 53,
+          "name": "toctou"
+        }
+      ],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 84,
+      "positive_rating_count": 77,
+      "users_solved": 1284,
+      "users_solved_during_event": 669,
+      "event_points": 200,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 353,
+      "name": "Horsetrack",
+      "author": "madStacks",
+      "difficulty": 3,
+      "event": {
+        "id": 72,
+        "name": "picoCTF 2023"
+      },
+      "category": {
+        "id": 6,
+        "name": "Binary Exploitation"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 21,
+      "positive_rating_count": 15,
+      "users_solved": 139,
+      "users_solved_during_event": 75,
+      "event_points": 300,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 346,
+      "name": "babygame02",
+      "author": "Palash Oswal",
+      "difficulty": 3,
+      "event": {
+        "id": 72,
+        "name": "picoCTF 2023"
+      },
+      "category": {
+        "id": 6,
+        "name": "Binary Exploitation"
+      },
+      "tags": [
+        {
+          "id": 42,
+          "name": "game"
+        }
+      ],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 55,
+      "positive_rating_count": 31,
+      "users_solved": 768,
+      "users_solved_during_event": 275,
+      "event_points": 200,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 317,
+      "name": "wine",
+      "author": "Neel Bhavsar",
+      "difficulty": 3,
+      "event": {
+        "id": 70,
+        "name": "picoCTF 2022"
+      },
+      "category": {
+        "id": 6,
+        "name": "Binary Exploitation"
+      },
+      "tags": [
+        {
+          "id": 41,
+          "name": "windows"
+        }
+      ],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 63,
+      "positive_rating_count": 40,
+      "users_solved": 1068,
+      "users_solved_during_event": 561,
+      "event_points": 300,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 306,
+      "name": "stack cache",
+      "author": "Palash Oswal",
+      "difficulty": 3,
+      "event": {
+        "id": 70,
+        "name": "picoCTF 2022"
+      },
+      "category": {
+        "id": 6,
+        "name": "Binary Exploitation"
+      },
+      "tags": [
+        {
+          "id": 33,
+          "name": "cache"
+        },
+        {
+          "id": 34,
+          "name": "compiler"
+        },
+        {
+          "id": 35,
+          "name": "undefined_behavior"
+        }
+      ],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 46,
+      "positive_rating_count": 32,
+      "users_solved": 821,
+      "users_solved_during_event": 407,
+      "event_points": 400,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 302,
+      "name": "solfire",
+      "author": "notdeghost",
+      "difficulty": 3,
+      "event": {
+        "id": 70,
+        "name": "picoCTF 2022"
+      },
+      "category": {
+        "id": 6,
+        "name": "Binary Exploitation"
+      },
+      "tags": [
+        {
+          "id": 31,
+          "name": "blockchain"
+        }
+      ],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 6,
+      "positive_rating_count": 4,
+      "users_solved": 17,
+      "users_solved_during_event": 7,
+      "event_points": 500,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 292,
+      "name": "ropfu",
+      "author": "Sanjay C / LT 'syreal' Jones",
+      "difficulty": 3,
+      "event": {
+        "id": 70,
+        "name": "picoCTF 2022"
+      },
+      "category": {
+        "id": 6,
+        "name": "Binary Exploitation"
+      },
+      "tags": [
+        {
+          "id": 29,
+          "name": "ROP"
+        }
+      ],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 87,
+      "positive_rating_count": 80,
+      "users_solved": 1780,
+      "users_solved_during_event": 604,
+      "event_points": 300,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 272,
+      "name": "function overwrite",
+      "author": "Neel Bhavsar",
+      "difficulty": 3,
+      "event": {
+        "id": 70,
+        "name": "picoCTF 2022"
+      },
+      "category": {
+        "id": 6,
+        "name": "Binary Exploitation"
+      },
+      "tags": [
+        {
+          "id": 16,
+          "name": "Array_bounds"
+        },
+        {
+          "id": 17,
+          "name": "Function_pointers"
+        }
+      ],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 98,
+      "positive_rating_count": 96,
+      "users_solved": 1363,
+      "users_solved_during_event": 520,
+      "event_points": 400,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 260,
+      "name": "buffer overflow 3",
+      "author": "Sanjay C / Palash Oswal",
+      "difficulty": 3,
+      "event": {
+        "id": 70,
+        "name": "picoCTF 2022"
+      },
+      "category": {
+        "id": 6,
+        "name": "Binary Exploitation"
+      },
+      "tags": [
+        {
+          "id": 11,
+          "name": "canary"
+        }
+      ],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 120,
+      "positive_rating_count": 104,
+      "users_solved": 1740,
+      "users_solved_during_event": 791,
+      "event_points": 300,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 218,
+      "name": "vr-school",
+      "author": "notdeghost",
+      "difficulty": 3,
+      "event": {
+        "id": 67,
+        "name": "picoMini by redpwn"
+      },
+      "category": {
+        "id": 6,
+        "name": "Binary Exploitation"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 2,
+      "positive_rating_count": 2,
+      "users_solved": 119,
+      "users_solved_during_event": 3,
+      "event_points": 500,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 217,
+      "name": "homework",
+      "author": "tpa",
+      "difficulty": 3,
+      "event": {
+        "id": 67,
+        "name": "picoMini by redpwn"
+      },
+      "category": {
+        "id": 6,
+        "name": "Binary Exploitation"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 9,
+      "positive_rating_count": 9,
+      "users_solved": 94,
+      "users_solved_during_event": 3,
+      "event_points": 400,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 215,
+      "name": "fermat-strings",
+      "author": "notdeghost",
+      "difficulty": 3,
+      "event": {
+        "id": 67,
+        "name": "picoMini by redpwn"
+      },
+      "category": {
+        "id": 6,
+        "name": "Binary Exploitation"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 17,
+      "positive_rating_count": 17,
+      "users_solved": 506,
+      "users_solved_during_event": 13,
+      "event_points": 250,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 214,
+      "name": "lockdown-horses",
+      "author": "kfb",
+      "difficulty": 3,
+      "event": {
+        "id": 67,
+        "name": "picoMini by redpwn"
+      },
+      "category": {
+        "id": 6,
+        "name": "Binary Exploitation"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 8,
+      "positive_rating_count": 7,
+      "users_solved": 236,
+      "users_solved_during_event": 7,
+      "event_points": 450,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 213,
+      "name": "SaaS",
+      "author": "notdeghost",
+      "difficulty": 3,
+      "event": {
+        "id": 67,
+        "name": "picoMini by redpwn"
+      },
+      "category": {
+        "id": 6,
+        "name": "Binary Exploitation"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 6,
+      "positive_rating_count": 4,
+      "users_solved": 285,
+      "users_solved_during_event": 9,
+      "event_points": 350,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 187,
+      "name": "Unsubscriptions Are Free",
+      "author": "thelshell",
+      "difficulty": 3,
+      "event": {
+        "id": 34,
+        "name": "picoCTF 2021"
+      },
+      "category": {
+        "id": 6,
+        "name": "Binary Exploitation"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 82,
+      "positive_rating_count": 72,
+      "users_solved": 2083,
+      "users_solved_during_event": 144,
+      "event_points": 100,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 184,
+      "name": "filtered-shellcode",
+      "author": "madStacks",
+      "difficulty": 3,
+      "event": {
+        "id": 34,
+        "name": "picoCTF 2021"
+      },
+      "category": {
+        "id": 6,
+        "name": "Binary Exploitation"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 44,
+      "positive_rating_count": 42,
+      "users_solved": 823,
+      "users_solved_during_event": 105,
+      "event_points": 160,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 181,
+      "name": "Bizz Fuzz",
+      "author": "madStacks",
+      "difficulty": 3,
+      "event": {
+        "id": 34,
+        "name": "picoCTF 2021"
+      },
+      "category": {
+        "id": 6,
+        "name": "Binary Exploitation"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 14,
+      "positive_rating_count": 9,
+      "users_solved": 1101,
+      "users_solved_during_event": 31,
+      "event_points": 500,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 179,
+      "name": "Here's a LIBC",
+      "author": "madStacks",
+      "difficulty": 3,
+      "event": {
+        "id": 34,
+        "name": "picoCTF 2021"
+      },
+      "category": {
+        "id": 6,
+        "name": "Binary Exploitation"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 110,
+      "positive_rating_count": 106,
+      "users_solved": 2088,
+      "users_solved_during_event": 175,
+      "event_points": 90,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 178,
+      "name": "Turboflan",
+      "author": "wparks",
+      "difficulty": 3,
+      "event": {
+        "id": 34,
+        "name": "picoCTF 2021"
+      },
+      "category": {
+        "id": 6,
+        "name": "Binary Exploitation"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 19,
+      "positive_rating_count": 17,
+      "users_solved": 114,
+      "users_solved_during_event": 33,
+      "event_points": 600,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 172,
+      "name": "The Office",
+      "author": "madStacks",
+      "difficulty": 3,
+      "event": {
+        "id": 34,
+        "name": "picoCTF 2021"
+      },
+      "category": {
+        "id": 6,
+        "name": "Binary Exploitation"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 17,
+      "positive_rating_count": 15,
+      "users_solved": 163,
+      "users_solved_during_event": 36,
+      "event_points": 400,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 168,
+      "name": "Kit Engine",
+      "author": "wparks",
+      "difficulty": 3,
+      "event": {
+        "id": 34,
+        "name": "picoCTF 2021"
+      },
+      "category": {
+        "id": 6,
+        "name": "Binary Exploitation"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 31,
+      "positive_rating_count": 30,
+      "users_solved": 383,
+      "users_solved_during_event": 98,
+      "event_points": 375,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 164,
+      "name": "Stonk Market",
+      "author": "madStacks",
+      "difficulty": 3,
+      "event": {
+        "id": 34,
+        "name": "picoCTF 2021"
+      },
+      "category": {
+        "id": 6,
+        "name": "Binary Exploitation"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 25,
+      "positive_rating_count": 25,
+      "users_solved": 335,
+      "users_solved_during_event": 34,
+      "event_points": 180,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 146,
+      "name": "Cache Me Outside",
+      "author": "madStacks",
+      "difficulty": 3,
+      "event": {
+        "id": 34,
+        "name": "picoCTF 2021"
+      },
+      "category": {
+        "id": 6,
+        "name": "Binary Exploitation"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 109,
+      "positive_rating_count": 81,
+      "users_solved": 2284,
+      "users_solved_during_event": 117,
+      "event_points": 70,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 135,
+      "name": "Download Horsepower",
+      "author": "wparks",
+      "difficulty": 3,
+      "event": {
+        "id": 34,
+        "name": "picoCTF 2021"
+      },
+      "category": {
+        "id": 6,
+        "name": "Binary Exploitation"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 29,
+      "positive_rating_count": 27,
+      "users_solved": 137,
+      "users_solved_during_event": 55,
+      "event_points": 450,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 90,
+      "name": "Guessing Game 1",
+      "author": "madStacks",
+      "difficulty": 3,
+      "event": {
+        "id": 3,
+        "name": "picoCTF 2020 Mini-Competition"
+      },
+      "category": {
+        "id": 6,
+        "name": "Binary Exploitation"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 117,
+      "positive_rating_count": 111,
+      "users_solved": 1169,
+      "users_solved_during_event": 152,
+      "event_points": 1,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 89,
+      "name": "Guessing Game 2",
+      "author": "madStacks",
+      "difficulty": 3,
+      "event": {
+        "id": 3,
+        "name": "picoCTF 2020 Mini-Competition"
+      },
+      "category": {
+        "id": 6,
+        "name": "Binary Exploitation"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 53,
+      "positive_rating_count": 44,
+      "users_solved": 443,
+      "users_solved_during_event": 89,
+      "event_points": 1,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 75,
+      "name": "zero_to_hero",
+      "author": "Claude",
+      "difficulty": 3,
+      "event": {
+        "id": 1,
+        "name": "picoCTF 2019"
+      },
+      "category": {
+        "id": 6,
+        "name": "Binary Exploitation"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 18,
+      "positive_rating_count": 18,
+      "users_solved": 157,
+      "users_solved_during_event": 0,
+      "event_points": 500,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 55,
+      "name": "sice_cream",
+      "author": "Samuel",
+      "difficulty": 3,
+      "event": {
+        "id": 1,
+        "name": "picoCTF 2019"
+      },
+      "category": {
+        "id": 6,
+        "name": "Binary Exploitation"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 9,
+      "positive_rating_count": 8,
+      "users_solved": 66,
+      "users_solved_during_event": 0,
+      "event_points": 500,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    },
+    {
+      "id": 50,
+      "name": "seed-sPRiNG",
+      "author": "John Hammond",
+      "difficulty": 3,
+      "event": {
+        "id": 1,
+        "name": "picoCTF 2019"
+      },
+      "category": {
+        "id": 6,
+        "name": "Binary Exploitation"
+      },
+      "tags": [],
+      "sponsor": null,
+      "include_in_gym": true,
+      "rating_count": 44,
+      "positive_rating_count": 33,
+      "users_solved": 621,
+      "users_solved_during_event": 0,
+      "event_points": 350,
+      "solved_by_user": false,
+      "solved_by_team": false,
+      "under_maintenance": false,
+      "bookmarked": false,
+      "errata": "",
+      "active_assignments": [],
+      "retired": false
+    }
+  ]
+}
